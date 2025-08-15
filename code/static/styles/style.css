@@ -1,139 +1,178 @@
-/* ===== Thème UQAC (basé sur le site) =====
-   Couleurs officielles: Pantone 575 = #5a7411 (UQAC), noir, blanc.
-*/
+/* ===== Thème inspiré UQAC ===== */
 :root{
-  --uqac-vert: #5a7411;       /* vert UQAC officiel */
-  --uqac-vert-dark: #475a0e;  /* assombri pour hover/focus */
-  --noir: #111111;
-  --blanc: #ffffff;
-  --gris-100: #f6f6f6;
-  --gris-200: #e9e9e9;
-  --gris-600: #5d5d5d;
+  --uqac-vert: #5a7411;         /* vert UQAC */
+  --uqac-vert-dark: #475a0e;
+  --bordure: #e6e6e6;
+  --fond: #f7f7f7;
+  --txt: #111;
+  --gris-600: #5a5a5a;
+  --rouge: #b00020;
   --rayon: 14px;
-  --ombre: 0 10px 24px rgba(0,0,0,.08);
+  --ombre: 0 10px 22px rgba(0,0,0,.08);
   --ombre-focus: 0 0 0 3px rgba(90,116,17,.28);
-  /* Police: pile système pour coller au rendu web moderne */
-  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* Base */
-*{ box-sizing: border-box; }
+* { box-sizing: border-box; }
 html, body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, var(--gris-100), #fff);
-  color: var(--noir);
+  background: linear-gradient(180deg, var(--fond), #fff);
+  color: var(--txt);
   font-family: var(--font);
   line-height: 1.45;
 }
 
-/* Carte formulaire (look bloc blanc + bande verte comme l’en-tête du site) */
-form{
-  max-width: 680px;
-  margin: 8vh auto;
-  padding: clamp(16px, 4vw, 28px);
-  background: var(--blanc);
-  border: 1px solid var(--gris-200);
+/* Carte formulaire */
+.card{
+  max-width: 960px;
+  margin: 6vh auto 2rem;
+  background: #fff;
+  border: 1px solid var(--bordure);
   border-radius: var(--rayon);
   box-shadow: var(--ombre);
-  position: relative;
-}
-form::before{
-  content:"";
-  position: absolute;
-  left: 0; right: 0; top: 0;
-  height: 10px;
-  background: var(--uqac-vert);
-  border-top-left-radius: var(--rayon);
-  border-top-right-radius: var(--rayon);
+  padding: 0;
+  overflow: hidden; /* arrondis propres */
 }
 
-/* Champ “Choisir des fichiers” harmonisé */
-input[type="file"]{
+/* Bande en-tête verte */
+.card-header{
+  background: var(--uqac-vert);
+  color: #fff;
+  font-weight: 700;
+  padding: 14px 18px;
+  letter-spacing: .2px;
+}
+
+/* Zone scrollable avec grille propre */
+.fields{
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  max-height: 420px;          /* <- rend la zone scrollable */
+  overflow-y: auto;            /* <- défilement vertical */
+  scroll-behavior: smooth;
+}
+
+/* Barre de défilement plus fine (WebKit) */
+.fields::-webkit-scrollbar{ width: 10px; }
+.fields::-webkit-scrollbar-track{ background: #fafafa; border-radius: 10px; }
+.fields::-webkit-scrollbar-thumb{ background: #d2d2d2; border-radius: 10px; }
+.fields::-webkit-scrollbar-thumb:hover{ background: #bdbdbd; }
+
+/* En grand écran : 2 colonnes */
+@media (min-width: 860px){
+  .fields{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Un champ = un bloc */
+.field{
+  display: grid;
+  gap: 8px;
+}
+
+/* Asterisque auto pour .required */
+.field.required > label::after{
+  content: " *";
+  color: var(--rouge);
+  font-weight: 700;
+}
+
+/* Libellé */
+.field > label{
+  font-weight: 600;
+  color: var(--txt);
+}
+
+/* File input */
+.field > input[type="file"]{
   width: 100%;
-  padding: 14px;
-  border: 1px dashed var(--gris-200);
+  padding: 12px;
+  border: 1px dashed var(--bordure);
   border-radius: 12px;
   background: #fbfbfb;
   color: var(--gris-600);
   transition: border-color .2s ease, background .2s ease, box-shadow .2s ease;
 }
-input[type="file"]:hover{
+.field > input[type="file"]:hover{
   background: #fff;
   border-color: var(--uqac-vert);
 }
-input[type="file"]:focus{
+.field > input[type="file"]:focus{
   outline: none;
   border-color: var(--uqac-vert);
   box-shadow: var(--ombre-focus);
 }
 
-/* Bouton natif du sélecteur de fichiers (Chrome/Edge/Opera) */
-input[type="file"]::file-selector-button{
+/* Bouton interne (Chrome/Edge) */
+.field > input[type="file"]::file-selector-button{
   font: inherit;
   font-weight: 600;
   border: none;
-  padding: 10px 14px;
-  margin-right: 12px;
+  padding: 9px 12px;
+  margin-right: 10px;
   border-radius: 10px;
   background: var(--uqac-vert);
-  color: var(--blanc);
+  color: #fff;
   cursor: pointer;
   transition: transform .06s ease, background .2s ease, box-shadow .2s ease;
 }
-input[type="file"]::file-selector-button:hover{
+.field > input[type="file"]::file-selector-button:hover{
   background: var(--uqac-vert-dark);
   transform: translateY(-1px);
 }
-input[type="file"]::file-selector-button:focus{
+.field > input[type="file"]::file-selector-button:focus{
   outline: none;
   box-shadow: var(--ombre-focus);
 }
 
-/* Bouton “Upload” style UQAC (vert/blanc, sobre) */
-input[type="submit"]{
+/* Zone actions (bouton submit) */
+.actions{
+  padding: 16px 18px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.actions input[type="submit"]{
   appearance: none;
-  display: inline-block;
-  margin-top: 18px;
   padding: 12px 18px;
   font-weight: 700;
-  letter-spacing: .2px;
   border-radius: 12px;
   border: 2px solid var(--uqac-vert);
   background: var(--uqac-vert);
-  color: var(--blanc);
+  color: #fff;
   cursor: pointer;
   transition: transform .08s ease, box-shadow .2s ease, filter .2s ease, background .2s ease;
   box-shadow: var(--ombre);
 }
-input[type="submit"]:hover{
+.actions input[type="submit"]:hover{
   background: var(--uqac-vert-dark);
-  filter: brightness(0.98);
   transform: translateY(-1px);
 }
-input[type="submit"]:active{ transform: translateY(0); }
-input[type="submit"]:focus{
+.actions input[type="submit"]:focus{
   outline: none;
   box-shadow: var(--ombre-focus);
 }
 
-/* Rythme vertical */
-form > * + * { margin-top: 14px; }
+/* Note rouge centrée en bas */
+.note-projet{
+  text-align: center;
+  color: var(--rouge);
+  font-weight: 600;
+  margin: 0 1rem 2rem;
+}
 
-/* Accessibilité focus */
+/* Accessibilité focus globale */
 :where(a, button, input, select, textarea):focus-visible{
   outline: none;
   box-shadow: var(--ombre-focus);
   border-color: var(--uqac-vert);
 }
 
-/* Petits écrans */
-@media (max-width: 420px){
-  input[type="file"]{ padding: 12px; }
-  input[type="submit"]{ width: 100%; }
-}
-
-/* Réduction des animations si demandé par l’utilisateur */
+/* Réduction de mouvement si préférée */
 @media (prefers-reduced-motion: reduce){
   *{ transition: none !important; }
 }

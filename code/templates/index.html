@@ -1,27 +1,92 @@
 <head>
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
 </head>
 
 <body>
-    <form action="/" method="POST" enctype="multipart/form-data">
-        <!-- Fichier 1 -->
-        <label for="fichier1">Fichier 1 :</label>
-        <input type="file" id="fichier1" name="fichier1" accept=".pdf,.docx" multiple />
+  <form action="/" method="POST" enctype="multipart/form-data" class="card">
+    <div class="card-header">
+      Dépôt des documents
+    </div>
 
-        <br><br>
+    <!-- Zone scrollable -->
+    <div class="fields">
 
-        <label for="fichier2">Fichier 2 :</label>
-        <input type="file" id="fichier2" name="fichier2" accept=".pdf,.docx" multiple />
+      <div class="field required">
+        <label for="F1">Formulaire F1</label>
+        <input type="file" id="F1" name="F1" accept=".pdf,.docx" required />
+      </div>
 
-        <br><br>
+      <div class="field required">
+        <label for="FIC">Formulaire d'information et de consentement (FIC)</label>
+        <input type="file" id="FIC" name="FIC" accept=".pdf,.docx" multiple required />
+      </div>
 
-        <input type="submit" value="Upload">
-    </form>
+      <div class="field required">
+        <label for="FDC">Formulaire d'information et de consentement</label>
+        <input type="file" id="FDC" name="FDC" accept=".pdf,.docx" multiple required />
+      </div>
+
+      <div class="field">
+        <label for="financement">Preuve d'octroi du financement</label>
+        <input type="file" id="financement" name="financement" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="rechercheMilieu">Autorisation du milieu (recherche dans un milieu)</label>
+        <input type="file" id="rechercheMilieu" name="rechercheMilieu" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="questionnaires">Questionnaires</label>
+        <input type="file" id="questionnaires" name="questionnaires" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="guideEntrevue">Guide d'entrevue</label>
+        <input type="file" id="guideEntrevue" name="guideEntrevue" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="guideDiscussions">Guide de discussions</label>
+        <input type="file" id="guideDiscussions" name="guideDiscussions" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="guideObservation">Guide d'observation</label>
+        <input type="file" id="guideObservation" name="guideObservation" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="instrumentsMesure">Instruments de mesure (Expérimentations, tests et mesures)</label>
+        <input type="file" id="instrumentsMesure" name="instrumentsMesure" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="autorisationDonneesSecondaires">Obtention de l'autorisation (données secondaires)</label>
+        <input type="file" id="autorisationDonneesSecondaires" name="autorisationDonneesSecondaires" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="descriptionCollecte">Description de la collecte de données (Autre type de collecte de données)</label>
+        <input type="file" id="descriptionCollecte" name="descriptionCollecte" accept=".pdf,.docx" multiple />
+      </div>
+
+      <div class="field">
+        <label for="preuveCGRB">Preuve de démarche auprès du Comité de gestion des risques biologiques (CGRB)</label>
+        <input type="file" id="preuveCGRB" name="preuveCGRB" accept=".pdf,.docx" multiple />
+      </div>
+
+    </div>
+
+    <div class="actions">
+      <input type="submit" value="Upload">
+    </div>
+  </form>
+
+  <p class="note-projet">Veuillez déposer seulement les documents en lien avec votre projet.</p>
 </body>
-
 </html>
