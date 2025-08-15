@@ -1,0 +1,139 @@
+/* ===== Thème UQAC (basé sur le site) =====
+   Couleurs officielles: Pantone 575 = #5a7411 (UQAC), noir, blanc.
+*/
+:root{
+  --uqac-vert: #5a7411;       /* vert UQAC officiel */
+  --uqac-vert-dark: #475a0e;  /* assombri pour hover/focus */
+  --noir: #111111;
+  --blanc: #ffffff;
+  --gris-100: #f6f6f6;
+  --gris-200: #e9e9e9;
+  --gris-600: #5d5d5d;
+  --rayon: 14px;
+  --ombre: 0 10px 24px rgba(0,0,0,.08);
+  --ombre-focus: 0 0 0 3px rgba(90,116,17,.28);
+  /* Police: pile système pour coller au rendu web moderne */
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+/* Base */
+*{ box-sizing: border-box; }
+html, body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, var(--gris-100), #fff);
+  color: var(--noir);
+  font-family: var(--font);
+  line-height: 1.45;
+}
+
+/* Carte formulaire (look bloc blanc + bande verte comme l’en-tête du site) */
+form{
+  max-width: 680px;
+  margin: 8vh auto;
+  padding: clamp(16px, 4vw, 28px);
+  background: var(--blanc);
+  border: 1px solid var(--gris-200);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  position: relative;
+}
+form::before{
+  content:"";
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: 10px;
+  background: var(--uqac-vert);
+  border-top-left-radius: var(--rayon);
+  border-top-right-radius: var(--rayon);
+}
+
+/* Champ “Choisir des fichiers” harmonisé */
+input[type="file"]{
+  width: 100%;
+  padding: 14px;
+  border: 1px dashed var(--gris-200);
+  border-radius: 12px;
+  background: #fbfbfb;
+  color: var(--gris-600);
+  transition: border-color .2s ease, background .2s ease, box-shadow .2s ease;
+}
+input[type="file"]:hover{
+  background: #fff;
+  border-color: var(--uqac-vert);
+}
+input[type="file"]:focus{
+  outline: none;
+  border-color: var(--uqac-vert);
+  box-shadow: var(--ombre-focus);
+}
+
+/* Bouton natif du sélecteur de fichiers (Chrome/Edge/Opera) */
+input[type="file"]::file-selector-button{
+  font: inherit;
+  font-weight: 600;
+  border: none;
+  padding: 10px 14px;
+  margin-right: 12px;
+  border-radius: 10px;
+  background: var(--uqac-vert);
+  color: var(--blanc);
+  cursor: pointer;
+  transition: transform .06s ease, background .2s ease, box-shadow .2s ease;
+}
+input[type="file"]::file-selector-button:hover{
+  background: var(--uqac-vert-dark);
+  transform: translateY(-1px);
+}
+input[type="file"]::file-selector-button:focus{
+  outline: none;
+  box-shadow: var(--ombre-focus);
+}
+
+/* Bouton “Upload” style UQAC (vert/blanc, sobre) */
+input[type="submit"]{
+  appearance: none;
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 18px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  border-radius: 12px;
+  border: 2px solid var(--uqac-vert);
+  background: var(--uqac-vert);
+  color: var(--blanc);
+  cursor: pointer;
+  transition: transform .08s ease, box-shadow .2s ease, filter .2s ease, background .2s ease;
+  box-shadow: var(--ombre);
+}
+input[type="submit"]:hover{
+  background: var(--uqac-vert-dark);
+  filter: brightness(0.98);
+  transform: translateY(-1px);
+}
+input[type="submit"]:active{ transform: translateY(0); }
+input[type="submit"]:focus{
+  outline: none;
+  box-shadow: var(--ombre-focus);
+}
+
+/* Rythme vertical */
+form > * + * { margin-top: 14px; }
+
+/* Accessibilité focus */
+:where(a, button, input, select, textarea):focus-visible{
+  outline: none;
+  box-shadow: var(--ombre-focus);
+  border-color: var(--uqac-vert);
+}
+
+/* Petits écrans */
+@media (max-width: 420px){
+  input[type="file"]{ padding: 12px; }
+  input[type="submit"]{ width: 100%; }
+}
+
+/* Réduction des animations si demandé par l’utilisateur */
+@media (prefers-reduced-motion: reduce){
+  *{ transition: none !important; }
+}
