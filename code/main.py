@@ -20,9 +20,16 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 @app.route('/', methods=['GET', 'POST'])
 def UploadFile():
-    fileGood = []
+    listeDocument = []
     if request.method == 'POST':
-        files = request.files.getlist('file') 
+        files = request.files.getlist('fichier1') 
+        
+        tempLISt = [
+            Document(file.filename, 'uploads' + "\\" + file.filename)
+            for file in files
+            if ExtensionRight(file.filename)
+        ]
+        
         for file in files:
             if ExtensionRight(file.filename):
                     print("Ca marche")

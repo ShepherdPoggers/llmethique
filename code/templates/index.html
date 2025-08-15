@@ -9,7 +9,17 @@
 
 <body>
     <form action="/" method="POST" enctype="multipart/form-data">
-        <input type="file" name="file" accept=".pdf,.docx" multiple />
+        <!-- Fichier 1 -->
+        <label for="fichier1">Fichier 1 :</label>
+        <input type="file" id="fichier1" name="fichier1" accept=".pdf,.docx" multiple />
+
+        <br><br>
+
+        <label for="fichier2">Fichier 2 :</label>
+        <input type="file" id="fichier2" name="fichier2" accept=".pdf,.docx" multiple />
+
+        <br><br>
+
         <input type="submit" value="Upload">
     </form>
 </body>
