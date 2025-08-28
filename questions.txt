@@ -1,0 +1,53 @@
+Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?
+tous
+
+Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche ?
+tous
+
+Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ?
+outilsRecrutement, guideEntrevue, FIC
+
+Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?
+rechercheMilieu
+
+Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?
+rechercheMilieu
+
+Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?
+rechercheMilieu, FIC
+
+Est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?
+outilsRecrutement, FIC
+
+Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés?
+outilsRecrutement, rechercheMilieu, FIC
+
+Est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement?
+outilsRecrutement, rechercheMilieu
+
+Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?
+guideEntrevue, outilsRecrutement, FIC
+
+Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?
+descriptionCollecte, FIC
+
+Est-ce que le chercheur met en place des mécanismes adéquats pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?
+descriptionCollecte
+
+Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
+descriptionCollecte, FIC
+
+Est-ce que le nombre d’entrevues, le/les lieux d’entrevues, la durée, le déroulement et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées ?
+guideEntrevue, questionnaires, FIC
+
+Est-ce que le nombre de groupes de discussions, la durée, le déroulement, le/les lieux et les thèmes abordés sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?
+tous
+
+En lien avec les populations visées, est-ce que l’utilisation du matériel biologique est appropriée au niveau éthique?
+rechercheMilieu, outilsRecrutementm, FIC, preuveCGRB
+
+Est-ce que l’utilisation du matériel biologique est identificatoire ou permettrait la réidentification des participants?
+preuveCGRBm, FIC
+
+Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
+descriptionCollecte, FIC

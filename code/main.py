@@ -33,7 +33,7 @@ def UploadFile():
     listeFicher = [
     Document('F1'),
     Document('FIC'),
-    Document('FDC'),
+    Document('outilsRecrutement'),
     Document('financement'),
     Document('rechercheMilieu'),
     Document('questionnaires'),
