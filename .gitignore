@@ -1,0 +1,12 @@
+# Ignorer l'environnement virtuel
+llmethiqueEnv/
+.llmethiqueEnv/
+
+# (Optionnel) fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# (Optionnel) fichiers d’environnement
+.env

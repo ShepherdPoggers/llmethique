@@ -1,53 +1,245 @@
 Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?
-tous
+F1, FIC
 
 Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche ?
-tous
+F1
 
 Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ?
-outilsRecrutement, guideEntrevue, FIC
+outilsRecrutement, FIC, F1
 
 Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?
-rechercheMilieu
+rechercheMilieu, F1
 
 Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?
-rechercheMilieu
+rechercheMilieu, FIC, F1
 
 Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?
-rechercheMilieu, FIC
+rechercheMilieu, FIC, F1
 
 Est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?
-outilsRecrutement, FIC
+outilsRecrutement, FIC, F1
 
 Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés?
-outilsRecrutement, rechercheMilieu, FIC
+outilsRecrutement, rechercheMilieu, FIC, F1
 
 Est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement?
-outilsRecrutement, rechercheMilieu
+outilsRecrutement, rechercheMilieu, F1
 
 Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?
-guideEntrevue, outilsRecrutement, FIC
+outilsRecrutement, FIC, F1
 
 Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?
-descriptionCollecte, FIC
+descriptionCollecte, FIC, F1
 
 Est-ce que le chercheur met en place des mécanismes adéquats pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?
-descriptionCollecte
+descriptionCollecte, F1, FIC
 
 Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
-descriptionCollecte, FIC
+descriptionCollecte, FIC, F1
 
 Est-ce que le nombre d’entrevues, le/les lieux d’entrevues, la durée, le déroulement et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées ?
-guideEntrevue, questionnaires, FIC
+guideEntrevue, FIC, F1, outilsRecrutement
 
 Est-ce que le nombre de groupes de discussions, la durée, le déroulement, le/les lieux et les thèmes abordés sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?
-tous
+guideDiscussions, FIC, F1, outilsRecrutement
 
 En lien avec les populations visées, est-ce que l’utilisation du matériel biologique est appropriée au niveau éthique?
-rechercheMilieu, outilsRecrutementm, FIC, preuveCGRB
+rechercheMilieu, outilsRecrutement, FIC, preuveCGRB, F1
 
 Est-ce que l’utilisation du matériel biologique est identificatoire ou permettrait la réidentification des participants?
-preuveCGRBm, FIC
+preuveCGRBm, FIC, F1
 
 Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
-descriptionCollecte, FIC
+descriptionCollecte, FIC, F1
+
+Est-ce que le contexte, l’environnement, le type d’interaction et le nombre de personnes observées sont appropriés, au niveau éthique, en en regard des objectifs de l’étude et de ou des populations visées?
+guideObservation, FIC, F1
+
+Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
+descriptionCollecte, FIC, F1
+
+Est-ce que le type de questionnaire, le nombre de questionnaire, la durée, le/les lieux d’administration et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?
+questionnaires, FIC, F1, outilsRecrutement
+
+Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
+descriptionCollecte, FIC, F1
+
+Est-ce que le nombre de groupes et de participants, le choix des variables expérimentales et dépendantes, le choix des outils de mesure, leur durée, le déroulement des expériences et le/les lieux des expériences sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?
+instrumentsMesure, outilsRecrutement, rechercheMilieu, FIC, F1
+
+Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
+descriptionCollecte, FIC, F1, autorisationDonneesSecondaires
+
+Est-ce que le traitement des données est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?
+autorisationDonneesSecondaires, FIC, F1
+
+Est-ce que l’utilisation de données secondaires ainsi que leur nature identificatoire ou non sont mentionnées dans le formulaire d'information et de consentement (FIC) ou ailleurs?
+FIC, F1
+
+Est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) ou ailleurs?
+FIC, F1
+
+Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?
+descriptionCollecte, FIC, F1
+
+Est-ce que le nombre, la durée, le déroulement, le/les lieux, les questions, ou autre, si applicables, sont appropriés en regard des objectifs de l’étude et de ou des populations visées?
+descriptionCollecte, outilsRecrutement, FIC, F1
+
+Est-ce que des stratégies adéquates et suffisantes sont mises en place pour gérer le risque plus que minimal?
+FIC, F1
+
+Si des risques plus que minimaux sont présents, est-ce que la liste des ressources est jointe au formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Est-ce que le chercheur s’est assurée que les risques ne surpassent pas les bénéfices et ne soient pas trop élevés pour que la recherche ait lieu?
+F1
+
+Dans le ou les cas où il s’engage à le faire, est-ce que le chercheur met en place des mécanismes adéquats et suffisants pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?
+FIC, F1
+
+Est-ce que les informations concernant l’anonymat des participants et la confidentialité des données durant la collecte de données ainsi que durant la période de conservation des données sont mentionnées dans le formulaire d'information et de consentement (FIC)?
+descriptionCollecte, FIC, F1
+
+Est-ce que les règles de conservation des données respectent la politique de l’UQAC?
+FIC, F1
+
+Est-ce que les mesures de sécurité mises en place par le chercheur pour limiter l’accès aux données sont mentionnées dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Dans le cas où le chercheur conserve des données sur des ordinateurs appartenant à l’UQAC, la phrase « La confidentialité des données recueillies dans le cadre de ce projet de recherche sera assurée conformément aux lois et règlements applicables dans la province de Québec et aux règlements et politiques de l’Université du Québec à Chicoutimi. » est-elle présente dans le formulaire de consentement?
+FIC, F1
+
+Est-ce que la durée de conservation des données est mentionnée dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?
+FIC, F1
+
+Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) à qui seront partagées les données ou qui aura accès aux données?
+FIC, F1
+
+Est-ce que les règles de destruction des données respectent la politique de l’UQAC?
+FIC, F1
+
+Est-ce que la méthode de destruction des données est mentionné dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Est-ce que l’utilisation secondaire des données est mentionnée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?
+autorisationDonneesSecondaires, FIC, F1
+
+Est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?
+FIC, F1
+
+Est-ce que le chercheur s’est assuré que la ou les compensations offertes ne soient pas susceptibles d’affecter le consentement volontaire des participants de telle sorte que ces derniers pourraient accepter de participer à la recherche en faisant fi des risques sans réfléchir soigneusement?
+FIC, F1
+
+Est-ce que les participants conservent soit une compensation proportionnelle à leur participation ou soit une compensation totale s’ils décident de se retirer de l’étude?
+FIC, F1
+
+Le chercheur s’est-il assurer d’éviter toute situation qui puisse présenter un conflit d’intérêt?
+financement, F1
+
+Si un conflit d’intérêt est présent, est-ce que l’intégrité éthique de la recherche est préservée?
+financement, F1
+
+S’il y a présence d’un conflit d’intérêt, est-ce que ceci est mentionné ainsi que les conséquences pour les participants dans le formulaire de consentement?
+financement, FIC, F1
+
+Est-ce qu’il est mentionné si le participant pourra ou non consulter ses données individuelles dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Dans le cas où le chercheur a mentionné vouloir le faire, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?
+FIC, F1
+
+Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, est-il mentionné dans le FIC à qui elles seront partagées ou qui aura accès aux données dans l’organisation?
+FIC, F1
+
+Est-ce que les informations sur les méthodes permettant d’assurer l’anonymat des participants et la confidentialité des données pendant la collecte de données ainsi que lors de la période de conservation des données sont mentionnées dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Est-ce que le type de consentement utilisé est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?
+rechercheMilieu ,FIC, F1
+
+Est-ce que le consentement des participants est volontaire?
+outilsRecrutement, FIC, F1
+
+Est-ce que le consentement des participants est suffisamment éclairé ?
+outilsRecrutement, FIC, F1
+
+Est-ce que le participant peut retirer son consentement en tout temps?
+FIC, F1
+
+Est-ce que le participant qui se retire peut demander le retrait de ses données ou de son matériel biologique humain?
+FIC, F1
+
+Est-ce que le droit de retrait en tout temps, sans justification et sans perte de droits est mentionné dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Si le chercheur en fait l’utilisation, est-il mentionné dans le formulaire d'information et de consentement (FIC) l’utilisation d’enregistrements audio, vidéo, prise de photos ou prise de notes?
+FIC, F1
+
+Les méthodes de destruction et la durée de conservation pour ces données spécifiques sont-elles précisées dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Est-ce que l’utilisation d’une dissimulation, déception ou duperie est justifiée?
+FIC, F1
+
+Est-ce qu’il y a un debriefing, ou s’il n’y en a pas, est-ce que les règles de dérogation au debriefing sont rencontrées?
+FIC, F1
+
+Est-ce que les informations concernant la CONFIDENTIALITÉ des échantillons est mentionné dans le formulaire de d'information et de consentement (FIC)?
+FIC, F1
+
+Est-ce que les informations concernant les méthodes de conservation des échantillons DURANT L'ÉTUDE est mentionné dans le formulaire de d'information et de consentement (FIC)?
+FIC, F1
+
+Est-ce que les informations concernant les méthode de destruction des échantillons est mentionné dans le formulaire d'information et de consentement (FIC)?
+FIC, F1
+
+Si la recherche est effectuée conjointement avec un autre établissement, les coordonnées de la personne-ressource dans cet établissement ainsi que le nom et le LOGO de l’établissement concerné apparaissent-ils dans le formulaire d'information et de consentement (FIC)?
+FIC
+
+Le logo de l'UQAC est-il présent et actuel ?
+FIC
+
+Le formulaire mentionne-t-il que le projet de recherche a reçu l’approbation du CER-UQAC ainsi que le numéro de dossier?
+FIC
+
+Le financement est-il indiqué dans le formulaire?
+FIC
+
+Le formulaire précise-t-il que le participant est invité à participer à un projet de recherche?
+FIC
+
+Le but du projet est-il présenté de façon compréhensible pour le participant?
+FIC
+
+La nature de la participation, sa durée et le lieu de réalisation sont-ils clairement décrits?
+FIC
+
+Les avantages et inconvénients prévisibles ainsi que les précautions (y compris les ressources d’aide) sont-ils présentés de façon compréhensible?
+FIC
+
+Le formulaire indique-t-il que la participation est volontaire?
+FIC
+
+Le nom et les coordonnées du chercheur apparaissent-ils dans le formulaire?
+FIC
+
+Les moyens de diffusion des résultats et la façon dont les participants seront informés des conclusions sont-ils mentionnés?
+FIC
+
+Les coordonnées du CER-UQAC et la mention que le participant peut le contacter pour toute question éthique apparaissent-elles dans le formulaire?
+FIC
+
+Le formulaire mentionne-t-il qu’il est signé en deux exemplaires et que le participant en conserve une copie?
+FIC
+
+Un espace est-il prévu pour le nom, la signature et la date du participant?
+FIC
+
+Un espace est-il prévu pour le nom, la signature et la date du chercheur?
+FIC
+
+Le formulaire est-il paginé?
+FIC
