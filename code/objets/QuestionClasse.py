@@ -10,6 +10,9 @@ class Question():
         return self._question
 
     def get_documents(self):
-        return self._documents    
+        return self._documents   
+    
+    def set_document(self, listenouv):
+        self._documents = listenouv 
     
     

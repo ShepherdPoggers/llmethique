@@ -2,6 +2,8 @@ import os
 from objets.DocumentClasse import Document
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
+from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion
+
 
 EXTENSIONS = ['.pdf', '.docx']
 
@@ -30,6 +32,7 @@ def UploadFile():
     """Permet de gérer l'upload des fichiers sur le serveur"""
     
     #Initie les types de documents pour après bien classer les fichiers lors de l'uppload
+    
     listeFicher = [
     Document('F1'),
     Document('FIC'),
@@ -59,6 +62,7 @@ def UploadFile():
                         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename)) #Sauvegarde dans le fichier uploads le document
                         chemins.append(app.config['UPLOAD_FOLDER'] + '\\' + filename) #Ajoute le path à une liste
             fichier.setChemin(chemins)
+        lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
     delDocument(listeFicher)
     return render_template('index.html')
 
