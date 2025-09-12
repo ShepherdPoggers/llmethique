@@ -3,7 +3,6 @@ from objets.DocumentClasse import Document
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
-from RAG.split import getTexte
 
 EXTENSIONS = ['.pdf', '.docx']
 
@@ -77,4 +76,3 @@ def UploadFile():
 
 if __name__ == "__main__":
     app.run(debug=False)
-    getTexte()

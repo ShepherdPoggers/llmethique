@@ -1,3 +1,4 @@
+from RAG.embeding import getSegment
 
 class Question():
 
@@ -22,8 +23,8 @@ class Question():
             for x in range(len(document.GetChemin())):
                 texteChemin += f' LE DOCUMENT {document} ({document.GetChemin()[x]}) COMMENCE ICI {document.GetTexte()[x]} LE DOCUMENT {document} ({document.GetChemin()[x]}) FINI ICI ' 
 
-            
-            
+        ragSegment1, ragSegment2, ragSegment3, ragSegment4, ragSegment5 = getSegment(self._question)
+        
             
         prompt = f"Tu es un expert dans l'évaluation de demande d'approbation pour "\
         "le comité d'éthique à la recherche de l'Université du Québec à Chicoutimi." \
@@ -34,5 +35,6 @@ class Question():
         "Dans le cas où le dossier ne répond pas à la question," \
         "assure-toi de formuler une rétroaction claire et actionnable pour que le chercheur puisse" \
         f"aisament corriger les différents documents \n La question à évaluer est : {self._question}" \
-        f"Pour y répondre tu devras consulter ces documents : {texteChemin}"
+        f"Pour y répondre tu devras consulter ces documents : {texteChemin}" \
+        f"Voici un extrait d'information supplémentaire issu de la recherche (RAG) : {ragSegment1.page_content}, {ragSegment2.page_content}, {ragSegment3.page_content}, {ragSegment4.page_content}, {ragSegment5.page_content}"
         return prompt
