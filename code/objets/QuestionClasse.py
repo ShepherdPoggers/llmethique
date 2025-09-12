@@ -9,10 +9,30 @@ class Question():
     def __repr__(self):
         return self._question
 
-    def get_documents(self):
+    def GetDocuments(self):
         return self._documents   
     
-    def set_document(self, listenouv):
+    def SetDocument(self, listenouv):
         self._documents = listenouv 
     
-    
+    def PromptGen(self):
+        
+        texteChemin = ''
+        for document in self._documents:
+            for x in range(len(document.GetChemin())):
+                texteChemin += f' LE DOCUMENT {document} ({document.GetChemin()[x]}) COMMENCE ICI {document.GetTexte()[x]} LE DOCUMENT {document} ({document.GetChemin()[x]}) FINI ICI ' 
+
+            
+            
+            
+        prompt = f"Tu es un expert dans l'évaluation de demande d'approbation pour "\
+        "le comité d'éthique à la recherche de l'Université du Québec à Chicoutimi." \
+        "Ton rôle est de faire une évaluation rigoureuse des questions éthiques entourrant" \
+        "la recherche impliquant des participants humains. Tu dois répondre à cette question" \
+        "d'évaluation par rapport à un dossier déposé. Dans le cas où le dossier répondrait" \
+        "positivement à la quesiton, écris une simple phrase qui précise que la question a été bien répondu."\
+        "Dans le cas où le dossier ne répond pas à la question," \
+        "assure-toi de formuler une rétroaction claire et actionnable pour que le chercheur puisse" \
+        f"aisament corriger les différents documents \n La question à évaluer est : {self._question}" \
+        f"Pour y répondre tu devras consulter ces documents : {texteChemin}"
+        return prompt

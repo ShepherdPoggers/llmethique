@@ -2,12 +2,14 @@ import os
 from objets.DocumentClasse import Document
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
-from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion
-
+from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
+from RAG.split import getTexte
 
 EXTENSIONS = ['.pdf', '.docx']
 
-
+def WriteTxt(prompt):
+    with open('prompt.txt', 'w', encoding='UTF-8') as file:
+        file.write(prompt)
 
 
 def ExtensionRight(fileName: str) -> bool:
@@ -17,8 +19,8 @@ def ExtensionRight(fileName: str) -> bool:
 
 def delDocument(listeFicher):
     for fichiers in listeFicher:
-        for chemin in fichiers.getChemin():
-            os.remove((chemin))
+        for chemin in fichiers.GetChemin():
+            os.remove((app.config['UPLOAD_FOLDER'] + '\\' + chemin))
 
 app = Flask(__name__)
 app.secret_key = 'ton_secret_unique'
@@ -54,18 +56,25 @@ def UploadFile():
         for fichier in listeFicher:
             files = request.files.getlist(str(fichier)) 
             chemins = []
+            texte = []
             
             for file in files:
                 if ExtensionRight(file.filename): 
                         print("Ca marche")
                         filename = secure_filename(file.filename) #Normalise les noms des documents
                         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename)) #Sauvegarde dans le fichier uploads le document
-                        chemins.append(app.config['UPLOAD_FOLDER'] + '\\' + filename) #Ajoute le path à une liste
-            fichier.setChemin(chemins)
+                        chemins.append(filename) #Ajoute le path à une liste
+                        texte.append(PdfOrDocx(app.config['UPLOAD_FOLDER'] + '\\' + filename))
+            fichier.SetChemin(chemins)
+            fichier.SetTexte(texte)
         lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
+        WriteTxt(lsiteQuestion[0].PromptGen())
+        
     delDocument(listeFicher)
+    
     return render_template('index.html')
 
 
 if __name__ == "__main__":
     app.run(debug=False)
+    getTexte()

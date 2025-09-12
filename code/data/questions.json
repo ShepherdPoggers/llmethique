@@ -23,14 +23,12 @@
   {
     "question": "Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?",
     "documents": [
-      "rechercheMilieu",
       "F1"
     ]
   },
   {
     "question": "Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?",
     "documents": [
-      "rechercheMilieu",
       "FIC",
       "F1"
     ]
