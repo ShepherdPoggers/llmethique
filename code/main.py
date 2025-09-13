@@ -3,6 +3,7 @@ from objets.DocumentClasse import Document
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
+from fonctions.requetellm import requete
 
 EXTENSIONS = ['.pdf', '.docx']
 

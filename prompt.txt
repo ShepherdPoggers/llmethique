@@ -1163,7 +1163,58 @@ trois principes directeurs suivants :
 Ces principes sont complémentaires et interdépendants. La façon dont ils 
 s’appliquent et l’importance qu’il faut accorder à chacun d’eux dépendent de 
 la nature et du contexte de la recherche en cause. Des applications 
-particulières sont présentées dans les chapitres suivants., EPTC 2 (2022) 5 
+particulières sont présentées dans les chapitres suivants., EPTC 2 (2022) 7 
+Chapitre 1 — Cadre éthique 
+ 
+Un des mécanismes importants pour respecter l’autonomie des participants est 
+l’obligation de solliciter leur consentement libre, éclairé et continu. Cette 
+exigence témoigne de l’engagement à ce que la participation à la recherche, 
+y compris la participation d’une personne par l’utilisation de ses données ou de 
+son matériel biologique, soit un choix véritable, et pour cela il doit absolument 
+être éclairé. Le choix éclairé repose sur une compréhension aussi complète que 
+raisonnablement possible des buts de la recherche, de ce qu’elle suppose et 
+de ses avantages potentiels et risques prévisibles pour le participant et les autres 
+personnes. Le respect des personnes comprend aussi un engagement à rendre 
+des comptes et à assurer la transparence dans la conduite éthique de la 
+recherche. 
+Certains facteurs peuvent réduire la capacité d’une personne à exercer son 
+autonomie, comme une information ou une compréhension insuffisante à la 
+prise de décision, ou un manque de liberté d’agir en raison de coercition ou 
+d’influences. Ces contraintes comprennent parfois la crainte de se mettre à dos, 8 EPTC 2 (2022) 
+Chapitre 1 — Cadre éthique 
+ 
+Lorsqu’il est prévisible qu’un participant risque de perdre sa capacité 
+décisionnelle au cours d’un projet de recherche – par exemple, dans le cas 
+d’une recherche portant sur des troubles cognitifs – il peut être souhaitable de 
+demander à l’avance au participant d’exprimer ses préférences. On s’assurera 
+aussi qu’il a autorisé une personne de confiance à prendre des décisions en son 
+nom s’il venait à perdre sa capacité de décider de poursuivre ou d’interrompre 
+sa participation à la recherche. Voir l’article 3.11 pour obtenir des lignes 
+directrices sur les directives préalables en matière de recherche pour les 
+personnes qui n’ont pas la capacité décisionnelle. 
+ 
+Préoccupation pour le bien-être 
+Le bien-être d’une personne réfère à la qualité de vie dont elle jouit dans tous les 
+aspects de son existence. Il est fonction de facteurs tels que la santé physique, 
+mentale et spirituelle, ainsi que de la situation matérielle, économique et sociale 
+de la personne. Le logement, l’emploi, la sécurité, la vie familiale, la vie sociale 
+et l’appartenance à une communauté font donc partie des déterminants du, EPTC 2 (2022) 9 
+Chapitre 1 — Cadre éthique 
+ 
+conformément au principe de respect des personnes, il revient aux participants 
+ou aux tiers autorisés de juger si cet équilibre leur est acceptable. 
+La recherche peut également avoir des effets sur le bien-être de certains 
+groupes. Il se peut en effet que des groupes profitent des connaissances 
+acquises grâce à la recherche, mais cette dernière peut également entraîner la 
+stigmatisation de certains groupes ou une discrimination à leur égard, ou 
+encore nuire à leur réputation. La consultation, pendant l’élaboration d’un 
+projet, des groupes dont le bien- être risque d’être affecté par la recherche 
+peut aider à préciser les effets possibles de la recherche et à déterminer 
+comment minimiser les répercussions négatives sur le bien-être. Les chercheurs 
+doivent aussi tenir compte des avantages potentiels et des risques de leur 
+recherche ainsi que des connaissances qu’elle pourrait générer pour le bien-
+être de toute la société. Lorsque la recherche portant sur des individus risque de 
+toucher le bien-être d’un groupe, l’importance à donner au bien-être du, EPTC 2 (2022) 5 
 Chapitre 1 — Cadre éthique 
  
 judicieuse et honnête, de produire des analyses rigoureuses, de veiller à la 
@@ -1180,59 +1231,4 @@ de portée individuelle ou sociale. L’histoire est remplie d’exemples malheu
 où des participants ont souffert inutilement, et parfois profondément, à cause 
 de la recherche, y laissant même parfois leur vie. Les principes éthiques et les 
 lignes directrices en matière d’éthique jouent un rôle important dans 
-l’avancement de la connaissance tout en protégeant et respectant les, EPTC 2 (2022) 119 
-Chapitre 6 — Gouvernance de l’évaluation de l’éthique de la recherche 
- 
-Application 
-La recherche doit faire l’objet d’une évaluation de son acceptabilité éthique et 
-être approuvée par le CER avant le recrutement des participants, la collecte 
-officielle de données sur les participants, la consultation de données ou le 
-prélèvement de matériel biologique humain. 
-Les chercheurs doivent fournir suffisamment de détails pour permettre au CER 
-d’évaluer en connaissance de cause l’acceptabilité éthique de la recherche. 
-Certains types de recherches faisant appel à des méthodes quantitatives, 
-qualitatives ou combinées, ainsi que certaines recherches concertées ou 
-communautaires (chapitres 9 et 10) peuvent exiger une prise de contact et des 
-discussions préalables avec certaines personnes ou communautés afin d’établir 
-des collaborations ou des partenariats de recherche avant l’élaboration même 
-de la recherche. D’autres recherches peuvent ne pas faire appel à des êtres 
-humains pendant les phases initiales, mais exiger des préparatifs, comme 
-l’observation d’un environnement de recherche, la prise de notes ou la mise en, EPTC 2 (2022) 121 
-Chapitre 6 — Gouvernance de l’évaluation de l’éthique de la recherche 
- 
-Il y a deux niveaux possibles d’évaluation de l’éthique de la recherche : 
-1. Évaluation de l’éthique de la recherche par le CER en comité plénier 
-L’évaluation de l’éthique de la recherche par le CER en comité plénier 
-devrait être l’évaluation par défaut pour les recherches avec des êtres 
-humains. 
-2. Évaluation déléguée par le CER pour les recherches à risque minimal 
-Le CER délègue l’évaluation de l’éthique de la recherche à une ou plusieurs 
-personnes. Les évaluateurs délégués sont sélectionnés parmi les membres du 
-CER, sauf dans le cas de l’évaluation de l’éthique d’activités de recherche 
-exécutées par des étudiants dans le cadre d’un cours. Dans ce cas, 
-l’évaluation peut être déléguée au département, à la faculté ou une entité 
-équivalente comme il est indiqué ci-après. 
-Lorsqu’il détermine que la recherche est à risque minimal (comme le définit 
-le chapitre 2 de la Politique), le CER peut autoriser une évaluation déléguée 
-de l’éthique de la recherche, conformément aux politiques et aux 
-procédures écrites de l’établissement. Les évaluateurs délégués doivent être, EPTC 2 (2022) 209 
-Chapitre 10 — Recherche qualitative 
- 
-d’évaluation de l’éthique de la recherche, sont abordées plus en détail ci-
-après. Il faut noter que, sous réserve des lois applicables, les articles de la 
-Politique portant sur le consentement, le respect de la vie privée et la 
-confidentialité s’appliquent également dans le contexte de la recherche 
-qualitative. 
-Les chercheurs et les comités d’éthique de la recherche (CER) devraient 
-également consulter les autres chapitres pertinents de la Politique pour en savoir 
-plus sur les principes, les normes et les pratiques applicables à la recherche 
-qualitative. 
- 
-A. Nature de la recherche qualitative 
-La recherche qualitative vise à comprendre comment les personnes perçoivent 
-le monde et la façon dont elles se comportent et agissent dans celui-ci. Cette 
-approche oblige les chercheurs à comprendre les phénomènes à partir de 
-paroles, d’actions et de documents. Elle les amène à s’interroger sur la façon 
-dont les individus interprètent et donnent sens à leurs paroles et à leurs actes, 
-ainsi qu’à d’autres aspects du monde avec lesquels ils sont en relation (y 
-compris les autres personnes).
+l’avancement de la connaissance tout en protégeant et respectant les

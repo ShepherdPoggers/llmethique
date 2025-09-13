@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 def  embeding():
     paragraphe = chunckSplit(r'code\RAG\tcps2-2022-fr-pageutile.pdf')
     embed = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    model_name="intfloat/multilingual-e5-base",
     encode_kwargs={"normalize_embeddings": True},  # cos-sim plus stable
     )
     vs = FAISS.from_documents(paragraphe, embedding=embed)
@@ -13,7 +13,7 @@ def  embeding():
     
 def getSegment(question):
     embed = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    model_name="intfloat/multilingual-e5-base",
     encode_kwargs={"normalize_embeddings": True}
 )
     vs = FAISS.load_local(

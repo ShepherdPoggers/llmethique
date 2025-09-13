@@ -36,5 +36,5 @@ class Question():
         "assure-toi de formuler une rétroaction claire et actionnable pour que le chercheur puisse" \
         f"aisament corriger les différents documents \n La question à évaluer est : {self._question}" \
         f"Pour y répondre tu devras consulter ces documents : {texteChemin}" \
-        f"Voici un extrait d'information supplémentaire issu de la recherche (RAG) : {ragSegment1.page_content}, {ragSegment2.page_content}, {ragSegment3.page_content}, {ragSegment4.page_content}, {ragSegment5.page_content}"
+        f"Voici un extrait d'information supplémentaire issu de la recherche (RAG) : Chunk 1 {ragSegment1.page_content}, Chunk 2 {ragSegment2.page_content}, Chunk 3 {ragSegment3.page_content}, Chunk 4 {ragSegment4.page_content}, Chunk 5{ragSegment5.page_content}"
         return prompt
