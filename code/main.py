@@ -4,11 +4,12 @@ from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
 from fonctions.requetellm import requete
+import json
 
 EXTENSIONS = ['.pdf', '.docx']
 
-def WriteTxt(prompt):
-    with open('prompt.txt', 'w', encoding='UTF-8') as file:
+def WriteTxt(prompt, name):
+    with open(f'{name}.txt', 'w', encoding='UTF-8') as file:
         file.write(prompt)
 
 
@@ -21,6 +22,10 @@ def delDocument(listeFicher):
     for fichiers in listeFicher:
         for chemin in fichiers.GetChemin():
             os.remove((app.config['UPLOAD_FOLDER'] + '\\' + chemin))
+
+def writeJson(data):
+    with open("questions_reponses.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 app = Flask(__name__)
 app.secret_key = 'ton_secret_unique'
@@ -68,7 +73,11 @@ def UploadFile():
             fichier.SetChemin(chemins)
             fichier.SetTexte(texte)
         lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
-        WriteTxt(lsiteQuestion[0].PromptGen())
+        for question in lsiteQuestion:
+            reponse = requete(question.PromptGen())
+            question.SetReponse(reponse)
+        json = [{"question": str(question), "reponse": question.getReponse()} for question in lsiteQuestion]    
+        writeJson(json)
         
     delDocument(listeFicher)
     

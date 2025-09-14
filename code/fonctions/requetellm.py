@@ -1,21 +1,13 @@
-from groq import Groq 
+from openai import OpenAI
 def requete(prompt : str):
-    key = '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'
+   
+    client = OpenAI(base_url="http://127.0.0.1:1234/v1", api_key="lm-studio")
 
-    client = Groq(
-        api_key=key,
-    )
-    chat_completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
+    completion = client.chat.completions.create(
+        model="openai/gpt-oss-20b",
+        messages=[{"role": "user", "content": prompt}]
+        )
 
-        ],
-        model="llama-3.1-8b-instant",
 
-    )
-
-    response = chat_completion.choices[0].message.content
+    response = completion.choices[0].message.content
     return response

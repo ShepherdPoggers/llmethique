@@ -16,6 +16,12 @@ class Question():
     def SetDocument(self, listenouv):
         self._documents = listenouv 
     
+    def SetReponse(self, contenu):
+        self._reponse = contenu
+    
+    def get_reponse(self):
+        return self._reponse
+    
     def PromptGen(self):
         
         texteChemin = ''
@@ -31,7 +37,7 @@ class Question():
         "Ton rôle est de faire une évaluation rigoureuse des questions éthiques entourrant" \
         "la recherche impliquant des participants humains. Tu dois répondre à cette question" \
         "d'évaluation par rapport à un dossier déposé. Dans le cas où le dossier répondrait" \
-        "positivement à la quesiton, écris une simple phrase qui précise que la question a été bien répondu."\
+        "positivement à la quesiton, écris une simple phrase qui précise que la question est bien répondu."\
         "Dans le cas où le dossier ne répond pas à la question," \
         "assure-toi de formuler une rétroaction claire et actionnable pour que le chercheur puisse" \
         f"aisament corriger les différents documents \n La question à évaluer est : {self._question}" \
