@@ -3,7 +3,7 @@ from objets.DocumentClasse import Document
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
-from fonctions.requetellm import requete
+from fonctions.requetellm import requete, requetGroq
 import json
 
 EXTENSIONS = ['.pdf', '.docx']
@@ -74,12 +74,18 @@ def UploadFile():
             fichier.SetTexte(texte)
         lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
         for question in lsiteQuestion:
-            reponse = requete(question.PromptGen())
+            reponse = requetGroq(question.PromptGen())
+            if reponse[:3].lower() == 'oui':
+                question.SetValide(True)
+            else:
+                question.SetValide(False)
             question.SetReponse(reponse)
-        json = [{"question": str(question), "reponse": question.getReponse()} for question in lsiteQuestion]    
+            
+        json = [{"question": str(question), "reponse": question.getReponse(), "Check": question.GetValide()} for question in lsiteQuestion]    
         writeJson(json)
         
-    delDocument(listeFicher)
+        delDocument(listeFicher)
+        return render_template('')
     
     return render_template('index.html')
 
