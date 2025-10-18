@@ -3,7 +3,7 @@ from objets.QuestionClasse import Question
 import PyPDF2
 from docx import Document
 
-def CreerObjetQuestion(path=r"code\data\questions.json") -> list:
+def CreerObjetQuestion(path=r"code\data\questiontemp.json") -> list:
     listeQuestions = []
     with open(path, "r", encoding="UTF-8") as file:
         

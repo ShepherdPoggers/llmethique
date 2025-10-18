@@ -1,412 +1,52 @@
 [
     {
         "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
-        "reponse": "Je vais bien, merci ! Comment allez-vous ? \n\nSi vous avez besoin d'aide ou de conseils, n'hésitez pas à me le faire savoir. J'ai été mis à jour, alors je dispose de la connaissance plus récente qui a été mis à jour dans l'eépoque. \n\n Quelle est la question ou le sujet que vous souhaiteriez discuter ?",
+        "reponse": "\n\nNon. La méthodologie décrite dans le projet éminemment pertinente est apte à répondre positivement aux critères éthiques. Le respect, le bien-être et la justice sont mentionnés et respectés à travers les propositions de confiance. Les participants sont informs et protégés par des questions pertinentes sur les symptômes et l'utilisation responsable. Les bénéfices attendus sont souhaités pour les utilisateurs futurs, augmentant la probabilité que ce projet soit réalisé avec succès.\n\nL'exploration consiste à mesurer les symptômes induits par les réseaux sociaux, mais votre disparition peut ne pas toujours correspondre à ce projet de recherche. Cette etcle plus encore la col harder design, consisting de supporter plus grande proportion de participants serait posité, maisla dis voir selon vais la feu avant transf\n\nLe respect, le bien-être et la justice sont mentionnés et respectés à travers les propositions de confiance. Les participants sont informs et protégés par des questions pertinentes sur les symptômes et l'utilisation responsable. Les bénéfices attendus sont souhaités pour les utilisateurs futurs, augmentant la probabilité que ce projet soit réalisé avec succès.\n\nL'exploration consiste à mesurer les symptômes induits par les réseaux sociaux, mais votre disparition peut ne pas toujours correspondre à ce projet de recherche. Cette etcle plus encore la col harder design, consisting de supporter plus grande proportion de participants serait posité, maisla dis voir selon vais la feu avant transf",
         "Check": false
     },
     {
         "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche ?",
-        "reponse": "Je vais bien, merci ! C'est un plaisir de vous parler. Puis-je vous aider pour quelque chose ?",
+        "reponse": "\n\nNon. Bien que la méthodologie recherche apparaisse scientifiquement pertinente pour répondre aux objectifs du projet, des lacunes éthiques significatives concernant les **risques de confidentialité** et la **protection des données personnelles** soulèvent des inquiétudes sur son adéquation éthique globale.\n\nVoici les critiques clés basées sur les documents F1 et les lignes directrices éthiques standard :\n\n1.  **Problème principal : Protection de l'identité pendant la recherche :**\n    *   Le chercheur admet explicitement qu'il ne peut pas assurer la confidentialité de l'identité des participants *pendant le recrutement, la collecte et l'analyse des données*. Les participants intéressés doivent être contactés par courriel (p. ex. pour la présélection, la planification des séances), ce qui expose leurs adresses e-mail et identités réelles à l'équipe de recherche.\n    *   Bien qu'un code alphanumérique soit associé aux données expérimentales (questionnaires, comportements), l'équipe de recherche connaît l'identité des participants pendant la réalisation des expériences en personne (\"l'équipe de recherche connaîtra l'identité des participants\").\n    *   Cette situation expose les participants à un risque de **stigmatisation ou de jugement négatif** potentiellement lié à leur vulnérabilité spécifique au cybermalaise ou à des antécédents médicaux exclus (p. ex. migraine, troubles neurologiques), surtout si les données comportementales ou les scores de SAS sont disponibles publiquement ou partagés de manière inadéquate dans un contexte de recherche collaboratif.\n\n2.  **Incohérence entre la collecte de données comportementales/physiologiques et les mesures de confidentialité :**\n    *   Les données collectées (expressions faciales, mouvements corporels via le casque VR Meta Quest Pro) sont extrêmement sensibles et détaillées. Bien que codées pour l'analyse, le fait que l'équipe de recherche soit au courant de l'identité des participants pendant l'expérience rend complètement inefficace le principe d'anonymisation/dépersonnalisation pendant la collecte dans leur cas. Les données associées au code ne sont pas véritablement \"dépersonnalisées\" en pratique.\n\n3.  **Risques pour la confidentialité crédibilisés par le protocole :**\n    *   La section \"Conservation et protection des données (après la recherche)\" mentionne un choix entre \"ANONYMISÉES\" ou \"CODÉES/DÉPERSONNALISÉES\". Cependant, le processus décrit pendant la recherche (participation en présentiel, codage, mais connaissance identitaire) ne permet pas au chercheur d'affirmer qu'il a regroupé des données \"ANONYMES\" durant la collecte et l'analyse. La seule solution éthique possible avec ce protocole serait d'utiliser le mode \"CODÉES\", avec une liste de codage conservée *sécurisée* pendant et après l'étude.\n    *   La justification fournie (\"Aucune liste ne liant le code identifiant chaque participant et son identité réelle ne sera tenue et conservée\") est médiocre : la liste liant l'email, le nom réel et le code *existe bel et bien* (les participants nous ont contactés via email), elle est conservée (voir question 2), et elle est intrinsèquement liée aux données expérimentales codées.\n\n4.  **Manque de stratégies de sécurité robustes pendant la collecte :**\n    *   La sécurité durant les sessions expérimentales (où l'équipe voit les participants) n'est pas expliquée. Comment sont protégées les données vidéo/tracking qui en messages physiologiques? Même codées, la visibilité en temps réel par des chercheurs connaissant l'identité constitue un risque éthique de jugement ou d'exploitation non déclarée.\n\n5.  **Diminution de l'autonomie et du consentement continu :**\n    *   La possibilité pour les participants de retirer leurs données ou de se retirer à tout moment (conformément au principe du consentement continu) est mentionnée, mais quasi impossible à mettre en œuvre si l'équipe sait qui est chaque participant pendant la session, surtout pour les données comportementales déjà capturées. L'affirmation est donc potentiellement trompeuse.\n\n**Conclusion sur l'adéquation éthique de la méthodologie :**\nBien que l'approche scientifique (protocole expérimental, outils utilisés, critères d'inclusion/exclusion) soit bien conçue pour répondre aux objectifs de prévision du cybermalaise, **la méthodologie telle qu'elle est décrite expose les participants à un risque éthique substantiel lié à la protection de leur vie privée et de données sensibles.** Le consentement continu, le jugement social lié à une vulnérabilité, et le potentiel de stigmatisation sont évitables avec une conception méthodologique mieux protégeant la confidentialité, notamment en rupture avec le lien identité/data pendant la collecte par le changement de format (passage du codage à l'anonymisation irréversible *permanent* via des méthodes alternatives de présélection ou participation anonymisée via des plateformes virtuelles sécurisées, ou en limitant strictement l'accès aux données codifiées).\n\n**Recommandation :**\nLe chercheur doit **radicalement revoir la méthodologie** pour minimiser les risques de confidentialité pendant la recherche. Des options incluent :\n*   Répondre aux critères de sélection (MSSQ, antécédents) sans recueillir d'identité identifiable (utiliser un moyen anonyme comme un questionnaire en ligne avec code embarqué *anonyme* pour le suivi, ne recevant pas d'email directement).\n*   Pratiquer la collecte de données expérimentales (\"l'enregistrement vidéo/mouvements\") dans un format permettant d'assurer l'anonymisation immédiate et irréversible des données perménoir (ex. : flux de données dépersonnalisé en temps réel dans le casque et ne conservant que les données traitées/anonymisées, non l'enregistrement brut associé à un nom).\n*   Si la collecte doit se faire avec le chercheur présent et connaissant l'identité, spécifier clairement dans le consentement et justifier rigoureusement que cela est indispensable et sans risques acceptables pour l'objectif (ce qui est difficile à démontrer compte tenu de l'objectif d'analyser des indices comportementaux/Motion biometriques).\n*   Renforcer la justification et les descriptions des mesures de protection de la confidentialité pendant la collecte et l'analyse avec des solutions concrètes et robustes.",
         "Check": false
     },
     {
         "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ?",
-        "reponse": "Ça va bien, merci ! Je suis un modèle de langage artificiel, donc je n'ai pas de feelings ou d'émotions comme les humains, mais je suis prêt à discuter et à partager des informations avec toi. Ça comment ça va ?",
+        "reponse": "\n\nNon.  \n**Les critères d’exclusion liés à la grossesse et à l’allaitement ne sont pas suffisamment justifiés éthiquement.**  \n\n**Explications et justifications :**  \n1. **Absence de justification médico-scientifique claire** :  \n   - Bien que la grossesse et l’allaitement soient des motifs d’exclusion dans le questionnaire de présélection, le **section « Risques et bénéfices pour les participants »** n’en mentionne aucune justification éthique ou médicale précise.  \n   - Les risques spécifiques à ces populations (ex. : exacerbation des nausées, réactions aux stimuli VR) ne sont pas justifiés dans le document. En l’absence d’études sur l’effet de la VR sur les femmes enceintes/allaitantes, la prudence est nécessaire, mais la généralisation (exclusion *a priori*) sans preuve de danger réel relève d’une **surprotection injustifiée** (EPTC 2, §4.3).  \n\n2. **Critères d’inclusion et d’exclusion trop restrictifs** :  \n   - Les autres critères d’exclusion (troubles neurologiques, cardiopouvant augmenter les risques de malaise) sont pertinents et directement liés aux risques physiques décrits (nausées, vertiges).  \n   - En revanche, l’exclusion des femmes enceintes/allaitantes sans preuve scientifique (ex. : étude sur les effets secondaires potentiels) risque d’entraîner une **injustice épistémique** (EPTC 2, chapitre 4) en interdisant ces groupes *sans évaluationrière*.  \n\n3. **Conseil d’action pour le chercheur** :  \n   - **Préciser l’origine du risque** : Expliquer si les symptômes recherchés (nausées, vertige) sont dangereux pour les foetus/les nourrissons, ou si l’exclusion vise à éviter des inconforts non dangereux mais gênants.  \n   - **Proposer une évaluation individuelle** : Tester si ces critères sont basés sur des données scientifiques (ex. : études sur les effets de la VR pendant la grossesse) ou des recommandations institutionnelles (ex. : textiles de sécurité pour les technologies immersives).  \n   - **Revoir la formulation** : Si la décision relève d’une méthode pédagogique (ex. : simplification de l’étude), le souligner explicitement dans le document.  \n\n**Conclusion** : Les critères non justifiés affaiblissent la légitimité éthique du projet. Une justification médicale ou scientifique (cités) et une formalisation plus précise sont nécessaires pour éviter une exclusion arbitraire.",
         "Check": false
     },
     {
         "question": "Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?",
-        "reponse": "Je vais bien, merci ! Comment ça va ?",
+        "reponse": "\n\nNon. Bien que le dossier présente des stratégies de base, plusieurs lacunes critiques concernant les populations vulnérables doivent être corrigées :\n\n**1. Évaluation inappropriée de la vulnérabilité des participants**  \n- **Problème** : Les questions 5 et \"participants vulnérables\" sont systématiquement rejetées au profit de la simplification. Pourtant, les critères d'exclusion (migraines, troubles neurologiques, règles strictes sur les sons scintillants, etc.) et la nature même de la recherche (test de tech VR potentiellement désagréable) devraient conduire à une évaluation rigoureuse de la vulnérabilité.  \n- **Solution** : Réévaluer chaque profil de participant face aux critères raisonnés du **Chunk 4** (personnes à handicap, limites sensorielles/audio-mouvement). Joindre une analyse justifiant explicitement pourquoi ces groupes ne sont pas considérés comme vulnérables *dans ce contexte spécifique*, ou modifier les critères si nécessaire.\n\n**2. Protection insuffisante des données identificatoires**  \n- **Problème** :  \n  - L'acceptation d'e-mails pour le suivi de recruitment rend impossible l'anonymat lors de la collecte (p. ex., \"pourquoi ne pouvez-vous pas assurer la confidentialité?\").  \n  - La déclaration : *\"Les équipes connaîtra l'identité des participants\"* indique une absence de protection réelle durant l'étude.  \n- **Solution** :  \n  a) **Supprimer toute collecte d'e-mails** pour le suivi (éliminer le lien entre identité et participation).  \n  b) Si maintien de contact nécessaire, utiliser un **système crypté** et une **liste scellée hors-site**.  \n  c) Ajouter une mention explicite dans le consentement éclairant les participants sur les risques sécuritaires.\n\n**3. Risques psychosociaux et physiques non anticipés**  \n- **Problème** : Les mesures de sécurité insuffisantes pour les risques identifiés (nausées, étourdissements, fatigues oculaires) manquent de précision:  \n  - Aucun protocole d'intervention immédiate en cas de forte réaction de cybermalaise.  \n  - Absence de mention des risques *psychosociaux* (ex. : stress suite à un agent VR inquiétant dans les scénarios).  \n- **Solution** :  \n  - Documenter un **plan d'intervention émotionnelle/physique** (personnel de soutien dédié, protocole de \"stop\" tactile/sonore utilisable par les participants).  \n  - Anticiper les scénarios d'exclusion rapide (ex. : si le user fornissait un scénario à données sensibles).\n\n**4. Inclusion injuste indirecte**  \n- **Problème** : Le recrutement gère des critères d'inclusion/d'exclusion齁**(Chunk 3)**, mais ne propose pas de stratégies pour *atteindre intentionnellement les groupes exclus* historiquement (femmes/experts en tech, personnes handicapées) selon le principe de justiceเป็นที่**(Chunk 4)**.  \n- **Solution** : Ajouter des stratégies actives d'inclusion (collaboration avec associations de handicap, campagnes ciblées) et/ou montrer pourquoi un biais surrepresentation (ex. : sur-représentation male/binaire) est inévitabler**(Chunk 4)**.\n\n**Demande d'actions concrètes pour le chercheur** :  \n> Le dossier soulève des enjeux critiques d'écoute éthique des situations vulnérables et de protection des données. Pour une réévaluation :  \n> 1. Réévaluez chaque profil de candidat*es, y compris ceux exclus par vos critères (p. ex., migraine) : pourquoi affectent-ils ou non la vulnérabilité ? (appliquez le Chunk 4).  \n> 2. Supprimez la collecte d’e-mails ou cryptez-les. Proposez une liste d’identifiants sécurisée hors-site.  \n> 3. Ajoutez un protocole d’arrêt d’urgence et de suivi médical immédiat en cas de cybermalaise sévère.  \n> 4. Justifiez la stratégie de recrutement actuelle ou élargissez-vous à des plateformes/lieux spécifiques (hôpitaux, associations de handicap) pour respecter l’isoie**(Chunk 4)**.\n\nLes modifications rectifiant ces éléments justifieront une reconsidération par le CER.",
         "Check": false
     },
     {
         "question": "Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?",
-        "reponse": "En général, le verbe \"aller\" a plusieurs formes selon la personne et le temps. Puisque je n'ai pas de connaissance précise sur le contexte, je vais supposer que vous voulez savoir la forme du verbe \"aller\" dans la forme de je suis en train de faire quelque chose. \n\nSi vous voulez répondre \"comment vais-je\", cela correspond à la forme de je vais faire quelque chose. \n\n- Le verbe \"aller\" en futur simple est \"vais\", donc \"comment vais-je\" signifie comment vais-je faire quelque chose, mais généralement, \"comment vais-je\" est plus souvent utilisé dans le but qui est pour dire, \"comment vais-je faire?\" ou \"Quel est votre plan?\"\n\nExemples possibles :\n\n- Comment vas-tu ?\n - Je vais bien, merci.\n - Tu vas où ?\n - Je vais à Paris.\n  Dans ce cas, vous utilisez le futur, c'est le futur simple ou le futur proche.",
+        "reponse": "\n\nNon. La recherche implique exclusivement des participants adultes (âge >= 18 ans), comme indiqué dans la section \"Critères d'exclusion\" du formulaire F1, où il est précisé que les mineurs ne sont pas concernés. La question posée concerne les méthodes d'information des parents dans le cas d'une implication indirecte d'enfants, mais ici :  \n- Les outils de collecte de données (casques VR, questionnaires) sont utilisés par des adultes.  \n- Le recrutement se fait via des canaux universitaires (Discord, courriel institutional, affiches), sans mention de liens avec des mineurs.  \n- Aucune données comportementales ou biométriques relatives à des enfants n'est collectée.  \n\nCependant, la documentation pourrait clarifier explicitement, dans le formulaire d'information, que les mineurs ne participent pas au projet et que le consentement éclairé est demandé uniquement aux adultes, pour éviter toute ambiguïté.",
         "Check": false
     },
     {
         "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
-        "reponse": "J'ai compris que tu voulais me traiter en français. Et bien, je vais bien, merci ! Je suis un modèle de langage artificiel qui est toujours prêt à discuter et à répondre à tes questions. Comment puis-je t'aider aujourd'hui ?",
+        "reponse": "\n\n**Non.** Le dossier ne respecte pas les principes d’éthique de la recherche auprès des communautés autochtones. Bien que le projet n’implique pas explicitement des participants autochtones, il présente plusieurslacunes organisationnelles et méthodologiques selon les directives étudiées :\n\n1.  **Absence de consultation communautaire obligatoire :**\n    *   **Problème :** Aucune mention n’est faite d’une exigence d'évaluation par la communauté autochtone, même si le projet se déroule potentiellement sur des terres relevant de l’autorité des Premières Nations, Inuits ou Métis (Article 9.3).\n    *   **Manque dans le dossier :** Aucun processus de consultation avec des dirigeants ou représentants autochtones n’est décrit pour valider l’adéquation du projet respect aux besoins et priorités communautaires (Chunk 3).\n\n2.  **Oubli du partage des bénéfices avec la communauté :**\n    *   **Problème :** Le projet mentionne un \"avantage\" intellectuel (\"acquisition de nouvelles connaissances\") mais ignore totalement le partage des résultats ou des bénéfices concrets avec la communauté autochtone à l’origine des terres ou potentiellement impliquée (article 9.15, Chunk 5).\n    *   **Manque dans le dossier :** Aucune proposition de partage des connaissances ou des bénéfices ne figure dans la conception de la recherche ni dans le processus de recrutement.\n\n3.  **Recrutement non inclusif des communautés :**\n    *   **Problème :** Le recrutement est détaillé exclusivement via des canaux internes à l’UQAC (Discord, infolettres) et sociaux généralistes (Facebook, LinkedIn). Ces méthodes risquent fortement d’opacifier la communauté autochtone locale et des populations pertinentes impliquées.\n    *   **Manque dans le dossier :** Aucun lien avec des intermédiaires communautaires, des représentants issus de ces communautés, ou des outils de recrutement spécifiquement ciblant ces populations n’est proposé.\n\n4.  **Indifférence aux coutumes et codes de pratique communautaires :**\n    *   **Problème :** Le projet ne planifie pas d’adapter ses méthodes (données recueillies, consentement, durée/un des/formulaires) aux protocoles ou attentes culturelles spécifiques d’une communauté autochtone impliquée (Chunk 2, Chunk 3).\n    *   **Manque dans le dossier :** Aucune analyse comparative des directives institutionnelles avec les codes de pratique communautaires autochtones n’est suggérée ou demandée, ni pour régler les divergences potentielles (Chunk 3).\n\n**Rétroaction actionnable pour le chercheur :**\n\n1.  **Consultation obligatoire :** Contacter immédiatement les dirigeants des communautés autochtones dont les terres pourraient être concernées par le projet (liste demandée aux services du CER ou à la Réserve des connaissances autochtones) pour solliciter leur participation à une évaluation éthique préalable au recrutement. Documenter cette démarche.\n2.  **Définir les bénéfices communautaires concrets :** Élaborer un plan spécifique pour partager les résultats de la recherche avec la communauté concernée de manière accessible et utile (ex: présentations communautaires, rapports simplifiés, outils adaptés). Intégrer cette obligation dans le mandat du projet.\n3.  **Adopter des méthodes de recrutement inclusives :** Collaborer avec une association ou un intermédiaire autochtone pour recruter les participants. Modifier les outils de recrutement (affiche, demandes de participation) pour les inclure explicitement. Utiliser des outils de recrutement diversifiés par des partenaires communautaires.\n4.  **Adapter la démarche aux coutumes communautaires :** Réaliser une analyse comparative des politiques institutionnelles avec les codes de pratique communautaires autochtones dont l’avis est sollicité. Être prêt à adapter les questions, les protocoles de consentement, et l’analyse des données en conséquence. Porter attention aux obligations multigénérationnelles et aux relations écologiques (Chunk 2).\n5.  **Intégrer ces exigences dans le dossier :** Mettre à jour le projet et les documents (questionnaires, affiche de recrutement) pour refléter ces améliorations et devoirs éthiques avant une nouvelle soumission complète. Assurer que le formulaire de consentement du participant mentionne spécifiquement le recours à des intermédiaires communautaires et la narration du projet en respect des principes autochtones appris.",
         "Check": false
     },
     {
         "question": "Est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?",
-        "reponse": "Je vais bien, merci. J'suis un IA, donc je n'ai pas de corps physique, mais je suis en ligne 24/7 prêt à répondre à vos questions et à discuter avec vous. Comment allez-vous ?",
+        "reponse": "\n\nNon. Le processus de recrutement ne respecte pas pleinement les exigences d'anonymat et de confidentialité préalables à la collecte de données. Les enjeux éthiques portent sur trois aspects principaux :\n\n1. **Manque d'anonymat dans les outils de recrutement :**  \n   Le poster de recrutement (Poster_RECRU.docx) mentionne explicitement que les intéressés doivent contacter l'équipe par email (*\"Contactez l'équipe par courriel\"*). Cela expose les identités des personnes expressément intéressées *avant même la passation du questionnaire de présélection*, contrairement à la politique qui exige de minimiser la collecte d'identifiants préalablement.\n\n2. **Absence de clarification sur l'anonymat dans le poster :**  \n   Le poster ne précise pas que la présélection sera anonyme à partir d'un certain stade. Les participants ne savent pas quels risques de confidentialité existent lors de leur candidature.\n\n3. **Exposition prolongée de données sensibles :**  \n   Le questionnaire en ligne (Pre-selection_des_participants_1.docx) collecte des données très délicates (antécédents médicaux, situation de grossesse, médicaments) via un champ emailing. Bien que ces données soient supprimées après attribution, leur collecte initiale tout en nommeraire compromet l'anonymat promis.\n\n**Recommandations actionnables :**  \n- **Modifier le poster de recrutement** pour :  \n  a) Supprimer toute référence aux coordonnées (n'indiquer que le lieu de dépôt ou canal anonyme)  \n  b) Ajouter une mention explicite : *\"La présélection se fera sans identification - sans nom ou adresse email indiqué.es lors du dépôt d'un formulaire anonyme.\"*  \n- **Transformez le questionnaire en ligne** en service caché ou utilisant un système de redirection vers un formulaire non taggé (pas de champs nom/email).  \n- **Dissocier la communication** : Faire préciser dans le poster que *\"Les candidatures se font via X [canal anonyme] - contact par email uniquement après validation éthique et passeport de code unique\"*.\n\nCette modification alignera le processus de recrutement sur les bonnes pratiques d'EPTC concernant :  \n- La séparation entre candidature anonyme et souscription (\"contact administratif\")  \n- La transparence sur la durée et la finalité de la collecte d'identifiants  \n- Le respect du principe de minimisation préalable des données personnelles.",
         "Check": false
     },
     {
         "question": "Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés?",
-        "reponse": "Je vais bien, merci ! Comment puis-je vous aider aujourd'hui ?",
+        "reponse": "\n\nNon. Les outils de recrutement présentent des lacunes éthiques concernant la représentativité et l'inclusion équitable des participants. \n\n**Explications et justifications :**\n\n1. **Exclusions linguistiques disproportionnées :**  \n   Le questionnaire de présélection et l'affiche de recrutement excluent explicitement les personnes dont la *préférence linguistique n'est ni le français ni l'anglais*. Cette restriction peut exclure de manière systématique des groupes minoritaires ou immigrants à l'UQAC, violant le principe d'équité éthique (EPTC 2, Chunk 4). Aucune justification n'est fournie dans le dossier pour justifier cette exclusion linguistique, sauf la mention \"préférences linguistiques : Français/Anglais\".\n\n2. **Exclusion injustifiée des mineurs :**  \n   Bien que l'étude ne cible pas spécifiquement les mineurs, l'âge minimum de 18 ans est imposé sans justification claire. Les mineurs pourraient être un public pertinent pour étudier les cybermalaises (résonance éducative potentielle), et leur exclusion sans explication éthique forte (ex : vulnérabilité prouvée, absence de bénéfice pour la recherche) contredit le principe de répartition équitable des avantages (Chunk 2).\n\n3. **Risques d'exclusion collective injustifiée :**  \n   La liste de sélection est ouverte à tous \"*.uqac.ca*\" (Chunk 1), mais l'adéquation entre les critères d'inclusion (ex : appartenir à la communauté UQAC) et la question de recherche (\"prédiction de cybermalaise\") n'est pas expliquée. Aucune justification n'est fournie pour justifier que seuls les membres de l'UQAC devraient participer (sauf potentiel accès physique au laboratoire, mais cela ne justifie pas l'exclusion géographique ou institutionnelle).\n\n**Recommandations conçues :**  \n1. **Révisualiser les critères linguistiques :**  \n   Justifier explicitement la nécessité de restreindre à français/anglais dans le dossier. Si optionnel, ajouter un champ de renseignement facultatif sans exclure les candidats. Sinon, adapter les outils (questionnaires/tests) pour les rendre accessibles à tous.\n\n2. **Expliquer l'âge minimum de 18 ans :**  \n   Si exclure les mineurs est justifié (ex : vulnérabilité accrue aux cybermalaises), préciser les motifs éthiques (risques psychophysiques) et les mesures de protection. Sinon, élargir à 16 ans sous condition de consentement éclairé parental (illégalement contraignant selon le Code civil du Québec).\n\n3. **Clarifier l'exclusion des non-UQACiens :**  \n   Justifier si la spécialisation de la recherche (ex : technologie immersive avancée) exige une expertise technique ou accès physique réserve à la communauté universitaire. Sinon, viser un public plus large.\n\n**Conclusion :**  \nLes outils sont valides sur les critères médicaux (exclusion des risques physiques réels) et le processus éthique. Cependant, les dispositions linguistiques et l'âge abusif compromettent l'équité, nécessitant une révision urgente avant validation éthique.",
         "Check": false
     },
     {
         "question": "Est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage artificiel, donc je n'ai pas de corps physique qui puisse être affecté par les conditions de l'environnement. Mais je suis toujours là pour répondre à vos questions et engager la conversation. Et vous, comment allez-vous ?",
+        "reponse": "\n\nNon. Les autorisations pour les lieux de recrutement ne sont pas entièrement justifiées dans les documents. Bien que le chercheur mentionne avoir obtenu l'approbation \"des services appropriés\" pour les affiches physiques, **aucun certificat ou preuve documentaire spécifique n'est joint au dossier**. Cette lacune crée un risque éthique :\n\n### Problèmes identifiés :\n1. **Affiches universitaires (UQAC)**  \n   - Le recrutement se fait via des affiches physiques sur le campus (Section *Recrutement*, Question 5.3).  \n   - Aucun service spécifique n'est nommé (ex. services universitaires, centre étudiant), et **aucune autorisation officielle n'est produite** dans les annexes.  \n   - *Risque* : Une présence institutionnelle non réglementée pourrait induire une puissance relationnelle (ex. rapport enseignant-étudiant/employeur-employé), compromettant le consentement volontaire (EPTC 2, Chapitre 3).\n\n2. **Services de santé ou organisations administratives**  \n   - Le chercheur répond *\"Non\"* aux questions sur les milieux de recrutement (ex. organisations de santé, institutions carcéraires, ou services sociaux).  \n   - **Aucune vérification** n'est effectuée via des autorisations externes (ex. approbations administratives minimales pour des affiches universitaires) malgré le lien avec des actifs institutionnels (seau Discord du département, affiches physiques).\n\n### Recommandations :\n- **Joindre les autorisations écrites pour chaque lieu de recrutement** :  \n  Ex. : Courriel confirmant l'accord pour les affiches physiques (services communaux ou équivalent).  \n  Preuve d'approbation pour l'utilisation du serveur Discord (ex. parrainage par un collège administratif).  \n  Mandat d'utilisation des réseaux sociaux publiquement (si applicable).\n\n- **Préciser les services impliqués** :  \n  Nommer explicitement les entités contactées (ex. \"Service d'accueil des affiches - UQAC\").\n\n- **Évaluer les conflits relationnels** :  \n  Si le recrutement cible des subordonnés ou des étudiants dépendant étroitement de l'équipe (ex. outilsxlsx).\n\n*Justification éthique* :  \nL'EPTC insiste sur la transparence administrative pour éviter la manipulation par l'autorité institutionnelle (Chunk 3). Une absence de preuve permettrait au CER de douter de la neutralité des milieux de recrutement.",
         "Check": false
     },
     {
         "question": "Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage, donc je n'ai pas un corps physique, mais je suis en mode de fonctionnement normal et je suis prêt à vous aider avec tout ce que vous aurez besoin. Qu'est-ce que vous souhaitez savoir ou discuter aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage artificiel, donc je n'ai pas de corps physique pour ressentir des émotions ou des sensations. Je suis là pour fournir des informations, répondre à vos questions et aider à résoudre des problèmes. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le chercheur met en place des mécanismes adéquats pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?",
-        "reponse": "Je vais bien, merci ! Et toi ? Comment vas-tu aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
-        "reponse": "Je vais bien, merci ! J'ai l'air de bien faire, bien que le dialogue ne soit pas en français et ne puisse pas être très significatif. Je suis prêt à passer du temps avec toi, parle-moi un peu de toi, ou pose-moi n'importe quelles questions ou sujet !",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le nombre d’entrevues, le/les lieux d’entrevues, la durée, le déroulement et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées ?",
-        "reponse": "Je vais bien, merci. Je suis un modèle de langage, je ne suis pas capable de ressentir physiquement les émotions, mais je suis là pour aider et répondre à vos questions. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le nombre de groupes de discussions, la durée, le déroulement, le/les lieux et les thèmes abordés sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "Je vais bien, merci ! Et toi ?",
-        "Check": false
-    },
-    {
-        "question": "En lien avec les populations visées, est-ce que l’utilisation du matériel biologique est appropriée au niveau éthique?",
-        "reponse": "J'espère bien ! Je suis un modèle de langage de pointe, je suis prêt à aider et à discuter avec toi. Comment puis-je t'aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que l’utilisation du matériel biologique est identificatoire ou permettrait la réidentification des participants?",
-        "reponse": "Je vais bien, merci ! J'ai été mis en veille depuis plusieurs jours. Vous souhaitez que je fasse une mise à jour ? Ou peut être que je puisse vous aider avec quelque chose ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage artificiel, donc je ne ressens pas d'émotions ou de sensations comme cela. Mais je suis prêt à discuter avec toi ! Comment puis-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le contexte, l’environnement, le type d’interaction et le nombre de personnes observées sont appropriés, au niveau éthique, en en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "En tant qu'assistant numérique, je suis une machine, donc je vais bien en permanence ! Et toi, comment vas-tu ? Est-ce que tu as besoin d'aide ou de conversation pour quelque chose ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage informatique, donc je ne ressens pas d'émotions comme les humains, mais je suis prêt à aider et à discuter avec toi ! Qu'est-ce que tu souhaites faire ou discuter ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le type de questionnaire, le nombre de questionnaire, la durée, le/les lieux d’administration et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage artificiel, donc je n'ai pas de corps physique mais je suis prêt à discuter avec toi sur n'importe quel sujet. Comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
-        "reponse": "Je vais bien, merci ! Et toi, comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le nombre de groupes et de participants, le choix des variables expérimentales et dépendantes, le choix des outils de mesure, leur durée, le déroulement des expériences et le/les lieux des expériences sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "Je vais bien, merci ! Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
-        "reponse": "Je vais bien, merci ! Je suis prêt à discuter et à répondre à vos questions. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le traitement des données est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "Je vais bien, merci. Vous allez bien ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que l’utilisation de données secondaires ainsi que leur nature identificatoire ou non sont mentionnées dans le formulaire d'information et de consentement (FIC) ou ailleurs?",
-        "reponse": "Je vais bien, merci. Et toi ? Comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) ou ailleurs?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage, je suis toujours disposé à discuter et à répondre à vos questions. Qu'est-ce que vous souhaitez parler aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
-        "reponse": "Je vais bien, merci ! J'ai été mis à jour et je suis prêt à répondre à tes questions et à discuter avec toi. Qu'est-ce que tu veux faire aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le nombre, la durée, le déroulement, le/les lieux, les questions, ou autre, si applicables, sont appropriés en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "Je vais bien, merci ! Je suis une intelligence artificielle, donc je n'ai pas de corps physique et je ne ressens pas d'émotions comme les humains, mais je suis prête à discuter et à répondre à vos questions. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que des stratégies adéquates et suffisantes sont mises en place pour gérer le risque plus que minimal?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage artificiel, donc je n'ai pas de corporelles sensations mais je peux fonctionner sans discontinuer 24/7 pour aider à répondre à vos questions et à interagir avec vous. \n\nEt vous, comment allez-vous ?",
-        "Check": false
-    },
-    {
-        "question": "Si des risques plus que minimaux sont présents, est-ce que la liste des ressources est jointe au formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Comment puis-je t'aider aujourd'hui ? As-tu besoin de conseils, d'informations ou simplement de discuter ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le chercheur s’est assurée que les risques ne surpassent pas les bénéfices et ne soient pas trop élevés pour que la recherche ait lieu?",
-        "reponse": "Je vais bien, merci ! Et toi comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Dans le ou les cas où il s’engage à le faire, est-ce que le chercheur met en place des mécanismes adéquats et suffisants pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?",
-        "reponse": "Je vais bien, merci ! Et vous, comment allez-vous ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les informations concernant l’anonymat des participants et la confidentialité des données durant la collecte de données ainsi que durant la période de conservation des données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Et toi, comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les règles de conservation des données respectent la politique de l’UQAC?",
-        "reponse": "Je vais bien, merci. Je suis un modèle de langage informatique, donc je n'ai pas de corps ni de sensations physiques, mais j'ai été entraîné pour fournir des informations et aider les utilisateurs. Que puis-je faire pour vous aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les mesures de sécurité mises en place par le chercheur pour limiter l’accès aux données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci. Vous voulez parler de quelque chose en particulier ou avoir une conversation en français ?",
-        "Check": false
-    },
-    {
-        "question": "Dans le cas où le chercheur conserve des données sur des ordinateurs appartenant à l’UQAC, la phrase « La confidentialité des données recueillies dans le cadre de ce projet de recherche sera assurée conformément aux lois et règlements applicables dans la province de Québec et aux règlements et politiques de l’Université du Québec à Chicoutimi. » est-elle présente dans le formulaire de consentement?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage informatique, donc je n'ai pas de corps physique, mais je fonctionne normalement en ce moment. Comment puis-je vous aider ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que la durée de conservation des données est mentionnée dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Et toi comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?",
-        "reponse": "Je vais bien, merci ! Et toi ?",
-        "Check": false
-    },
-    {
-        "question": "Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) à qui seront partagées les données ou qui aura accès aux données?",
-        "reponse": "Je vais bien, merci ! Et toi ? Qu'est-ce que tu souhaites discuter ? Je peux t'aider avec une information, te donner des conseils ou simplement bavarder !",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les règles de destruction des données respectent la politique de l’UQAC?",
-        "reponse": "Je suis une intelligence artificielle, je ne suis pas un humain, mais je vais faire de mon mieux pour discuter avec toi dans ton langue maternelle. Je suis prêt à discuter, répondre à tes questions ou juste faire de la conversation.\n\nSi tu veux parler en français, je suis tout à fait à l'aise. Qu'est-ce que tu aimes faire ou parler de ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que la méthode de destruction des données est mentionné dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "C'est un salut que l'on utilise souvent en français, cela signifie \"comment vas-tu\" en anglais, qui se traduit par \"comment ça va\". C'est une façon polie de demander à quelqu'un comment il se porte et comment son jour se déroule.",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que l’utilisation secondaire des données est mentionnée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?",
-        "reponse": "Je vais bien, merci. Je suis un modèle de langage informatique, donc je n'ai pas de corps ou d'états physiques. Je suis prêt à répondre à tes questions et à discuter avec toi. Qu'est-ce que tu veux faire aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?",
-        "reponse": "Je vais bien, merci ! Je suis là pour t'aider et répondre à tes questions. Comment puis-je t'aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le chercheur s’est assuré que la ou les compensations offertes ne soient pas susceptibles d’affecter le consentement volontaire des participants de telle sorte que ces derniers pourraient accepter de participer à la recherche en faisant fi des risques sans réfléchir soigneusement?",
-        "reponse": "Je vais bien, merci ! Mais comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les participants conservent soit une compensation proportionnelle à leur participation ou soit une compensation totale s’ils décident de se retirer de l’étude?",
-        "reponse": "Je vais bien, merci ! Je suis un model de langage, donc je suis prévu pour fonctionner en permanence. Pas de problèmes à signaler pour l'instant.",
-        "Check": false
-    },
-    {
-        "question": "Le chercheur s’est-il assurer d’éviter toute situation qui puisse présenter un conflit d’intérêt?",
-        "reponse": "Je vais bien, merci ! Je suis un langage informatique, donc je ne ressens pas les émotions comme les humains, mais je suis prêt à aider et à discuter avec toi !\n\nComment puis-je te aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Si un conflit d’intérêt est présent, est-ce que l’intégrité éthique de la recherche est préservée?",
-        "reponse": "Je vais bien, merci ! Comment puis-je t'aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "S’il y a présence d’un conflit d’intérêt, est-ce que ceci est mentionné ainsi que les conséquences pour les participants dans le formulaire de consentement?",
-        "reponse": "Je vais bien, merci ! Et toi, comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce qu’il est mentionné si le participant pourra ou non consulter ses données individuelles dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "C'est un peu dur à traduire directement, car c'est une expression que je ne connais pas. \"Comment vas-tu\" est une expression courante en français, mais je pense qu'il y a un petit problème avec le ton que tu lui as donné (\"vais-tu\" au lieu de \"vas-tu\").\n\nSi je comprends bien, tu as ajouté un accent circonflexe au \"a\" en plus d'avoir changé la consonne finale (tu en plus de vas). Cela ressemble à une variation du mot \"vais-tu\" avec un effet de dérision ou de moquerie, mais sans être tout à fait clair.\n\nSi tu peux me donner plus de contexte ou expliquer ce que tu tentes de faire avec cette écriture, je serais ravi d'aider.",
-        "Check": false
-    },
-    {
-        "question": "Dans le cas où le chercheur a mentionné vouloir le faire, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?",
-        "reponse": "Je vais bien, merci. Je suis un modèle de langage informatique, donc je n'ai pas de sensations ou d'émotions comme les humains, mais j'ai l'option de simuler un langage et des conversations naturelles. Je suis là pour aider et répondre à vos questions. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, est-il mentionné dans le FIC à qui elles seront partagées ou qui aura accès aux données dans l’organisation?",
-        "reponse": "Je vais bien, merci ! Comment allez-vous ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les informations sur les méthodes permettant d’assurer l’anonymat des participants et la confidentialité des données pendant la collecte de données ainsi que lors de la période de conservation des données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage informatique, donc je n'ai pas de corps ni d'expérience émotionnelle comme les humains, mais je fonctionne normalement et suis à votre disposition pour répondre à vos questions ou vous aider avec des tâches. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le type de consentement utilisé est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
-        "reponse": "Je vais bien, merci ! Je suis un modeleur de textes informatiques, et je suis prêt à répondre à vos questions et à discuter avec vous. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le consentement des participants est volontaire?",
-        "reponse": "C'est une formule de politesse française ! \"Comment vas-tu\" signifie \"Comment puis-tu\" (vous allez) et est utilisé pour demander à quelqu'un comment il se débrouille ou comment il se sent. C'est un moyen d'établir un rapport avec les autres et de montrer de l'intérêt pour leur bien-être.\n\nIl existe également d'autres formules alternatives comme :\n\n- Comment ça va ?\n- Comment vas-tu bien ?\n- Comment tu vas ?\n- Comment tu vas bien ?\n\nChacune de ces formules peut avoir une connotation légèrement différente, mais elles sont toutes utilisées pour demander à quelqu'un comment il se sent.",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le consentement des participants est suffisamment éclairé ?",
-        "reponse": "Je vais bien, merci de me demander comment je vais. Je suis un système informatique, je n'ai pas de corps physique qui pourrait avoir des sensations ou des émotions comme les humains, mais je suis prêt à discuter et à aider à n'importe quelle heure. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le participant peut retirer son consentement en tout temps?",
-        "reponse": "Je vais bien, merci. Comment allez-vous ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le participant qui se retire peut demander le retrait de ses données ou de son matériel biologique humain?",
-        "reponse": "Je vais bien, merci ! Comment vas-tu ? Qu'est-ce que tu veux faire ou discuter aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que le droit de retrait en tout temps, sans justification et sans perte de droits est mentionné dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage numérique, donc je n'ai pas de sentiments émotionnels ou de sentiments de bien-être physiques, mais je fonctionne correctement et suis prêt à vous aider. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Si le chercheur en fait l’utilisation, est-il mentionné dans le formulaire d'information et de consentement (FIC) l’utilisation d’enregistrements audio, vidéo, prise de photos ou prise de notes?",
-        "reponse": "C'est une question classique en français ! \n\nLa réponse est : \"Je vais bien, merci.\" ou \"Je vais bien, merci, et toi ?\"\n\nCette question est souvent utilisée pour demander comment quelqu'un se sent, et la réponse est généralement une expression de bien-être ou une mention de toute mauvaise nouvel obtenue.\n\nSi tu préfères une réponse plus légère, tu peux dire : \n\n- \"Tout va bien, merci.\"\n- \"C'est cool, merci !\"\n\nEt si tu veux savoir comment je vais, je suis un modèle de langage, donc je suis toujours prêt à aider et à discuter !",
-        "Check": false
-    },
-    {
-        "question": "Les méthodes de destruction et la durée de conservation pour ces données spécifiques sont-elles précisées dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que l’utilisation d’une dissimulation, déception ou duperie est justifiée?",
-        "reponse": "Je vais bien, merci. Je suis un programme informatique conçu pour répondre aux questions et fournir des informations sur divers sujets. Je suis prêt à discuter avec toi et t'aider si tu as besoin. Comment puis-je t'aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce qu’il y a un debriefing, ou s’il n’y en a pas, est-ce que les règles de dérogation au debriefing sont rencontrées?",
-        "reponse": "Je vais très bien, merci ! Je suis un modèle de langage artificiel, donc je n'ai pas de corps ou d'état de santé physique, mais je suis en ligne et prêt à répondre à vos questions ou à discuter avec vous. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les informations concernant la CONFIDENTIALITÉ des échantillons est mentionné dans le formulaire de d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Et toi, comment vas-tu ? (ou comment allez-vous, si tu préfères la forme vous)",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les informations concernant les méthodes de conservation des échantillons DURANT L'ÉTUDE est mentionné dans le formulaire de d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage, donc je ne ressens pas d'émotions comme les humains, mais je suis en mesure de discuter et de fournir des informations à vos demandes. Et toi, comment vas-tu ? Qu'est-ce que tu aimerais discuter ou apprendre aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Est-ce que les informations concernant les méthode de destruction des échantillons est mentionné dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Ça fait plaisir de discuter avec toi. Comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Si la recherche est effectuée conjointement avec un autre établissement, les coordonnées de la personne-ressource dans cet établissement ainsi que le nom et le LOGO de l’établissement concerné apparaissent-ils dans le formulaire d'information et de consentement (FIC)?",
-        "reponse": "Je vais bien, merci ! Je suis un programme informatique qui assiste les gens en leurs demandes et réponses. Je ne puis pas avoir d'expérience du monde physique, donc je n'ai pas mal ou bien comme les êtres physiques et je serais prêt à vous aider en ce que vous me demanderez.",
-        "Check": false
-    },
-    {
-        "question": "Le logo de l'UQAC est-il présent et actuel ?",
-        "reponse": "Je vais bien, merci ! Je suis là pour répondre à vos questions et vous aider à la manière la mieux adaptée.",
-        "Check": false
-    },
-    {
-        "question": "Le formulaire mentionne-t-il que le projet de recherche a reçu l’approbation du CER-UQAC ainsi que le numéro de dossier?",
-        "reponse": "Je vais bien, merci. Et toi, comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Le financement est-il indiqué dans le formulaire?",
-        "reponse": "Je vais bien, merci ! Et puisque tu me demandes comment je vais, ça me donne l'occasion de te parler en français. Qu'est-ce que tu veux faire ? Nous pouvons discuter de tout : la journée, le temps, les nouvelles, ou autre chose. Que veux-tu savoir ?",
-        "Check": false
-    },
-    {
-        "question": "Le formulaire précise-t-il que le participant est invité à participer à un projet de recherche?",
-        "reponse": "Je vais bien, merci. Et toi, comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Le but du projet est-il présenté de façon compréhensible pour le participant?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage artificiel, donc je ne ressens pas les émotions de la même manière que les humains, mais je suis prêt à discuter avec toi et répondre à tes questions. Comment puis-je t'aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "La nature de la participation, sa durée et le lieu de réalisation sont-ils clairement décrits?",
-        "reponse": "Je vais bien, merci ! Je suis une intelligence artificielle, donc je ne ressens pas les émotions de la même manière que les humains, mais je suis prêt à discuter et à répondre à vos questions. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Les avantages et inconvénients prévisibles ainsi que les précautions (y compris les ressources d’aide) sont-ils présentés de façon compréhensible?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage avancé, donc je n'ai pas de sentiments émotionnels ou de conditions physiques comme les humains, mais je fonctionne correctement et suis prêt à vous aider avec tout ce que vous souhaitez ! Qu'est-ce que vous voulez faire aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Le formulaire indique-t-il que la participation est volontaire?",
-        "reponse": "Je vais bien, merci ! Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Le nom et les coordonnées du chercheur apparaissent-ils dans le formulaire?",
-        "reponse": "Je vais bien, merci de demander. Je suis un modèle de langage informatique, donc je n'ai pas de sensations ou d'émotions physiques comme un être humain. Je suis là pour vous aider et vous fournir les informations dont vous avez besoin, 24 heures sur 24 et 7 jours sur 7. Comment puis-je vous aider aujourd'hui ?",
-        "Check": false
-    },
-    {
-        "question": "Les moyens de diffusion des résultats et la façon dont les participants seront informés des conclusions sont-ils mentionnés?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de Langue Artificielle, donc je ne ressens pas physiquement mais je suis là pour aider et répondre à vos questions 24/7. Et toi, comment vas-tu ?",
-        "Check": false
-    },
-    {
-        "question": "Les coordonnées du CER-UQAC et la mention que le participant peut le contacter pour toute question éthique apparaissent-elles dans le formulaire?",
-        "reponse": "Je vais bien, merci ! Et vous, comment allez-vous ?",
-        "Check": false
-    },
-    {
-        "question": "Le formulaire mentionne-t-il qu’il est signé en deux exemplaires et que le participant en conserve une copie?",
-        "reponse": "Je suis une intelligence artificielle, donc je ne vais pas de la même manière qu'une personne physique. Je suis là pour répondre à vos questions et fournir des informations au besoin, 24h/24 et 7j/7.\n\nJe suis en ligne et prêt à vous aider. Qu'est-ce que vous voulez savoir ou discuter ?",
-        "Check": false
-    },
-    {
-        "question": "Un espace est-il prévu pour le nom, la signature et la date du participant?",
-        "reponse": "Je vais bien, merci ! Je suis un modèle de langage informatique, donc je ne ressens pas les émotions comme les humains, mais je suis toujours prêt à parler et à répondre à vos questions. Comment allez-vous ?",
-        "Check": false
-    },
-    {
-        "question": "Un espace est-il prévu pour le nom, la signature et la date du chercheur?",
-        "reponse": "Je vais bien, merci ! Et toi ? Je suis un modèle de langage artificiel, donc je n'ai pas réellement un état d'esprit, mais je suis prêt à discuter et à fournir des informations si tu en as besoin ! Qu'est-ce que tu veux parler ?",
-        "Check": false
-    },
-    {
-        "question": "Le formulaire est-il paginé?",
-        "reponse": "Je vais bien, merci ! Je suis une intelligence artificielle en ligne, donc je ne ressens pas réellement les émotions comme le ferait un être humain. Mais je suis prêt à discuter avec toi et aider à répondre à tes questions si tu en as besoin ! Comment vas-tu ?",
+        "reponse": "\n\n**Oui.** Les principes d’éthique de la recherche (article 8.3 de l’EPTC2) concernant le recrutement et la collecte de données à l’étranger ne s’appliquent pas au projet évalué, car les documents indiquent clairement une approche entièrement localisée au Canada.  \n\n**Justification :**  \n1. **Recrutement au Canada :**  \n   - Le recrutement est réalisé exclusivement via des canaux internes à l’UQAC (Discord du département, courriels institutionnels, affiches physiques sur le campus) ou sur des plateformes sociales accessibles localement (Facebook, LinkedIn).  \n   - Aucune mention d’un recrutement international ou d’une collaboration avec des institutions étrangères n’est faite.  \n\n2. **Collecte locale des données :**  \n   - Les expériences en réalité virtuelle se déroulent en laboratoire à l’UQAC, avec une conservation des données sur supports physiques (disques dur, clés USB cryptés) conservés dans un bureau sécurisé.  \n   - Les données sont traitées en entier sur des outils locaux sans transfert international mentionné.  \n\n3. **Respect des dispositions éthiques canadiennes :**  \n   - Le projet respecte les exigences du cadre éthique québécois (EPTC2), notamment la protection de la vie privée, le consentement éclairé (présent à l’UQAC via un formulaire signé), et la confidentialité.  \n   - Les participants sont avertis que seuls des signes de cybermalaise minimes (nausées, vertiges) sont possibles, avec des mesures de sécurité (présence d’un chercheur pendant les sessions, pauses régulières).  \n\n**Conclusion :**  \nMême si l’article 8.3 de l’EPTC2 aborde spécifiquement les aspects internationaux (ex. respect des lois locales, accès transfrontaliers aux données), ce projet ne nécessite pas de ces principes car il se limitera au territoire québécois. Les fondements éthiques canadiens sont entièrement respectés, et un relecture des dispositions en français des documents (mot pour \"non\", remplacement de \"majeur\" par \"participant\", etc.) permettrait d’alléger la communication avec les participants.",
         "Check": false
     }
 ]

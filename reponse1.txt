@@ -1,0 +1,20 @@
+Non. Les objectifs de l'étude sont clairement présentés dans le projet de recherche, mais ils ne permettent pas de confirmer qu'ils respectent pleinement les trois principes directeurs de l'EPTC2, surtout quant à la justice et la justice distributive.  
+
+**Explications et justifications** :  
+1. **Respect de la personne** :  
+   - Les objectifs (détection des signaux biométriques pour prédire le cybermalaise) encouragent l'autonomie des participants par un consentement éclairé, comme l'illustrent les formulaires détaillés. L'emphase sur la confidentialité des données (codes numériques, suppression des-mails) et le droit de retrait durant et après l'étude (§ 5.7) respecte leur dignité.  
+   - **Cependant**, l'utilisation d'un recrutement ciblé sur la communauté universitaire (Discord du DIM, infolettres) peut limiter la diversité des participants, atténuant le principe si des groupes vulnérables ou représentatifs ne sont pas inclus.  
+
+2. **Bien-être des participants** :  
+   - Les objectifs secondaires visent à anticiper et réduire les symptômes de cybermalaise (nausées, vertiges), alignant avec le principe de bienfaisance. Les mesures de sécurité (calibration du casque, supervision en temps réel, pauses fréquentes) explicitées dans le §4.1 minimisent les risques physiques.
+   - **Mais**, le manque de bénéfice direct pour les participants soulève un questionnement : bien qu'iI soit admis (§4.2), une compensation modeste de 10$ (§3.2) semble insuffisante pour compenser une exposition risible à des inconforts physiologiques.
+
+3. **Justice** :
+   - Les critères d'inclusion/exclusion sont rigoureux (âge >18 ans, exclusion de troubles neurologiques, sensibilité au mal des transport), ce qui garantit un profil homogène. Cependant, l’**accès limité à cette population** (étudiants/faculté du DIM) et le recrutement via des réseaux internes posent des problèmes de justice :
+     - Seuls réellement en mesure de subir des effets de cybermalaise (ex. personnes sensibles aux écrans) sont exclus, ce qui neutralise l'objectif initial d'étude mais exclut également celles qui pourraient bénéficier *directement* de la sécurité du système (ex. patients souffrant de migraines fréquentes).
+     - Aucune justification n'est fournie pour expliquer pourquoi des groupes plus diversifiés ou vulnérables (ex. personnes ayant des troubles vestibulaires) ne sont pas inclus.
+
+**Recommandations** :
+1. Expliquer explicitement **l'équilibre entre éthique et méthodologie** (ex. "Les critères d'exclusion visent X objectif sans minorer le but de justice").
+2. **Pondérer la compensation** en fonction des risques (cf. EPTC2 §7.7).
+3. **Améliorer l'inclusivité** : proposer des scénarios variés de VR pour attirer d'autres profils (ex. tests sur des groups ouverts via des associations de patients).

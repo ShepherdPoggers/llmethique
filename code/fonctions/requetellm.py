@@ -1,7 +1,7 @@
 # pip install openai>=1.40
 from openai import OpenAI
 from groq import Groq
-
+"""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"""
 def requete(prompt):
     client = OpenAI(
         base_url="http://localhost:1234/v1",  # port par défaut LM Studio
@@ -20,6 +20,24 @@ def requete(prompt):
 
     return resp.choices[0].message.content
 
+
+def requetopenrouter(prompt):
+    client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key="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",
+    )
+
+    completion = client.chat.completions.create(
+    extra_body={},
+    model="alibaba/tongyi-deepresearch-30b-a3b:free",
+    messages=[
+        {
+        "role": "user",
+        "content": prompt
+        }
+    ]
+    )
+    return completion.choices[0].message.content
 
 
 def requetGroq(prompt):
