@@ -30,6 +30,7 @@ def requetopenrouter(prompt):
     completion = client.chat.completions.create(
     extra_body={},
     model="openai/gpt-oss-20b:free",
+
     messages=[
         {
         "role": "user",
