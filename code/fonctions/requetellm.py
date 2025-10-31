@@ -29,7 +29,7 @@ def requetopenrouter(prompt):
 
     completion = client.chat.completions.create(
     extra_body={},
-    model="alibaba/tongyi-deepresearch-30b-a3b:free",
+    model="qwen/qwen3-coder:free",
     messages=[
         {
         "role": "user",
