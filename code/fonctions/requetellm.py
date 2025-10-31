@@ -29,7 +29,7 @@ def requetopenrouter(prompt):
 
     completion = client.chat.completions.create(
     extra_body={},
-    model="alibaba/tongyi-deepresearch-30b-a3b:free",
+    model="openai/gpt-oss-20b:free",
     messages=[
         {
         "role": "user",
