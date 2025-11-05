@@ -1,9 +1,14 @@
+<!DOCTYPE html>
+<html>
+
 <head>
   <meta charset="utf-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -67,11 +72,13 @@
 
       <div class="field">
         <label for="autorisationDonneesSecondaires">Obtention de l'autorisation (données secondaires)</label>
-        <input type="file" id="autorisationDonneesSecondaires" name="autorisationDonneesSecondaires" accept=".pdf,.docx" multiple />
+        <input type="file" id="autorisationDonneesSecondaires" name="autorisationDonneesSecondaires" accept=".pdf,.docx"
+          multiple />
       </div>
 
       <div class="field">
-        <label for="descriptionCollecte">Description de la collecte de données (Autre type de collecte de données)</label>
+        <label for="descriptionCollecte">Description de la collecte de données (Autre type de collecte de
+          données)</label>
         <input type="file" id="descriptionCollecte" name="descriptionCollecte" accept=".pdf,.docx" multiple />
       </div>
 
@@ -89,4 +96,5 @@
 
   <p class="note-projet">Veuillez déposer seulement les documents en lien avec votre projet.</p>
 </body>
+
 </html>

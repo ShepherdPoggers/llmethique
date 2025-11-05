@@ -1,0 +1,591 @@
+/* ==========================================================================
+   Thème UQAC – Page Résultat
+   Auteur : toi :)
+   Description : styles organisés + accessibles, avec modale
+   ========================================================================== */
+
+/* === Import police === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* === Variables === */
+:root {
+  --uqac-vert: #5a7411;
+  --uqac-vert-dark: #475a0e;
+  --uqac-beige: #f5f3ec;
+  --uqac-brun: #7a6a4f;
+
+  --fond: #f9f9f9;
+  --txt: #1a1a1a;
+  --gris-600: #5a5a5a;
+  --bordure: #e6e6e6;
+  --rouge: #b00020;
+
+  --rayon: 14px;
+  --ombre: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --ombre-focus: 0 0 0 3px rgba(90,116,17,0.28);
+
+  --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* === Base / Reset léger === */
+html,
+body {
+  background: linear-gradient(180deg, var(--fond) 0%, #fff 100%);
+  color: var(--txt);
+  font-family: var(--font);
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+/* Meilleure gestion du box-model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Liens (au cas où) */
+a {
+  color: var(--uqac-vert);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Focus accessible global (clavier) */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: none;
+  box-shadow: var(--ombre-focus);
+  border-color: var(--uqac-vert);
+}
+
+/* Réduction de mouvement (accessibilité) */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   Titre principal
+   ========================================================================== */
+
+h1 {
+  color: var(--uqac-vert-dark);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin: 2.5rem auto 2rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1::after {
+  background: var(--uqac-vert);
+  border-radius: 2px;
+  content: "";
+  display: block;
+  height: 4px;
+  margin: 0.8rem auto 0;
+  width: 60px;
+}
+
+/* ==========================================================================
+   Conteneur des résultats
+   ========================================================================== */
+
+#questionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 0 auto;
+  max-width: 880px;
+  padding: 0 1.5rem 3rem;
+}
+
+/* ==========================================================================
+   Carte (article) – question + réponse
+   ========================================================================== */
+
+#questionContainer article {
+  background: #fff;
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  line-height: 1.65;
+  padding: 1.6rem 1.8rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#questionContainer article:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Titre de la question */
+#questionContainer article h2 {
+  color: var(--uqac-vert);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 0.8rem 0;
+}
+
+/* Zone de réponse (le <div> interne) */
+#questionContainer article > div {
+  background: var(--uqac-beige);
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  color: var(--gris-600);
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 1.7;
+  max-height: 150px;      /* limite visuelle */
+  overflow-y: auto;       /* scroll si long */
+  padding: 1rem 1.2rem;
+  text-align: justify;
+}
+
+/* Scrollbar raffinée (WebKit) */
+#questionContainer article > div::-webkit-scrollbar {
+  width: 8px;
+}
+#questionContainer article > div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+#questionContainer article > div::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+#questionContainer article > div::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* États : valide / non valide (bordure latérale) */
+article.valide {
+  animation: fadeValide 0.8s ease;
+  border-left: 8px solid var(--uqac-vert);
+}
+article.nonValide {
+  animation: fadeNonValide 0.8s ease;
+  border-left: 8px solid var(--rouge);
+}
+
+/* Animations d’apparition légère */
+@keyframes fadeValide {
+  from { background-color: rgba(90,116,17,0.08); }
+  to   { background-color: #fff; }
+}
+@keyframes fadeNonValide {
+  from { background-color: rgba(176,0,32,0.08); }
+  to   { background-color: #fff; }
+}
+
+/* ==========================================================================
+   Modale / Overlay
+   ========================================================================== */
+
+/* Overlay plein écran */
+.overlay {
+  align-items: center;
+  animation: fadeIn 0.2s ease;
+  backdrop-filter: blur(4px);
+  background: rgba(26, 26, 26, 0.55);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+}
+
+/* Carte modale */
+.modal-card {
+  animation: popIn 0.18s ease;
+  background: #fff;
+  border-radius: var(--rayon);
+  border-top: 8px solid var(--uqac-vert);
+  box-shadow: var(--ombre);
+  max-width: 760px;
+  padding: 1.6rem 1.8rem;
+  position: relative;
+  width: min(92vw, 760px);
+}
+
+/* Bandeau selon statut */
+.modal-card.valide { border-top-color: var(--uqac-vert); }
+.modal-card.nonValide { border-top-color: var(--rouge); }
+
+/* Bouton de fermeture */
+.modal-close {
+  background: transparent;
+  border: 0;
+  color: var(--gris-600);
+  cursor: pointer;
+  font-size: 1.8rem;
+  line-height: 1;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+.modal-close:hover { color: var(--rouge); }
+
+/* Contenu de la modale (hérite des styles) */
+.modal-card h2 {
+  color: var(--uqac-vert-dark);
+  margin: 0 0 0.8rem 0;
+}
+.modal-card > div {
+  background: var(--uqac-beige);
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  max-height: 55vh;
+  overflow: auto;
+  padding: 1rem 1.2rem;
+}
+
+/* Animations modale */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes popIn {
+  from { transform: scale(0.96); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 700px) {
+  #questionContainer article {
+    padding: 1.2rem 1.3rem;
+  }
+  #questionContainer article h2 {
+    font-size: 1.1rem;
+  }
+  #questionContainer article > div {
+    font-size: 0.98rem;
+  }
+}
+
+/* ==========================================================================
+   (Optionnel) Impression simple
+   ========================================================================== */
+
+@media print {
+  .overlay { display: none !important; }
+  #questionContainer article {
+    box-shadow: none;
+    border-left-width: 4px;
+    page-break-inside: avoid;
+  }
+}
+/* ==========================================================================
+   Thème UQAC – Page Résultat
+   Auteur : toi :)
+   Description : styles organisés + accessibles, avec modale
+   ========================================================================== */
+
+/* === Import police === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* === Variables === */
+:root {
+  --uqac-vert: #5a7411;
+  --uqac-vert-dark: #475a0e;
+  --uqac-beige: #f5f3ec;
+  --uqac-brun: #7a6a4f;
+
+  --fond: #f9f9f9;
+  --txt: #1a1a1a;
+  --gris-600: #5a5a5a;
+  --bordure: #e6e6e6;
+  --rouge: #b00020;
+
+  --rayon: 14px;
+  --ombre: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --ombre-focus: 0 0 0 3px rgba(90,116,17,0.28);
+
+  --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* === Base / Reset léger === */
+html,
+body {
+  background: linear-gradient(180deg, var(--fond) 0%, #fff 100%);
+  color: var(--txt);
+  font-family: var(--font);
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+/* Meilleure gestion du box-model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Liens (au cas où) */
+a {
+  color: var(--uqac-vert);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Focus accessible global (clavier) */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: none;
+  box-shadow: var(--ombre-focus);
+  border-color: var(--uqac-vert);
+}
+
+/* Réduction de mouvement (accessibilité) */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   Titre principal
+   ========================================================================== */
+
+h1 {
+  color: var(--uqac-vert-dark);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin: 2.5rem auto 2rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1::after {
+  background: var(--uqac-vert);
+  border-radius: 2px;
+  content: "";
+  display: block;
+  height: 4px;
+  margin: 0.8rem auto 0;
+  width: 60px;
+}
+
+/* ==========================================================================
+   Conteneur des résultats
+   ========================================================================== */
+
+#questionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 0 auto;
+  max-width: 880px;
+  padding: 0 1.5rem 3rem;
+}
+
+/* ==========================================================================
+   Carte (article) – question + réponse
+   ========================================================================== */
+
+#questionContainer article {
+  background: #fff;
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  line-height: 1.65;
+  padding: 1.6rem 1.8rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#questionContainer article:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Titre de la question */
+#questionContainer article h2 {
+  color: var(--uqac-vert);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 0.8rem 0;
+}
+
+article.nonValide::before {
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='white'><rect x='2' y='2' width='20' height='20' rx='3' ry='3' transform='rotate(45 12 12)' fill='url(%23grad)'/><text x='12' y='17' text-anchor='middle' font-size='16' font-family='Arial' font-weight='bold'>!</text><defs><linearGradient id='grad' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23FFD54F'/><stop offset='100%' stop-color='%23FFA000'/></linearGradient></defs></svg>");
+  position: absolute;
+  left: 2px;
+}
+
+
+/* Pour redresser le "!" dans le losange */
+
+/* Zone de réponse (le <div> interne) */
+#questionContainer article > div {
+  background: var(--uqac-beige);
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  color: var(--gris-600);
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 1.7;
+  max-height: 150px;      /* limite visuelle */
+  overflow-y: auto;       /* scroll si long */
+  padding: 1rem 1.2rem;
+  text-align: justify;
+}
+
+/* Scrollbar raffinée (WebKit) */
+#questionContainer article > div::-webkit-scrollbar {
+  width: 8px;
+}
+#questionContainer article > div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+#questionContainer article > div::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+#questionContainer article > div::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* États : valide / non valide (bordure latérale) */
+article.valide {
+  animation: fadeValide 0.8s ease;
+  border-left: 8px solid var(--uqac-vert);
+}
+article.nonValide {
+  animation: fadeNonValide 0.8s ease;
+  border-left: 8px solid var(--rouge);
+}
+
+/* Animations d’apparition légère */
+@keyframes fadeValide {
+  from { background-color: rgba(90,116,17,0.08); }
+  to   { background-color: #fff; }
+}
+@keyframes fadeNonValide {
+  from { background-color: rgba(176,0,32,0.08); }
+  to   { background-color: #fff; }
+}
+
+/* ==========================================================================
+   Modale / Overlay
+   ========================================================================== */
+
+/* Overlay plein écran */
+.overlay {
+  align-items: center;
+  animation: fadeIn 0.2s ease;
+  backdrop-filter: blur(4px);
+  background: rgba(26, 26, 26, 0.55);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+}
+
+/* Carte modale */
+.modal-card {
+  animation: popIn 0.18s ease;
+  background: #fff;
+  border-radius: var(--rayon);
+  border-top: 8px solid var(--uqac-vert);
+  box-shadow: var(--ombre);
+  max-width: 760px;
+  padding: 1.6rem 1.8rem;
+  position: relative;
+  width: min(92vw, 760px);
+}
+
+/* Bandeau selon statut */
+.modal-card.valide { border-top-color: var(--uqac-vert); }
+.modal-card.nonValide { border-top-color: var(--rouge); }
+
+/* Bouton de fermeture */
+.modal-close {
+  background: transparent;
+  border: 0;
+  color: var(--gris-600);
+  cursor: pointer;
+  font-size: 1.8rem;
+  line-height: 1;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+.modal-close:hover { color: var(--rouge); }
+
+/* Contenu de la modale (hérite des styles) */
+.modal-card h2 {
+  color: var(--uqac-vert-dark);
+  margin: 0 0 0.8rem 0;
+}
+.modal-card > div {
+  background: var(--uqac-beige);
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  max-height: 55vh;
+  overflow: auto;
+  padding: 1rem 1.2rem;
+}
+
+/* Animations modale */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes popIn {
+  from { transform: scale(0.96); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 700px) {
+  #questionContainer article {
+    padding: 1.2rem 1.3rem;
+  }
+  #questionContainer article h2 {
+    font-size: 1.1rem;
+  }
+  #questionContainer article > div {
+    font-size: 0.98rem;
+  }
+}
+
+/* ==========================================================================
+   (Optionnel) Impression simple
+   ========================================================================== */
+
+@media print {
+  .overlay { display: none !important; }
+  #questionContainer article {
+    box-shadow: none;
+    border-left-width: 4px;
+    page-break-inside: avoid;
+  }
+}

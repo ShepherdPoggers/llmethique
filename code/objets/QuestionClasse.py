@@ -50,7 +50,8 @@ class Question():
 
             Dans les deux cas, commence ta réponse par un "Oui" ou un "Non" clair.
             Exemples : "Non. La..." ou "Oui. le Non. ou le Oui. ne doit pas etre entouere de carcatere specieaux ou de saut de ligne ou autre Le dossier...".
-            Si la question ne s'applique pas au projet de recherche met Oui. cependant explique tout de meme ton resonement comme précédemment.
+            Si la question ne s'applique pas au projet de recherche met Oui. cependant explique tout de meme ton resonement comme précédemment. Formate ton texte
+            d'une manière simple sans superflu.Le texte ne doit pas contenir de gras, d'italic etc. 
 
             La question à évaluer est : {self._question}
 

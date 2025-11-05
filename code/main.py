@@ -1,10 +1,12 @@
 import os
 from objets.DocumentClasse import Document
-from flask import Flask, request, render_template
+from flask import Flask, request, session, render_template, jsonify
+from flask_session import Session
 from werkzeug.utils import secure_filename
 from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
 from fonctions.requetellm import requete, requetGroq, requetopenrouter
 import json
+from datetime import datetime
 
 EXTENSIONS = ['.pdf', '.docx']
 
@@ -24,13 +26,17 @@ def delDocument(listeFicher):
             os.remove((app.config['UPLOAD_FOLDER'] + '\\' + chemin))
 
 def writeJson(data):
-    with open("questions_reponses.json", "w", encoding="utf-8") as f:
+    with open(f"code/data/jsonProf/{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 app = Flask(__name__)
 app.secret_key = 'ton_secret_unique'
 app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_PERMANENT'] = False
+app.config['SESSION_FILE_DIR'] = "code\data\session"
 app.config['UPLOAD_FOLDER'] = 'code\\uploads'
+
+Session(app)
 
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
@@ -57,37 +63,48 @@ def UploadFile():
 ]
 
     if request.method == 'POST':
-       
-        for fichier in listeFicher:
-            files = request.files.getlist(str(fichier)) 
-            chemins = []
-            texte = []
-            
-            for file in files:
-                if ExtensionRight(file.filename): 
-                        print("Ca marche")
-                        filename = secure_filename(file.filename) #Normalise les noms des documents
-                        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename)) #Sauvegarde dans le fichier uploads le document
-                        chemins.append(filename) #Ajoute le path à une liste
-                        texte.append(PdfOrDocx(app.config['UPLOAD_FOLDER'] + '\\' + filename))
-            fichier.SetChemin(chemins)
-            fichier.SetTexte(texte)
-        lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
-        for question in lsiteQuestion:
-            reponse = requetopenrouter(question.PromptGen())
-            if reponse[:3].lower() == 'oui':
-                question.SetValide(True)
-            else:
-                question.SetValide(False)
-            question.SetReponse(reponse)
-            
-        json = [{"question": str(question), "reponse": question.getReponse(), "Check": question.GetValide()} for question in lsiteQuestion]    
-        writeJson(json)
-        
-        delDocument(listeFicher)
+        try:
+            for fichier in listeFicher:
+                files = request.files.getlist(str(fichier)) 
+                chemins = []
+                texte = []
+                
+                for file in files:
+                    if ExtensionRight(file.filename): 
+                            print("Ca marche")
+                            filename = secure_filename(file.filename) #Normalise les noms des documents
+                            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename)) #Sauvegarde dans le fichier uploads le document
+                            chemins.append(filename) #Ajoute le path à une liste
+                            texte.append(PdfOrDocx(app.config['UPLOAD_FOLDER'] + '\\' + filename))
+                fichier.SetChemin(chemins)
+                fichier.SetTexte(texte)
+            lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
+            for question in lsiteQuestion:
+                reponse = requetopenrouter(question.PromptGen())
+                if reponse[:3].lower() == 'oui':
+                    question.SetValide(True)
+                    
+                else:
+                    question.SetValide(False)
+                question.SetReponse(reponse)
+                
+            jsonFile = [{"question": str(question), "reponse": question.getReponse(), "Check": question.GetValide()} for question in lsiteQuestion]    
+            session['JSON'] = jsonFile
+            writeJson(jsonFile)
+            delDocument(listeFicher)
+        except:
+            with open('questions_reponses.json', 'r', encoding='UTF-8') as file:
+                session['JSON'] = json.load(file)
+                delDocument(listeFicher)
+
+        return render_template('resultat.html')
     
     return render_template('index.html')
 
+@app.route("/give_json")
+def giveJson():
+    data = session['JSON']
+    return jsonify(data)
 
 if __name__ == "__main__":
     app.run(debug=False)
