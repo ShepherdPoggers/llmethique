@@ -172,11 +172,12 @@ h1::after {
 /* États : valide / non valide (bordure latérale) */
 article.valide {
   animation: fadeValide 0.8s ease;
-  border-left: 8px solid var(--uqac-vert);
+  border-left: 8px solid var(--uqac-vert) !important;
+  ;
 }
 article.nonValide {
   animation: fadeNonValide 0.8s ease;
-  border-left: 8px solid var(--rouge);
+  border-left: 8px solid var(--rouge) !important;
 }
 
 /* Animations d’apparition légère */
@@ -428,11 +429,7 @@ h1::after {
   margin: 0 0 0.8rem 0;
 }
 
-article.nonValide::before {
-  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='white'><rect x='2' y='2' width='20' height='20' rx='3' ry='3' transform='rotate(45 12 12)' fill='url(%23grad)'/><text x='12' y='17' text-anchor='middle' font-size='16' font-family='Arial' font-weight='bold'>!</text><defs><linearGradient id='grad' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23FFD54F'/><stop offset='100%' stop-color='%23FFA000'/></linearGradient></defs></svg>");
-  position: absolute;
-  left: 2px;
-}
+
 
 
 /* Pour redresser le "!" dans le losange */
@@ -473,10 +470,13 @@ article.nonValide::before {
 article.valide {
   animation: fadeValide 0.8s ease;
   border-left: 8px solid var(--uqac-vert);
+  border-top-color: var(--uqac-vert);
 }
 article.nonValide {
+  border-top-color: var(--rouge);
   animation: fadeNonValide 0.8s ease;
   border-left: 8px solid var(--rouge);
+
 }
 
 /* Animations d’apparition légère */
@@ -550,6 +550,8 @@ article.nonValide {
   overflow: auto;
   padding: 1rem 1.2rem;
 }
+
+
 
 /* Animations modale */
 @keyframes fadeIn {

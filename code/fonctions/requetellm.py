@@ -9,7 +9,7 @@ def requete(prompt):
     )
 
     resp = client.chat.completions.create(
-        model="openai/gpt-oss-20b",               # exactement comme affiché dans LM Studio
+        model="microsoft/phi-4-reasoning-plus",               # exactement comme affiché dans LM Studio
         messages=[
             {"role": "user", "content": prompt}
         ],

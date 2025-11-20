@@ -7,6 +7,7 @@ from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, P
 from fonctions.requetellm import requete, requetGroq, requetopenrouter
 import json
 from datetime import datetime
+import re
 
 EXTENSIONS = ['.pdf', '.docx']
 
@@ -80,7 +81,9 @@ def UploadFile():
                 fichier.SetTexte(texte)
             lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
             for question in lsiteQuestion:
-                reponse = requetopenrouter(question.PromptGen())
+                reponse = requete(question.PromptGen())
+                reponse = requete(question.PromptGen()).strip()
+                reponse_sans_think = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL).strip()
                 if reponse[:3].lower() == 'oui':
                     question.SetValide(True)
                     
@@ -92,7 +95,8 @@ def UploadFile():
             session['JSON'] = jsonFile
             writeJson(jsonFile)
             delDocument(listeFicher)
-        except:
+        except Exception as e:
+            print(e)
             with open('questions_reponses.json', 'r', encoding='UTF-8') as file:
                 session['JSON'] = json.load(file)
                 delDocument(listeFicher)

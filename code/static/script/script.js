@@ -9,8 +9,8 @@ async function loadReponse() {
             let article = document.createElement('article')
             article.innerHTML = `
         <h2>${element.question}</h2>
-        <div>${element.reponse}</div>
-        `;
+        `
+        article.dataset.reponse = element.reponse;;
         if(element.Check)
         {
             article.classList.add('valide')
@@ -34,7 +34,8 @@ function openOverlay(article) {
   const content = `
     <div class="modal-card ${article.classList.contains('valide') ? 'valide' : 'nonValide'}">
       <button class="modal-close" aria-label="Fermer">×</button>
-      ${article.innerHTML}
+      <h2> ${article.querySelector('h2').textContent} </h2> 
+      <div> ${article.dataset.reponse} </div>
     </div>
   `;
 
