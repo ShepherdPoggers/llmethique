@@ -11,6 +11,8 @@ import re
 
 EXTENSIONS = ['.pdf', '.docx']
 
+
+
 def WriteTxt(prompt, name):
     with open(f'{name}.txt', 'w', encoding='UTF-8') as file:
         file.write(prompt)
@@ -35,7 +37,7 @@ app.secret_key = 'ton_secret_unique'
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = False
 app.config['SESSION_FILE_DIR'] = "code\data\session"
-app.config['UPLOAD_FOLDER'] = 'code\\uploads'
+app.config['UPLOAD_FOLDER'] = 'code/uploads'
 
 Session(app)
 
@@ -82,7 +84,7 @@ def UploadFile():
             lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
             for question in lsiteQuestion:
                 reponse = requete(question.PromptGen())
-                reponse = requete(question.PromptGen()).strip()
+                #reponse = requete(question.PromptGen()).strip()
                 reponse_sans_think = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL).strip()
                 if reponse[:3].lower() == 'oui':
                     question.SetValide(True)

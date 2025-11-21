@@ -1,6 +1,10 @@
 from RAG.split import chunckSplit
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+EMBED = HuggingFaceEmbeddings(
+    model_name="intfloat/multilingual-e5-base",
+    encode_kwargs={"normalize_embeddings": True})
+
 
 def  embeding():
     paragraphe = chunckSplit(r'code\RAG\tcps2-2022-fr-pageutile.pdf')
@@ -12,13 +16,11 @@ def  embeding():
     vs.save_local("index_faiss_tcps2")
     
 def getSegment(question):
-    embed = HuggingFaceEmbeddings(
-    model_name="intfloat/multilingual-e5-base",
-    encode_kwargs={"normalize_embeddings": True}
-)
+    
+
     vs = FAISS.load_local(
         "index_faiss_tcps2",
-        embeddings=embed,
+        embeddings=EMBED,
         allow_dangerous_deserialization=True  # nécessaire avec LangChain >=0.2
     )
     
