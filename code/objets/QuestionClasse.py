@@ -49,7 +49,7 @@ class Question():
             et actionnable pour que le chercheur puisse corriger les documents.
 
             
-            Dans les deux cas, commence ta réponse par un "Oui" ou un "Non" clair.
+            Dans les deux cas, commence ta réponse par un "Oui", "Non" ou ne s'applique pas clair.
             Exemples : "Non. La..." ou "Oui. le Non. ou le Oui. ne doit pas etre entouere de carcatere specieaux ou de saut de ligne ou autre Le dossier...".
             Si la question ne s'applique pas au projet de recherche met Oui. cependant explique tout de meme ton resonement comme précédemment. Formate ton texte
             d'une manière simple sans superflu.Le texte ne doit pas contenir de gras, d'italic etc. NE RÉPONDS QU'EN FRANÇAIS. 
@@ -64,6 +64,8 @@ class Question():
             - Chunk 3 : {ragSegment3.page_content}
             - Chunk 4 : {ragSegment4.page_content}
             - Chunk 5 : {ragSegment5.page_content}
-            """
+            Ta réponse doit obligatoirement débuter par "Oui", "Non", ou "Ne s'applique pas" et doit exclusivement contenir du texte en FRANÇAIS.
+            """ + r" \no_think"
+        
 
         return prompt

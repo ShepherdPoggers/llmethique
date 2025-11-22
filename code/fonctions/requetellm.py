@@ -11,10 +11,9 @@ def requete(prompt):
     resp = client.chat.completions.create(
         model="microsoft/phi-4-reasoning-plus",               # exactement comme affiché dans LM Studio
         messages=[
-            {"role": "user", "content": prompt}
+            {"role": "user", "con tent": prompt}
         ],
         temperature=0.3,
-        max_tokens=300,
         timeout=200000
     )
 
