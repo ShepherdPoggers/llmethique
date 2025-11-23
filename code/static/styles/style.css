@@ -176,3 +176,53 @@ html, body{
 @media (prefers-reduced-motion: reduce){
   *{ transition: none !important; }
 }
+
+/* ===== Barre de chargement (progress) ===== */
+
+#loading-container{
+  display: none;                       /* caché par défaut, affiché par le JS au submit */
+  max-width: 960px;
+  margin: 0 auto 2rem;
+  padding: 12px 18px 16px;
+  background: #fff;
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  font-family: var(--font);
+}
+
+.loading-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: var(--gris-600);
+}
+
+.loading-title{
+  font-weight: 600;
+}
+
+#progress-text{
+  font-weight: 600;
+  color: var(--uqac-vert-dark);
+}
+
+/* Bar container */
+.loading-bar{
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+/* Remplissage de la barre (contrôlé par le JS via width:%) */
+.loading-bar-fill{
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--uqac-vert), var(--uqac-vert-dark));
+  border-radius: inherit;
+  transition: width 0.3s ease;
+}

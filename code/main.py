@@ -13,6 +13,7 @@ EXTENSIONS = ['.pdf', '.docx']
 
 
 
+
 def WriteTxt(prompt, name):
     with open(f'{name}.txt', 'w', encoding='UTF-8') as file:
         file.write(prompt)
@@ -26,11 +27,28 @@ def ExtensionRight(fileName: str) -> bool:
 def delDocument(listeFicher):
     for fichiers in listeFicher:
         for chemin in fichiers.GetChemin():
-            os.remove((app.config['UPLOAD_FOLDER'] + '\\' + chemin))
+            os.remove((app.config['UPLOAD_FOLDER'] + '/' + chemin))
 
 def writeJson(data):
     with open(f"code/data/jsonProf/{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+def creerListeFichier():
+    return [
+    Document('F1'),
+    Document('FIC'),
+    Document('outilsRecrutement'),
+    Document('financement'),
+    Document('rechercheMilieu'),
+    Document('questionnaires'),
+    Document('guideEntrevue'),
+    Document('guideDiscussions'),
+    Document('guideObservation'),
+    Document('instrumentsMesure'),
+    Document('autorisationDonneesSecondaires'),
+    Document('descriptionCollecte'),
+    Document('preuveCGRB')
+]
 
 app = Flask(__name__)
 app.secret_key = 'ton_secret_unique'
@@ -49,21 +67,7 @@ def UploadFile():
     
     #Initie les types de documents pour après bien classer les fichiers lors de l'uppload
     
-    listeFicher = [
-    Document('F1'),
-    Document('FIC'),
-    Document('outilsRecrutement'),
-    Document('financement'),
-    Document('rechercheMilieu'),
-    Document('questionnaires'),
-    Document('guideEntrevue'),
-    Document('guideDiscussions'),
-    Document('guideObservation'),
-    Document('instrumentsMesure'),
-    Document('autorisationDonneesSecondaires'),
-    Document('descriptionCollecte'),
-    Document('preuveCGRB')
-]
+    listeFicher = creerListeFichier()
 
     if request.method == 'POST':
         try:
@@ -78,20 +82,27 @@ def UploadFile():
                             filename = secure_filename(file.filename) #Normalise les noms des documents
                             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename)) #Sauvegarde dans le fichier uploads le document
                             chemins.append(filename) #Ajoute le path à une liste
-                            texte.append(PdfOrDocx(app.config['UPLOAD_FOLDER'] + '\\' + filename))
+                            texte.append(PdfOrDocx(app.config['UPLOAD_FOLDER'] + '/' + filename))
                 fichier.SetChemin(chemins)
                 fichier.SetTexte(texte)
+            
             lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
+            
+            session['PROGRESS'] = {"total" : len(lsiteQuestion), "current" : 0}
+            
+            
             for question in lsiteQuestion:
-                reponse = requete(question.PromptGen())
-                #reponse = requete(question.PromptGen()).strip()
-                reponse_sans_think = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL).strip()
+                reponse = requetopenrouter(question.PromptGen())
                 if reponse[:3].lower() == 'oui':
                     question.SetValide(True)
                     
-                else:
+                elif reponse[:3].lower() == 'non':
                     question.SetValide(False)
+                else:
+                    question.SetValide(None)
                 question.SetReponse(reponse)
+                session["PROGRESS"]["current"] += 1
+
                 
             jsonFile = [{"question": str(question), "reponse": question.getReponse(), "Check": question.GetValide()} for question in lsiteQuestion]    
             session['JSON'] = jsonFile
@@ -111,6 +122,12 @@ def UploadFile():
 def giveJson():
     data = session['JSON']
     return jsonify(data)
+
+@app.route('/progress')
+def get_progress():
+    data = session['PROGRESS']
+    return jsonify(data)
+
 
 if __name__ == "__main__":
     app.run(debug=False)

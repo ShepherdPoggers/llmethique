@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+  <script src="{{ url_for('static', filename='script/indexscript.js') }}" defer></script>
 </head>
 
 <body>
@@ -94,7 +94,21 @@
     </div>
   </form>
 
+  <div id="loading-container" style="display:none;">
+    <div class="loading-header">
+      <span class="loading-title">Analyse en cours...</span>
+      <span id="progress-text">(0 / 0)</span>
+    </div>
+    <div class="loading-bar">
+      <div class="loading-bar-fill" id="progress-bar"></div>
+    </div>
+  </div>
   <p class="note-projet">Veuillez déposer seulement les documents en lien avec votre projet.</p>
+
+
+
+
+
 </body>
 
 </html>

@@ -180,6 +180,11 @@ article.nonValide {
   border-left: 8px solid var(--rouge) !important;
 }
 
+article.NA {
+  animation: fadeNonValide 0.8s ease;
+  border-left: 8px solid var(--gris-600) !important;
+}
+
 /* Animations d’apparition légère */
 @keyframes fadeValide {
   from { background-color: rgba(90,116,17,0.08); }
@@ -223,6 +228,8 @@ article.nonValide {
 /* Bandeau selon statut */
 .modal-card.valide { border-top-color: var(--uqac-vert); }
 .modal-card.nonValide { border-top-color: var(--rouge); }
+.modal-card.NA { border-top-color: var(--gris-600); }
+
 
 /* Bouton de fermeture */
 .modal-close {
