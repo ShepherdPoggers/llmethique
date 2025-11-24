@@ -4,18 +4,19 @@ from groq import Groq
 """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"""
 def requete(prompt):
     client = OpenAI(
-        base_url="http://localhost:1234/v1",  # port par défaut LM Studio
+        base_url="http://100.103.185.35:5000/v1",  # port par défaut LM Studio
         api_key="lm-studio"                   # n'importe quelle chaîne non vide
     )
-
+    
     resp = client.chat.completions.create(
-        model="microsoft/phi-4-reasoning-plus",               # exactement comme affiché dans LM Studio
+        model="Qwen3-30B-A3B-exl2",               # exactement comme affiché dans LM Studio
         messages=[
-            {"role": "user", "con tent": prompt}
+            {"role": "user", "content": prompt}
         ],
         temperature=0.3,
         timeout=200000
     )
+   
 
     return resp.choices[0].message.content
 

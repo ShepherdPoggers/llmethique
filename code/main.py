@@ -93,7 +93,6 @@ Session(app)
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 
-
 @app.route('/', methods=['GET', 'POST'])
 def UploadFile():
     """Permet de gérer l'upload des fichiers sur le serveur"""
@@ -127,6 +126,11 @@ def UploadFile():
         return render_template('resultat.html')
     
     return render_template('index.html')
+
+@app.before_request
+def init_progress():
+    if 'PROGRESS' not in session:
+        session['PROGRESS'] = {"total": 0, "current": 0}
 
 @app.route("/give_json")
 def giveJson():

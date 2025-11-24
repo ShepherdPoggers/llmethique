@@ -78,7 +78,7 @@ class Question():
             - Chunk 3 : {ragSegment3.page_content}
             - Chunk 4 : {ragSegment4.page_content}
             - Chunk 5 : {ragSegment5.page_content}
-            """ + r" \no_think"
+            """ + r"\no_think"
         
 
         return prompt
