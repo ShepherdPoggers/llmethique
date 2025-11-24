@@ -7,6 +7,7 @@ EMBED = HuggingFaceEmbeddings(
 
 
 def  embeding():
+    """Permet de faire un embeding sur des chunks"""
     paragraphe = chunckSplit(r'code\RAG\tcps2-2022-fr-pageutile.pdf')
     embed = HuggingFaceEmbeddings(
     model_name="intfloat/multilingual-e5-base",
@@ -16,7 +17,7 @@ def  embeding():
     vs.save_local("index_faiss_tcps2")
     
 def getSegment(question):
-    
+    """Permert d'aller chercher les bons chuncks selon une question"""
 
     vs = FAISS.load_local(
         "index_faiss_tcps2",

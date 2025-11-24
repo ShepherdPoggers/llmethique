@@ -53,6 +53,7 @@ def paragraphSplitter(document):
 
 
 def chunckSplit(path):
+    """S'occupe de split de la bonne manière les chunks"""
     loader = PyPDFLoader(path)
     pages = loader.load()
     paragraphe = paragraphSplitter(articleSplitter(sectionSplitter(splitInit(pages))))
