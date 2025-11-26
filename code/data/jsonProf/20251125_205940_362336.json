@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les objectifs de l'étude mentionnent l'analyse des enjeux liés aux plateformes numériques dans la communication école-famille, mais ne spécifient pas explicitement comment ils respectent les trois principes directeurs de l'EPTC2. Bien que la confidentialité et le consentement soient abordés (respect des personnes), il n'y a pas de mention claire de mesures pour assurer le bien-être (ex. : minimisation des risques psychologiques) ou la justice (ex. : équité dans l'accès aux plateformes, représentation des groupes vulnérables). Les objectifs se concentrent sur l'analyse des défis sans lien explicite avec l'équité ou la réduction des inégalités.",
+            "Recommandation": "Il est recommandé d'ajouter des objectifs spécifiques qui explicitent comment la recherche contribuera à l'équité (ex. : identifier les barrières d'accès aux plateformes pour les familles défavorisées) ou à la protection du bien-être (ex. : proposer des solutions pour réduire le stress des parents). Les principes de justice et de bien-être doivent être intégrés dans les objectifs pour s'assurer qu'ils sont pleinement respectés."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "La question ne s'applique pas au projet car les activités de recrutement et de collecte de données sont réalisées au Canada, sans indication de recrutement ou de collecte de données à l'étranger. Les principes éthiques généraux (consentement, confidentialité, protection des données) sont respectés, mais l'article 8.3 de l'EPTC2 concerne spécifiquement les recherches impliquant des participants ou des données à l'étranger, ce qui n'est pas le cas ici.",
+            "Recommandation": "Aucune recommandation nécessaire, car la question ne s'applique pas au projet. Les principes éthiques standards sont respectés dans le cadre du recrutement et de la collecte de données locales."
+        }
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les objectifs de l'étude sont clairement énoncés, mais leur alignement avec les trois principes directeurs de l'EPTC2 (respect de la personne, bien-être, justice) n'est pas suffisamment explicité. Bien que le projet mentionne la protection de la confidentialité et le consentement éclairé (respect de la personne), il ne développe pas clairement comment il assure le bien-être des participants (ex. : gestion des risques psychologiques) ni la justice (ex. : équité dans l'accès aux plateformes numériques ou répartition des bénéfices). Les principes directeurs sont mentionnés de manière générale sans lien explicite avec les objectifs spécifiques de la recherche.",
+            "Recommandation": "Il est recommandé de préciser dans le projet comment chaque principe de l'EPTC2 est concrètement appliqué. Par exemple : 1) Détailler les mesures pour protéger le bien-être (ex. : accompagnement en cas de stress lié aux entretiens) ; 2) Expliquer comment l'équité est assurée dans la sélection des participants ou l'accès aux plateformes ; 3) Justifier la pertinence des objectifs pour promouvoir l'équité dans la communication École-Famille."
+        }
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les objectifs de l'étude sont clairement énoncés, mais ils ne traitent pas explicitement des trois principes directeurs de l'EPTC2. Le respect de la personne est abordé via le consentement éclairé et la confidentialité, mais le bien-être et la justice ne sont pas directement intégrés dans les objectifs. Les enjeux identifiés (usages des plateformes numériques) ne mentionnent pas explicitement comment la recherche assure l'équité ou le bien-être des participants.",
+            "Recommandation": "Il est recommandé de préciser dans les objectifs comment la recherche intègre le principe de justice (équité d'accès, représentation des groupes) et le bien-être (mesures de protection contre les risques psychosociaux). Les objectifs devraient explicitement relier les enjeux étudiés aux principes éthiques."
+        }
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les objectifs de l'étude mentionnent l'analyse des enjeux liés aux plateformes numériques dans la communication école-famille, mais ils ne détaillent pas explicitement comment ils s'alignent avec les trois principes directeurs de l'EPTC2. Bien que le projet inclue des mesures de respect (consentement, confidentialité) et de bien-être (absence de risques), il ne précise pas comment il assure la justice (équité, équité dans l'accès, représentation équitable des groupes). Les principes de justice ne sont pas abordés dans les objectifs ou la méthodologie.",
+            "Recommandation": "Le projet doit clarifier explicitement comment il intègre le principe de justice, par exemple en expliquant comment il assure une représentation équitable des participants, comment il évite les biais systémiques, ou comment il répond aux besoins spécifiques des groupes impliqués. Les objectifs devraient mentionner des mesures concrètes pour garantir l'équité, comme la sélection équitable des participants ou l'analyse des inégalités dans l'accès aux plateformes numériques."
+        }
+    }
+]

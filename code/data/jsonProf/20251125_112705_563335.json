@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": "<think>\n\n</think>\n\n{\n  \"Reponse\": true,\n  \"Justification\": \"Les objectifs de l'étude sont clairement énoncés et ils respectent les trois principes directeurs de l'EPTC2. Le respect des personnes est respecté par le recours au consentement éclairé, à la confidentialité et à la volontarité de la participation. Le bien-être des participants est pris en compte par la nature non invasive de la recherche et la garantie de confidentialité. La justice est respectée par la sélection équitable des participants et la volonté de contribuer à l'amélioration de la communication École-Famille pour tous.\",\n  \"Recommandation\": \"Aucune recommandation n'est nécessaire. Les objectifs de l'étude sont clairement formulés et respectent les principes éthiques.\"\n}",
+        "Check": null
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
+        "reponse": "<think>\n\n</think>\n\n{\n  \"Reponse\": false,\n  \"Justification\": \"Le dossier ne mentionne pas de recrutement ou de collecte de données à l'étranger. Les participants sont des enseignants et parents d'élèves de deux écoles primaires du Centre de Services Scolaires des Rives du Saguenay (CSSRS), qui se trouvent au Québec. Aucune mention n'est faite d'activités ou de recrutement en dehors du Canada.\",\n  \"Recommandation\": \"Aucune correction n'est nécessaire, car la question ne s'applique pas au projet de recherche.\"\n}",
+        "Check": null
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": "<think>\n\n</think>\n\n{\n  \"Reponse\": true,\n  \"Justification\": \"Les objectifs de l’étude sont clairement énoncés dans le document F1 et ils sont alignés avec les trois principes directeurs de l’EPTC2 : le respect de la personne (en valorisant la participation volontaire et le consentement éclairé), le bien-être de la personne (en minimisant les risques et en assurant la confidentialité), et la justice (en visant une compréhension équitable des enjeux de la communication École-Famille). Les objectifs sont formulés de manière claire et permettent d’assurer un respect des principes éthiques.\",\n  \"Recommandation\": \"Aucune recommandation n'est nécessaire, car les objectifs de l'étude sont clairement formulés et respectent les principes éthiques.\"\n}",
+        "Check": null
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": "<think>\n\n</think>\n\n{\n  \"Reponse\": true,\n  \"Justification\": \"Les objectifs de l’étude sont clairement énoncés dans le document F1. Ils visent à identifier les motifs qui amènent les enseignants à partager des contenus sur une plateforme numérique, à identifier ce qui favorise ou entrave l’utilisation de ces plateformes par les parents et les enseignants, et à comprendre les préoccupations, besoins et attentes des parents en matière de communication École-Famille. Ces objectifs respectent les trois principes directeurs de l’EPTC2 : le respect de la personne (en respectant la volonté des participants et leur droit à l’information), le bien-être de la personne (en minimisant les risques et en assurant la confidentialité), et la justice (en assurant un accès équitable à l’information et en évitant la discrimination).\",\n  \"Recommandation\": \"Le dossier est conforme aux exigences éthiques. Aucune correction n’est nécessaire. Les objectifs sont clairs et respectent les principes éthiques.\"\n}",
+        "Check": null
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": "<think>\n\n</think>\n\n{\n  \"Reponse\": true,\n  \"Justification\": \"Les objectifs de l'étude sont clairement énoncés dans le document F1 et sont alignés avec les trois principes directeurs de l'EPTC2 : le respect de la personne (en valorisant la participation volontaire et le consentement éclairé), le bien-être de la personne (en minimisant les risques et en assurant la confidentialité), et la justice (en visant une compréhension équitable des enjeux de la communication École-Famille). Les objectifs sont formulés de manière claire et permettent d'assurer un respect éthique du projet.\",\n  \"Recommandation\": \"Aucune recommandation n'est nécessaire, car les objectifs de l'étude sont clairement formulés et respectent les principes éthiques énoncés dans l'EPTC2.\"\n}",
+        "Check": null
+    }
+]

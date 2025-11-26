@@ -70,22 +70,25 @@ def UploadDesFichiers(files):
 def CheckQuestion(question):
     """Permet d'envoyer le prompt et de valider la reponse"""
     reponse = requete(question.PromptGen())
-    if reponse[:3].lower() == 'oui':
-        question.SetValide(True)
-        
-    elif reponse[:3].lower() == 'non':
-        question.SetValide(False)
-    else:
-        question.SetValide(None)
+    reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
+    reponse = stringToJson(reponseClean)
+    question.SetValide(reponse["Reponse"])
     question.SetReponse(reponse)
     session["PROGRESS"]["current"] += 1
 
+
+def stringToJson(reponse):
+    match = re.search(r"\{[\s\S]*\}", reponse)
+    json_str = match.group()
+    data = json.loads(json_str)
+
+    return data
 
 app = Flask(__name__) #initiation de l'app flask
 app.secret_key = 'ton_secret_unique'
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = False
-app.config['SESSION_FILE_DIR'] = "code\data\session"
+app.config['SESSION_FILE_DIR'] = "code/data/session"
 app.config['UPLOAD_FOLDER'] = 'code/uploads'
 
 Session(app) 
@@ -113,7 +116,7 @@ def UploadFile():
             for question in lsiteQuestion:
                 CheckQuestion(question)
     
-            jsonFile = [{"question": str(question), "reponse": question.getReponse(), "Check": question.GetValide()} for question in lsiteQuestion]    
+            jsonFile = [{"question": str(question), "reponse": question.getReponse()} for question in lsiteQuestion]    
             session['JSON'] = jsonFile
             writeJson(jsonFile)
             delDocument(listeFicher)
@@ -146,4 +149,4 @@ def get_progress():
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=False, threaded=True)

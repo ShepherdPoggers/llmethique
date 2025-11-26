@@ -1,5 +1,5 @@
 import re
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
 PDF_PATH = r"code\RAG\tcps2-2022-fr-pageutile.pdf"

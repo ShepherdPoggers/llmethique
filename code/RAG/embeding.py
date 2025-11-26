@@ -1,5 +1,5 @@
 from RAG.split import chunckSplit
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 EMBED = HuggingFaceEmbeddings(
     model_name="intfloat/multilingual-e5-base",

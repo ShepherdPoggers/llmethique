@@ -10,14 +10,24 @@ async function loadReponse() {
       article.innerHTML = `
         <h2>${element.question}</h2>
         `
-      article.dataset.reponse = element.reponse;;
-      if (element.Check) {
+      article.dataset.justification = element.reponse.Justification;
+      article.dataset.recommandation = element.reponse.Recommandation;
+
+      if (element.reponse.Reponse) {
         article.classList.add('valide')
+        article.dataset.validation = "Oui"
+        article.dataset.recommandation = ''
       }
-      else if (element.Check === null) {
+      else if (element.reponse.Reponse === null) {
         article.classList.add('NA')
+        article.dataset.validation = "Ne s'applique pas"
+        article.dataset.recommandation = ''
+
       } else {
         article.classList.add('nonValide')
+        article.dataset.validation = "Non"
+        article.dataset.recommandation = `<h3>Recommandation</h3>
+      ${element.reponse.Recommandation} `
       }
       article.addEventListener('click', () => openOverlay(article))
       sectionQuestion.appendChild(article)
@@ -33,16 +43,20 @@ async function loadReponse() {
 function openOverlay(article) {
   // Contenu “propre” pour la modale (copie du HTML de l’article)
   const content = `
-    <div class="modal-card ${
-  article.classList.contains('valide')
-    ? 'valide'
-    : article.classList.contains('NA')
-      ? 'NA'
-      : 'nonValide'
-}">
+    <div class="modal-card ${article.classList.contains('valide')
+      ? 'valide'
+      : article.classList.contains('NA')
+        ? 'NA'
+        : 'nonValide'
+    }">
       <button class="modal-close" aria-label="Fermer">×</button>
       <h2> ${article.querySelector('h2').textContent} </h2> 
-      <div> ${article.dataset.reponse} </div>
+      <div> 
+      ${article.dataset.validation}
+      <h3>Justification</h3>
+       ${article.dataset.justification}
+      ${article.dataset.recommandation}
+      </div>
     </div>
   `;
 

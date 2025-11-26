@@ -1,10 +1,70 @@
 
 [
-  {
+{
     "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
     "documents": [
       "F1",
       "FIC"
+    ]
+  },
+  {
+    "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche ?",
+    "documents": [
+      "F1"
+    ]
+  },
+  {
+    "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ?",
+    "documents": [
+      "outilsRecrutement",
+      "FIC",
+      "F1"
+    ]
+  },
+  {
+    "question": "Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?",
+    "documents": [
+      "F1"
+    ]
+  },
+  {
+    "question": "Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?",
+    "documents": [
+      "FIC",
+      "F1"
+    ]
+  },
+  {
+    "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+    "documents": [
+      "rechercheMilieu",
+      "FIC",
+      "F1"
+    ]
+  },
+  {
+    "question": "Est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?",
+    "documents": [
+      "outilsRecrutement",
+      "FIC",
+      "F1"
+    ]
+  },
+  {
+    "question": "Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés?",
+    "documents": [
+      "outilsRecrutement",
+      "rechercheMilieu",
+      "FIC",
+      "F1"
+    ]
+  },
+  {
+    "question": "Est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement?",
+    "documents": [
+      "outilsRecrutement",
+      "rechercheMilieu",
+      "F1"
     ]
   },
   {
@@ -15,25 +75,12 @@
       "F1"
     ]
   },
-    {
-    "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+  {
+    "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?",
     "documents": [
-      "F1",
-      "FIC"
-    ]
-  },
-    {
-    "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
-    "documents": [
-      "F1",
-      "FIC"
-    ]
-  },
-    {
-    "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
-    "documents": [
-      "F1",
-      "FIC"
+      "descriptionCollecte",
+      "FIC",
+      "F1"
     ]
   }
 ]

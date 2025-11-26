@@ -16,7 +16,6 @@ def requete(prompt):
         temperature=0.3,
         timeout=200000
     )
-   
 
     return resp.choices[0].message.content
 

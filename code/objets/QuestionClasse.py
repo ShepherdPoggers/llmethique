@@ -51,23 +51,6 @@ class Question():
             Ton rôle est de faire une évaluation rigoureuse des enjeux éthiques entourant
             la recherche impliquant des participants humains.
 
-            Tu dois répondre à la question d'évaluation par rapport à un dossier déposé.
-            - Si le dossier répond positivement à la question, explique ton raisonnement
-            et justifie pourquoi les documents sont conformes.
-            - Si le dossier ne répond pas à la question, formule une rétroaction claire
-            et actionnable pour que le chercheur puisse corriger les documents.
-            - Si le dossier ne répond pas à la question parce qu'elle ne s'applique pas
-            au projet de recherche, explique ton raisonnement
-            et justifie pourquoi les documents montrent que la question ne
-            concerne pas le projet de recherche.
-
-            
-            Dans les trois cas, commence obligatoirement ta réponse par un "Oui", "Non" ou "Ne s'applique pas" clair. Ta réposne doit exclusivement
-            contenir du texte en FRANÇAIS. Exemples : "Non. La...", "Oui." ou "Ne s'applique pas.". 
-            Le Non., le Oui. et le Ne s'applique pas ne doivent pas être entouré de carcatere spéciaux ou de saut 
-            de ligne ou autre Le dossier...". Formate ton texte d'une manière simple sans superflu. 
-            Le texte ne doit pas contenir de gras, d'italic etc. 
-
             La question à évaluer est : {self._question}
 
             Pour y répondre, tu devras consulter ces documents : {texteChemin}
@@ -78,7 +61,26 @@ class Question():
             - Chunk 3 : {ragSegment3.page_content}
             - Chunk 4 : {ragSegment4.page_content}
             - Chunk 5 : {ragSegment5.page_content}
-            """ + r"\no_think"
+            
+            Tu dois produire une évaluation structurée selon les règles suivantes :
+            - Si le dossier répond positivement à la question, explique clairement pourquoi.
+            - S'il ne répond pas à la question, formule une rétroaction claire et actionnable.
+            - Si la question ne s'applique pas au projet, explique pourquoi.""" + """
+            
+            Ta réponse doit IMPÉRATIVEMENT être un JSON strict du format suivant :
+            {
+            "Reponse": true | false | null,
+            "Justification": "texte",
+            "Recommandation": "texte"
+            }
+
+            IMPORTANT :
+            - Ta réponse doit être UNIQUEMENT ce JSON. Aucun texte avant ou après.
+            - Aucun retour de ligne inhabituel. Le JSON doit être valide.
+            - Aucune mise en forme : pas d’italique, pas de gras, pas de guillemets spéciaux.
+            - Pas d'antislash inutile.
+            """
+            
         
 
         return prompt
