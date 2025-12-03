@@ -1,0 +1,658 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les objectifs de l'étude abordent le respect des participants (consentement, confidentialité) et le bien-être (absence de risques significatifs), mais ne mentionnent pas explicitement la justice. Le projet ne précise pas comment il s'assure de l'équité dans l'accès aux plateformes numériques, la répartition des bénéfices, ou la prise en compte des inégalités structurelles entre les parties prenantes.",
+            "Recommandation": "Intégrez explicitement des éléments liés à la justice dans les objectifs (ex : « analyser les inégalités d'accès aux plateformes numériques » ou « proposer des solutions équitables pour les familles marginalisées ») et justifiez comment la recherche contribuera à une répartition équitable des bénéfices et des risques."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie de recherche utilise des entretiens semi-dirigés avec des participants sélectionnés via un échantillonnage non probabiliste ciblé, ce qui est adapté pour explorer les perceptions qualitatives des enseignants et parents. Les mesures éthiques incluent le consentement éclairé, la confidentialité (anonymisation des données), la sécurité des données, et une période de conservation limitée (7 ans). Les risques sont minimes (déplacements et temps d'entretien), et les bénéfices portent sur l'amélioration de la communication École-Famille. Les protocoles de recrutement et de gestion des données respectent les normes éthiques.",
+            "Recommandation": "Assurer la validation du CER-UQAC avant le recrutement des participants et confirmer la conformité des outils de collecte de données (ex. formulaires de consentement) avec les exigences du comité."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d’inclusion sont directement liés aux objectifs de l'étude, qui portent sur l'usage des plateformes numériques dans la communication École-Famille. Les critères d'exclusion sont absents («Aucun»), ce qui évite toute réduction des critères d'inclusion en leur négation. Les participants sélectionnés (enseignants et parents) sont ciblés pour leur expérience et leur utilisation des outils numériques, ce qui est justifié par les objectifs de la recherche. Aucun critère d'exclusion non étayé n'est identifié.",
+            "Recommandation": "Confirmer que l'absence de critères d'exclusion est appropriée pour l'objectif de l'étude, en veillant à ce que les critères d'inclusion ne soient pas biaisés ou discriminatoires. Aucune modification n'est nécessaire pour les critères actuels."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne mentionne pas explicitement le recrutement de participants appartenant à des populations vulnérables. Les critères d'inclusion se limitent à des enseignants et parents utilisant des plateformes numériques, sans mention de situations de vulnérabilité spécifiques (ex : minorités, populations marginalisées, etc.). Les directives EPTC 2022 soulignent que la vulnérabilité doit être évaluée individuellement, mais le projet ne fournit pas de stratégie d'interaction spécifique pour des populations vulnérables, car elles ne sont pas identifiées dans le protocole.",
+            "Recommandation": "Si le projet prévoit d'inclure des populations vulnérables, il doit explicitement définir ces groupes et détailler les mesures de protection (ex : consentement éclairé renforcé, confidentialité accrue, accompagnement tiers). Sinon, l'absence de populations vulnérables rend la question inapplicable."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document FIC (Formulaire d'Information et de Consentement des Parents) ne précise pas explicitement comment les parents sont informés des risques liés à la présence d'enfants lors de la collecte de données, même si ceux-ci ne sont pas directement impliqués. Les méthodes de consentement ne mentionnent pas les mesures spécifiques pour protéger la vie privée des enfants éventuellement présents, ni comment les parents sont avisés de la possibilité d'enregistrements audio ou de leur présence durant les entretiens. Les références aux risques (ex. 'risques psychologiques', 'risques sociaux') ne couvrent pas les implications liées à la présence d'enfants non impliqués.",
+            "Recommandation": "Ajouter une clause spécifique dans les formulaires de consentement des parents et des enseignants, expliquant les mesures prises pour protéger la vie privée des enfants présents (ex. : interdiction d'enregistrement audio en présence d'enfants, séparation des espaces de collecte). Inclure une mention sur la possibilité de présence d'enfants pendant la collecte et les modalités de protection correspondantes."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne cible pas spécifiquement des communautés autochtones, mais des écoles primaires du CSSRS. Aucune mention des principes éthiques spécifiques aux communautés autochtones n'est présente dans les documents fournis.",
+            "Recommandation": "Puisque le projet ne concerne pas de communautés autochtones, les principes éthiques spécifiques à ces dernières ne s'appliquent pas. Cependant, si des participants autochtones étaient impliqués, il serait nécessaire d'ajouter des mesures comme la consultation des leaders communautaires et le respect des pratiques culturelles."
+        }
+    },
+    {
+        "question": "Dans l'ensemble, est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les étapes de recrutement respectent les règles d'éthique en matière de confidentialité et d'anonymat. Les documents indiquent que les participants seront identifiés par un code pour éviter leur identification, les enregistrements audio seront détruits après transcription, et les données seront anonymisées. Les participants ont le droit de se retirer à tout moment, et les informations seront protégées selon les protocoles éthiques. Les formulaires de consentement soulignent clairement la confidentialité et la protection des données.",
+            "Recommandation": "Aucune recommandation particulière n'est nécessaire, car les mesures de confidentialité et d'anonymat sont clairement définies dans les documents fournis."
+        }
+    },
+    {
+        "question": "Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés? Les outils de recrutement devraient inclure au minimum le contexte général du projet, ce qui sera attendu des participants s'ils acceptent de participer, les critères d'inclusion, la durée estimée et le lieu de la participation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les outils de recrutement (annonces de recrutement) ne présentent pas suffisamment le contexte général du projet, les attentes des participants, ou le lieu de participation. Ils mentionnent la durée de l'entrevue (45-60 minutes) et les critères d'inclusion (expérience des enseignants, présence d'un enfant dans une école), mais ne précisent pas le lieu exact (écoles sélectionnées) ni le contexte complet de la recherche (objectifs, risques/bénéfices, protocole). Le formulaire d'information et de consentement (FIC) contient ces détails, mais les annonces de recrutement elles-mêmes sont trop succinctes.",
+            "Recommandation": "Améliorer les annonces de recrutement en ajoutant explicitement le contexte du projet, le lieu de la participation (noms des écoles), les attentes des participants (ex. durée, modalités d'entretien), et une brève description des risques/bénéfices. Les documents de recrutement doivent être alignés avec les exigences éthiques pour garantir une compréhension claire des attentes et du contexte."
+        }
+    },
+    {
+        "question": "Si le recrutement sera réalisé dans une organisation autre que l'UQAC (ex: école primaire, centre ou clinique de réadaptation physique, organisme communautaire, etc.), est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement? Est-ce que les autorisations ont été jointes au dossier?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document 'Demande_dautorisation_au_CSSRS.docx' montre que le chercheur a demandé une autorisation au CSSRS, mais aucun document confirmant l'octroi de cette autorisation n'est joint au dossier. Les autorisations nécessaires pour le recrutement dans les écoles (CSSRS) n'ont pas été explicitement obtenues ou vérifiées dans les documents fournis.",
+            "Recommandation": "Le chercheur doit obtenir et joindre une confirmation écrite de l'autorisation du CSSRS pour le recrutement des enseignants et parents. Cela garantira que les autorités scolaires sont informées et approuvent le recrutement, conformément aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Si le projet planifie faire la totalité ou une partie de la collecte de donnée à l'étranger, est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet de recherche ne prévoit pas de collecte de données ou de recrutement à l'étranger. Les participants sont recrutés dans les écoles primaires du Centre de Services Scolaires des Rives Du Saguenay (CSSRS), soit en région québécoise. Aucun élément des documents fournis ne mentionne une implémentation internationale, ni une collecte de données à l'étranger.",
+            "Recommandation": "La question ne s'applique pas au projet puisque la recherche est réalisée exclusivement sur le territoire canadien, dans les écoles du CSSRS. Les principes d'éthique relatifs à la collecte de données à l'étranger (article 8.3 de l'EPTC2) ne sont donc pas pertinents dans ce cas."
+        }
+    },
+    {
+        "question": "Si le projet est mené en collaboration avec une organisation ET que le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le projet ne mentionne pas explicitement que les données seront partagées avec l'organisation, mais les mesures de confidentialité (anonymisation, suppression des enregistrements audio après transcription) et le droit de retrait des participants réduisent les risques de préjudice. Cependant, une clarification sur le partage des données avec l'organisation est nécessaire pour confirmer que les participants sont pleinement informés des implications.",
+            "Recommandation": "Clarifier strictement les modalités de partage des données avec l'organisation dans le formulaire de consentement, en confirmant que les données seront anonymisées et que les participants peuvent retirer leur accès à tout moment. Assurer que les participants sont informés des risques potentiels liés au partage des données, même si les mesures de confidentialité sont en place."
+        }
+    },
+    {
+        "question": "Est-ce que le chercheur met en place des mécanismes adéquats pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données? S'assurer que les informations présentés à ce propos dans les différents documents de la demande sont les mêmes dans tous les documents.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le chercheur a mis en place des mécanismes d'anonymisation complète des données, avec une suppression des enregistrements audio après transcription et une conservation des données anonymisées. Les formulaires de consentement mentionnent explicitement la confidentialité, l'utilisation de codes pour identifier les participants, et la protection des données. Les documents F1 et FIC sont cohérents sur l'anonymisation totale et la sécurisation des données.",
+            "Recommandation": "Assurer une cohérence des documents concernant la durée de conservation des données (7 ans dans le F1 mais non mentionné dans le FIC). Préciser clairement la durée de stockage des données dans tous les documents pour éviter toute ambiguïté."
+        }
+    },
+    {
+        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le dossier présente une collecte de données éthique avec des mesures adéquates de consentement éclairé, confidentialité, et protection des participants. Les formulaires d'information et de consentement (FIC) détaillent clairement les objectifs, risques, bénéfices, et droits des participants, et les procédures de collecte (entretiens semi-directifs) sont conformes aux normes éthiques. Les données sont anonymisées, les enregistrements audio détruits après transcription, et la participation est volontaire avec droit de retrait. Aucun risque significatif n'est identifié, et les mesures de protection des données sont explicites.",
+            "Recommandation": "Approuver le projet de recherche, car les méthodes de collecte de données répondent aux exigences éthiques avec un respect des droits des participants, une protection des données, et un consentement éclairé."
+        }
+    },
+    {
+        "question": "Si des entrevues seront utilisées pendant la collecte, est-ce que le nombre d’entrevues, le/les lieux d’entrevues, la durée, le déroulement et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées ? Si des sujets potentiellement sensibles sont traités dans le guide d'entrevue, une mention de ces sujets devraient être faits dans le FIC pour en informer le participant avant sa participation. ",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas explicitement les sujets sensibles qui pourraient être abordés lors des entrevues (ex. tensions écoles-familles, problèmes de communication) même si les guides d'entrevue incluent des questions sur l'usage des plateformes numériques. Les participants ne sont pas avertis des éventuels sujets délicats, ce qui pourrait affecter leur consentement éclairé.",
+            "Recommandation": "Ajouter une mention explicite dans le FIC concernant les sujets sensibles potentiels (ex. « Les entrevues pourraient aborder des sujets comme les défis de la communication école-famille ou l'utilisation des outils numériques, qui pourraient être sensibles selon le contexte »)."
+        }
+    },
+    {
+        "question": "Si des groupes de discussion seront tenus, est-ce que le nombre de groupes de discussions, la durée, le déroulement, le/les lieux et les thèmes abordés sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne prévoit pas l'utilisation de groupes de discussion (focus groups), mais uniquement des entretiens individuels avec les enseignants et les parents. Les documents indiquent clairement que les données seront collectées via des entretiens semi-directifs, non des groupes de discussion. Ainsi, la question relative aux groupes de discussion n'est pas applicable à ce projet.",
+            "Recommandation": "La question ne s'applique pas au projet, car les méthodes de collecte de données prévues sont des entretiens individuels, pas des groupes de discussion."
+        }
+    },
+    {
+        "question": "Si le projet propose l'utilisation de matériel biologique, en lien avec les populations visées est-ce que l’utilisation du matériel biologique est appropriée au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne fait pas référence à la collecte ou à l'utilisation de matériel biologique humain. La recherche se concentre sur des entretiens semi-directifs avec des enseignants et des parents, sans mention de prélèvements biologiques. Les documents ne mentionnent pas de matériaux biologiques, de banques de tissus ou de procédures impliquant des échantillons biologiques.",
+            "Recommandation": "La question ne s'applique pas au projet, car aucun matériel biologique n'est impliqué. Une clarification serait utile si le projet prévoyait ultérieurement l'utilisation de données biologiques, mais cela n'est pas indiqué dans les documents fournis."
+        }
+    },
+    {
+        "question": "Si le projet propose l'utilisation de matériel biologique, est-ce que l’utilisation du matériel biologique est identificatoire ou permettrait la réidentification des participants?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le projet ne mentionne pas l'utilisation de matériel biologique humain. Les données collectées proviennent d'interviews semi-directives enregistrées audio, anonymisées et conservées sous forme de transcriptions textuelles. Aucun échantillon biologique (sang, tissus, ADN, etc.) n'est mentionné dans les documents fournis, ni dans les protocoles de recrutement, de collecte ou de conservation des données.",
+            "Recommandation": "Confirmer que le projet ne prévoit pas l'utilisation de matériel biologique humain. Souligner que les données sont entièrement anonymisées et que les enregistrements audio sont détruits après transcription, évitant tout risque de réidentification."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation de matériel biologique est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "La recherche ne fait pas usage de matériel biologique humain. Les données collectées proviennent d'entretiens semi-directifs et sont uniquement des enregistrements audio anonymisés. Aucun échantillon biologique n'est提及 ou utilisé dans le protocole de recherche.",
+            "Recommandation": "La question relative au matériel biologique n'est pas applicable à ce projet. Les considérations éthiques liées à la confidentialité, au consentement éclairé et à la protection des données sont adéquatement abordées dans les formulaires d'information et de consentement fournis."
+        }
+    },
+    {
+        "question": "Si le projet propose l'utilisation d'observations, est-ce que le contexte, l’environnement, le type d’interaction et le nombre de personnes observées sont appropriés, au niveau éthique, en en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne mentionne pas l'utilisation d'observations directes des participants dans leur environnement naturel. Les méthodes de collecte de données se basent sur des entrevues semi-directives avec des enseignants et des parents, accompagnées d'une anonymisation des données et d'un consentement éclairé. Aucune mention d'observation participante ou d'environnement d'observation n'est présente dans les documents fournis.",
+            "Recommandation": "La question ne s'applique pas au projet tel qu'il est décrit, car il ne fait pas appel à des observations directes des participants. Cependant, si des observations devaient être ajoutées, il faudrait préciser les mesures de protection de la vie privée, l'environnement d'observation, et les nombres de participants concernés."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation d'observations est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne mentionne pas l'utilisation d'observations comme méthode de collecte de données. Les méthodes décrites incluent des entretiens semi-directifs et l'enregistrement audio des entretiens, sans indication d'observation directe des participants dans leur environnement naturel. Les formulaires de consentement (FIC) et le formulaire F1 ne mentionnent pas d'observation comme méthode de recherche, ce qui rend la question non applicable à ce projet.",
+            "Recommandation": "Il est important de clarifier si le projet prévoit réellement des observations (ex: observation des interactions scolaires/familiales) ou si les méthodes restent limitées aux entretiens. Si les observations ne font pas partie des méthodologies, il convient de préciser cela dans le dossier éthique pour éviter toute ambivalence."
+        }
+    },
+    {
+        "question": "Si des questionnaires seront utilisés, est-ce que le type de questionnaire, le nombre de questionnaire, la durée, le/les lieux d’administration et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne prévoit pas l'utilisation de questionnaires, mais des entretiens semi-directifs. Les documents ne mentionnent pas de questionnaires, mais des formulaires de consentement et des guides d'entretien. Les enjeux éthiques sont abordés via des entretiens avec des participants, et non via des questionnaires.",
+            "Recommandation": "La question relative aux questionnaires n'est pas applicable à ce projet, car la méthodologie repose sur des entretiens semi-directifs et non sur des questionnaires standardisés. Les considérations éthiques sont déjà abordées via le processus de consentement éclairé, la confidentialité et la confidentialité des données."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation de questionnaires est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le document ne mentionne pas l'utilisation de questionnaires dans la méthodologie de la recherche. Les entretiens semi-directifs et l'enregistrement audio sont les méthodes de collecte de données principales. Les formulaires de consentement (FIC) concernent uniquement les entretiens, pas les questionnaires.",
+            "Recommandation": "La question n'est pas applicable au projet, car la recherche utilise des entretiens semi-directifs et non des questionnaires. Les considérations éthiques doivent se concentrer sur la méthodologie des entretiens et la protection des données."
+        }
+    },
+    {
+        "question": "Si des expérimentations auront lieu, est-ce que le nombre de groupes et de participants, le choix des variables expérimentales et dépendantes, le choix des outils de mesure, leur durée, le déroulement des expériences et le/les lieux des expériences sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le projet présente une approche éthique claire avec des mesures de confidentialité (anonymisation des données, destruction des enregistrements après transcription), un consentement informé explicite, et une participation volontaire. La durée des entrevues (45-60 min) et les modalités (présentiel ou visioconférence) sont adaptées. Le recrutement via les écoles et une analyse de saturation théorique pourraient justifier la taille de l'échantillon. Les risques sont minimes et les participants sont informés de leur droit de retrait.",
+            "Recommandation": "Assurer une documentation détaillée sur les mesures de sécurité des données (ex. stockage chiffré) et vérifier que la taille de l'échantillon atteint la saturation théorique pour éviter des biais. Préciser les protocoles en cas de données sensibles ou de conflits d'intérêts."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation d'expérimentations est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "La recherche ne concerne pas l'utilisation d'expérimentations, mais des entretiens semi-directifs pour collecter des données qualitatives. Les documents indiquent clairement que les participants sont recrutés via des entretiens, sans manipulation d'interventions ou de variables expérimentales. Les risques associés sont minimes et liés à la participation volontaire, sans éléments expérimentaux.",
+            "Recommandation": "La question ne s'applique pas au projet, car la recherche n'implique pas d'expérimentations. Les considérations éthiques se concentrent sur le consentement éclairé, la confidentialité et la sécurité des participants, ce qui est correctement abordé dans les documents."
+        }
+    },
+    {
+        "question": "Si des données secondaires seront utilisées, est-ce que le traitement des données est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le traitement des données dans cette recherche respecte les exigences éthiques. Les données sont anonymisées, les enregistrements audio sont détruits après transcription, et les participants sont identifiés par un code unique. Les mesures de confidentialité incluent la protection des données sur un ordinateur sécurisé et la destruction des fichiers audio. Les formulaires de consentement informent clairement les participants des risques et des mesures de protection.",
+            "Recommandation": "Continuer à respecter les protocoles actuels de anonymisation, de stockage sécurisé et de destruction des données. Assurer que tout usage ultérieur des données respecte les principes d'anonymisation et de consentement éclairé."
+        }
+    },
+    {
+        "question": "Si des données secondaires seront utilisées, est-ce que l’utilisation de données secondaires ainsi que leur nature identificatoire ou non sont mentionnées dans le formulaire d'information et de consentement (FIC) ou ailleurs?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas l'utilisation de données secondaires. La recherche collectionne des données primaires via des entretiens avec les enseignants et parents, et les données sont anonymisées après transcription. Aucune référence à des données existantes ou non identificatoires n'est présente dans les documents fournis.",
+            "Recommandation": "Il est important de préciser dans le FIC si des données secondaires sont utilisées, en indiquant leur nature identificatoire ou non. Dans ce cas, comme aucune donnée secondaire n'est mentionnée, l'absence de mention est justifiée, mais il faudrait confirmer que l'étude ne recourt pas à des données existantes (ex. bases de données publiques) qui pourraient nécessiter une évaluation éthique supplémentaire."
+        }
+    },
+    {
+        "question": "Si des données secondaires seront utilisées, est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) ou ailleurs?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne mentionne pas l'utilisation de données secondaires non initialement destinées à la recherche. Les données recueillies proviennent d'interviews avec des enseignants et parents, et le formulaire de consentement (FIC) traite uniquement du consentement pour les données générées spécifiquement pour cette étude. Aucune mention n'est faite d'une utilisation de données existantes non liées à l'objectif initial de la recherche.",
+            "Recommandation": "Le projet ne semble pas impliquer d'utilisation de données secondaires non initialement collectées pour la recherche. Si des données secondaires sont effectivement utilisées, il serait nécessaire de préciser cela dans le FIC et de demander l'autorisation appropriée, conformément aux lignes directrices du CER-UQAC (article 5.5A de l'EPTC 2022)."
+        }
+    },
+    {
+        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le document FIC (Formulaire d'Information et de Consentement) inclut toutes les composantes éthiques nécessaires : informations claires sur l'objectif de la recherche, consentement éclairé, volontarité de participation, droit de retrait, confidentialité des données (anonymisation, destruction des enregistrements audio), et absence de risques significatifs. Les participants sont informés des avantages potentiels (contributions aux connaissances) et des inconvénients (temps de participation). La méthode d'entretien semi-directif et la gestion des données respectent les principes éthiques fondamentaux de l'UQAC.",
+            "Recommandation": "Aucune recommandation n'est nécessaire, car les mesures éthiques sont adéquates et répondent aux exigences du comité d'éthique. Il est cependant recommandé de préciser dans le formulaire de consentement comment les données seront supprimées en cas de retrait après la transcription des entretiens."
+        }
+    },
+    {
+        "question": "Est-ce que le nombre, la durée, le déroulement, le/les lieux, les questions, ou autre, si applicables, sont appropriés en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le nombre de participants (4 enseignants et 4 parents) est adapté aux objectifs qualitatifs de l'étude, permettant une analyse approfondie. La durée des entretiens (45-60 minutes) est appropriée pour explorer les enjeux de la communication numérique. Les lieux de recrutement (écoles, UQAC, visioconférence) assurent la confidentialité. Les questions ciblent les défis et attentes des participants, alignés avec les objectifs. Les mesures de confidentialité (anonymisation, destruction des enregistrements) sont pertinentes.",
+            "Recommandation": "Renforcer la justifications des critères d'inclusion pour éviter les biais de sélection et préciser les mesures de gestion des données au-delà des 7 ans de conservation prévus."
+        }
+    },
+    {
+        "question": "Si l'étude expose les participants à un niveau de risque supplémentaire par rapport à leur vie normale, est-ce que des stratégies adéquates et suffisantes sont mises en place pour gérer le risque plus que minimal?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La recherche implique des entretiens semi-directifs avec des enseignants et des parents, sans exposition à des risques physiques, psychologiques ou sociaux. Les mesures de protection incluent l'anonymisation des données, la destruction des enregistrements audio après transcription, et la possibilité pour les participants de se retirer à tout moment. Les risques potentiels sont décrits comme minimaux, avec une absence de désavantages prévisibles pour les participants.",
+            "Recommandation": "Aucune recommandation supplémentaire n'est nécessaire, car les stratégies de gestion des risques sont adéquates et conformes aux normes éthiques. La recherche respecte les principes d'anonymisation, de consentement éclairé et de confidentialité."
+        }
+    },
+    {
+        "question": "Si des risques plus que minimaux sont présents, est-ce que la liste des ressources est jointe au formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents FIC (formulaires d'information et de consentement) des enseignant.e.s et des parents ne mentionnent pas de liste de ressources spécifiques lorsque des risques plus que minimaux sont présents. Les paragraphes sur les risques indiquent que la recherche n'entraîne pas de risque ou de désavantage prévisible pour les participants, ce qui élimine la nécessité d'inclure une liste de ressources. Aucune section des FIC ne fait référence à des ressources supplémentaires liées à des risques élevés.",
+            "Recommandation": "Si des risques plus que minimaux sont identifiés, il est essentiel d'ajouter une section détaillant les ressources disponibles (ex. soutien psychologique, contacts d'urgence, protocoles de gestion des risques) dans les formulaires d'information et de consentement. Cela garantirait une transparence éthique et une protection adéquate des participants."
+        }
+    },
+    {
+        "question": "Est-ce que le chercheur s’est assurée que les risques ne surpassent pas les bénéfices et ne soient pas trop élevés pour que la recherche ait lieu?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le chercheur a démontré que les risques associés à la recherche sont minimaux et bien gérés. Les risques identifiés (dépenses de déplacement, temps d'interview) sont insignifiants et compensés par les bénéfices potentiels (meilleure compréhension de la communication école-famille). Les mesures de protection des participants (anonymat, consentement éclairé, droit de retrait) sont clairement spécifiées, et le projet ne présente aucun risque psychologique, physique ou social significatif. Les bénéfices liés à l'amélioration de l'implication parentale justifient les risques minimes.",
+            "Recommandation": "Approuver le projet, car les risques sont minimaux et les bénéfices potentiels justifient la recherche. Assurer que les mesures de protection des participants (anonymat, consentement) sont strictement appliquées."
+        }
+    },
+    {
+        "question": "Dans le ou les cas où il s’engage à le faire, est-ce que le chercheur met en place des mécanismes adéquats et suffisants pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le dossier indique clairement que les enregistrements audio seront détruits après transcription, les participants seront identifiés par un code pour éviter leur identification, et les données anonymisées seront stockées de manière sécurisée. La confidentialité est garantie par la destruction des fichiers audio après transcription et l'utilisation de codes d'identification. Les participants peuvent également se retirer à tout moment, avec suppression des données sauf si la transcription est déjà terminée.",
+            "Recommandation": "Il serait utile de préciser plus en détail les méthodes d'anonymisation (ex : utilisation de codes uniques, suppression des informations identifiantes) pour renforcer la transparence et la conformité aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Est-ce que les informations concernant l’anonymat des participants et la confidentialité des données durant la collecte de données ainsi que durant la période de conservation des données sont mentionnées et identiques dans le formulaire d'information et de consentement (FIC) et dans le formulaire F1?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les deux documents mentionnent clairement la confidentialité des données, l'anonymat des participants (via un code ou anonymisation), la destruction des enregistrements audio après transcription, et la conservation sécurisée des données. Les informations sur la confidentialité, l'anonymat, et la période de conservation sont identiques dans le FIC (pour enseignants et parents) et le F1.",
+            "Recommandation": "Aucune recommandation nécessaire. Les documents sont conformes aux exigences éthiques avec une cohérence entre les deux versions."
+        }
+    },
+    {
+        "question": "Est-ce que les règles de conservation des données respectent la politique de l’UQAC?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents ne mentionnent pas explicitement les politiques spécifiques de conservation des données de l'UQAC. Bien que les données soient décrites comme étant stockées de manière sécurisée et anonymisées, il n'y a pas de référence explicite aux règles de conservation définies par l'UQAC. La durée de conservation indiquée (7 ans) et les méthodes de stockage (mot de passe, destruction des enregistrements audio) ne sont pas complètement alignées avec les exigences éthiques détaillées dans les documents EPTC 2 (2022) qui exigent une évaluation des risques liés à la vie privée et une conformité aux normes de la discipline.",
+            "Recommandation": "Vérifier les politiques de conservation des données de l'UQAC et préciser explicitement la durée de conservation conformément à ces règles. Assurer que les méthodes de stockage et de destruction des données respectent les exigences de confidentialité et de sécurité éthiques, y compris l'annotation des données et la présence d'un plan de gestion des données."
+        }
+    },
+    {
+        "question": "Est-ce que les mesures de sécurité mises en place par le chercheur pour limiter l’accès aux données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne la confidentialité des données et l'anonymisation des participants, ainsi que la suppression des enregistrements audio après transcription. Cependant, il ne détaille pas spécifiquement les mesures de sécurité techniques (par exemple, chiffrement, accès restreint, mots de passe complexes) nécessaires pour limiter l'accès aux données. Les mesures mentionnées sont générales (stockage sur ordinateur protégé par mot de passe, destruction des enregistrements) mais ne répondent pas aux exigences précises des lignes directrices éthiques concernant les mesures de protection des données, comme le chiffrement ou les contrôles d'accès stricts.",
+            "Recommandation": "Le FIC devrait préciser les mesures de sécurité techniques spécifiques (ex. chiffrement des données, accès restreint aux fichiers, protocoles d'authentification) pour garantir la protection des données et limiter l'accès. Il est également recommandé d'ajouter des informations sur la gestion des accès aux données et les procédures de sécurité appliquées durant le cycle de vie des données."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur conserve des données sur des ordinateurs appartenant à l’UQAC, la phrase « La confidentialité des données recueillies dans le cadre de ce projet de recherche sera assurée conformément aux lois et règlements applicables dans la province de Québec et aux règlements et politiques de l’Université du Québec à Chicoutimi. » est-elle présente dans le formulaire de consentement?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "La phrase spécifique mentionnant la conformité aux lois et règlements de la province de Québec et aux politiques de l'UQAC n'est pas présente dans les formulaires de consentement des enseignants ou des parents. Les sections « Confidentialité, diffusion et conservation » des FIC décrivent uniquement la destruction des enregistrements audio et l'anonymisation des données, sans référence explicite aux lois provinciales ou aux règlements de l'université.",
+            "Recommandation": "Ajouter explicitement la phrase demandée dans les formulaires de consentement des enseignants et des parents pour garantir la conformité aux exigences éthiques, en précisant la conservation des données sur les ordinateurs de l'UQAC conformément aux réglementations en vigueur."
+        }
+    },
+    {
+        "question": "Est-ce que la durée de conservation des données est mentionnée dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne explicitement la durée de conservation des données : « Le contenu de la transcription anonymisée sera conservé indéfiniment ». Cela indique une durée non limitée, ce qui répond à la question.",
+            "Recommandation": "Aucune recommandation n'est nécessaire, car la durée de conservation est clairement spécifiée dans le FIC."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne la conservation des données anonymisées et leur possible intégration dans une base de données en ligne, mais ne précise pas explicitement la forme, le contexte ou la nature des informations qui seront partagées. Il manque des détails sur les types de données (ex. informations personnelles, identifiants), les conditions de partage (ex. publiques, tiers), et les contextes d'utilisation (ex. publications, recherches externes). Les informations sur la confidentialité sont générales, sans précision sur les risques d'identification ou les modalités de partage.",
+            "Recommandation": "Ajouter une section détaillée dans le FIC spécifiant les types de données conservées (ex. transcriptions anonymisées, codes), les contextes de partage (ex. publications, bases de données avec approbation éthique), et les mesures de sécurité pour protéger la confidentialité. Mentionner également les limites d'accès et les modalités de retrait des données."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) à qui seront partagées les données ou qui aura accès aux données?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document FIC ne précise pas explicitement à qui les données seront partagées ou qui aura accès aux données. Il mentionne que les données sont conservées de manière sécurisée et anonymisées, mais ne liste pas les personnes, institutions ou organismes ayant accès aux données. La section 'Confidentialité, diffusion et conservation' indique que les résultats seront publiés sans révéler l'identité des participants, mais ne précise pas les modalités de partage ou d'accès aux données brutes ou anonymisées.",
+            "Recommandation": "Il est nécessaire d'ajouter une section claire dans le FIC indiquant les entités (ex: chercheur principal, directeurs de recherche, base de données certifiée) qui auront accès aux données, ainsi que les conditions de partage (ex: accès restreint, protocoles de sécurité). Cela respectera les exigences éthiques de transparence et d'informed consent."
+        }
+    },
+    {
+        "question": "Est-ce que les règles de destruction des données respectent la politique de l’UQAC? Des mesures devraient être mises en place pour détruire de manière permanente les données qu'il s'agisse de systèmes de stockage physiques (ex: papier, disque dur externe, clé USB) ou numérique (suppression via des logiciels spécialisés). L'équipe pourrait également dire qu'ils respecteront les règles et meilleures pratiques institutionnelles en vigueur au moment de la suppression des données après la période de conservation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document FIC indique que les enregistrements audio sont détruits après transcription, mais ne précise pas les méthodes spécifiques pour la destruction permanente des données (ex: logiciels spécialisés pour les données numériques ou procédures de suppression physique). La section « Conservation » du F1 mentionne la protection des données par mot de passe, mais ne détaillent pas les mesures concrètes pour la destruction des données, notamment pour les supports physiques (papier, disques). Les règles institutionnelles ne sont pas explicitement décrites comme dans les documents.",
+            "Recommandation": "Ajouter des détails sur les procédures de destruction des données, notamment l'utilisation de logiciels de suppression certifiés pour les données numériques et les méthodes de destruction physique des supports (ex: chiffrement, déchiquetage). Préciser comment ces mesures respectent les politiques UQAC en matière de confidentialité et de conformité éthique."
+        }
+    },
+    {
+        "question": "Est-ce que la méthode de destruction des données est mentionné dans le formulaire d'information et de consentement (FIC)? L'équipe pourrait également y dire qu'ils respecteront les règles et meilleures pratiques institutionnelles en vigueur au moment de la suppression des données après la période de conservation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne que les enregistrements audio seront détruits après transcription, mais ne précise pas la méthode exacte de destruction des données (ex. : surcharge, chiffrement, destruction physique). Il ne fait pas non plus référence aux règles institutionnelles spécifiques ou aux pratiques de suppression prévues après la période de conservation.",
+            "Recommandation": "Ajouter une description claire de la méthode de destruction des données (ex. : « Les enregistrements audio seront détruits de manière irréversible via un processus de surcharge de données ») et préciser que les données seront supprimées conformément aux règles institutionnelles en vigueur après la période de conservation définie."
+        }
+    },
+    {
+        "question": "Si le chercheur souhaite conserver les données pour en faire une utilisation secondaire dans le futur, est-ce que l’utilisation secondaire des données est mentionnée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas explicitement l'utilisation secondaire des données. Bien que le FIC évoque la conservation des données et leur anonymisation, il ne précise pas que les données pourront être réutilisées ultérieurement pour des fins de recherche différentes. La mention de l'utilisation secondaire est nécessaire selon les lignes directrices éthiques (EPTC 2 2022, article 5.5A) pour assurer un consentement éclairé.",
+            "Recommandation": "Ajouter une section explicite dans le FIC décrivant l'éventuelle utilisation secondaire des données, en expliquant les modalités de collecte, de conservation et de protection des données. Cela permettra de respecter les exigences éthiques et d'assurer un consentement éclairé des participants."
+        }
+    },
+    {
+        "question": "Est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas explicitement la demande d'autorisation pour l'utilisation de données secondaires. Les documents décrivent uniquement la collecte de données primaires via des entretiens, sans mentionner l'utilisation de données préexistantes ou non initialement destinées à la recherche. Les sections sur la confidentialité et la conservation ne traitent pas de l'utilisation de données secondaires.",
+            "Recommandation": "Ajouter une clause explicite dans le FIC pour demander le consentement des participants concernant l'utilisation de données secondaires, conformément aux lignes directrices de la Politique (article 5.5A). Assurer que les participants soient informés des types de données utilisés et des raisons de leur utilisation."
+        }
+    },
+    {
+        "question": "Si un incitatif ou une compensation est offerte aux participants, est-ce que le chercheur s’est assuré que la ou les compensations offertes ne soient pas susceptibles d’affecter le consentement volontaire des participants de telle sorte que ces derniers pourraient accepter de participer à la recherche en faisant fi des risques sans réfléchir soigneusement? Porter une attention particulière aux caractéristiques des populations et de la magnitude de la compensation.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Les documents FIC (FORMULAIRE_DINFORMATION_ET_DE_CONSENTEMENT_DES_ENSEIGNANT.ES.docx et FORMULAIRE_DINFORMATION_ET_DE_CONSENTEMENT_DES_PARENTS_DELEVES.docx) et le formulaire F1 (Formulaire2026-2327-17874.pdf) indiquent clairement que les participants ne reçoivent aucune indemnité compensatoire pour leur participation. La section 'INDEMNITÉ COMPENSATOIRE' des formulaires de consentement précise : 'Vous ne recevrez aucune indemnité compensatoire pour la participation à cette recherche'. De plus, dans le formulaire F1, la question 'Compensation ou à incitation pour la participation à la recherche' répond 'Non'. Aucune mention de compensation ou d'incitation n'est présente dans les documents.",
+            "Recommandation": "La question ne s'applique pas au projet, car aucun incitatif ou compensation n'est offert aux participants. Les documents confirment explicitement l'absence de compensation, ce qui élimine tout risque de compromettre le consentement volontaire par une compensation."
+        }
+    },
+    {
+        "question": "Si une compensation est offerte, est-ce que les participants conservent soit une compensation proportionnelle à leur participation ou soit une compensation totale s’ils décident de se retirer de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le document FIC (Formulaire d'information et de consentement) ne mentionne pas de compensation pour les participants. La section 'Indemnité compensatoire' indique explicitement que les participants ne recevront aucune indemnité pour leur participation. Aucune mention de compensation proportionnelle ou totale en cas de retrait n’est présente dans les documents fournis.",
+            "Recommandation": "La question ne s'applique pas au projet, car aucun mécanisme de compensation n'est prévu. Il est recommandé de préciser clairement dans le formulaire de consentement que aucune compensation n'est offerte, conformément aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Le chercheur s’est-il assurer d’éviter toute situation qui puisse présenter un conflit d’intérêt?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire mentionne un conflit d'intérêt potentiel (liens avec des étudiants ou leurs proches) sans fournir de mesures concrètes pour le gérer. La justification souligne un intérêt général pour la recherche, mais ne précise pas de mécanismes de séparation des rôles ou de réduction du conflit, comme le recommandent les normes éthiques (EPTC 2022, chapitre 7). Aucune mention de recours à un autre chercheur non impliqué ou de processus de recours à un comité de surveillance n'est présente.",
+            "Recommandation": "Le chercheur doit préciser les mesures concrètes pour gérer le conflit d'intérêt (ex. : désengagement des étudiants impliqués, désignation d'un coordinateur externe). Une déclaration explicite des risques potentiels pour les participants et une procédure de gestion des conflits doivent être ajoutées au formulaire."
+        }
+    },
+    {
+        "question": "Si un conflit d’intérêt est présent, est-ce que l’intégrité éthique de la recherche est préservée?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire ne mentionne pas de conflits d'intérêt explicites, mais le chercheur est un étudiant en thèse et le projet implique des écoles du CSSRS. Bien que les liens professionnels avec l'organisation soient déclarés, aucun conflit d'intérêt financier ou personnel n'est signalé. Cependant, la présence d'un lien entre le chercheur (étudiant) et l'organisme participant (écoles) pourrait poser un risque éthique si le processus de recrutement ou l'analyse des données n'est pas rigoureusement impartial.",
+            "Recommandation": "Il est recommandé de préciser plus clairement les relations entre le chercheur et l'organisation participant (écoles) et de fournir des mesures supplémentaires pour garantir l'impartialité, notamment en cas de lien de niveau académique ou d'encadrement. Une vérification des procédures de recrutement et d'analyse des données pourraient être renforcées pour éviter tout conflit d'intérêt potentiel."
+        }
+    },
+    {
+        "question": "S’il y a présence d’un conflit d’intérêt, est-ce que ceci est mentionné ainsi que les conséquences pour les participants dans le formulaire de consentement?",
+        "reponse": {
+            "Reponse": false,
+            "justification": "Le formulaire de consentement des enseignants et des parents ne mentionne aucun conflit d'intérêt. Aucune section ne traite des conflits d'intérêts potentiels, réels ou apparents, ni des mesures prises pour les gérer. Le document F1 (Formulaire2026-2327-17874.pdf) ne mentionne que l'absence de financement et de liens financiers, mais ne traite pas d'autres types de conflits (ex. rapports hiérarchiques, intérêts personnels). Les principes de l'EPTC 2 (2022) exigent explicitement la divulgation des conflits d'intérêts lors du processus de consentement, ce qui n'est pas respecté ici.",
+            "recommandation": "Ajouter une section spécifique dans le formulaire de consentement pour détailler les conflits d'intérêts potentiels (ex. rôle de l'étudiant-rechercheur, liens avec les directeurs de recherche). Mentionner les mesures de gestion prévues (ex. déclaration des conflits, processus de suivi). Mentionner également les conséquences potentielles pour les participants si des conflits non déclarés affectent la recherche."
+        }
+    },
+    {
+        "question": "Est-ce qu’il est mentionné si le participant pourra ou non consulter ses données individuelles dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas explicitement si les participants pourront consulter leurs données individuelles. Les sections sur la confidentialité et le droit de retrait soulignent la protection des données et le droit de withdrawal, mais aucune disposition n'est faite concernant l'accès des participants à leurs données personnelles. Les principes éthiques (EPTC 2) exigent que les participants puissent accéder à leurs données, mais cela n'est pas intégré dans le FIC actuel.",
+            "Recommandation": "Ajouter une clause claire dans le FIC indiquant que les participants pourront accéder à leurs données individuelles sur demande, conformément aux principes d'éthique de la recherche. Cela garantira la transparence et respectera le droit des participants à l'accès à leurs données."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir permettre aux participants de consulter leurs données individuelles, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas explicitement sous quelle forme, dans quel contexte ou quelle nature d'informations seront partagées en cas de consultation des données individuelles par les participants. Bien que le FIC mentionne la confidentialité et la destruction des enregistrements audio après transcription, il ne précise pas les mécanismes permettant aux participants d'accéder à leurs données, les conditions d'accès, ni les types d'informations qui pourraient être partagées. La question de l'accès aux données individuelles n'est pas abordée de manière explicite ni structurée dans les documents fournis.",
+            "Recommandation": "Il est recommandé d'ajouter une section spécifique dans le FIC détaillant les modalités d'accès aux données individuelles, y compris les procédures pour solliciter ces données, les formes sous lesquelles elles seront fournies, et les limites ou conditions d'accès. Cela garantirait une transparence éthique et permettrait aux participants de comprendre clairement leurs droits en matière de gestion de leurs données."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, est-il mentionné dans le FIC à qui elles seront partagées ou qui aura accès aux données dans l’organisation?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le FIC ne précise pas clairement à qui les données seront partagées ou qui aura accès aux données au sein de l'organisation. Il mentionne des mesures générales de confidentialité (anonymisation, destruction des enregistrements audio, stockage sécurisé), mais ne liste pas les personnes, rôles ou entités spécifiques au sein de l'organisation ayant accès aux données. Aucune mention des responsables de la recherche, des membres de l'équipe, ou des tiers impliqués dans le partage des données n'est faite.",
+            "Recommandation": "Il est nécessaire d'ajouter une section explicite dans le FIC indiquant les personnes, équipes ou entités autorisées à accéder aux données, ainsi que les modalités de partage des données avec l'organisation (ex. : directeur de recherche, comité éthique, tiers certifiés). Cela permettrait de respecter les exigences éthiques en matière de transparence et d'information complète des participants."
+        }
+    },
+    {
+        "question": "Est-ce que les informations sur les méthodes permettant d’assurer l’anonymat des participants et la confidentialité des données pendant la collecte de données ainsi que lors de la période de conservation des données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne explicitement les mesures pour assurer l'anonymat et la confidentialité. Les enregistrements audio sont détruits après transcription, les participants sont identifiés par un code, et les données sont stockées sur un ordinateur protégé par mot de passe. Les données anonymisées sont conservées indéfiniment, mais les enregistrements originaux sont détruits. Ces éléments répondent aux exigences éthiques pour protéger l'anonymat et la confidentialité pendant la collecte et la conservation.",
+            "Recommandation": "Aucune amélioration n'est nécessaire, car les mesures de confidentialité et d'anonymat sont clairement décrites dans le FIC. Cependant, il serait utile d'ajouter une mention explicite sur la non-récupérabilité des données après leur anonymisation, conformément aux recommandations éthiques supplémentaires."
+        }
+    },
+    {
+        "question": "Est-ce que le type de consentement utilisé est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le type de consentement utilisé est approprié. Les formulaires de consentement des enseignants et des parents incluent toutes les informations nécessaires : objectifs de la recherche, nature des entretiens, confidentialité, droit de retrait, et procédures de collecte et de traitement des données. Le consentement verbal pour les entretiens en visioconférence et écrit pour les entretiens en présentiel respecte les normes éthiques. Les participants sont informés de leur droit à s'opposer à la divulgation de leur identité et des mesures de protection des données. Les Étapes du consentement sont alignées avec les principes de l'EPTC 2018, notamment l'information claire, la volontarité, et la confidentialité.",
+            "Recommandation": "Assurer une adaptation culturelle des formulaires de consentement pour les populations rurales et urbaines, et clarifier les conflits d'intérêts liés à la participation de l'étudiant en tant qu'employé de l'école en milieu urbain."
+        }
+    },
+    {
+        "question": "Est-ce que le consentement des participants est volontaire?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les documents montrent que le consentement des participants est volontaire. Les formulaires de consentement (FIC) des enseignants et parents explicitement indiquent que la participation est volontaire, avec le droit de se retirer à tout moment sans justification. Les annonces de recrutement soulignent également que la participation est libre et que les participants peuvent se désister sans conséquences. Les principes éthiques (EPTC 2) sont respectés, notamment le droit de retrait et la non-coercition. Aucun élément ne suggère une pression ou une influence indue.",
+            "Recommandation": "Confirmer que le processus de recrutement et de consentement respecte les normes éthiques, en poursuivant la pratique actuelle de fournir des informations claires et de garantir le droit de retrait sans obstacles."
+        }
+    },
+    {
+        "question": "Est-ce que le consentement des participants est suffisamment éclairé ?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les formulaires d'information et de consentement (FIC) détaillent clairement les objectifs de la recherche, les procédures, les risques potentiels (non significatifs), les droits des participants (retrait, confidentialité) et les modalités de collecte des données. Les participants sont informés de leur liberté de participation, de leur droit de retrait à tout moment, et des mesures de protection des données. Les documents mentionnent explicitement la nature de l'entretien, la confidentialité, la non-indemnité, et les informations sur le recrutement. Cependant, des éléments comme la durée précise de la recherche, les incertitudes liées aux résultats, et les mécanismes de mise à jour des informations (en cas de nouvelles découvertes) pourraient être plus développés.",
+            "Recommandation": "Améliorer la transparence sur les incertitudes liées à la recherche et les mécanismes de communication des nouvelles informations pendant l'étude. Ajouter une mention explicite sur le droit de recours judiciaire en cas de préjudice, ainsi qu'une description plus détaillée des risques psychologiques potentiels (même s'ils sont minimes)."
+        }
+    },
+    {
+        "question": "Est-ce que le participant peut retirer son consentement en tout temps?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les documents indiquent clairement que les participants peuvent se retirer à tout moment sans justifier leur décision. Le formulaire de consentement des enseignants et des parents mentionne explicitement que 'vous pouvez vous retirer de cette recherche ou demander la suppression de certaines de vos données à n’importe quel moment, sans avoir à donner de raisons'. De plus, les principes éthiques EPTC 2 (2022) confirment ce droit dans les chapitres 3.1 et 3.3, en soulignant que le retrait doit être possible sans inconvénient pour le participant.",
+            "Recommandation": "Confirmer que le processus de retrait est clairement expliqué dans le formulaire de consentement, ce qui est déjà satisfaisant dans les documents fournis."
+        }
+    },
+    {
+        "question": "Est-ce que le participant qui se retire peut demander le retrait de ses données ou de son matériel biologique humain?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement (FIC) des enseignants et parents précise clairement que les participants peuvent se retirer à tout moment, et que les données recueillies seront supprimées, à moins que la transcription anonymisée ait déjà été effectuée. Par ailleurs, les extraits RAG soulignent que les participants ont le droit de demander le retrait de leurs données ou matériel biologique humain, à condition que cela soit réalisable et approprié. La confidentialité et le droit de retrait sont explicitement mentionnés dans les documents de consentement.",
+            "Recommandation": "Il est recommandé de confirmer que les procédures de suppression des données sont clairement expliquées dans le formulaire de consentement, et que les chercheurs sont formés à gérer les demandes de retrait conformément aux protocoles éthiques, notamment en cas de transcription déjà réalisée ou d'anonymisation des données."
+        }
+    },
+    {
+        "question": "Est-ce que le droit de retrait en tout temps, sans justification et sans perte de droits est mentionné dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne explicitement le droit de retrait en tout temps sans justification et sans perte de droits dans la section « PARTICIPATION VOLONTAIRE ET DROIT DE RETRAIT ». Les deux versions (enseignants et parents) indiquent que les participants peuvent se retirer à tout moment, sans justification, et que cela ne génère aucun préjudice. Le texte précise également qu'il est possible de demander la suppression de certaines données, conformément aux exigences éthiques.",
+            "Recommandation": "Confirmer que le droit de retrait est clairement explicité dans les deux versions du FIC (enseignants et parents) et s'assurer que cette mention est visible et compréhensible pour les participants."
+        }
+    },
+    {
+        "question": "Si le chercheur en fait l’utilisation, est-il mentionné dans le formulaire d'information et de consentement (FIC) l’utilisation d’enregistrements audio, vidéo, prise de photos ou prise de notes?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne uniquement l'enregistrement audio des entrevues, sans mentionner explicitement l'utilisation de vidéos, de photos ou de notes. La section décrivant le déroulement de l'entrevue indique que l'entrevue sera enregistrée en format audio seulement, mais ne fait aucune mention des autres méthodes de collecte (vidéo, photos, prise de notes).",
+            "Recommandation": "Il est recommandé d'ajouter une mention explicite concernant l'utilisation de vidéos, de photos ou de notes dans le FIC, en conformité avec les exigences éthiques pour garantir la transparence et le respect de la confidentialité des participants."
+        }
+    },
+    {
+        "question": "Les méthodes de destruction et la durée de conservation pour ces données spécifiques sont-elles précisées dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne que les enregistrements audio seront détruits après la transcription, et que les données anonymisées seront conservées indéfiniment. Cependant, il ne précise pas les méthodes de destruction spécifiques (par exemple, détruire physiquement, effacer numériquement, etc.) ni la durée exacte de conservation des données autres que 'indéfiniment'. De plus, les documents mentionnent des règles générales (comme 'dans le respect des règles en vigueur') sans détails concrets sur les méthodes et la durée.",
+            "Recommandation": "Il est nécessaire d'ajouter des informations spécifiques dans le FIC concernant les méthodes de destruction des données (ex. : chiffrement, suppression définitive, etc.) et la durée de conservation précise (ex. : 7 ans selon les normes de l'UQAC). Cela garantirait une transparence totale pour les participants et respecterait les exigences éthiques."
+        }
+    },
+    {
+        "question": "Est-ce que l’utilisation d’une dissimulation, déception ou duperie est justifiée?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le projet de recherche ne prévoit pas l'utilisation de dissimulation, de déception ou de duperie. Les formulaires de consentement des enseignants et parents (FIC) indiquent clairement les objectifs de la recherche, le déroulement des entretiens et les droits des participants. Le chercheur a explicitement affirmé dans le F1 qu'aucune technique de déception ou de duperie n'est utilisée. Les participants sont pleinement informés de la nature de l'étude et de leur droit de retrait à tout moment, conformément aux principes éthiques du EPTC 2 (2022).",
+            "Recommandation": "Aucune recommandation particulière n'est nécessaire, car le projet respecte les normes éthiques en matière de transparence et de consentement éclairé. Les méthodes de recrutement, de collecte de données et de protection de la confidentialité sont clairement détaillées dans les documents, sans élément justifiant l'utilisation de techniques de duperie."
+        }
+    },
+    {
+        "question": "Si il y a utilisation d'une dissimulation, déception ou duperie, est-ce qu’il y a un debriefing, ou s’il n’y en a pas, est-ce que les règles de dérogation au debriefing sont rencontrées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne semble pas impliquer de dissimulation, de déception ou de duperie, comme le montrent les formulaires de consentement qui mentionnent clairement le but de la recherche et les modalités de participation. Aucune mention de débriefing n'est faite, mais cela ne constitue pas un problème puisque l'utilisation de méthodes déceptives n'est pas évoquée dans les documents fournis.",
+            "Recommandation": "Confirmer que le projet ne recourt à aucune méthode de dissimulation ou de déception, et souligner que le processus de consentement est complet et transparent, conformément aux normes éthiques."
+        }
+    },
+    {
+        "question": "Si du matériel biologique est utilisé, est-ce que les informations concernant la CONFIDENTIALITÉ des échantillons est mentionné dans le formulaire de d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "La recherche ne mentionne pas l'utilisation de matériel biologique. Les documents FIC (Formulaire d'Information et de Consentement) des enseignants et des parents ne font référence à aucun échantillon biologique. L'étude porte sur l'utilisation de plateformes numériques pour la communication école-famille, sans impliquer de collecte de matériel biologique. Les sections sur la confidentialité se concentrent sur l'anonymisation des entretiens audio et la protection des données, sans mentionner de données biologiques.",
+            "Recommandation": "La question ne s'applique pas au projet, car aucun matériel biologique n'est impliqué. Les documents FIC ne nécessitent pas de mention spécifique sur la confidentialité des échantillons biologiques."
+        }
+    },
+    {
+        "question": "Si du matériel biologique est utilisé, est-ce que les informations concernant les méthodes de conservation des échantillons DURANT L'ÉTUDE est mentionné dans le formulaire de d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne concerne pas l'utilisation de matériel biologique. Les fichiers d'information et de consentement (FIC) mentionnent la conservation des données audio et leur anonymisation, mais ne mentionnent pas de méthode de conservation de matériaux biologiques, car aucun n'est utilisé dans cette recherche.",
+            "Recommandation": "La question ne s'applique pas à ce projet, car aucun matériel biologique n'est impliqué. Aucune modification n'est nécessaire."
+        }
+    },
+    {
+        "question": "Si du matériel biologique est utilisé, est-ce que les informations concernant les méthode de destruction des échantillons est mentionné dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet de recherche ne concerne pas l'utilisation de matériel biologique humain. Les échantillons mentionnés dans les documents sont des enregistrements audio, non des échantillons biologiques. Aucune mention de méthode de destruction de matériel biologique n'est donc requise.",
+            "Recommandation": "La question ne s'applique pas à ce projet, car il ne comporte pas de collecte ou d'utilisation de matériel biologique humain. Le formulaire d'information et de consentement n'a pas besoin de mentionner des méthodes de destruction de tel matériel."
+        }
+    },
+    {
+        "question": "Si la recherche est effectuée conjointement avec un autre établissement (co-chercheurs et collaborateurs dans d'autres institutions académiques), les coordonnées de la personne-ressource dans cet établissement ainsi que le nom et le LOGO de l’établissement concerné apparaissent-ils dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) ne mentionne pas les coordonnées de personnes-ressources issues d'autres établissements ni le nom ou le logo d'institutions externes. Les seules références sont à l'Université du Québec à Chicoutimi (UQAC) avec les coordonnées des responsables du projet (Samuel Dometo, Anastasie Amboule-Abath, Stéphane Allaire) et le Comité d'éthique de l'UQAC. Aucun co-chercheur ou institution extérieure n'est identifié dans les documents fournis.",
+            "Recommandation": "Il est nécessaire d'ajouter les coordonnées des co-chercheurs externes et d'inclure le nom et le logo de leur établissement dans le FIC, conformément aux exigences éthiques pour une transparence totale sur la collaboration interinstitutionnelle."
+        }
+    },
+    {
+        "question": "Le logo de l'UQAC est-il présent et actuel ?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le logo de l'UQAC n'est pas mentionné ou présent dans les documents fournis (FORMULAIRE_DINFORMATION_ET_DE_CONSENTEMENT_DES_ENSEIGNANT.ES.docx et FORMULAIRE_DINFORMATION_ET_DE_CONSENTEMENT_DES_PARENTS_DELEVES.docx). Les documents incluent les informations institutionnelles (nom de l'Université, coordonnées, etc.), mais aucun élément visuel ou mention spécifique au logo n'est identifiable.",
+            "Recommandation": "Il est recommandé d'ajouter le logo de l'UQAC aux documents officiels de la recherche, conformément aux normes de communication de l'Université du Québec à Chicoutimi, pour assurer la conformité et la reconnaisance institutionnelle."
+        }
+    },
+    {
+        "question": "Le formulaire mentionne-t-il que le projet de recherche a reçu l’approbation du CER-UQAC ainsi que le numéro de dossier?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents fournis (formulaires de consentement des enseignants et des parents) ne mentionnent pas explicitement l'approbation du Comité d'éthique de la recherche (CER-UQAC) ni le numéro de dossier associé. Aucune référence à un numéro de dossier ou à une attestation d'approbation n'est présente dans les sections du formulaire, ni dans les informations de contact ou les mentions légales.",
+            "Recommandation": "Il est nécessaire d'ajouter une mention explicite de l'approbation du CER-UQAC ainsi que le numéro de dossier dans le formulaire d'information et de consentement, conformément aux exigences éthiques de l'Université du Québec à Chicoutimi."
+        }
+    },
+    {
+        "question": "Si le projet est financé, le financement est-il indiqué dans le formulaire?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement ne mentionne pas explicitement le financement du projet. La section 'FINANCEMENT' indique simplement que 'Cette recherche n’est pas financée.', mais ne précise pas d'autres détails sur le financement (ex. sources, montants, conditions). La question porte sur la présence du financement dans le formulaire, et bien que l'absence soit notée, le formulaire ne contient pas d'informations complémentaires sur le financement.",
+            "Recommandation": "Ajouter une section détaillant les informations sur le financement (sources, montants, conditions) dans le formulaire d'information et de consentement pour répondre pleinement aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Le formulaire d'information et de consentement précise-t-il que le participant est invité à participer à un projet de recherche?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement commence par un préambule clair indiquant : « Nous sollicitons votre participation en tant qu’enseignant.e/parent d’élève à une recherche », ce qui explicitement inviter le participant à rejoindre le projet. Les sections sur l'objectif, le déroulement et le consentement renforcent cette invitation en détaillant les conditions de participation et en confirmant le caractère volontaire de l'engagement.",
+            "Recommandation": "Aucune révision n'est nécessaire. Le formulaire répond clairement à la question en explicitant l'invitation à participer, conformément aux normes éthiques."
+        }
+    },
+    {
+        "question": "Dans le formulaire d'information et de consentement, le but du projet est-il présenté de façon compréhensible pour le participant?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement présente les objectifs et la description de la recherche avec un langage académique et des références bibliographiques, ce qui peut rendre le contenu moins compréhensible pour les participants non spécialisés. Bien que des termes techniques soient nécessaires pour la rigueur scientifique, l'absence de simplification du langage et d'explications claires pour un public non averti risque d’entacher la compréhension globale. La structure du texte est dense et peu structurée pour faciliter la lecture, et l'information sur les enjeux de la recherche n'est pas présentée de manière intuitive.",
+            "Recommandation": "Simplifier le langage en évitant les termes techniques inutiles, illustrer les concepts avec des exemples concrets, et organiser les informations en sections claires (ex. : « Pourquoi cette recherche ? », « Quels sont les objectifs ? »). Ajouter des éléments visuels ou des résumés pour aider à la compréhension, tout en maintenant l'exactitude scientifique."
+        }
+    },
+    {
+        "question": "Dans le formulaire d'information et de consentement, la nature de la participation, sa durée et le lieu de réalisation sont-ils clairement décrits?",
+        "reponse": {
+            "Reponse": true,
+            "Justinification": "Les documents mentionnent clairement la durée de l'intervention (45-60 minutes), la nature de la participation (entretien sur les enjeux de l'usage des plateformes numériques) et les options de lieu (en présentiel ou visioconférence). Les modalités de réalisation sont décrites avec précision dans la section « Déroulement » des deux formulaires.",
+            "Recommandation": "Aucune recommandation n'est nécessaire, car les informations requises sont clairement présentées dans les formulaires."
+        }
+    },
+    {
+        "question": "Dans le formulaire d'information et de consentement, les avantages et inconvénients prévisibles ainsi que les précautions (y compris les ressources d’aide) sont-ils présentés de façon compréhensible?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire ne présente pas de manière claire et détaillée les avantages, inconvénients prévisibles et les précautions. Les avantages sont décrits de manière vague (« possible bénéfice personnel » sans précision), les risques sont minimisés (« aucun risque prévisible ») sans mention de contrecoups potentiels. Les précautions (confidentialité, droit de retrait) sont mentionnées, mais pas de manière structurée ou spécifique. Les ressources d'aide sont identifiées (coordonnées des chercheurs et comité éthique), mais pas explicitement classées comme « précautions ». Le langage est technique et peu adapté à une compréhension universelle, notamment sans exemple concret ou explication des termes.",
+            "Recommandation": "Ajouter une section détaillée sur les avantages (ex: gain de compréhension, contribution à la recherche) et les inconvénients (ex: temps d'engagement, confidentialité). Préciser les précautions (ex: protocole de sécurité des données, protocole d'intervention en cas de stress). Utiliser un langage simple, éviter la jargonisation, et inclure des exemples ou des explications des termes techniques. Vérifier la lisibilité pour un public non spécialisé."
+        }
+    },
+    {
+        "question": "Le formulaire d'information et de consentement indique-t-il que la participation est volontaire?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement des enseignants et des parents mentionne explicitement que la participation est volontaire et précise le droit de retrait sans justification. Pour les enseignants : « Votre participation en tant qu’enseignant.e à cette recherche est volontaire. Vous êtes donc libre de refuser d’y participer. Vous pouvez également vous retirer de cette recherche... » Pour les parents : « Votre participation en tant que parent d’élève à cette recherche est volontaire... » Les textes soulignent également que le retrait peut être effectué à tout moment sans préjudice, conformément aux exigences éthiques.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Le nom et les coordonnées du chercheur apparaissent-ils dans le formulaire?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement des enseignants et des parents inclut clairement les coordonnées du chercheur responsable (Samuel Dometo) dans la section « PERSONNES RESSOURCES » avec son adresse courriel (sbdometo@etu.uqac.ca). Les coordonnées de la direction de recherche (Anastasie Amboule-Abath et Stéphane Allaire) sont également mentionnées. De plus, la signature du chercheur est requise dans les formulaires, confirmant sa présence et son contact.",
+            "Recommandation": "Confirmer que les coordonnées du chercheur sont explicitement mentionnées dans les formulaires, conformément aux exigences éthiques pour assurer la transparence et la responsabilité."
+        }
+    },
+    {
+        "question": "Les moyens de diffusion des résultats et la façon dont les participants seront informés des conclusions sont-ils mentionnés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document ne mentionne pas explicitement les moyens de diffusion des résultats ni la façon dont les participants seront informés des conclusions. Les informations fournies concernent principalement la confidentialité, la conservation des données et la publication des résultats en général, sans détails sur la communication des conclusions aux participants. Les sections sur la diffusion indiquent que les résultats pourraient être publiés en libre accès, mais ne spécifient pas les modalités de diffusion ciblée ou de notification aux participants.",
+            "Recommandation": "Il est recommandé d'ajouter une section détaillant les modalités de diffusion des résultats (ex. : publications, rapports, communication directe) et d'indiquer clairement la manière dont les participants seront informés des conclusions (ex. : par courriel, réunions, mémoires). Cela garantira une transparence et une conformité aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Les coordonnées du CER-UQAC et la mention que le participant peut le contacter pour toute question éthique apparaissent-elles dans le formulaire?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire inclut clairement les coordonnées du Comité d'éthique de la recherche (CER-UQAC) dans la section « PERSONNES RESSOURCES ». Les participants peuvent contacter le CER par téléphone (418-545-5011 poste 4704, ligne sans frais 1-800-463-9880 poste 4704) ou par courriel (cer@uqac.ca) pour toute question éthique.",
+            "Recommandation": "Aucune amélioration n'est nécessaire. Les coordonnées du CER sont correctement mentionnées et conformes aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Si un consentement écrit est utilisé, le formulaire mentionne-t-il qu’il est signé en deux exemplaires et que le participant en conserve une copie?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire de consentement mentionne que le participant reçoit une copie signée et datée, mais ne précise pas explicitement qu’il s’agit de deux exemplaires avec une copie conservée par le participant. La phrase « Une copie signée et datée [...] m’a été remise » indique que le participant obtient une copie, mais ne mentionne pas la nécessité d’un deuxième exemplaire ou la conservation par le participant.",
+            "Recommandation": "Ajouter une phrase explicite dans le formulaire confirmant que le consentement est signé en deux exemplaires, avec une copie remise au participant. Exemple : « Le présent formulaire est signé en deux exemplaires. Le participant conserve une copie signée et datée. »"
+        }
+    },
+    {
+        "question": "Un espace est-il prévu pour le nom, la signature et la date du participant?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les formulaires de consentement pour enseignants (« CONSENTEMENT de l’enseignant.e ») et parents (« CONSENTEMENT du parent d’élève ») incluent explicitement une section pour le nom, la signature et la date du participant. Ces éléments sont clairement mentionnés dans les champs « Nom et signature de l’enseignant.e » et « Nom et signature du participant » accompagnés de la date.",
+            "Recommandation": "La présence de ces éléments est conforme aux exigences éthiques. Aucune amélioration n'est nécessaire, car le formulaire inclut clairement les espaces requis pour la signature et la date du participant."
+        }
+    },
+    {
+        "question": "Un espace est-il prévu pour le nom, la signature et la date du chercheur?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les documents FIC pour les enseignants et les parents incluent une section dédiée à la signature et à l'engagement du chercheur, avec des champs pour le nom, la signature et la date. Ces éléments sont présents dans les deux versions du formulaire (enseignants et parents) sous les rubriques « Signature et engagement du chercheur ».",
+            "Recommandation": "Aucune recommandation nécessaire. Les formulaires incluent clairement les éléments requis pour la signature et la date du chercheur."
+        }
+    },
+    {
+        "question": "Le formulaire est-il paginé?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document FIC pour les enseignants et les parents ne montre aucune indication de pagination. Il s'agit d'un texte continu sans marqueurs de pages, de sauts de page ou de numérotation. Les sections sont organisées par titres et paragraphes, mais aucune structure paginée n'est visible dans le contenu fourni.",
+            "Recommandation": "Vérifier le format PDF ou le document final pour confirmer la présence de pagination. Si nécessaire, ajuster la mise en page pour inclure des sauts de page et une numérotation conforme aux normes de l'institution."
+        }
+    }
+]

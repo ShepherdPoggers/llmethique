@@ -9,8 +9,40 @@ if (!form) {
     const progressText = document.getElementById('progress-text');
     const submitButton = form.querySelector('input[type="submit"]');
 
-    let progressInterval = null;
     let isSubmitting = false;
+    let keepPolling = false;
+
+    // Petite fonction utilitaire pour le délai
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    // Fonction de polling avec délai entre chaque requête
+    async function pollProgress(delayMs = 500) {
+        keepPolling = true;
+
+        while (keepPolling) {
+            try {
+                const res = await fetch('/progress');
+                if (res.ok) {
+                    const data = await res.json();
+                    const current = data.current ?? 0;
+                    const total = data.total ?? 0;
+
+                    if (total > 0 && progressBar && progressText) {
+                        const percent = Math.round((current / total) * 100);
+                        progressBar.style.width = percent + '%';
+                        progressText.textContent = `(${current} / ${total})`;
+                    }
+                }
+            } catch (err) {
+                console.error("Erreur polling /progress :", err);
+            }
+
+            // 👉 délai entre chaque requête
+            await sleep(delayMs);
+        }
+    }
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -34,25 +66,8 @@ if (!form) {
             submitButton.disabled = true;
         }
 
-        // ➜ début du polling /progress
-        progressInterval = setInterval(async () => {
-            try {
-                const res = await fetch('/progress');
-                if (!res.ok) return;
-
-                const data = await res.json();
-                const current = data.current ?? 0;
-                const total = data.total ?? 0;
-
-                if (total > 0 && progressBar && progressText) {
-                    const percent = Math.round((current / total) * 100);
-                    progressBar.style.width = percent + '%';
-                    progressText.textContent = `(${current} / ${total})`;
-                }
-            } catch (err) {
-                console.error("Erreur polling /progress :", err);
-            }
-        }, 500);
+        // ➜ lancement du polling avec délai entre chaque requête
+        pollProgress(10000); // <-- ajuste ici (en ms) la pause entre les requêtes
 
         // ➜ envoi réel du formulaire
         fetch('/', {
@@ -61,7 +76,7 @@ if (!form) {
         })
         .then(r => r.text())
         .then(html => {
-            clearInterval(progressInterval);
+            keepPolling = false;         // on arrête le polling
             if (progressBar) {
                 progressBar.style.width = '100%';
             }
@@ -72,7 +87,7 @@ if (!form) {
             document.close();
         })
         .catch(err => {
-            clearInterval(progressInterval);
+            keepPolling = false;
             console.error("Erreur lors de l'analyse :", err);
             alert("Erreur lors de l'analyse.");
             isSubmitting = false;

@@ -185,6 +185,9 @@ article.NA {
   border-left: 8px solid var(--gris-600) !important;
 }
 
+
+
+
 /* Animations d’apparition légère */
 @keyframes fadeValide {
   from { background-color: rgba(90,116,17,0.08); }
@@ -549,6 +552,32 @@ article.nonValide {
   color: var(--uqac-vert-dark);
   margin: 0 0 0.8rem 0;
 }
+/* Badge de validation dans la modale */
+#validation {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px; /* forme "pilule" */
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+/* Couleurs selon l'état de la modal-card */
+.modal-card.valide #validation {
+  background: var(--uqac-vert);
+  color: #fff;
+}
+
+.modal-card.nonValide #validation {
+  background: var(--rouge);
+  color: #fff;
+}
+
+.modal-card.NA #validation {
+  background: var(--gris-600);
+  color: #fff;
+}
+
+
 .modal-card > div {
   background: var(--uqac-beige);
   border: 1px solid #e5e5e5;

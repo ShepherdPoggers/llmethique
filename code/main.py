@@ -8,10 +8,12 @@ from fonctions.requetellm import requete, requetGroq, requetopenrouter
 import json
 from datetime import datetime
 import re
+from uuid import uuid4
+
 
 EXTENSIONS = ['.pdf', '.docx']
 
-
+progress_store = {}  
 
 
 def WriteTxt(prompt, name):
@@ -74,7 +76,6 @@ def CheckQuestion(question):
     reponse = stringToJson(reponseClean)
     question.SetValide(reponse["Reponse"])
     question.SetReponse(reponse)
-    session["PROGRESS"]["current"] += 1
 
 
 def stringToJson(reponse):
@@ -96,10 +97,10 @@ Session(app)
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 
+
 @app.route('/', methods=['GET', 'POST'])
 def UploadFile():
     """Permet de gérer l'upload des fichiers sur le serveur"""
-   
     
     listeFicher = creerListeFichier()
     if request.method == 'POST':
@@ -111,10 +112,10 @@ def UploadFile():
                 fichier.SetTexte(texte)
             
             lsiteQuestion = UpdateObjetQuestion(CreerObjetQuestion(), listeFicher)
-            session['PROGRESS'] = {"total" : len(lsiteQuestion), "current" : 0}
-            
+            progress_store[session["UUID"]]["total"] = len(lsiteQuestion)
             for question in lsiteQuestion:
                 CheckQuestion(question)
+                progress_store[session["UUID"]]["current"] += 1
     
             jsonFile = [{"question": str(question), "reponse": question.getReponse()} for question in lsiteQuestion]    
             session['JSON'] = jsonFile
@@ -125,26 +126,31 @@ def UploadFile():
             with open('questions_reponses.json', 'r', encoding='UTF-8') as file:
                 session['JSON'] = json.load(file)
                 delDocument(listeFicher)
-
+        del progress_store[session["UUID"]]
         return render_template('resultat.html')
     
     return render_template('index.html')
 
 @app.before_request
 def init_progress():
-    if 'PROGRESS' not in session:
-        session['PROGRESS'] = {"total": 0, "current": 0}
+    if 'UUID' not in session:
+        session_uuid = str(uuid4())
+        session["UUID"] = session_uuid
+        progress_store[session["UUID"]] = {"total": 0, "current": 0}
+
 
 @app.route("/give_json")
 def giveJson():
     """Permet de retourner le json des reponse"""
     data = session['JSON']
+    
     return jsonify(data)
 
 @app.route('/progress')
 def get_progress():
     """Permet de retourner le progrès actuel pour le traitement des questions"""
-    data = session['PROGRESS']
+    data = progress_store[session['UUID']]
+    print(f"Reponse /progress : {data}")
     return jsonify(data)
 
 

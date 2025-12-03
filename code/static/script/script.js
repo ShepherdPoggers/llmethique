@@ -52,7 +52,7 @@ function openOverlay(article) {
       <button class="modal-close" aria-label="Fermer">×</button>
       <h2> ${article.querySelector('h2').textContent} </h2> 
       <div> 
-      ${article.dataset.validation}
+      <p id='validation'>${article.dataset.validation}</p>
       <h3>Justification</h3>
        ${article.dataset.justification}
       ${article.dataset.recommandation}
