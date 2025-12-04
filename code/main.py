@@ -84,7 +84,7 @@ def CheckQuestion(question):
     else:
         reponse = {
             "Reponse": None,
-            "Justification": "Une erreur a eu lieu lors du traitement"
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
         }
         
         question.SetValide(reponse["Reponse"])
