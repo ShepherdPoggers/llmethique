@@ -1,0 +1,90 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les objectifs de l'étude mentionnent clairement l'analyse des enjeux liés aux plateformes numériques dans la communication école-famille, mais ils ne connectent pas explicitement les principes directeurs de l'EPTC2 (respect des personnes, bien-être et justice) à leurs objectifs. Bien que le respect des personnes soit abordé via le consentement éclairé et la confidentialité, et le bien-être via la protection des données, le principe de justice (équité, égalité d'accès, redistribution des bénéfices) n'est pas mentionné dans les objectifs ou la justification des choix méthodologiques. Les participants sont sélectionnés via un échantillonnage non probabiliste, sans clarification sur la représentativité ou l'équité dans la sélection des écoles (urbaines vs. rurales).",
+            "Recommandation": "Préciser dans les objectifs comment la recherche assure l'équité dans la sélection des participants, l'accès équitable aux bénéfices de la recherche, et la réduction des inégalités potentielles liées aux plateformes numériques (ex. : inégalités d'accès aux outils numériques, vulnérabilités socio-économiques). Mentionner des mesures concrètes pour appliquer le principe de justice (ex. : analyse des biais d'échantillonnage, partenariats avec des milieux défavorisés)."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche ?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie de recherche est éthiquement appropriée car elle utilise des entretiens semi-directifs avec des participants consentants, garantit la confidentialité via l'anonymisation, et prévoit une gestion sécurisée des données. Les risques sont minimaux et les principes éthiques (consentement, confidentialité, droit de retrait) sont respectés. La méthode qualitative est adaptée pour explorer les perceptions et expériences des enseignants et parents.",
+            "Recommandation": "Aucune recommandation n'est nécessaire. La méthodologie répond aux critères éthiques requis, notamment la protection des participants et la transparence dans la collecte et l'analyse des données."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d'inclusion sont éthiquement justifiés car ils sont directement liés aux objectifs de la recherche sur l'utilisation des outils numériques dans la communication école-famille. Les participants doivent utiliser des plateformes numériques pour garantir la pertinence des données recueillies. Les critères d'exclusion sont absents, ce qui évite une discrimination arbitraire, et les risques sont minimes puisque la participation est volontaire et anonyme.",
+            "Recommandation": "Il serait utile de préciser comment les critères d'inclusion prennent en compte les vulnérabilités potentielles (ex. accès inégal aux outils numériques) et de relier explicitement les critères aux objectifs de recherche pour renforcer la transparence."
+        }
+    },
+    {
+        "question": "Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le projet ne présente pas de stratégies spécifiques pour interagir avec des populations vulnérables. Bien que les participants ciblés (enseignants et parents) ne soient pas identifiés comme vulnérables, le document ne décrit pas de mesures pour identifier ou protéger les participants potentiellement vulnérables (ex. : tenue compte des inégalités socio-économiques, accès limité aux technologies, ou situations de précarité). Les stratégies d'assurance de consentement éclairé et de confidentialité sont mentionnées, mais aucune approche spécifique n'est développée pour gérer les risques liés à la vulnérabilité.",
+            "Recommandation": "Il est recommandé d'ajouter des mesures spécifiques pour évaluer la vulnérabilité des participants, comme l'identification des facteurs de risque (ex. : inégalités d'accès aux plateformes numériques) et l'élaboration de protocoles pour soutenir les participants vulnérables (ex. : consultations en milieu adapté, garantie d'équité dans la répartition des bénéfices). Une analyse des risques liés à la vulnérabilité devrait être intégrée dans le plan éthique."
+        }
+    },
+    {
+        "question": "Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les méthodes d'information des parents ne sont pas suffisamment détaillées dans les documents. Bien que les formulaires de consentement mentionnent les aspects clés de la recherche, ils ne spécifient pas les modalités concrètes d'information (ex. : méthode de diffusion, langues, support), ni les mesures pour garantir la compréhension des parents, notamment en cas de vulnérabilité. Les lignes directrices EPTC 2 (2022) soulignent l'importance d'un débriefing et d'une communication claire, ce qui n'est pas abordé ici.",
+            "Recommandation": "Il est nécessaire de préciser les méthodes d'information des parents (ex. : réunions, supports multimédias, traductions) et d'ajouter des mesures pour assurer leur compréhension (ex. : explications orales, follow-up). Les parents devraient également être informés des protocoles en cas de découvertes sensibles, conformément aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne mentionne pas explicitement la participation de communautés autochtones, ni l'utilisation de connaissances traditionnelles ou le respect de codes de pratique spécifiques aux Premières Nations, Inuits ou Métis. Les documents ne décrivent pas de partenariats avec des communautés autochtones ni de mesures particulières pour respecter leurs obligations éthiques spécifiques.",
+            "Recommandation": "Il est nécessaire de préciser si le projet implique des communautés autochtones et de détailler les mesures prises pour respecter leurs principes éthiques, notamment en matière de consentement communautaire, de partage des résultats et de protection des savoirs traditionnels."
+        }
+    },
+    {
+        "question": "Est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les étapes de recrutement ne spécifient pas clairement comment les informations personnelles des participants (ex. contacts, critères d'inclusion) sont protégées avant la collecte des données. Bien que les formulaires de consentement mentionnent l'anonymisation des données après la collecte, aucun mécanisme n'est décrit pour garantir la confidentialité pendant le recrutement (ex. utilisation de codes temporaires, protection des données de contact). Les annonces de recrutement incluent des coordonnées email des participants, ce qui pourrait compromettre la confidentialité si ces données ne sont pas sécurisées dès la phase de recrutement.",
+            "Recommandation": "Ajouter des mesures spécifiques pour protéger la confidentialité pendant le recrutement, comme l'utilisation de codes d'identification temporaire pour les contacts, la sécurisation des données collectées (ex. stockage chiffré), et la suppression des informations non nécessaires après la validation des critères d'inclusion."
+        }
+    },
+    {
+        "question": "Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les outils de recrutement présentés ne répondent pas pleinement aux exigences éthiques. Bien que les critères d'inclusion soient clairs et les formulaires de consentement existent, le processus de recrutement repose sur une relation de dépendance avec l'institution scolaire (CSSRS) et implique des participants (enseignants) qui sont à la fois des acteurs de la recherche et des intermédiaires pour recruter les parents. Cela pourrait créer un risque de pression sociale ou de coercition, notamment dans un contexte scolaire où les enseignants pourraient se sentir obligés de participer ou de promouvoir la recherche auprès des parents. De plus, le document ne précise pas comment les participants seront informés de leur droit de retrait sans conséquences, ni comment les données seront gérées en cas de retrait.",
+            "Recommandation": "Améliorer les outils de recrutement en incluant des mesures de protection contre la coercition (ex. : garantir l'anonymat des participants lors du recrutement, utiliser des canaux indépendants pour la diffusion des annonces) et préciser clairement les procédures de retrait et de gestion des données dans les formulaires de consentement. Éviter les conflits d'intérêts en impliquant un tiers indépendant pour le recrutement des parents."
+        }
+    },
+    {
+        "question": "Est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le document 'Demande_dautorisation_au_CSSRS.docx' indique que le chercheur a demandé une autorisation au CSSRS, mais il n'y a pas de preuve formelle d'approbation reçue. Les annonces de recrutement (outilsRecrutement) ne mentionnent pas d'approbation officielle des écoles ou du CSSRS. Le formulaire F1 (2026-2327) signale que l'autorisation de l'organisation (CSSRS) est requise, mais il n'est pas mentionné que cette autorisation a été obtenue. De plus, le CER-UQAC n'a pas encore approuvé le projet, ce qui est un prérequis selon l'EPTC 2 (2022).",
+            "Recommandation": "Le chercheur doit obtenir une autorisation écrite formelle du CSSRS et des écoles ciblées avant de commencer le recrutement. Il doit également s'assurer que le Comité d'éthique de la recherche (CER-UQAC) a approuvé le projet avant toute activité de recrutement ou de collecte de données."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne concerne pas la collecte de données ou le recrutement à l'étranger, mais uniquement des participants locaux (parents et enseignants) dans des écoles du Centre de Services Scolaires des Rives Du Saguenay (CSSRS). Les documents ne mentionnent pas de collecte de données en dehors du Canada, ni de transfert international des données, ce qui rend l'article 8.3 de l'EPTC2 inapplicable à ce contexte.",
+            "Recommandation": "Aucune recommandation n'est nécessaire, car la question ne s'applique pas au projet."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire de consentement et les documents éthiques soulignent que les données seront anonymisées, les enregistrements audio détruits après transcription, et les participants identifiés par un code pour éviter toute identification. Les participants peuvent se retirer à tout moment sans préjudice, et les données sont protégées contre la divulgation non autorisée. Aucune mention de partage de données avec l'organisation n'implique un risque de préjudice pour les participants.",
+            "Recommandation": "Confirmer que les protocoles de confidentialité et de sécurité des données sont strictement appliqués, et s'assurer que les participants sont informés de leurs droits de retrait et de confidentialité tout au long de la recherche."
+        }
+    }
+]

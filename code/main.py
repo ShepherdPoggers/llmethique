@@ -79,9 +79,12 @@ def CheckQuestion(question):
 
 
 def stringToJson(reponse):
-    match = re.search(r"\{[\s\S]*\}", reponse)
-    json_str = match.group()
-    data = json.loads(json_str)
+    try:
+        match = re.search(r"\{[\s\S]*\}", reponse)
+        json_str = match.group()
+        data = json.loads(json_str)
+    except:
+        data = reponse
 
     return data
 
