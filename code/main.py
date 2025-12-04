@@ -73,18 +73,30 @@ def CheckQuestion(question):
     """Permet d'envoyer le prompt et de valider la reponse"""
     reponse = requete(question.PromptGen())
     reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
-    reponse = stringToJson(reponseClean)
-    question.SetValide(reponse["Reponse"])
-    question.SetReponse(reponse)
+    reponse = None
+    
+    for x in range(5):
+        try:
+            reponse = stringToJson(reponseClean)
+            break  
+        except:
+            continue 
+    else:
+        reponse = {
+            "Reponse": None,
+            "Justification": "Une erreur a eu lieu lors du traitement"
+        }
+        
+        question.SetValide(reponse["Reponse"])
+        question.SetReponse(reponse)
 
 
 def stringToJson(reponse):
-    try:
-        match = re.search(r"\{[\s\S]*\}", reponse)
-        json_str = match.group()
-        data = json.loads(json_str)
-    except:
-        data = reponse
+    
+    match = re.search(r"\{[\s\S]*\}", reponse)
+    json_str = match.group()
+    data = json.loads(json_str)
+    
 
     return data
 
