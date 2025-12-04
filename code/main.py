@@ -134,9 +134,12 @@ def UploadFile():
 @app.before_request
 def init_progress():
     if 'UUID' not in session:
-        session_uuid = str(uuid4())
-        session["UUID"] = session_uuid
+        session["UUID"] = str(uuid4())
+
+    # Si jamais la clé n'existe plus dans progress_store, on la recrée
+    if session["UUID"] not in progress_store:
         progress_store[session["UUID"]] = {"total": 0, "current": 0}
+
 
 
 @app.route("/give_json")
@@ -150,6 +153,11 @@ def giveJson():
 def get_progress():
     """Permet de retourner le progrès actuel pour le traitement des questions"""
     data = progress_store[session['UUID']]
+    if data is None:
+        # Soit la session est terminée, soit le traitement est fini.
+        # Tu peux renvoyer un état "terminé" pour que le front arrête de poller.
+        data = {"total": 1, "current": 1, "done": True}
+
     print(f"Reponse /progress : {data}")
     return jsonify(data)
 
