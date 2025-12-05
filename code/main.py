@@ -76,7 +76,6 @@ def CheckQuestion(question):
         try:
             reponse = requete(question.PromptGen())
             reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
-            reponse = None
             reponse = stringToJson(reponseClean)
             break  
         except:
