@@ -13,7 +13,11 @@ def requete(prompt):
         messages=[
             {"role": "user", "content": prompt}
         ],
+        
+        timeout = None
     )
+    
+    
 
     return resp.choices[0].message.content
 
