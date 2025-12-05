@@ -71,12 +71,12 @@ def UploadDesFichiers(files):
 
 def CheckQuestion(question):
     """Permet d'envoyer le prompt et de valider la reponse"""
-    reponse = requete(question.PromptGen())
-    reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
-    reponse = None
     
     for x in range(5):
         try:
+            reponse = requete(question.PromptGen())
+            reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
+            reponse = None
             reponse = stringToJson(reponseClean)
             break  
         except:
