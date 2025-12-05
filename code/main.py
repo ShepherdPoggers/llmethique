@@ -87,8 +87,8 @@ def CheckQuestion(question):
             "Justification": "Une erreur est survenu lors du traitement de cette question."
         }
         
-        question.SetValide(reponse["Reponse"])
-        question.SetReponse(reponse)
+    question.SetValide(reponse["Reponse"])
+    question.SetReponse(reponse)
 
 
 def stringToJson(reponse):
