@@ -1,5 +1,5 @@
 import json
-from objets.QuestionClasse import Question
+from includes.objets.QuestionClasse  import Question
 
 import PyPDF2
 from docx import Document

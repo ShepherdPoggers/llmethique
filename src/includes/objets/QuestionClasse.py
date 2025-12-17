@@ -1,5 +1,5 @@
 from RAG.embeding import getSegment
-from objets.DocumentClasse import Document
+from includes.objets.DocumentClasse import Document
 
 
 class Question():
