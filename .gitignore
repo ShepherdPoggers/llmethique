@@ -8,5 +8,11 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Fichier divers à exclure
+
+projetDeRechercheExclure/
+.vscode/
+
 # (Optionnel) fichiers d’environnement
 .env
+

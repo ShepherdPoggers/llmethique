@@ -3,6 +3,7 @@ from openai import OpenAI
 from groq import Groq
 """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"""
 def requete(prompt):
+    """Cette fonction permet de faire des appelles à LM Studio """
     client = OpenAI(
         base_url="http://100.103.185.35:5000/v1",  # port par défaut LM Studio
         api_key="lm-studio"                   # n'importe quelle chaîne non vide
@@ -23,6 +24,7 @@ def requete(prompt):
 
 
 def requetopenrouter(prompt):
+    """Permet de faire des appelles à OpenRouter"""
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key="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",
@@ -43,6 +45,7 @@ def requetopenrouter(prompt):
 
 
 def requetGroq(prompt):
+    """Permet de faire des appelles à Groq"""
 
     client = Groq(api_key="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")
     completion = client.chat.completions.create(

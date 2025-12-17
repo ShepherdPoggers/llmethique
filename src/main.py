@@ -1,10 +1,10 @@
 import os
-from objets.DocumentClasse import Document
+from includes.objets.DocumentClasse import Document
 from flask import Flask, request, session, render_template, jsonify
 from flask_session import Session
 from werkzeug.utils import secure_filename
-from fonctions.fonctionsDivers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
-from fonctions.requetellm import requete, requetGroq, requetopenrouter
+from includes.fonctions.divers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
+from includes.fonctions.requetellm import requete, requetGroq, requetopenrouter
 import json
 from datetime import datetime
 import re
@@ -35,7 +35,7 @@ def delDocument(listeFicher):
 
 def writeJson(data):
     """Permet d'écrire des données dans un fichier JSON"""
-    with open(f"code/data/jsonProf/{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.json", "w", encoding="utf-8") as f:
+    with open(f"src/data/jsonProf/{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 def creerListeFichier():
@@ -62,7 +62,6 @@ def UploadDesFichiers(files):
     texte = []
     for file in files:
         if ExtensionRight(file.filename): 
-            print("Ca marche")
             filename = secure_filename(file.filename) #Normalise les noms des documents
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename)) #Sauvegarde dans le fichier uploads le document
             chemins.append(filename) #Ajoute le path à une liste
@@ -103,8 +102,8 @@ app = Flask(__name__) #initiation de l'app flask
 app.secret_key = 'ton_secret_unique'
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = False
-app.config['SESSION_FILE_DIR'] = "code/data/session"
-app.config['UPLOAD_FOLDER'] = 'code/uploads'
+app.config['SESSION_FILE_DIR'] = "src/data/session"
+app.config['UPLOAD_FOLDER'] = 'src/uploads'
 
 Session(app) 
 
