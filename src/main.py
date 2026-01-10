@@ -4,7 +4,7 @@ from flask import Flask, request, session, render_template, jsonify
 from flask_session import Session
 from werkzeug.utils import secure_filename
 from includes.fonctions.divers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
-from includes.fonctions.requetellm import requete, requetGroq, requetopenrouter
+from includes.fonctions.requetellm import requete, requetGrok, requetopenrouter
 import json
 from datetime import datetime
 import re
@@ -71,13 +71,14 @@ def UploadDesFichiers(files):
 def CheckQuestion(question):
     """Permet d'envoyer le prompt et de valider la reponse"""
     
-    for x in range(5):
+    for x in range(5): #On essaie 5 fois sinon on met qu'il y a eu une erreur du traitement
         try:
-            reponse = requete(question.PromptGen())
+            reponse = requetopenrouter(question.PromptGen())
             reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
             reponse = stringToJson(reponseClean)
             break  
-        except:
+        except Exception as e:
+            print(e)
             continue 
     else:
         reponse = {
@@ -135,10 +136,8 @@ def UploadFile():
             writeJson(jsonFile)
             delDocument(listeFicher)
         except Exception as e:
-            print(e)
-            with open('questions_reponses.json', 'r', encoding='UTF-8') as file:
-                session['JSON'] = json.load(file)
-                delDocument(listeFicher)
+            print(e)   
+            delDocument(listeFicher)
         del progress_store[session["UUID"]]
         return render_template('resultat.html')
     

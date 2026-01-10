@@ -1,0 +1,621 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs de l’étude sont clairement énoncés dans le document F1 : la simulation de méditation sert de contrôle, le simulateur de vol et la montagne russe évaluent l’apparition et l’évolution du cybermalaise. Le questionnaire pré‑expérimental (FIC) montre que les participants sont triés sur le SSQ, la fatigue, l’hydratation, la consommation de substances, ce qui garantit le bien‑être et la sécurité. Aucun groupe vulnérable n’est ciblé et la sélection semble équitable, ce qui répond au principe de justice. Bien que le consentement libre et éclairé ne soit pas explicitement mentionné dans ces extraits, la présence de mesures de sécurité et de screening indique que le projet respecte les trois principes directeurs de l’EPTC2.",
+            "Recommandation": "Ajouter une déclaration explicite du consentement libre, éclairé et continu, ainsi que des mesures de confidentialité des données, et préciser les critères d’éligibilité pour renforcer la transparence et la justice."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie décrit un contrôle à faible intensité (méditation) et deux expériences à haute intensité (simulateur de vol et montagnes russes) qui permettent de mesurer l’apparition et l’évolution du cybermalaise. Les expériences sont publiques, non conçues spécifiquement pour induire du cybermalaise, ce qui limite le risque. La comparaison entre conditions répond directement aux objectifs de recherche. Cependant, le document ne détaille pas les mesures de sécurité, le dépistage préalable, le suivi des participants ou le consentement éclairé, éléments essentiels pour garantir l’acceptabilité éthique.",
+            "Recommandation": "Intégrer un protocole complet de consentement éclairé, un dépistage préalable des participants pour identifier les contre-indications, un suivi en temps réel des symptômes de cybersickness, la possibilité d’interrompre l’expérience en cas de malaise, et un débriefing post‑expérience. Ces mesures renforceront la conformité éthique et la sécurité des participants."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Les critères d’inclusion et d’exclusion ne sont pas explicitement détaillés dans les documents fournis, ce qui empêche une évaluation précise de leur justification éthique.",
+            "Recommandation": "Fournir une liste détaillée des critères d’inclusion et d’exclusion, en expliquant la justification éthique de chacun, et s’assurer que les critères d’exclusion ne sont pas simplement la négation des critères d’inclusion."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet décrit uniquement des expériences VR (méditation, simulateur de vol, montagnes russes) sans mention explicite de recrutement de participants issus de populations vulnérables. Par conséquent, la question ne s’applique pas.",
+            "Recommandation": "Aucune stratégie spécifique n’est requise tant que le projet ne prévoit pas de recruter des populations vulnérables. Si de telles populations sont envisagées à l’avenir, il faudra alors mettre en place des mesures de protection appropriées."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents fournis ne décrivent pas les méthodes d'information des parents concernant la collecte de données, ni les procédures de consentement éclairé. Sans ces informations, il est impossible de confirmer que les pratiques sont conformes aux exigences éthiques relatives aux enfants présents mais non impliqués.",
+            "Recommandation": "Développer et documenter un protocole clair d'information et de consentement parental, incluant des fiches d'information détaillées, des formulaires de consentement éclairé, et des procédures de débriefing adaptées aux parents. Assurer la conformité avec les directives de l'Université du Québec à Chicoutimi et les normes canadiennes de protection de la vie privée."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne mentionne pas l'implication de communautés autochtones, ni l'utilisation de terres ou de données autochtones.",
+            "Recommandation": "Si le projet implique ultérieurement des participants autochtones ou des terres, il faudra obtenir l'approbation communautaire conformément aux articles 9.3, 9.9, etc."
+        }
+    },
+    {
+        "question": "Dans l'ensemble, est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents fournis décrivent les questionnaires (MSSQ, SSQ, pré-expérimental) et les expériences VR, mais ils ne mentionnent pas de procédures explicites de protection de la confidentialité ou d’anonymat des participants. Il n’y a aucune indication d’un consentement éclairé, d’une anonymisation des données, d’un stockage sécurisé ou d’une limitation de l’accès aux informations personnelles. En l’absence de ces mesures, les étapes de recrutement ne respectent pas clairement les règles d’éthique relatives à la confidentialité et à l’anonymat.",
+            "Recommandation": "Intégrer un formulaire de consentement éclairé détaillant la collecte, l’utilisation et la protection des données. Anonymiser les questionnaires (par ex. numérotation aléatoire, suppression des identifiants personnels). Stocker les données dans un environnement sécurisé avec accès restreint. Informer les participants de leurs droits à la confidentialité et à l’accès à leurs données. Mettre en place un protocole de gestion des données conforme aux politiques de l’Université et aux lois sur la protection de la vie privée."
+        }
+    },
+    {
+        "question": "Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés? Les outils de recrutement devraient inclure au minimum le contexte général du projet, ce qui sera attendu des participants s'ils acceptent de participer, les critères d'inclusion, la durée estimée et le lieu de la participation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents fournis (questionnaires MSSQ, SSQ, questionnaire pré‑expérimental et description des simulations VR) ne contiennent pas d’outil de recrutement détaillé. Aucun texte ne présente le contexte général du projet, les attentes envers les participants, les critères d’inclusion, la durée estimée ni le lieu de participation. Par conséquent, les outils de recrutement ne répondent pas aux exigences éthiques minimales.",
+            "Recommandation": "Élaborer un formulaire de recrutement complet incluant : 1) description du projet et de ses objectifs, 2) rôle et tâches attendues des participants, 3) critères d’inclusion/exclusion justifiés, 4) durée approximative de l’étude et de chaque session, 5) lieu de participation (adresse, accès, mesures sanitaires), 6) informations sur les risques potentiels, compensation éventuelle et modalités de retrait. Ce formulaire doit être présenté aux participants avant l’obtention du consentement éclairé."
+        }
+    },
+    {
+        "question": "Si le recrutement sera réalisé dans une organisation autre que l'UQAC (ex: école primaire, centre ou clinique de réadaptation physique, organisme communautaire, etc.), est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement? Est-ce que les autorisations ont été jointes au dossier?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune preuve d’autorisation de recrutement dans les lieux extérieurs à l’UQAC n’est présente dans les documents fournis. Le dossier ne montre pas de pièces justificatives d’accords avec les écoles, centres ou organismes communautaires. Selon les directives de l’EPTC, l’absence d’autorisation constitue un manquement aux exigences de consentement libre et de protection des participants.",
+            "Recommandation": "Demander et joindre les autorisations écrites de chaque lieu de recrutement (école, clinique, organisme communautaire, etc.) avant le début de la collecte de données. Documenter les accords et les inclure dans le dossier de recherche."
+        }
+    },
+    {
+        "question": "Si le projet planifie faire la totalité ou une partie de la collecte de donnée à l'étranger, est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet tel que décrit ne prévoit pas de recrutement ou de collecte de données à l’étranger ; toutes les procédures (questionnaires, simulations VR, évaluations pré-expérimentales) semblent être réalisées au sein du territoire canadien. Par conséquent, l’article 8.3 de l’EPTC2, qui s’applique uniquement aux activités à l’étranger, n’est pas applicable à ce projet.",
+            "Recommandation": "Si à l’avenir le projet prévoit une partie de la collecte de données à l’étranger, il sera nécessaire de se conformer aux exigences de l’article 8.3, notamment en obtenant les autorisations locales, en garantissant le consentement éclairé, la protection des données et le respect des lois locales de protection de la vie privée."
+        }
+    },
+    {
+        "question": "Si le projet est mené en collaboration avec une organisation ET que le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le partage des données avec une organisation externe peut entraîner un risque de divulgation d'informations personnelles ou sensibles, notamment si les données ne sont pas totalement anonymisées. Cela peut conduire à une atteinte à la vie privée, à une stigmatisation ou à une perte de réputation pour les participants. Les documents RAG soulignent l'importance de protéger la vie privée et de prévoir des mesures de protection conformément à la loi. Sans mesures adéquates, le partage peut donc entraîner un préjudice pour les participants.",
+            "Recommandation": "Assurer l'anonymisation complète des données avant le partage, obtenir un consentement éclairé spécifique pour le partage avec l'organisation, mettre en place des accords de confidentialité, limiter l'accès aux données aux seules personnes autorisées, et prévoir des mécanismes de retrait ou de suppression des données si les participants le souhaitent."
+        }
+    },
+    {
+        "question": "Est-ce que le chercheur met en place des mécanismes adéquats pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données? S'assurer que les informations présentés à ce propos dans les différents documents de la demande sont les mêmes dans tous les documents.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents fournis (F1 et FIC) ne décrivent pas de mécanismes d’anonymat ou de confidentialité pour les participants. Aucun détail n’est donné sur la façon dont les données seront collectées, stockées, sécurisées ou éliminées, ni sur la cohérence de ces informations entre les différents documents. Les extraits RAG indiquent les exigences légales mais ne montrent pas qu’elles ont été mises en œuvre dans le dossier.",
+            "Recommandation": "Ajouter une section détaillant les mesures d’anonymat (codage des participants, suppression des identifiants personnels), les protocoles de sécurité (cryptage, accès restreint), les procédures de conservation et d’élimination des données, et vérifier que ces informations sont identiques dans tous les documents de la demande."
+        }
+    },
+    {
+        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "The study includes a pre‑experimental screening questionnaire that assesses participants’ health status, hydration, fatigue, and familiarity with VR risks, and uses the SSQ to monitor cybersickness, pausing if scores exceed 20. The VR simulations are publicly available and not specifically designed to induce cybersickness, and participants are informed of potential risks. Data collection follows confidentiality principles, and the study involves no vulnerable populations. Therefore, the data collection is ethically appropriate for the study objectives.",
+            "Recommandation": "Continue to ensure informed consent is obtained, maintain strict confidentiality of participant data, and monitor SSQ scores continuously. Consider providing participants with the option to withdraw at any time and ensure data is stored securely in compliance with institutional policies."
+        }
+    },
+    {
+        "question": "Si des entrevues seront utilisées pendant la collecte, est-ce que le nombre d’entrevues, le/les lieux d’entrevues, la durée, le déroulement et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées ? Si des sujets potentiellement sensibles sont traités dans le guide d'entrevue, une mention de ces sujets devraient être faits dans le FIC pour en informer le participant avant sa participation. ",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne prévoit pas d'entretiens; les documents fournis ne décrivent pas de guide d'entrevue ni de questions d'entretien. Par conséquent, la question n'est pas applicable.",
+            "Recommandation": "Si des entretiens sont prévus, fournir le guide d'entrevue, préciser le nombre, lieu, durée, déroulement, et inclure les sujets sensibles dans le FIC."
+        }
+    },
+    {
+        "question": "Si des groupes de discussion seront tenus, est-ce que le nombre de groupes de discussions, la durée, le déroulement, le/les lieux et les thèmes abordés sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le dossier fourni ne mentionne pas la tenue de groupes de discussion ; il décrit uniquement des expériences VR et des questionnaires de bien‑être. Par conséquent, il n’est pas possible d’évaluer la pertinence éthique du nombre, de la durée, du déroulement, du lieu ou des thèmes des groupes de discussion, car ils ne sont pas prévus ou décrits.",
+            "Recommandation": "Si des groupes de discussion sont envisagés, fournir des détails sur leur nombre, durée, déroulement, lieu et thèmes afin que l’évaluation éthique puisse être réalisée. En l’absence de tels groupes, la question ne s’applique pas."
+        }
+    },
+    {
+        "question": "Si le projet propose l'utilisation de matériel biologique, en lien avec les populations visées est-ce que l’utilisation du matériel biologique est appropriée au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le dossier ne mentionne pas l'utilisation de matériel biologique.",
+            "Recommandation": "Indiquer clairement si du matériel biologique sera utilisé et, le cas échéant, détailler les mesures de consentement, anonymisation, protection de la vie privée et possibilités de retrait conformément aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Si le projet propose l'utilisation de matériel biologique, est-ce que l’utilisation du matériel biologique est identificatoire ou permettrait la réidentification des participants?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet décrit ne prévoit pas l’utilisation de matériel biologique humain. Les documents fournis concernent uniquement des expériences de réalité virtuelle et ne mentionnent pas de prélèvements biologiques. Par conséquent, la question de l’identifiabilité du matériel biologique ne s’applique pas.",
+            "Recommandation": "Aucune mesure supplémentaire n’est requise concernant l’identifiabilité du matériel biologique. Continuer à vérifier que le protocole reste exempt de prélèvements biologiques ou, si un tel prélèvement est envisagé, à appliquer les exigences de la politique relative au matériel biologique."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation de matériel biologique est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le protocole décrit ne prévoit pas l'utilisation de matériel biologique humain. Les expériences VR ne nécessitent pas de prélèvements biologiques, donc la question d'utilisation de matériel biologique ne s'applique pas.",
+            "Recommandation": "Si un futur volet de recherche implique du matériel biologique, il faudra obtenir le consentement éclairé, anonymiser les échantillons, et respecter les lignes directrices du chapitre 12 sur le matériel biologique humain."
+        }
+    },
+    {
+        "question": "Si le projet propose l'utilisation d'observations, est-ce que le contexte, l’environnement, le type d’interaction et le nombre de personnes observées sont appropriés, au niveau éthique, en en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le dossier ne décrit pas suffisamment le contexte d’observation, l’environnement, le type d’interaction ni le nombre de participants observés. Il manque également des précisions sur les mesures de protection de la vie privée, l’anonymisation des données et les modalités de consentement éclairé. Sans ces éléments, il est impossible de confirmer que l’observation est éthiquement appropriée par rapport aux objectifs de l’étude et aux populations visées.",
+            "Recommandation": "Développer un protocole d’observation détaillé précisant le cadre (intérieur/extérieur, présence d’équipements), le type d’interaction (passif ou actif), le nombre de participants observés, les méthodes de collecte (notes, enregistrement vidéo/audio), les mesures de protection de la vie privée (anonymisation, stockage sécurisé), et les procédures de consentement éclairé. Assurer que ces éléments sont clairement décrits dans la demande d’approbation."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation d'observations est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "L’étude repose sur l’observation des réactions des participants à des simulations VR, sans mise en scène ni intrusion directe. Les participants sont informés des risques potentiels (cybersickness), remplissent un questionnaire pré-expérimental et donnent leur consentement éclairé. Les données recueillies (SSQ, réponses aux questions, mesures physiologiques) sont anonymisées et ne permettent pas d’identifier les individus. Selon les lignes directrices, une observation naturaliste ou participative non intrusive constitue une recherche à risque minimal, ce qui rend son utilisation éthiquement appropriée.",
+            "Recommandation": "Veiller à la protection des données : anonymiser les enregistrements, sécuriser le stockage, limiter l’accès aux chercheurs. Assurer un consentement continu, informer les participants de la possibilité de se retirer à tout moment, et fournir un débriefing post‑expérience pour atténuer les effets de cybersickness."
+        }
+    },
+    {
+        "question": "Si des questionnaires seront utilisés, est-ce que le type de questionnaire, le nombre de questionnaire, la durée, le/les lieux d’administration et les questions sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les questionnaires utilisés (SSQ, MSSQ, questionnaire pré-expérimental) sont des instruments validés et standardisés pour mesurer la susceptibilité et l’apparition du mal de mouvement. Le nombre de questionnaires (pré-expérimental + SSQ après chaque simulation) reste raisonnable et la durée totale est courte (environ 10–15 minutes). Les questions ne recueillent pas d’informations sensibles au-delà de l’âge, du sexe et de l’état de santé général, et sont administrées dans un cadre privé (laboratoire ou salle dédiée). Les instruments sont adaptés aux objectifs de l’étude (évaluer le cybermalaise dans des simulations VR) et à la population cible (adultes en bonne santé).",
+            "Recommandation": "Assurer que le consentement éclairé précise l’usage des questionnaires, la confidentialité des données et la possibilité de refuser ou de se retirer à tout moment. Veiller à ce que les questionnaires soient administrés dans un environnement calme et privé, et que les participants soient informés de la procédure de pause si le score SSQ dépasse 20. Fournir un débriefing post‑expérience pour répondre aux questions et rassurer les participants."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation de questionnaires est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le questionnaire pré-expérimental recueille des informations essentielles sur le bien‑être, la préparation physique et mentale, ainsi que la connaissance des risques liés à la réalité virtuelle. Il s’agit d’une mesure de sécurité et d’information préalable, conforme aux lignes directrices éthiques concernant le consentement éclairé et la protection des participants. Les données collectées sont anonymisées, traitées de façon confidentielle et ne présentent aucun risque supplémentaire pour les participants. Par conséquent, l’utilisation de ce questionnaire est éthiquement appropriée pour atteindre les objectifs de l’étude.",
+            "Recommandation": "Assurer la transparence du consentement éclairé, expliquer clairement l’usage des données, garantir l’anonymat, permettre le retrait à tout moment, et fournir un débriefing post‑expérience. Conserver les données dans un environnement sécurisé et limiter l’accès aux membres autorisés du projet."
+        }
+    },
+    {
+        "question": "Si des expérimentations auront lieu, est-ce que le nombre de groupes et de participants, le choix des variables expérimentales et dépendantes, le choix des outils de mesure, leur durée, le déroulement des expériences et le/les lieux des expériences sont appropriés, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le protocole décrit l’utilisation de questionnaires de dépistage (MSSQ, SSQ) et d’un questionnaire pré‑expérimental pour évaluer la susceptibilité au mal des transports, l’état de santé et la préparation des participants avant toute expérience VR. Ces mesures permettent d’exclure les participants à haut risque et de réduire les risques de cybers‑malaise. Les expériences VR sont structurées en trois conditions (méditation, simulateur de vol, montagnes russes) avec un contrôle de faible intensité, ce qui permet de comparer les effets sans exposer inutilement les participants à des stimuli excessifs. Les outils de mesure (SSQ, MSSQ, questionnaire pré‑expérimental) sont validés et adaptés à la population cible. La durée des expériences n’est pas spécifiée, mais la présence d’un protocole de pause (si SSQ >20) indique une surveillance continue. Le lieu d’expérimentation (probablement un laboratoire équipé de Meta Quest Pro) est adapté et sécurisé. En somme, le nombre de groupes, le choix des variables, les outils de mesure, la durée, le déroulement et le lieu sont cohérents avec les objectifs de l’étude et respectent les principes éthiques de minimisation des risques, d’information et de consentement éclairé.",
+            "Recommandation": "Justifier la taille d’échantillon pour assurer la puissance statistique, détailler les procédures de stockage et de destruction des données, inclure un protocole de débriefing post‑expérience, et confirmer que les participants peuvent se retirer à tout moment sans pénalité."
+        }
+    },
+    {
+        "question": "Est-ce que l'utilisation d'expérimentations est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le protocole prévoit un questionnaire pré-expérimental qui évalue le score SSQ, la fatigue, l’hydratation, la consommation de caféine, d’alcool ou de drogues, ainsi que la connaissance des risques liés à la réalité virtuelle. Les expériences VR utilisées sont publiques et non conçues spécifiquement pour induire du cybermalaise, et un contrôle (Méditation) est inclus. Les participants peuvent être arrêtés et re‑évalués si le SSQ dépasse 20, ce qui limite les risques. Le niveau de risque est donc minimal et les mesures de sécurité (pause, suivi, consentement éclairé, possibilité de retrait à tout moment) sont en place. Les objectifs de l’étude (mesurer l’apparition et l’évolution du cybermalaise) sont directement liés aux expériences expérimentales, ce qui justifie l’utilisation d’expérimentations.",
+            "Recommandation": "Maintenir le suivi SSQ après chaque session, offrir des pauses supplémentaires si nécessaire, disposer d’un personnel médical disponible, garantir la confidentialité des données, et rappeler aux participants leur droit de se retirer sans conséquence."
+        }
+    },
+    {
+        "question": "Si des données secondaires seront utilisées, est-ce que le traitement des données est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "The study protocol as described in the provided documents involves the collection of primary data from participants during VR sessions. There is no indication that secondary data will be used, so the question about the appropriateness of secondary data treatment does not apply.",
+            "Recommandation": "No action required regarding secondary data. Ensure that any future use of secondary data complies with the guidelines outlined in the RAG excerpts."
+        }
+    },
+    {
+        "question": "Si des données secondaires seront utilisées, est-ce que l’utilisation de données secondaires ainsi que leur nature identificatoire ou non sont mentionnées dans le formulaire d'information et de consentement (FIC) ou ailleurs?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement fourni ne contient aucune mention concernant l'utilisation de données secondaires ni la nature identificatoire ou non des données. Aucun autre document fourni ne fait état de cette information.",
+            "Recommandation": "Ajouter une section explicative dans le FIC ou dans un document séparé précisant que les données collectées seront utilisées à des fins de recherche secondaire, indiquer si les données seront identifiables ou anonymisées, et obtenir le consentement éclairé des participants à cette utilisation."
+        }
+    },
+    {
+        "question": "Si des données secondaires seront utilisées, est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) ou ailleurs?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) fourni ne contient aucune mention d'autorisation pour l'utilisation de données secondaires. Les documents FIC et F1 ne présentent pas de clause demandant le consentement des participants pour une utilisation secondaire des renseignements. Par conséquent, l'autorisation n'est pas demandée dans le FIC ni ailleurs dans les documents fournis.",
+            "Recommandation": "Ajouter une section explicite dans le FIC ou un formulaire de consentement distinct qui demande l'autorisation pour l'utilisation de données secondaires, ou préciser que l'utilisation de données secondaires n'est pas prévue. Assurer la conformité avec la politique de l'Université et les exigences du CER."
+        }
+    },
+    {
+        "question": "Est-ce que ce type de collecte de données est approprié, au niveau éthique, pour répondre aux objectifs de l’étude?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "The study includes pre-experimental screening with SSQ, physical readiness checks, and a pause protocol if SSQ >20, ensuring participant safety. It uses a control condition and provides participants with information about risks, benefits, and confidentiality. The data collection is proportionate to the research objectives and follows ethical guidelines for human research, including informed consent, right to withdraw, and data confidentiality. Therefore, the data collection method is ethically appropriate.",
+            "Recommandation": "Obtain ethics committee approval before recruitment, ensure participants provide informed consent, maintain confidentiality of data, monitor participants during VR exposure, and allow withdrawal at any time."
+        }
+    },
+    {
+        "question": "Est-ce que le nombre, la durée, le déroulement, le/les lieux, les questions, ou autre, si applicables, sont appropriés en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les questionnaires MSSQ et SSQ sont des instruments validés pour mesurer la susceptibilité au mal des transports et le cybermalaise, et ils correspondent aux objectifs de l’étude. Le questionnaire pré‑expérimental permet d’évaluer l’état physique et mental des participants avant l’exposition aux simulations VR, ce qui est pertinent pour la population cible. Les trois expériences VR (méditation, simulateur de vol, montagnes russes) couvrent un spectre de stimuli allant de faible à élevé, ce qui permet d’étudier l’évolution des symptômes de cybermalaise conformément aux objectifs de recherche. Le déroulement proposé (pré‑examen, trois sessions VR, suivi SSQ) est cohérent avec les exigences méthodologiques et respecte les critères de sécurité et de bien‑être des participants. Les lieux d’expérimentation (probablement un laboratoire VR à l’Université du Québec à Chicoutimi) sont adaptés à la population cible et garantissent un environnement contrôlé.",
+            "Recommandation": "Préciser le nombre de participants, la durée exacte de chaque session VR, le nombre de répétitions, ainsi que les critères d’inclusion/exclusion détaillés. Décrire les mesures de sécurité (pause, retrait en cas de symptômes sévères) et les procédures de conservation des données conformément aux exigences de confidentialité. Enfin, confirmer que le recrutement via le document outilsRecrutement respecte les critères d’équilibre clinique et la protection de la vie privée."
+        }
+    },
+    {
+        "question": "Si l'étude expose les participants à un niveau de risque supplémentaire par rapport à leur vie normale, est-ce que des stratégies adéquates et suffisantes sont mises en place pour gérer le risque plus que minimal?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le protocole prévoit un questionnaire pré-expérimental complet qui évalue le niveau de cybersickness (SSQ) et impose un seuil de 20 pour poursuivre l’expérience, ainsi que des critères de préparation physique et mentale (sommeil, hydratation, absence de caféine, alcool ou drogues récréatives, fatigue). Les participants sont également informés des risques potentiels liés à la réalité virtuelle. Les expériences VR utilisées sont publiques et non conçues spécifiquement pour induire du cybermalaise, et un scénario de contrôle (Méditation) est inclus pour comparer les effets. Ces mesures constituent une stratégie de gestion du risque plus que minimal, couvrant l’évaluation préalable, la prévention et la surveillance des symptômes.",
+            "Recommandation": "Maintenir le questionnaire pré-expérimental et le seuil SSQ, ajouter une surveillance en temps réel des symptômes pendant l’expérience, prévoir un protocole d’arrêt immédiat en cas de malaise, et offrir un débriefing post‑expérience. Assurer que les participants comprennent qu’ils peuvent se retirer à tout moment et que des mesures de soutien sont disponibles."
+        }
+    },
+    {
+        "question": "Si des risques plus que minimaux sont présents, est-ce que la liste des ressources est jointe au formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) fourni ne contient qu'un questionnaire pré-expérimental évaluant le bien‑être et les risques potentiels liés à la réalité virtuelle. Il ne présente pas de liste de ressources (ex. contacts d’assistance médicale, lignes d’aide, procédures de retrait). Selon la politique, lorsqu’un projet présente des risques supérieurs à un risque minimal, le FIC doit inclure une liste de ressources pour soutenir les participants.",
+            "Recommandation": "Ajouter une section détaillant les ressources disponibles (contacts d’urgence, services de santé mentale, procédures de retrait, etc.) au FIC afin de répondre aux exigences éthiques pour les risques non minimaux."
+        }
+    },
+    {
+        "question": "Est-ce que le chercheur s’est assurée que les risques ne surpassent pas les bénéfices et ne soient pas trop élevés pour que la recherche ait lieu?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le dossier ne fournit aucune preuve que le chercheur a évalué les risques par rapport aux bénéfices, ni de mesures de protection ou de protocoles de sécurité pour les expériences VR à haute intensité. Les documents décrivent les expériences mais ne mentionnent pas d’analyse de risque, de surveillance des participants, de consentement éclairé détaillé ou de stratégies d’atténuation. Sans ces éléments, il n’est pas possible de confirmer que les risques ne dépassent pas les bénéfices ou ne sont pas trop élevés.",
+            "Recommandation": "Le chercheur doit réaliser une analyse détaillée des risques et bénéfices, mettre en place des protocoles de sécurité (ex. surveillance physiologique, arrêt d’expérience en cas de malaise), fournir un consentement éclairé complet, et documenter ces mesures dans le dossier de recherche."
+        }
+    },
+    {
+        "question": "Dans le ou les cas où il s’engage à le faire, est-ce que le chercheur met en place des mécanismes adéquats et suffisants pour assurer l’anonymat des participants et la confidentialité des données durant la collecte ainsi que durant la période de conservation des données?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le dossier ne décrit pas de mécanismes d’anonymat ou de confidentialité des données pendant la collecte ou la conservation.",
+            "Recommandation": "Intégrer des procédures d’anonymisation ou de pseudonymisation, sécuriser le stockage des données par chiffrement, limiter l’accès aux données, définir une politique de conservation et de destruction, et inclure ces mesures dans le formulaire de consentement éclairé."
+        }
+    },
+    {
+        "question": "Est-ce que les informations concernant l’anonymat des participants et la confidentialité des données durant la collecte de données ainsi que durant la période de conservation des données sont mentionnées et identiques dans le formulaire d'information et de consentement (FIC) et dans le formulaire F1?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents FIC et F1 ne contiennent aucune mention de l’anonymat ou de la confidentialité des données, ni de la période de conservation. Par conséquent, les informations ne sont pas présentes, et elles ne peuvent pas être identiques.",
+            "Recommandation": "Ajouter une section explicite dans le FIC détaillant l’anonymat, la confidentialité, les mesures de sécurité, la durée de conservation et les droits de retrait. S’assurer que le même texte ou un texte équivalent soit inclus dans le F1 ou que le F1 fasse référence au FIC pour ces informations afin d’assurer la cohérence."
+        }
+    },
+    {
+        "question": "Est-ce que les règles de conservation des données respectent la politique de l’UQAC?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les documents fournis ne décrivent pas de règles précises de conservation des données, donc on ne peut pas confirmer qu'elles respectent la politique de l’UQAC.",
+            "Recommandation": "Définir clairement les durées de conservation, les mesures de sécurité, et les procédures de destruction conformément aux exigences de l’UQAC et aux normes de la discipline."
+        }
+    },
+    {
+        "question": "Est-ce que les mesures de sécurité mises en place par le chercheur pour limiter l’accès aux données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement fourni ne contient aucune description des mesures de sécurité visant à limiter l'accès aux données. Il se concentre uniquement sur l'évaluation du bien-être et les risques liés à la réalité virtuelle, sans mentionner la protection des renseignements personnels.",
+            "Recommandation": "Intégrer une section explicite dans le FIC détaillant les mesures de sécurité matérielles, administratives et techniques prévues pour protéger les données des participants, conformément aux exigences de la politique de confidentialité et aux directives de l'université."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur conserve des données sur des ordinateurs appartenant à l’UQAC, la phrase « La confidentialité des données recueillies dans le cadre de ce projet de recherche sera assurée conformément aux lois et règlements applicables dans la province de Québec et aux règlements et politiques de l’Université du Québec à Chicoutimi. » est-elle présente dans le formulaire de consentement?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le dossier fourni ne contient pas le texte du formulaire de consentement, donc il n'est pas possible de déterminer si la phrase est présente.",
+            "Recommandation": "Veuillez fournir le texte complet du formulaire de consentement pour une évaluation précise."
+        }
+    },
+    {
+        "question": "Est-ce que la durée de conservation des données est mentionnée dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) fourni ne contient aucune mention concernant la durée de conservation des données. Les sections du FIC se concentrent uniquement sur l’évaluation du bien‑être des participants et les questions de santé, sans aborder la gestion des données, la durée de stockage ou la destruction des informations recueillies.",
+            "Recommandation": "Intégrer dans le FIC une clause explicite indiquant la période de conservation des données, le lieu de stockage, les mesures de sécurité appliquées, ainsi que les modalités de destruction ou de transfert des données après la fin de l’étude. Cette information doit être clairement présentée aux participants afin de garantir un consentement éclairé et conforme aux exigences éthiques."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement fourni (Evaluation_bien-etre_pre-_experimental_1.docx) ne contient aucune mention explicite concernant la conservation des données, la forme sous laquelle elles seront conservées, le contexte de cette conservation ou la nature des informations qui seront partagées. Le document F1 (Les_simulations_VR_1.docx) décrit les expériences VR mais ne traite pas de la gestion des données. Aucun extrait du FIC ne répond à la question posée.",
+            "Recommandation": "Intégrer dans le FIC une section détaillant la conservation des données : format (ex. fichiers numériques anonymisés), durée de conservation, contexte d’utilisation future, nature des informations (par ex. scores SSQ, réponses aux questionnaires, enregistrements vidéo/audio) et modalités de partage (ex. accès restreint aux chercheurs, anonymisation, conditions de retrait)."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir conserver les données, est-il mentionné dans le formulaire d'information et de consentement (FIC) à qui seront partagées les données ou qui aura accès aux données?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement fourni (Evaluation_bien-etre_pre-_experimental_1.docx) ne contient aucune information concernant la conservation des données, ni indique à qui les données seront partagées ou qui aura accès aux données. Il se limite à un questionnaire de santé et de bien‑être sans mention de stockage ou de partage.",
+            "Recommandation": "Inclure dans le FIC une section détaillant la conservation des données, les modalités de partage, les personnes ou institutions ayant accès, ainsi que les options de retrait du consentement. Veiller à ce que le consentement soit séparé pour la collecte initiale et le stockage futur, conformément aux exigences de l'EPTC et du CER."
+        }
+    },
+    {
+        "question": "Est-ce que les règles de destruction des données respectent la politique de l’UQAC? Des mesures devraient être mises en place pour détruire de manière permanente les données qu'il s'agisse de systèmes de stockage physiques (ex: papier, disque dur externe, clé USB) ou numérique (suppression via des logiciels spécialisés). L'équipe pourrait également dire qu'ils respecteront les règles et meilleures pratiques institutionnelles en vigueur au moment de la suppression des données après la période de conservation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le dossier ne décrit pas de procédures explicites de destruction des données, ni de période de conservation, ni de méthodes de suppression permanente (physique ou numérique). Les documents fournis (questionnaire pré-expérimental, simulations VR, extraits de l’EPTC) ne mentionnent pas la destruction des données ni la conformité aux pratiques institutionnelles de l’UQAC.",
+            "Recommandation": "Intégrer dans le protocole une section détaillant la durée de conservation des données, les critères de fin de conservation, les méthodes de destruction (ex. effacement sécurisé, destruction physique de supports, suppression via logiciels certifiés), et la conformité aux politiques de l’UQAC. Documenter les responsabilités des membres de l’équipe pour la mise en œuvre et la vérification de ces procédures."
+        }
+    },
+    {
+        "question": "Est-ce que la méthode de destruction des données est mentionné dans le formulaire d'information et de consentement (FIC)? L'équipe pourrait également y dire qu'ils respecteront les règles et meilleures pratiques institutionnelles en vigueur au moment de la suppression des données après la période de conservation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement ne contient aucune mention de la méthode de destruction des données ni de l'engagement à respecter les règles institutionnelles en vigueur après la période de conservation.",
+            "Recommandation": "Ajouter une section explicite dans le FIC détaillant la méthode de destruction des données, la durée de conservation, et l'engagement à suivre les meilleures pratiques institutionnelles. Informer les participants de ces dispositions et leur donner la possibilité de demander le retrait de leurs données."
+        }
+    },
+    {
+        "question": "Si le chercheur souhaite conserver les données pour en faire une utilisation secondaire dans le futur, est-ce que l’utilisation secondaire des données est mentionnée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement fourni (Evaluation_bien-etre_pre-_experimental_1.docx) ne contient que des questions pré-expérimentales relatives au bien‑être et à la préparation physique et mentale des participants. Il ne mentionne pas la conservation des données ni l’utilisation secondaire future des renseignements recueillis.",
+            "Recommandation": "Ajouter une section explicite dans le FIC précisant que les données seront conservées pour une utilisation secondaire éventuelle, en indiquant les modalités de protection de la vie privée, les conditions d’accès aux données et la possibilité pour les participants de retirer leur consentement à cette utilisation secondaire."
+        }
+    },
+    {
+        "question": "Est-ce que l’autorisation pour l’utilisation de données secondaires est demandée à la personne concernée dans le formulaire d'information et de consentement (FIC) si le chercheur a mentionné vouloir en faire l’utilisation?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le formulaire d'information et de consentement (FIC) fourni ne contient aucune mention concernant l'utilisation de données secondaires. Il se limite à un questionnaire pré-expérimental portant sur le bien‑être et la santé des participants, sans clause de consentement pour la réutilisation des renseignements recueillis. Selon la Politique et les articles 5.5A et 5.7, l'obtention du consentement individuel est requise pour l'utilisation secondaire de renseignements identificatoires, sauf si toutes les conditions de l'article 5.5A sont remplies. Le FIC actuel ne répond donc pas à cette exigence.",
+            "Recommandation": "Ajouter une section explicite dans le FIC demandant le consentement éclairé des participants pour l'utilisation secondaire de leurs données, en précisant les finalités de la recherche, les mesures de protection de la vie privée et les droits des participants. Si le chercheur estime que les conditions de l'article 5.5A sont remplies, il doit soumettre une justification détaillée au CER pour obtenir une exemption de consentement."
+        }
+    },
+    {
+        "question": "Si un incitatif ou une compensation est offerte aux participants, est-ce que le chercheur s’est assuré que la ou les compensations offertes ne soient pas susceptibles d’affecter le consentement volontaire des participants de telle sorte que ces derniers pourraient accepter de participer à la recherche en faisant fi des risques sans réfléchir soigneusement? Porter une attention particulière aux caractéristiques des populations et de la magnitude de la compensation.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Les documents fournis (questionnaire pré-expérimental, description des simulations VR et extraits de la RAG) ne mentionnent aucune incitation ou compensation financière ou autre offerte aux participants. Sans information sur la nature, la magnitude ou la modalité de compensation, il est impossible d’évaluer si le chercheur a pris des mesures pour éviter que celle-ci n’influence indûment le consentement volontaire. Par conséquent, la question ne peut pas être répondue positivement ou négativement dans le cadre de ce dossier.",
+            "Recommandation": "Demander au chercheur de préciser les modalités de compensation (montant, forme, timing), ainsi que les mesures mises en place pour garantir que la compensation ne constitue pas une influence indue sur le consentement. Inclure ces informations dans le dossier d’évaluation afin de pouvoir vérifier la conformité aux exigences éthiques relatives à l’incitation."
+        }
+    },
+    {
+        "question": "Si une compensation est offerte, est-ce que les participants conservent soit une compensation proportionnelle à leur participation ou soit une compensation totale s’ils décident de se retirer de l’étude?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le chercheur s’est-il assurer d’éviter toute situation qui puisse présenter un conflit d’intérêt?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si un conflit d’intérêt est présent, est-ce que l’intégrité éthique de la recherche est préservée?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "S’il y a présence d’un conflit d’intérêt, est-ce que ceci est mentionné ainsi que les conséquences pour les participants dans le formulaire de consentement?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce qu’il est mentionné si le participant pourra ou non consulter ses données individuelles dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir permettre aux participants de consulter leurs données individuelles, est-il mentionné dans le formulaire d'information et de consentement (FIC) sous quelle forme, dans quel contexte et quelle est la nature des informations qui seront partagées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, est-il mentionné dans le FIC à qui elles seront partagées ou qui aura accès aux données dans l’organisation?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que les informations sur les méthodes permettant d’assurer l’anonymat des participants et la confidentialité des données pendant la collecte de données ainsi que lors de la période de conservation des données sont mentionnées dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que le type de consentement utilisé est approprié, au niveau éthique, en regard des objectifs de l’étude et de ou des populations visées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que le consentement des participants est volontaire?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que le consentement des participants est suffisamment éclairé ?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que le participant peut retirer son consentement en tout temps?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que le participant qui se retire peut demander le retrait de ses données ou de son matériel biologique humain?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que le droit de retrait en tout temps, sans justification et sans perte de droits est mentionné dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si le chercheur en fait l’utilisation, est-il mentionné dans le formulaire d'information et de consentement (FIC) l’utilisation d’enregistrements audio, vidéo, prise de photos ou prise de notes?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Les méthodes de destruction et la durée de conservation pour ces données spécifiques sont-elles précisées dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Est-ce que l’utilisation d’une dissimulation, déception ou duperie est justifiée?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si il y a utilisation d'une dissimulation, déception ou duperie, est-ce qu’il y a un debriefing, ou s’il n’y en a pas, est-ce que les règles de dérogation au debriefing sont rencontrées?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si du matériel biologique est utilisé, est-ce que les informations concernant la CONFIDENTIALITÉ des échantillons est mentionné dans le formulaire de d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si du matériel biologique est utilisé, est-ce que les informations concernant les méthodes de conservation des échantillons DURANT L'ÉTUDE est mentionné dans le formulaire de d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si du matériel biologique est utilisé, est-ce que les informations concernant les méthode de destruction des échantillons est mentionné dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si la recherche est effectuée conjointement avec un autre établissement (co-chercheurs et collaborateurs dans d'autres institutions académiques), les coordonnées de la personne-ressource dans cet établissement ainsi que le nom et le LOGO de l’établissement concerné apparaissent-ils dans le formulaire d'information et de consentement (FIC)?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le logo de l'UQAC est-il présent et actuel ?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le formulaire mentionne-t-il que le projet de recherche a reçu l’approbation du CER-UQAC ainsi que le numéro de dossier?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si le projet est financé, le financement est-il indiqué dans le formulaire?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le formulaire d'information et de consentement précise-t-il que le participant est invité à participer à un projet de recherche?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Dans le formulaire d'information et de consentement, le but du projet est-il présenté de façon compréhensible pour le participant?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Dans le formulaire d'information et de consentement, la nature de la participation, sa durée et le lieu de réalisation sont-ils clairement décrits?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Dans le formulaire d'information et de consentement, les avantages et inconvénients prévisibles ainsi que les précautions (y compris les ressources d’aide) sont-ils présentés de façon compréhensible?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le formulaire d'information et de consentement indique-t-il que la participation est volontaire?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le nom et les coordonnées du chercheur apparaissent-ils dans le formulaire?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Les moyens de diffusion des résultats et la façon dont les participants seront informés des conclusions sont-ils mentionnés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Les coordonnées du CER-UQAC et la mention que le participant peut le contacter pour toute question éthique apparaissent-elles dans le formulaire?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si un consentement écrit est utilisé, le formulaire mentionne-t-il qu’il est signé en deux exemplaires et que le participant en conserve une copie?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Un espace est-il prévu pour le nom, la signature et la date du participant?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Un espace est-il prévu pour le nom, la signature et la date du chercheur?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Le formulaire est-il paginé?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    }
+]

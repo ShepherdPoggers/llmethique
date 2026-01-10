@@ -3,7 +3,7 @@ from openai import OpenAI
 from groq import Groq
 """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"""
 def requete(prompt):
-    """Cette fonction permet de faire des appelles à LM Studio """
+    """Cette fonction permet de faire des appelles à LM Studio elle est actuelle setter pour faire des requêtes chez Pascal :)"""
     client = OpenAI(
         base_url="http://100.103.185.35:5000/v1",  # port par défaut LM Studio
         api_key="lm-studio"                   # n'importe quelle chaîne non vide
@@ -17,17 +17,15 @@ def requete(prompt):
         
         timeout = None
     )
-    
-    
 
     return resp.choices[0].message.content
 
 
-def requetopenrouter(prompt):
+def requetopenrouter(prompt): 
     """Permet de faire des appelles à OpenRouter"""
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="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",
     )
 
     completion = client.chat.completions.create(
@@ -44,8 +42,8 @@ def requetopenrouter(prompt):
     return completion.choices[0].message.content
 
 
-def requetGroq(prompt):
-    """Permet de faire des appelles à Groq"""
+def requetGrok(prompt):
+    """Permet de faire des appelles à Grok"""
 
     client = Groq(api_key="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")
     completion = client.chat.completions.create(
