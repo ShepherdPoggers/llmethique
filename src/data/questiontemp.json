@@ -1,20 +1,20 @@
 
 [
 {
-    "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice?",
+    "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
     "documents": [
       "F1",
       "FIC"
     ]
   },
   {
-    "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche ?",
+    "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
     "documents": [
       "F1"
     ]
   },
   {
-    "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ?",
+    "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
     "documents": [
       "outilsRecrutement",
       "FIC",
@@ -22,13 +22,13 @@
     ]
   },
   {
-    "question": "Est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec les populations vulnérables?",
+    "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
     "documents": [
       "F1"
     ]
   },
   {
-    "question": "Dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents sont appropriées, au niveau éthique?",
+    "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
     "documents": [
       "FIC",
       "F1"
@@ -38,47 +38,6 @@
     "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
     "documents": [
       "rechercheMilieu",
-      "FIC",
-      "F1"
-    ]
-  },
-  {
-    "question": "Est-ce que les étapes de recrutement respectent les règles d’éthique (confidentialité et anonymat de participation)?",
-    "documents": [
-      "outilsRecrutement",
-      "FIC",
-      "F1"
-    ]
-  },
-  {
-    "question": "Est-ce que les outils de recrutement sont adéquats, au niveau éthique, en regard des participants visés?",
-    "documents": [
-      "outilsRecrutement",
-      "rechercheMilieu",
-      "FIC",
-      "F1"
-    ]
-  },
-  {
-    "question": "Est-ce que les autorisations ont été demandées à tous les endroits appropriés pour les lieux de recrutement?",
-    "documents": [
-      "outilsRecrutement",
-      "rechercheMilieu",
-      "F1"
-    ]
-  },
-  {
-    "question": "Est-ce que les principes d’éthique de la recherche (article 8.3 de l’EPTC2) pour le recrutement et la collecte de données à l’étranger sont respectés?",
-    "documents": [
-      "outilsRecrutement",
-      "FIC",
-      "F1"
-    ]
-  },
-  {
-    "question": "Dans le cas où le chercheur a mentionné vouloir partager les données avec l'organisation, prévoyez-vous un préjudice pour le participant?",
-    "documents": [
-      "descriptionCollecte",
       "FIC",
       "F1"
     ]

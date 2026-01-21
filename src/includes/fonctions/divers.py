@@ -4,7 +4,7 @@ from includes.objets.QuestionClasse  import Question
 import PyPDF2
 from docx import Document
 
-def CreerObjetQuestion(path=r"src/data/questionsRevised.json") -> list[Question]:
+def CreerObjetQuestion(path=r"src/data/questionTemp.json") -> list[Question]:
     """Permet de charger un JSON de question et de créer les objets Questions"""
     listeQuestions = []
     with open(path, "r", encoding="UTF-8") as file:

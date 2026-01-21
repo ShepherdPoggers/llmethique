@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs du projet sont clairement décrits (conception d'un système d'IA pour prédire le cybermalaise, identification des indicateurs comportementaux, comparaison de modèles, évaluation de la précision). Le formulaire et le consentement démontrent le respect de la personne (consentement éclairé, droit de retrait, confidentialité), la préoccupation pour le bien‑être (risques physiques minimisés, pauses, suivi continu, compensation) et la justice (recrutement ouvert à tous les adultes, critères d’inclusion/exclusion justifiés, sélection transparente \"premier arrivé, premier retenu\", compensation équitable). Ainsi, même sans référence explicite aux trois principes, les objectifs et les mesures prévues permettent de confirmer leur conformité aux principes directeurs de l'EPTC2.",
+            "Recommandation": "Veiller à documenter explicitement, dans le protocole, comment les critères d’inclusion/exclusion et le processus de sélection assurent l’équité, afin de renforcer la démonstration du principe de justice lors de l’évaluation du CER."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie proposée (expériences immersives en réalité virtuelle, collecte de données faciales et corporelles via les capteurs du casque Meta Quest Pro, questionnaires SSQ/MSSQ et analyse par apprentissage automatique) correspond directement aux objectifs de prédire le cybermalaise à partir de signaux comportementaux. Le nombre de participants (15‑25 adultes), les critères d’inclusion/exclusion, les mesures de réduction du risque (pré‑sélection, pauses, suivi continu du bien‑être), le consentement éclairé écrit, la compensation raisonnable et le plan de gestion des données (codage, stockage crypté, conservation 7 ans) sont conformes aux exigences du TCPS 2 et du chapitre 6 de l’EPTC 2. Les risques sont limités à un malaise physique mineur, correctement atténués. Ainsi, la méthodologie est éthiquement appropriée pour répondre aux questions de recherche.",
+            "Recommandation": "Renforcer la protection de la confidentialité lors du recrutement (par exemple, utiliser un formulaire anonyme ou supprimer immédiatement les adresses e‑mail après confirmation d’éligibilité) et prévoir une procédure permettant aux participants de demander la suppression de leurs données même après la séance, afin de respecter pleinement le droit d’accès et de retrait prévu par le TCPS 2."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d'inclusion (âge > 18 ans) sont justifiés par la nécessité d'éviter les exigences de consentement parental et les différences physiologiques des mineurs. Les critères d'exclusion sont détaillés, spécifiques et directement liés aux objectifs du projet qui consiste à étudier le cybermalise en réalité virtuelle. Ils excluent les personnes présentant des antécédents médicaux (épilepsie, troubles vestibulaires, migraines avec aura, etc.), des médicaments susceptibles d'altérer l'équilibre ou la perception sensorielle, la grossesse ou l'allaitement, ainsi que les participants dont la langue ne permet pas de comprendre les consignes (anglais ou français). Ces exclusions visent à minimiser les risques physiques et psychologiques associés à l'exposition à la VR et à garantir la validité des mesures comportementales. Aucun critère d'exclusion n'est simplement la reformulation négative du critère d'inclusion, mais constitue une restriction supplémentaire justifiée par la sécurité des participants et la pertinence scientifique.",
+            "Recommandation": "Aucun changement majeur n'est requis. Veiller simplement à ce que les critères d'exclusion soient clairement communiqués aux participants lors du processus de présélection et que les seuils de scores (MSSQ, SSQ) soient appliqués de façon transparente."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le formulaire indique explicitement que la population ciblée n'est pas considérée comme vulnérable (réponse 'Non' à la question sur la participation de personnes vulnérables). Ainsi, aucune stratégie spécifique pour des participants vulnérables n'est requise dans ce dossier.",
+            "Recommandation": "Aucun ajustement n'est nécessaire tant que le recrutement reste limité à des adultes aptes sans caractéristiques de vulnérabilité. Si, au cours du projet, des participants présentant une vulnérabilité sont identifiés, le chercheur devra immédiatement mettre en place des mesures de protection supplémentaires conformes aux exigences du TCPS2 et du CER-UQAC."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le protocole indique explicitement que la recherche ne cible que des participants majeurs (critères d'inclusion >18 ans) et que la recherche ne s'effectue pas auprès de mineurs. Aucun élément du dossier ne mentionne la présence d'enfants dans le laboratoire ou la capture d'images/vidéos les incluant. Ainsi, la situation où des enfants seraient enregistrés ou filmés sans être directement participants ne s'applique pas à ce projet.",
+            "Recommandation": "Vérifier que le lieu de collecte (laboratoire de réalité virtuelle) reste exempt de présence d'enfants pendant les sessions. Si, à l'avenir, des enfants pouvaient se trouver dans l'environnement (ex. visiteurs, frères et sœurs), prévoir un protocole d'information et de consentement parental conforme aux exigences du TCPS2 et du CER-UQAC."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet de recherche ne cible ni ne recrute de participants issus des Premières Nations, des Inuits ou des Métis, comme indiqué dans le formulaire d'approbation (question sur l'implication des communautés autochtones répondue 'Non'). Par conséquent, les principes spécifiques d'éthique de la recherche auprès des communautés autochtones ne sont pas applicables à ce projet.",
+            "Recommandation": "Aucun ajustement n'est requis concernant les exigences éthiques autochtones pour ce projet. Toutefois, si des travaux futurs impliquent des participants autochtones ou se déroulent sur des terres autochtones, il faudra engager les autorités communautaires, obtenir les consentements appropriés et suivre les lignes directrices du CER et des communautés concernées."
+        }
+    }
+]

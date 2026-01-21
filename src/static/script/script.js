@@ -7,9 +7,9 @@ async function loadReponse() {
     const sectionQuestion = document.getElementById('questionContainer')
     data.forEach(element => {
       let article = document.createElement('article')
-      article.innerHTML = `
-        <h2>${element.question}</h2>
-        `
+      article.innerHTML = ` 
+        <h2>${element.question}</h2> 
+        ` // Changer pour autre chose 
       article.dataset.justification = element.reponse.Justification;
       article.dataset.recommandation = element.reponse.Recommandation;
 
