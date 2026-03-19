@@ -1,7 +1,7 @@
 # pip install openai>=1.40
 from openai import OpenAI
 from groq import Groq
-"""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"""
+
 def requete(prompt):
     """Cette fonction permet de faire des appelles à LM Studio elle est actuelle setter pour faire des requêtes chez Pascal :)"""
     client = OpenAI(
@@ -31,7 +31,7 @@ def requetopenrouter(prompt):
 
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key=api_key,
         timeout=60,
         default_headers={
             "HTTP-Referer": "http://127.0.0.1:5000",
