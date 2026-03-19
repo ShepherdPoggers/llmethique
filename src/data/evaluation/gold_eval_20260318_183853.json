@@ -1,0 +1,651 @@
+{
+  "generated_at": "2026-03-18T18:38:53.890300",
+  "dataset_path": "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\gold_dataset_llmethique.json",
+  "metrics": {
+    "dataset_size": 24,
+    "true_positive": 12,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_negative": 12,
+    "precision_error_detection": 1.0,
+    "recall_error_detection": 1.0,
+    "f1_error_detection": 1.0,
+    "accuracy_error_detection": 1.0,
+    "exact_match_rate_reponse": 1.0
+  },
+  "metrics_by_theme": {
+    "autochtones": {
+      "dataset_size": 1,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 0.0,
+      "recall_error_detection": 0.0,
+      "f1_error_detection": 0.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "coherence_f1_fic": {
+      "dataset_size": 3,
+      "true_positive": 2,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "compensation": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "confidentialite": {
+      "dataset_size": 1,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 0,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "consentement": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "conservation": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "donnees_secondaires": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "duree_participation": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "mineurs_non_implique": {
+      "dataset_size": 5,
+      "true_positive": 2,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 3,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "populations_vulnerables": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    },
+    "risques": {
+      "dataset_size": 2,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 1,
+      "precision_error_detection": 1.0,
+      "recall_error_detection": 1.0,
+      "f1_error_detection": 1.0,
+      "accuracy_error_detection": 1.0,
+      "exact_match_rate_reponse": 1.0
+    }
+  },
+  "response_breakdown": {
+    "expected_reponse_distribution": {
+      "true": 9,
+      "false": 12,
+      "null": 3
+    },
+    "predicted_reponse_distribution": {
+      "true": 9,
+      "false": 12,
+      "null": 3
+    }
+  },
+  "mismatch_summary": {
+    "exact_reponse_mismatches": [],
+    "predicted_null_when_expected_non_null": [],
+    "predicted_non_null_when_expected_null": [],
+    "false_positive_error_cases": [],
+    "false_negative_error_cases": []
+  },
+  "results": [
+    {
+      "id": "GD-001",
+      "theme": "coherence_f1_fic",
+      "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont coherents entre eux sur les elements essentiels du projet?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1 et FIC",
+      "manual_validation_note": "Les deux documents sont alignes sur population, methode, duree, risque et conservation.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Les documents F1 et FIC sont cohérents sur les éléments essentiels du projet. Le F1 indique que l'objectif est d'étudier le stress académique chez des adultes universitaires de 18 ans et plus, avec un questionnaire en ligne de 15 minutes, des risques minimaux, et une conservation des données de 5 ans sur un serveur de l'UQAC. Le FIC confirme ces informations : étude sur le stress académique chez des étudiants universitaires adultes de 18 ans et plus, questionnaire en ligne de 15 minutes, risques minimes, conservation des données 5 ans sur un serveur sécurisé de l'UQAC, et possibilité de retrait avant la soumission finale.",
+        "Recommandation": "",
+        "Source": "F1 et FIC",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-002",
+      "theme": "coherence_f1_fic",
+      "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont coherents entre eux sur les elements essentiels du projet?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "F1",
+      "source_predicted": "F1 et FIC",
+      "manual_validation_note": "Contradiction majeure sur la population cible.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le F1 mentionne 'adultes de 18 ans et plus travaillant en milieu scolaire' tandis que le FIC mentionne 'élèves du secondaire âgés de 14 à 17 ans'. Ces informations sont contradictoires concernant la population visée.",
+        "Recommandation": "Corriger les documents pour qu'ils mentionnent la même population cible de manière cohérente.",
+        "Source": "F1 et FIC",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interprétation ?"
+      }
+    },
+    {
+      "id": "GD-003",
+      "theme": "confidentialite",
+      "question": "Est-ce que les informations concernant l'anonymat des participants et la confidentialite des donnees sont mentionnees et identiques dans le FIC et le F1?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "FIC et F1",
+      "manual_validation_note": "Contradiction explicite entre anonymisation et conservation nominative.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Les documents FIC et F1 presentent des informations contradictoires concernant l'anonymat des participants et la confidentialite des donnees. Le F1 indique que 'Les donnees seront anonymisees et aucun nom ne sera conserve.', tandis que le FIC stipule que 'Votre nom sera conserve avec votre questionnaire pendant 5 ans afin de permettre un suivi individuel.'",
+        "Recommandation": "Harmoniser les informations concernant l'anonymat et la confidentialite des donnees entre le FIC et le F1 pour garantir la coherence et la transparence pour les participants.",
+        "Source": "FIC et F1",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-004",
+      "theme": "consentement",
+      "question": "Est-ce que le consentement des participants est volontaire?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "FIC",
+      "source_predicted": "FIC",
+      "manual_validation_note": "Volontariat clairement exprime dans les deux documents.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Le document FIC précise que 'Votre participation est entièrement volontaire. Vous pouvez refuser sans préjudice.' Cela indique clairement que le consentement des participants est volontaire.",
+        "Recommandation": "",
+        "Source": "FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-005",
+      "theme": "consentement",
+      "question": "Est-ce que le participant peut retirer son consentement en tout temps?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "FIC",
+      "manual_validation_note": "Le FIC contredit directement le droit de retrait annonce au F1.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document FIC indique 'Une fois l'entretien commence, vous ne pourrez plus mettre fin a votre participation.' Cela contredit le document F1 qui stipule 'Les participants pourront se retirer en tout temps sans justification.'",
+        "Recommandation": "Clarifier les conditions de retrait de participation dans tous les documents du projet pour éviter les contradictions.",
+        "Source": "FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-006",
+      "theme": "risques",
+      "question": "Si l'etude expose les participants a un niveau de risque supplementaire par rapport a leur vie normale, est-ce que des strategies adequates et suffisantes sont mises en place pour gerer le risque plus que minimal?",
+      "expected_reponse": null,
+      "predicted_reponse": null,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1",
+      "manual_validation_note": "La condition de risque plus que minimal ne s'applique pas.",
+      "llm_response": {
+        "Reponse": null,
+        "Justification": "Le projet ne mentionne aucun risque supplémentaire pour les participants. Il est indiqué que 'Aucun risque supplémentaire n'est anticipé.'",
+        "Recommandation": "",
+        "Source": "F1",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-007",
+      "theme": "risques",
+      "question": "Si des risques plus que minimaux sont presents, est-ce que la liste des ressources est jointe au formulaire d'information et de consentement (FIC)?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "F1 et FIC",
+      "manual_validation_note": "Risque explicite sans liste de ressources dans le FIC.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document F1 mentionne que 'Le projet aborde des evenements traumatiques recents et peut provoquer de la detresse.' et qu'une intervenante psychosociale sera disponible. Cependant, le document FIC indique que 'L'entretien peut raviver des souvenirs difficiles. Aucune ressource d'aide ou coordonnee de soutien n'est fournie dans ce formulaire.' Il y a une incoherence entre les documents F1 et FIC concernant la disponibilite de ressources d'aide.",
+        "Recommandation": "Inclure la liste des ressources d'aide et leurs coordonnees dans le formulaire d'information et de consentement (FIC) pour les participants.",
+        "Source": "F1 et FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-008",
+      "theme": "duree_participation",
+      "question": "Dans le formulaire d'information et de consentement, la nature de la participation, sa duree et le lieu de realisation sont-ils clairement decrits?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "FIC",
+      "source_predicted": "FIC",
+      "manual_validation_note": "La nature, la duree et le lieu sont clairement decrits.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Le document FIC indique clairement que 'Votre participation consiste en une entrevue individuelle sur Zoom d'environ 60 minutes.' Cela décrit la nature de la participation, sa durée et le lieu de réalisation (via Zoom).",
+        "Recommandation": "",
+        "Source": "FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-009",
+      "theme": "duree_participation",
+      "question": "Est-ce que le formulaire F1 et le FIC sont coherents sur la duree de la participation?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "F1",
+      "source_predicted": "F1 et FIC",
+      "manual_validation_note": "Contradiction majeure sur la charge imposee au participant.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le formulaire F1 indique que 'La participation comprend trois entrevues de 90 minutes chacune.' tandis que le FIC stipule que 'Votre participation consiste en une seule entrevue de 20 minutes.' Ces informations sont contradictoires concernant la durée et le nombre d'entrevues.",
+        "Recommandation": "Harmoniser les informations sur la durée de participation entre le formulaire F1 et le FIC pour éviter toute confusion.",
+        "Source": "F1 et FIC",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-010",
+      "theme": "compensation",
+      "question": "Si une compensation est offerte, est-ce que les participants conservent soit une compensation proportionnelle a leur participation ou soit une compensation totale s'ils decident de se retirer de l'etude?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "FIC",
+      "source_predicted": "F1 et FIC",
+      "manual_validation_note": "Le maintien de la compensation est mentionne clairement.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Les documents F1 et FIC indiquent tous deux que les participants recevront une carte-cadeau de 20 dollars même s'ils se retirent après avoir commencé. Cela implique que la compensation est maintenue même en cas de retrait.",
+        "Recommandation": "",
+        "Source": "F1 et FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-011",
+      "theme": "compensation",
+      "question": "Si un incitatif ou une compensation est offerte aux participants, est-ce que le chercheur s'est assure que la compensation offerte n'est pas susceptible d'affecter le consentement volontaire?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "F1",
+      "source_predicted": "F1",
+      "manual_validation_note": "Montant potentiellement indu sans justification adequate.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document F1 indique qu'une compensation de 500 dollars est offerte pour une tâche de 20 minutes à des étudiants en situation financière précaire. Le document FIC précise que les participants recevront 500 dollars comptant pour une participation unique de 20 minutes. Il n'y a aucune justification supplémentaire fournie pour s'assurer que cette compensation n'affecte pas le consentement volontaire des participants.",
+        "Recommandation": "Justifier que la compensation offerte n'est pas susceptible d'affecter le consentement volontaire des participants, en particulier pour les étudiants en situation financière précaire.",
+        "Source": "F1",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte l'idée que la compensation n'affecte pas le consentement volontaire des participants ?"
+      }
+    },
+    {
+      "id": "GD-012",
+      "theme": "donnees_secondaires",
+      "question": "Si des donnees secondaires seront utilisees, est-ce que l'utilisation de donnees secondaires ainsi que leur nature identificatoire ou non sont mentionnees dans le FIC ou ailleurs?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "FIC",
+      "source_predicted": "FIC et F1",
+      "manual_validation_note": "La nature secondaire et non identificatoire est mentionnee.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Le FIC mentionne que 'Le projet utilisera des données scolaires anonymisées déjà recueillies par l'établissement.' et le F1 précise que 'Le projet réutilise des dossiers scolaires anonymisés fournis par l'établissement.' Ces documents indiquent clairement l'utilisation de données secondaires anonymisées.",
+        "Recommandation": "",
+        "Source": "FIC et F1",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-013",
+      "theme": "donnees_secondaires",
+      "question": "Si des donnees secondaires seront utilisees, est-ce que l'autorisation pour l'utilisation de donnees secondaires est demandee a la personne concernee dans le FIC ou ailleurs?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "FIC, F1",
+      "manual_validation_note": "Utilisation secondaire identificatoire sans autorisation exprimee.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document F1 mentionne que le projet utilisera des données cliniques identifiables déjà disponibles dans le dossier hospitalier, mais le FIC ne mentionne aucune utilisation secondaire des données et ne demande aucune autorisation à ce sujet. Le FIC est le document principal pour l'information des participants, et il est crucial qu'il contienne cette information.",
+        "Recommandation": "Ajouter une section dans le FIC concernant l'utilisation secondaire des données, incluant une demande d'autorisation pour leur utilisation.",
+        "Source": "FIC, F1",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte l'utilisation secondaire des données sans autorisation des participants ?"
+      }
+    },
+    {
+      "id": "GD-014",
+      "theme": "populations_vulnerables",
+      "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnerables, est-ce que des strategies adequates et suffisantes sont mises en place pour interagir avec ces populations vulnerables?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1, FIC",
+      "manual_validation_note": "Des mesures specifiques de protection sont decrites.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Le projet mentionne le recrutement de personnes âgées présentant un début de perte cognitive. Des stratégies adéquates sont mises en place : le consentement sera évalué avec un proche aidant et une pause sera offerte durant l'entretien. La participation est expliquée lentement, avec possibilité de pause et accompagnement d'un proche aidant.",
+        "Recommandation": "",
+        "Source": "F1, FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interprétation ?"
+      }
+    },
+    {
+      "id": "GD-015",
+      "theme": "populations_vulnerables",
+      "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnerables, est-ce que des strategies adequates et suffisantes sont mises en place pour interagir avec ces populations vulnerables?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "F1",
+      "source_predicted": "F1, FIC",
+      "manual_validation_note": "Population vulnerable explicite sans strategie de protection adequate.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le projet mentionne le recrutement d'adolescents en centre jeunesse, ce qui constitue une population vulnérable. Cependant, aucun document ne décrit des mesures particulières pour interagir avec cette population. Le formulaire d'information (FIC) ne prévoit pas d'adaptation particulière pour les mineurs.",
+        "Recommandation": "Ajouter des stratégies spécifiques pour interagir avec les adolescents en centre jeunesse, incluant des adaptations du formulaire d'information et des mesures pour assurer leur consentement éclairé.",
+        "Source": "F1, FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte l'idée que des stratégies adéquates sont mises en place pour interagir avec les adolescents en centre jeunesse ?"
+      }
+    },
+    {
+      "id": "GD-016",
+      "theme": "mineurs_non_implique",
+      "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1, fic_gold.txt",
+      "manual_validation_note": "Le mecanisme d'information aux parents est present.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Le projet se déroule dans une garderie mais seuls les éducateurs sont interrogés. Une lettre d'information sera remise aux parents pour les informer de la présence possible d'enfants en arrière-plan. Les parents recevront une lettre d'information préalable.",
+        "Recommandation": "",
+        "Source": "F1, fic_gold.txt",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-017",
+      "theme": "mineurs_non_implique",
+      "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "FIC, F1",
+      "manual_validation_note": "Contexte impliquant des enfants presents sans mecanisme d'information parentale.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document F1 indique que des observations vidéo auront lieu dans une classe primaire où les enfants ne sont pas participants directs. Cependant, le document FIC mentionne qu'aucune information n'est donnée aux parents des enfants présents dans la classe. Cela implique que les parents ne sont pas informés de la présence d'observations vidéo.",
+        "Recommandation": "Ajouter une procédure d'information aux parents des enfants présents dans la classe primaire concernant les observations vidéo qui auront lieu, en précisant les objectifs, les méthodes et les mesures de protection de la vie privée.",
+        "Source": "FIC, F1",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte l'idée que les parents des enfants présents dans la classe ont été informés des observations vidéo ?"
+      }
+    },
+    {
+      "id": "GD-018",
+      "theme": "autochtones",
+      "question": "Est-ce que les principes d'ethique de la recherche aupres des communautes autochtones sont respectes?",
+      "expected_reponse": null,
+      "predicted_reponse": null,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1",
+      "manual_validation_note": "La question ne s'applique pas car aucune communaute autochtone n'est impliquee.",
+      "llm_response": {
+        "Reponse": null,
+        "Justification": "Ne s'applique pas : La population cible est constituée d'étudiants universitaires adultes non autochtones.",
+        "Recommandation": "",
+        "Source": "F1",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-019",
+      "theme": "conservation",
+      "question": "Est-ce que les regles de conservation des donnees respectent la politique de l'UQAC?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1, FIC",
+      "manual_validation_note": "Conservation et acces restreint sont clairement decrits.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Les documents F1 et FIC mentionnent que les données seront conservées 7 ans sur des serveurs sécurisés de l'UQAC, accessibles uniquement à l'équipe de recherche. Cela correspond à la politique de conservation des données de l'UQAC.",
+        "Recommandation": "",
+        "Source": "F1, FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-020",
+      "theme": "conservation",
+      "question": "Est-ce que la methode de destruction des donnees est mentionnee dans le formulaire d'information et de consentement (FIC)?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "FIC (fic_gold.txt) et F1 (f1_gold.txt)",
+      "manual_validation_note": "Le FIC n'indique pas la methode de destruction.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document FIC (fic_gold.txt) indique que les données seront conservées 5 ans, sans décrire leur destruction. Le document F1 (f1_gold.txt) mentionne que les fichiers seront détruits de manière sécuritaire selon les pratiques institutionnelles, mais cette information n'est pas présente dans le FIC.",
+        "Recommandation": "Inclure la méthode de destruction des données dans le formulaire d'information et de consentement (FIC) pour assurer la transparence et la sécurité des données des participants.",
+        "Source": "FIC (fic_gold.txt) et F1 (f1_gold.txt)",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-021",
+      "theme": "mineurs_non_implique",
+      "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+      "expected_reponse": true,
+      "predicted_reponse": true,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "FIC",
+      "manual_validation_note": "La condition s'applique et un double mecanisme d'information parentale est prevu.",
+      "llm_response": {
+        "Reponse": true,
+        "Justification": "Les parents seront informés à l'avance par une note écrite remise par le service de garde. Une affiche rappellera les dates d'observation. Les méthodes utilisées pour informer les parents sont appropriées.",
+        "Recommandation": "",
+        "Source": "FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-022",
+      "theme": "mineurs_non_implique",
+      "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "FIC",
+      "manual_validation_note": "La condition s'applique mais aucun mecanisme d'information parentale n'est prevu.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le document FIC mentionne que des enfants pourraient être aperçus dans la classe, mais il n'y a aucune mention d'un mécanisme pour informer les parents. Le document F1 précise que les enseignantes doivent éviter de nommer les enfants, mais ne mentionne pas d'information destinée aux parents.",
+        "Recommandation": "Ajouter un mécanisme d'information pour les parents des enfants susceptibles d'être présents dans la classe pendant les entrevues, tel qu'une lettre ou un courriel d'information.",
+        "Source": "FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-023",
+      "theme": "mineurs_non_implique",
+      "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+      "expected_reponse": null,
+      "predicted_reponse": null,
+      "expected_error_detected": false,
+      "predicted_error_detected": false,
+      "source_expected": "F1",
+      "source_predicted": "F1",
+      "manual_validation_note": "La condition ne s'applique pas car aucun enfant ne peut etre present pendant la collecte.",
+      "llm_response": {
+        "Reponse": null,
+        "Justification": "Ne s'applique pas : Les documents indiquent que les entretiens auront lieu sans enfants. 'Les entretiens auront lieu uniquement dans le bureau ferme de la direction de l'ecole avec des adultes membres du personnel. Aucun enfant ne sera present pendant la collecte.' (F1) et 'Aucun eleve n'assistera a l'entretien.' (FIC)",
+        "Recommandation": "",
+        "Source": "F1",
+        "Confiance": 100,
+        "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+      }
+    },
+    {
+      "id": "GD-024",
+      "theme": "coherence_f1_fic",
+      "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont coherents entre eux sur les elements essentiels du projet?",
+      "expected_reponse": false,
+      "predicted_reponse": false,
+      "expected_error_detected": true,
+      "predicted_error_detected": true,
+      "source_expected": "FIC",
+      "source_predicted": "F1 et FIC",
+      "manual_validation_note": "Contradiction importante sur le partage externe des enregistrements audio.",
+      "llm_response": {
+        "Reponse": false,
+        "Justification": "Le F1 indique que 'Aucun partage externe n'est prevu' tandis que le FIC mentionne que 'Des extraits audio pourraient etre transmis a l'organisme partenaire pour soutenir l'amelioration de ses services.' Ces informations sont contradictoires concernant le partage des donnees.",
+        "Recommandation": "Harmoniser les informations sur le partage des donnees entre le F1 et le FIC pour garantir la coherence et la transparence du projet.",
+        "Source": "F1 et FIC",
+        "Confiance": 90,
+        "QuestionValidation": "Y a-t-il une contradiction entre vos documents et cette conclusion ?"
+      }
+    }
+  ]
+}

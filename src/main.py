@@ -1,14 +1,19 @@
 import os
+from dotenv import load_dotenv
 from includes.objets.DocumentClasse import Document
 from flask import Flask, request, session, render_template, jsonify
 from flask_session import Session
 from werkzeug.utils import secure_filename
 from includes.fonctions.divers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
-from includes.fonctions.requetellm import requete, requetGrok, requetopenrouter
+from includes.fonctions.requetellm import requete, requetGrok, requetGrok405B
 import json
 from datetime import datetime
 import re
+import time
 from uuid import uuid4
+
+# Charger les variables d'environnement depuis .env
+load_dotenv()
 
 
 EXTENSIONS = ['.pdf', '.docx']
@@ -71,33 +76,95 @@ def UploadDesFichiers(files):
 def CheckQuestion(question):
     """Permet d'envoyer le prompt et de valider la reponse"""
     
-    for x in range(5): #On essaie 5 fois sinon on met qu'il y a eu une erreur du traitement
+    for x in range(2):
         try:
-            reponse = requetopenrouter(question.PromptGen())
-            reponseClean = re.sub(r"<think>.*?</think>", "", reponse, flags=re.DOTALL)
-            reponse = stringToJson(reponseClean)
-            break  
+            reponse_raw = requetGrok405B(question.PromptGen())
+            data = stringToJson(reponse_raw)
+            reponse = data
+            break
         except Exception as e:
-            print(e)
-            continue 
+            msg = str(e)
+            print("Erreur CheckQuestion:", msg)
+
+            # Si crédits insuffisants ou tokens dépassés -> on stoppe
+            if "413" in msg or "rate_limit" in msg or "Insufficient credits" in msg:
+                reponse = {
+                    "Reponse": None,
+                    "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+                    "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+                }
+                break
+
+            time.sleep(2 * (x + 1))
+            continue
     else:
         reponse = {
             "Reponse": None,
-            "Justification": "Une erreur est survenu lors du traitement de cette question."
+            "Justification": "Une erreur est survenu lors du traitement de cette question.",
+            "Recommandation": ""
         }
-        
-    question.SetValide(reponse["Reponse"])
+
+    question.SetValide(reponse.get("Reponse"))
     question.SetReponse(reponse)
 
 
 def stringToJson(reponse):
-    
-    match = re.search(r"\{[\s\S]*\}", reponse)
-    json_str = match.group()
-    data = json.loads(json_str)
-    
+    """
+    Extraction robuste du JSON renvoyé par le LLM.
+    Ne crash jamais.
+    Retourne un dictionnaire par défaut si problème.
+    """
 
-    return data
+    DEFAULT = {
+        "Reponse": None,
+        "Justification": "Aucun JSON détecté dans la réponse du modèle.",
+        "Recommandation": "",
+        "Source": ""
+    }
+
+    try:
+        if not reponse:
+            return DEFAULT
+
+        # Nettoyage basique
+        texte = str(reponse)
+
+        # Retire balises <think>...</think>
+        texte = re.sub(r"<think>.*?</think>", "", texte, flags=re.DOTALL | re.IGNORECASE)
+
+        # Retire blocs ```json ``` éventuels
+        texte = re.sub(r"```(?:json)?", "", texte, flags=re.IGNORECASE)
+        texte = texte.replace("```", "")
+
+        # Supprime caractères invisibles
+        texte = texte.replace("\ufeff", "").strip()
+
+        # Extraction entre première { et dernière }
+        start = texte.find("{")
+        end = texte.rfind("}")
+
+        if start == -1 or end == -1 or end <= start:
+            print("Aucun JSON détecté")
+            return DEFAULT
+
+        json_str = texte[start:end+1]
+
+        data = json.loads(json_str)
+
+        # Sécurise les clés attendues
+        if not isinstance(data, dict):
+            return DEFAULT
+
+        data.setdefault("Reponse", None)
+        data.setdefault("Justification", "")
+        data.setdefault("Recommandation", "")
+        data.setdefault("Source", "")
+
+        return data
+
+    except Exception as e:
+        print("Erreur parsing JSON :", e)
+        return DEFAULT
 
 app = Flask(__name__) #initiation de l'app flask
 app.secret_key = 'ton_secret_unique'
@@ -154,12 +221,45 @@ def init_progress():
 
 
 
-@app.route("/give_json")
+@app.route('/give_json')
 def giveJson():
     """Permet de retourner le json des reponse"""
     data = session['JSON']
     
     return jsonify(data)
+
+@app.route('/save_feedback', methods=['POST'])
+def save_feedback():
+    """Sauvegarde un feedback utilisateur sur une réponse"""
+    try:
+        feedback_data = request.get_json()
+        
+        feedback = {
+            "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            "question": feedback_data.get('question'),
+            "originalResponse": feedback_data.get('originalResponse'),
+            "feedbackType": feedback_data.get('feedbackType'),  # 'incorrect', 'incomplete', 'other'
+            "comment": feedback_data.get('comment'),
+            "suggestedCorrection": feedback_data.get('suggestedCorrection')
+        }
+        
+        # Sauvegarder dans un fichier JSON
+        feedback_file = f"src/data/jsonProf/feedback_{datetime.now().strftime('%Y%m%d')}.json"
+        
+        feedbacks = []
+        if os.path.exists(feedback_file):
+            with open(feedback_file, "r", encoding="utf-8") as f:
+                feedbacks = json.load(f)
+        
+        feedbacks.append(feedback)
+        
+        with open(feedback_file, "w", encoding="utf-8") as f:
+            json.dump(feedbacks, f, ensure_ascii=False, indent=4)
+        
+        return jsonify({"success": True, "message": "Feedback enregistré"}), 200
+    except Exception as e:
+        print(f"Erreur feedback: {e}")
+        return jsonify({"success": False, "message": str(e)}), 500
 
 @app.route('/progress')
 def get_progress():
@@ -172,6 +272,41 @@ def get_progress():
 
     print(f"Reponse /progress : {data}")
     return jsonify(data)
+
+
+@app.route('/save_thumbs_vote', methods=['POST'])
+def save_thumbs_vote():
+    """Sauvegarde un vote pouce haut/bas sur une réponse"""
+    try:
+        vote_data = request.get_json()
+        
+        vote = {
+            "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            "question": vote_data.get('question'),
+            "vote": vote_data.get('vote'),  # 'up' ou 'down'
+            "userAgent": request.headers.get('User-Agent', 'unknown')
+        }
+        
+        # Sauvegarder dans un fichier JSON dédié
+        votes_file = f"src/data/jsonProf/thumbs_votes_{datetime.now().strftime('%Y%m%d')}.json"
+        
+        votes = []
+        if os.path.exists(votes_file):
+            with open(votes_file, "r", encoding="utf-8") as f:
+                votes = json.load(f)
+        
+        votes.append(vote)
+        
+        with open(votes_file, "w", encoding="utf-8") as f:
+            json.dump(votes, f, ensure_ascii=False, indent=4)
+        
+        return jsonify({"success": True, "message": "Vote enregistré"}), 200
+    except Exception as e:
+        print(f"Erreur vote: {e}")
+        return jsonify({"success": False, "message": str(e)}), 500
+
+
+
 
 
 if __name__ == "__main__":

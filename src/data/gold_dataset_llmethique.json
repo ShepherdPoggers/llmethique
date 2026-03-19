@@ -1,0 +1,362 @@
+[
+  {
+    "id": "GD-001",
+    "theme": "coherence_f1_fic",
+    "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont coherents entre eux sur les elements essentiels du projet?",
+    "documents": {
+      "F1": "Objectif: etudier le stress academique chez des adultes universitaires de 18 ans et plus. Participation: un questionnaire en ligne de 15 minutes. Risque: minimal. Conservation des donnees: 5 ans sur serveur UQAC. Retrait possible en tout temps avant soumission finale.",
+      "FIC": "Vous etes invite a participer a une etude sur le stress academique chez des etudiants universitaires adultes de 18 ans et plus. Votre participation consiste en un questionnaire en ligne de 15 minutes. Les risques sont minimes. Les donnees seront conservees 5 ans sur un serveur securise de l'UQAC. Vous pouvez vous retirer avant la soumission finale."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "Les deux documents sont alignes sur population, methode, duree, risque et conservation."
+    }
+  },
+  {
+    "id": "GD-002",
+    "theme": "coherence_f1_fic",
+    "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont coherents entre eux sur les elements essentiels du projet?",
+    "documents": {
+      "F1": "Population visee: adultes de 18 ans et plus travaillant en milieu scolaire.",
+      "FIC": "Population visee: eleves du secondaire ages de 14 a 17 ans."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "F1",
+      "manual_validation_note": "Contradiction majeure sur la population cible."
+    }
+  },
+  {
+    "id": "GD-003",
+    "theme": "confidentialite",
+    "question": "Est-ce que les informations concernant l'anonymat des participants et la confidentialite des donnees sont mentionnees et identiques dans le FIC et le F1?",
+    "documents": {
+      "F1": "Les donnees seront anonymisees et aucun nom ne sera conserve.",
+      "FIC": "Votre nom sera conserve avec votre questionnaire pendant 5 ans afin de permettre un suivi individuel."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Contradiction explicite entre anonymisation et conservation nominative."
+    }
+  },
+  {
+    "id": "GD-004",
+    "theme": "consentement",
+    "question": "Est-ce que le consentement des participants est volontaire?",
+    "documents": {
+      "F1": "Le recrutement sera fait par affichage volontaire sans consequence sur l'emploi ou les etudes.",
+      "FIC": "Votre participation est entierement volontaire. Vous pouvez refuser sans prejudice."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "FIC",
+      "manual_validation_note": "Volontariat clairement exprime dans les deux documents."
+    }
+  },
+  {
+    "id": "GD-005",
+    "theme": "consentement",
+    "question": "Est-ce que le participant peut retirer son consentement en tout temps?",
+    "documents": {
+      "F1": "Les participants pourront se retirer en tout temps sans justification.",
+      "FIC": "Une fois l'entretien commence, vous ne pourrez plus mettre fin a votre participation."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Le FIC contredit directement le droit de retrait annonce au F1."
+    }
+  },
+  {
+    "id": "GD-006",
+    "theme": "risques",
+    "question": "Si l'etude expose les participants a un niveau de risque supplementaire par rapport a leur vie normale, est-ce que des strategies adequates et suffisantes sont mises en place pour gerer le risque plus que minimal?",
+    "documents": {
+      "F1": "Le projet comporte seulement un questionnaire non sensible de 10 minutes. Aucun risque supplementaire n'est anticipe.",
+      "FIC": "Le questionnaire porte sur les habitudes d'etude. Aucun sujet sensible n'est aborde."
+    },
+    "expected": {
+      "reponse": null,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "La condition de risque plus que minimal ne s'applique pas."
+    }
+  },
+  {
+    "id": "GD-007",
+    "theme": "risques",
+    "question": "Si des risques plus que minimaux sont presents, est-ce que la liste des ressources est jointe au formulaire d'information et de consentement (FIC)?",
+    "documents": {
+      "F1": "Le projet aborde des evenements traumatiques recents et peut provoquer de la detresse. Une intervenante psychosociale sera disponible.",
+      "FIC": "L'entretien peut raviver des souvenirs difficiles. Aucune ressource d'aide ou coordonnee de soutien n'est fournie dans ce formulaire."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Risque explicite sans liste de ressources dans le FIC."
+    }
+  },
+  {
+    "id": "GD-008",
+    "theme": "duree_participation",
+    "question": "Dans le formulaire d'information et de consentement, la nature de la participation, sa duree et le lieu de realisation sont-ils clairement decrits?",
+    "documents": {
+      "F1": "Participation: une entrevue Zoom de 60 minutes.",
+      "FIC": "Votre participation consiste en une entrevue individuelle sur Zoom d'environ 60 minutes."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "FIC",
+      "manual_validation_note": "La nature, la duree et le lieu sont clairement decrits."
+    }
+  },
+  {
+    "id": "GD-009",
+    "theme": "duree_participation",
+    "question": "Est-ce que le formulaire F1 et le FIC sont coherents sur la duree de la participation?",
+    "documents": {
+      "F1": "La participation comprend trois entrevues de 90 minutes chacune.",
+      "FIC": "Votre participation consiste en une seule entrevue de 20 minutes."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "F1",
+      "manual_validation_note": "Contradiction majeure sur la charge imposee au participant."
+    }
+  },
+  {
+    "id": "GD-010",
+    "theme": "compensation",
+    "question": "Si une compensation est offerte, est-ce que les participants conservent soit une compensation proportionnelle a leur participation ou soit une compensation totale s'ils decident de se retirer de l'etude?",
+    "documents": {
+      "F1": "Une carte-cadeau de 20 dollars sera remise meme si le participant se retire apres avoir commence.",
+      "FIC": "Vous recevrez une carte-cadeau de 20 dollars meme si vous choisissez de vous retirer en cours de route."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "FIC",
+      "manual_validation_note": "Le maintien de la compensation est mentionne clairement."
+    }
+  },
+  {
+    "id": "GD-011",
+    "theme": "compensation",
+    "question": "Si un incitatif ou une compensation est offerte aux participants, est-ce que le chercheur s'est assure que la compensation offerte n'est pas susceptible d'affecter le consentement volontaire?",
+    "documents": {
+      "F1": "Une compensation de 500 dollars est offerte pour une tache de 20 minutes a des etudiants en situation financiere precaire. Aucune justification supplementaire n'est fournie.",
+      "FIC": "Vous recevrez 500 dollars comptant pour une participation unique de 20 minutes."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "F1",
+      "manual_validation_note": "Montant potentiellement indu sans justification adequate."
+    }
+  },
+  {
+    "id": "GD-012",
+    "theme": "donnees_secondaires",
+    "question": "Si des donnees secondaires seront utilisees, est-ce que l'utilisation de donnees secondaires ainsi que leur nature identificatoire ou non sont mentionnees dans le FIC ou ailleurs?",
+    "documents": {
+      "F1": "Le projet reutilise des dossiers scolaires anonymises fournis par l'etablissement.",
+      "FIC": "Le projet utilisera des donnees scolaires anonymisees deja recueillies par l'etablissement."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "FIC",
+      "manual_validation_note": "La nature secondaire et non identificatoire est mentionnee."
+    }
+  },
+  {
+    "id": "GD-013",
+    "theme": "donnees_secondaires",
+    "question": "Si des donnees secondaires seront utilisees, est-ce que l'autorisation pour l'utilisation de donnees secondaires est demandee a la personne concernee dans le FIC ou ailleurs?",
+    "documents": {
+      "F1": "Le projet utilisera des donnees cliniques identifiables deja disponibles dans le dossier hospitalier.",
+      "FIC": "Ce formulaire ne mentionne aucune utilisation secondaire des donnees et ne demande aucune autorisation a ce sujet."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Utilisation secondaire identificatoire sans autorisation exprimee."
+    }
+  },
+  {
+    "id": "GD-014",
+    "theme": "populations_vulnerables",
+    "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnerables, est-ce que des strategies adequates et suffisantes sont mises en place pour interagir avec ces populations vulnerables?",
+    "documents": {
+      "F1": "Le recrutement cible des personnes agees presentant un debut de perte cognitive. Le consentement sera evalue avec un proche aidant et une pause sera offerte durant l'entretien.",
+      "FIC": "La participation est expliquee lentement, avec possibilite de pause et accompagnement d'un proche aidant."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "Des mesures specifiques de protection sont decrites."
+    }
+  },
+  {
+    "id": "GD-015",
+    "theme": "populations_vulnerables",
+    "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnerables, est-ce que des strategies adequates et suffisantes sont mises en place pour interagir avec ces populations vulnerables?",
+    "documents": {
+      "F1": "Le projet recrute des adolescents en centre jeunesse. Aucune mesure particuliere n'est decrite.",
+      "FIC": "Le formulaire explique seulement l'entretien sans adaptation particuliere pour les mineurs."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "F1",
+      "manual_validation_note": "Population vulnerable explicite sans strategie de protection adequate."
+    }
+  },
+  {
+    "id": "GD-016",
+    "theme": "mineurs_non_implique",
+    "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+    "documents": {
+      "F1": "Le projet se deroule dans une garderie mais seuls les educateurs sont interroges. Une lettre d'information sera remise aux parents pour les informer de la presence possible d'enfants en arriere-plan.",
+      "FIC": "Les enfants ne participent pas a l'etude. Les parents recevront une lettre d'information prealable."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "Le mecanisme d'information aux parents est present."
+    }
+  },
+  {
+    "id": "GD-017",
+    "theme": "mineurs_non_implique",
+    "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+    "documents": {
+      "F1": "Des observations video auront lieu dans une classe primaire. Les enfants ne sont pas participants directs.",
+      "FIC": "Le formulaire ne mentionne aucune information aux parents des enfants presents dans la classe."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Contexte impliquant des enfants presents sans mecanisme d'information parentale."
+    }
+  },
+  {
+    "id": "GD-018",
+    "theme": "autochtones",
+    "question": "Est-ce que les principes d'ethique de la recherche aupres des communautes autochtones sont respectes?",
+    "documents": {
+      "F1": "Le projet se deroule uniquement aupres d'adultes non autochtones inscrits a l'universite.",
+      "FIC": "La population cible est constituee d'etudiants universitaires adultes non autochtones."
+    },
+    "expected": {
+      "reponse": null,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "La question ne s'applique pas car aucune communaute autochtone n'est impliquee."
+    }
+  },
+  {
+    "id": "GD-019",
+    "theme": "conservation",
+    "question": "Est-ce que les regles de conservation des donnees respectent la politique de l'UQAC?",
+    "documents": {
+      "F1": "Les donnees seront conservees 7 ans sur un serveur institutionnel chiffre accessible seulement a l'equipe de recherche.",
+      "FIC": "Les donnees seront conservees 7 ans sur les serveurs securises de l'UQAC et accessibles uniquement a l'equipe de recherche."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "Conservation et acces restreint sont clairement decrits."
+    }
+  },
+  {
+    "id": "GD-020",
+    "theme": "conservation",
+    "question": "Est-ce que la methode de destruction des donnees est mentionnee dans le formulaire d'information et de consentement (FIC)?",
+    "documents": {
+      "F1": "Apres 5 ans, les fichiers seront detruits de maniere securitaire selon les pratiques institutionnelles.",
+      "FIC": "Le formulaire indique seulement que les donnees seront conservees 5 ans, sans decrire leur destruction."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Le FIC n'indique pas la methode de destruction."
+    }
+  },
+  {
+    "id": "GD-021",
+    "theme": "mineurs_non_implique",
+    "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+    "documents": {
+      "F1": "Le projet prevoit des observations dans un service de garde en milieu scolaire pendant les heures regulieres. Les participants directs sont uniquement les educatrices. Les enfants du groupe peuvent etre visibles en arriere-plan a certains moments. Une note d'information sera transmise aux parents avant le debut des observations et une affiche sera placee a l'entree du local.",
+      "FIC": "Les enfants ne sont pas des participants a cette etude. Les parents seront informes a l'avance par une note ecrite remise par le service de garde. Une affiche rappellera les dates d'observation."
+    },
+    "expected": {
+      "reponse": true,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "La condition s'applique et un double mecanisme d'information parentale est prevu."
+    }
+  },
+  {
+    "id": "GD-022",
+    "theme": "mineurs_non_implique",
+    "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+    "documents": {
+      "F1": "Des entrevues video seront realisees avec des enseignantes dans leur classe apres les cours. Des enfants peuvent encore etre presents pour une courte periode mais ils ne seront pas interroges. Le protocole demande seulement aux enseignantes d'eviter de nommer les enfants.",
+      "FIC": "Le formulaire indique que des enfants pourraient etre apercus dans la classe, sans mention de lettre, courriel ou autre mecanisme pour informer les parents."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "La condition s'applique mais aucun mecanisme d'information parentale n'est prevu."
+    }
+  },
+  {
+    "id": "GD-023",
+    "theme": "mineurs_non_implique",
+    "question": "Si le projet se deroule dans un contexte ou des enfants pourraient etre presents pendant la collecte et dans le cas ou les enfants ne sont pas directement impliques, est-ce que les methodes utilisees pour informer les parents sont appropriees?",
+    "documents": {
+      "F1": "Les entretiens auront lieu uniquement dans le bureau ferme de la direction de l'ecole avec des adultes membres du personnel. Aucun enfant ne sera present pendant la collecte.",
+      "FIC": "La participation consiste en une entrevue individuelle avec la direction dans un local reserve a l'administration. Aucun eleve n'assistera a l'entretien."
+    },
+    "expected": {
+      "reponse": null,
+      "error_detected": false,
+      "source": "F1",
+      "manual_validation_note": "La condition ne s'applique pas car aucun enfant ne peut etre present pendant la collecte."
+    }
+  },
+  {
+    "id": "GD-024",
+    "theme": "coherence_f1_fic",
+    "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont coherents entre eux sur les elements essentiels du projet?",
+    "documents": {
+      "F1": "Le projet prevoit enregistrer des entretiens audio de 45 minutes aupres d'adultes nouvellement diplomes. Les fichiers seront conserves 5 ans sur le serveur institutionnel et ne seront consultes que par l'equipe de recherche. Aucun partage externe n'est prevu.",
+      "FIC": "Votre participation consiste en un entretien audio d'environ 45 minutes. Les enregistrements seront conserves 5 ans sur un serveur securise de l'UQAC. Des extraits audio pourraient etre transmis a l'organisme partenaire pour soutenir l'amelioration de ses services."
+    },
+    "expected": {
+      "reponse": false,
+      "error_detected": true,
+      "source": "FIC",
+      "manual_validation_note": "Contradiction importante sur le partage externe des enregistrements audio."
+    }
+  }
+]

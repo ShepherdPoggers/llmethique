@@ -1,6 +1,13 @@
 
 [
 {
+    "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont cohérents entre eux sur les éléments essentiels du projet? Vérifier explicitement les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait. Toute contradiction importante entre F1 et FIC doit être signalée comme une non-conformité.",
+    "documents": [
+      "F1",
+      "FIC"
+    ]
+  },
+{
     "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
     "documents": [
       "F1",
