@@ -96,8 +96,6 @@ L'ajout de nouveaux cas evite de conclure trop vite a une amelioration basee seu
 - Certains champs produits par le modele restent plus libres que la reference attendue, meme quand la decision finale est correcte.
 
 ## Etat
-
-- Rapport de la nouvelle semaine initialise.
 - Evaluation enrichie implementee et verifiee localement.
 - Regle conditionnelle renforcee pour limiter les `null` abusifs.
 - Gold dataset etendu a 24 cas.
