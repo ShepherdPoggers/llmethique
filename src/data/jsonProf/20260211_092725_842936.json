@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs sont décrits de façon claire (étudier l'évolution de la fatigue, mesurer son impact sur la performance motrice, modéliser la fatigue selon différents types d'interaction, etc.). Ils impliquent le respect de la personne (consentement libre, éclairé et continu, droit de retrait, informations détaillées), le bien‑être (risques physiques limités, mesures de prévention du cybermal‑aise, suivi de la fatigue, possibilité d’interrompre l’expérience) et la justice (critères d’inclusion/exclusion non discriminatoires, recrutement ouvert à tout adulte majeur, taille d’échantillon proportionnée, aucune population vulnérable ciblée). Ainsi les objectifs permettent de confirmer le respect des trois principes directeurs de l’EPTC2.",
+            "Recommandation": "Veiller à expliciter dans le protocole que la sélection des participants repose sur le critère de première arrivée afin d’éviter tout biais, et mentionner explicitement que le projet garantit une répartition équitable des charges et bénéfices entre les participants pour renforcer l’aspect de justice."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie proposée (tâches de pointage en réalité virtuelle avec mesures de performance, fatigue subjective et EMG) correspond directement aux objectifs du projet qui visent à modéliser l’évolution de la fatigue et son impact sur la performance selon la loi de Fitts. Le protocole prévoit un recrutement ciblé d’adultes sans troubles musculosquelettiques, une durée d’essai d’environ une heure avec surveillance continue, des mesures de prévention du malaise (calibrage du casque, questionnaire de fatigue chaque minute) et un risque physique limité à du malaise lié à la VR, ce qui est conforme aux exigences du Chapitre 6 de l’EPTC‑2. Le consentement éclairé est recueilli par écrit, les données sont anonymisées immédiatement, les dossiers EMG et comportementaux sont stockés sur supports sécurisés et détruits après sept ans, et aucun conflit d’intérêts non géré n’est présent. Ainsi, les exigences d’éthique décrites dans les documents de référence (EPTC‑2 2022, évaluation du risque, confidentialité) sont respectées.",
+            "Recommandation": "Renforcer la protection de la confidentialité pendant le recrutement en utilisant une adresse e‑mail générique ou un formulaire anonyme, et préciser dans le formulaire de consentement que les données ne pourront pas être retirées après anonymisation. Documenter le plan d’intervention en cas de cybersick‑ness sévère et valider que le questionnaire Borg RPE ne constitue pas une charge excessive. Ces ajustements minimiseront davantage les risques et amélioreront la transparence vis‑à‑vis des participants."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d’inclusion (être majeur) sont justifiés car ils garantissent la capacité de consentir librement, ce qui est requis par la réglementation. Les critères d’exclusion (présence d’une condition musculosquelettique, neurologique ou douleur du membre supérieur susceptible d’être aggravée par des mouvements répétés ou d’influencer la performance) sont directement liés aux objectifs de l’étude qui portent sur la fatigue physique et la performance motrice lors de tâches répétées en réalité virtuelle. Ces critères permettent de protéger les participants contre un risque de blessure et d’éviter les biais de mesure liés à des pathologies préexistantes. De plus, les critères d’exclusion ne se limitent pas à reformuler négativement les critères d’inclusion, mais introduisent des dimensions de santé spécifiques pertinentes pour le protocole.",
+            "Recommandation": "Bien que les critères soient appropriés, il serait bénéfique d’ajouter une justification explicite de la restriction à la tranche d’âge adulte (ex. capacité de consentement) et de préciser que des participants plus âgés sans contre‑indication peuvent être inclus afin d’améliorer la généralisation des résultats. Aucun autre ajustement n’est requis."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le formulaire indique que la population ciblée n'est pas considérée comme vulnérable (réponse 'Non' à la question sur les participants vulnérables). Ainsi, le projet ne prévoit pas de recrutement de groupes vulnérables et la question des stratégies spécifiques ne s'applique pas.",
+            "Recommandation": "Vérifier régulièrement que les critères d'inclusion continuent d'exclure les participants potentiellement vulnérables. Si, au cours du recrutement, des personnes présentant une situation de vulnérabilité apparaissent, le chercheur devra mettre en place des mesures de protection supplémentaires conformément aux chapitres 1 et 4 de l'EPTC 2 (justice, équité et protections spéciales)."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le protocole décrit ne prévoit la participation que d'adultes majeurs et n'inclut aucune collecte de données auprès d'enfants ni aucune mention d'enregistrement, de prise de vue ou de présence d'enfants pendant les séances. Ainsi, la question de l'information et du consentement des parents ne s'applique pas à ce projet tel qu'il est présenté.",
+            "Recommandation": "Vérifier que le laboratoire et les lieux de collecte sont exempts d'enfants non participants afin d'éviter toute capture accidentelle d'images ou d'enregistrements les concernant. Si, à l'avenir, des mineurs pouvaient être présents ou potentiellement enregistrés, ajouter une procédure d'information et de consentement parental détaillée dans le formulaire d'information et de consentement, conformément aux exigences de l'EPTC 2."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne cible ni ne recrute de participants issus des Premières Nations, des Inuits ou des Métis, comme indiqué dans le formulaire F1 (question sur l’implication des communautés autochtones répondue « Non »). Par conséquent, les principes d’éthique spécifiques à la recherche avec les communautés autochtones ne sont pas requis pour ce projet.",
+            "Recommandation": "Aucun ajustement n’est nécessaire tant que la recherche reste limitée à une population non autochtone. Si, à l’avenir, le projet devait inclure des participants ou des données autochtones, il conviendra alors de consulter les autorités communautaires, d’obtenir les approbations communautaires en plus de celle du CER et de respecter les lignes directrices décrites dans les articles 9.3, 9.8‑9.15 de la politique d’éthique."
+        }
+    }
+]

@@ -1,0 +1,10 @@
+from includes.fonctions.requetellm import requetopenrouter
+
+# Test simple
+test_prompt = "Réponds uniquement par le mot 'OK' si tu reçois ce message."
+try:
+    reponse = requetopenrouter(test_prompt)
+    print(f"Résultat du test : {reponse}")
+except Exception as e:
+    print(f"Erreur persistante : {e}")
+    

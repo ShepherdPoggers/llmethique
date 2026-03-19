@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs du projet sont présentés de façon claire (objectif principal de concevoir un système de prédiction du cybermalaise, objectifs secondaires d'identifier les indicateurs comportementaux, comparer les modèles et évaluer la précision). Ils permettent de vérifier le respect des trois principes directeurs de l'EPTC2 : le respect des personnes est assuré par le consentement éclairé, la possibilité de retrait, la protection de la confidentialité et l'absence de coercition ; le bien‑être est pris en compte par l'évaluation des risques physiques, les mesures de prévention (exclusion de participants à risque, pauses, surveillance continue) et la compensation financière ; la justice est respectée par un recrutement ouvert à tous les adultes éligibles, l'absence de ciblage de groupes vulnérables, une sélection équitable (premier arrivé‑premier retenu) et une répartition égale de la compensation. Ainsi, les objectifs, tels qu’ils sont formulés, sont compatibles avec les principes de respect de la personne, de bien‑être et de justice.",
+            "Recommandation": "Veiller à ce que le formulaire de consentement continue de refléter explicitement les mesures de protection du bien‑être et de justice (ex. préciser que la sélection « premier arrivé‑premier retenu » ne crée pas de discrimination) et à maintenir une communication transparente avec les participants sur les risques potentiels et les procédures de retrait."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie décrite (expérimentation en réalité virtuelle avec collecte d'expressions faciales, de mouvements corporels et de questionnaires SSQ/MSSQ) correspond directement aux objectifs du projet, à savoir identifier des indicateurs comportementaux du cybermalaise et développer un modèle prédictif. Le protocole prévoit des critères d'inclusion/exclusion pertinents pour limiter les risques (exclusion des personnes présentant des antécédents médicaux ou un score MSSQ élevé), des mesures de mitigation (calibrage du casque, pauses, suivi continu du bien‑être), un consentement éclairé écrit, une compensation équitable, ainsi qu'un plan de gestion des données conforme aux exigences du CER (codage, stockage sécurisé, destruction après 7 ans). Ces éléments satisfont les exigences de l'EPTC 2 concernant la proportionnalité des risques, la protection de la confidentialité et la transparence vis‑à‑vis des participants.",
+            "Recommandation": "Renforcer la protection de la confidentialité lors du recrutement en évitant de conserver les adresses e‑mail des candidats non sélectionnés et en précisant dans le formulaire de consentement que les participants peuvent demander la suppression de leurs données jusqu'à la fin de la séance. Ajouter une clause explicite de retrait complet avec destruction des données même après la session, afin de garantir le droit de retrait continu conformément à l'article 3.3 de l'EPTC 2."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d'inclusion (âge > 18 ans) sont clairement définis et adaptés à la population adulte visée par l'étude. Les critères d'exclusion sont nombreux mais chacun est lié de façon explicite aux objectifs du projet : ils visent à protéger la sécurité des participants (ex. épilepsie, troubles vestibulaires, grossesse, médicaments affectant l'équilibre) et à garantir la validité des mesures (ex. vision non corrigée, préférence linguistique, susceptibilité élevée au mal des transports). Aucun critère d'exclusion n'est simplement la négation d'un critère d'inclusion ; ils apportent des restrictions additionnelles justifiées par le risque de cybermalaises ou par la nécessité d'une interaction fiable avec le casque VR. Ainsi, les critères sont éthiquement fondés et proportionnels aux buts de la recherche.",
+            "Recommandation": "Inclure dans le protocole une brève justification écrite pour chaque critère d'exclusion afin de faciliter la revue du CER. Vérifier que les exclusions ne sont pas excessivement restrictives (par ex. envisager d'inclure des participants avec des conditions légères sous surveillance) et s'assurer que la langue anglaise/française est réellement nécessaire pour la compréhension du protocole."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le formulaire indique clairement que la recherche ne cible pas de population vulnérable (question 5 du volet Participants : « Est‑ce que la population ciblée par votre projet de recherche peut être considérée comme vulnérable ? » – réponse : Non). Les participants sont des adultes majeurs en bonne santé, avec des critères d’exclusion stricts (épilepsie, troubles neurologiques, vestibulaires, psychiatriques, grossesse, etc.) qui visent précisément à éviter la participation de personnes potentiellement vulnérables. Ainsi, aucune stratégie spécifique de protection des populations vulnérables n’est requise car aucune n’est recrutée.",
+            "Recommandation": "Même si aucune population vulnérable n’est prévue, il est recommandé d’inclure dans le protocole une clause de surveillance continue afin de réévaluer la vulnérabilité éventuelle des participants (par ex. apparition de symptômes sévères pendant l’expérience) et de prévoir un soutien immédiat ou un retrait du protocole si nécessaire."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le protocole indique explicitement que la recherche ne concerne pas de participants mineurs (question du formulaire: 'Est-ce que la recherche s'effectue auprès de mineurs? Non'). Aucun dispositif n'est prévu pour la présence ou l'enregistrement d'enfants, et aucune information n'est fournie aux parents. Ainsi, la question de l'adéquation des méthodes d'information aux parents n'est pas applicable au projet tel qu'il est décrit.",
+            "Recommandation": "Si, à l'avenir, des enfants pouvaient être présents ou enregistrés indirectement, le chercheur devra ajouter une section spécifique dans le formulaire d'information et de consentement destinée aux parents/tuteurs, détaillant les modalités d'enregistrement, les mesures de protection de la vie privée et le droit de retrait. Un consentement parental éclairé devrait être obtenu avant toute collecte de données susceptibles d'inclure des enfants, même s'ils ne sont pas participants directs."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet ne prévoit aucune participation de membres de communautés autochtones, comme indiqué dans le formulaire d'approbation (question sur l'implication des communautés autochtones répondue par 'Non'). Par conséquent, les exigences spécifiques d'éthique autochtone ne s'appliquent pas à ce dossier.",
+            "Recommandation": "Vérifier que le recrutement ne cible pas accidentellement des participants autochtones. Si à l'avenir le projet devait inclure des participants autochtones, il faudra obtenir le consentement des autorités communautaires, respecter les codes de pratique autochtones et soumettre le projet à une évaluation éthique communautaire en plus de celle du CER."
+        }
+    }
+]

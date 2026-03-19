@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le respect des personnes s'exprime principalement par l'obtention du consentement libre, éclairé et continu des participants (EPTC 2, 2022, Chapitre 1, Article 1.1). Le formulaire d'information et de consentement fourni aux participants répond à cette exigence en expliquant clairement le projet, les objectifs, les risques et les avantages, ainsi que les mesures de protection de la confidentialité et de la sécurité des données.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La recherche doit faire l'objet d'une évaluation de son acceptabilité éthique et être approuvée par le CER avant le recrutement des participants, la collecte officielle de données sur les participants, la consultation de données ou le prélèvement de matériel biologique humain (EPTC 2, 2022, Chapitre 6 - Gouvernance de l'évaluation de l'éthique de la recherche).",
+            "Recommandation": "Le chercheur et le CER devraient tenir compte du contexte de la recherche et des caractéristiques des populations cibles lors de la sélection du modèle approprié d'évaluation de l'éthique de la recherche."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les critères d'inclusion et d'exclusion doivent être justifiés par la question de recherche et ne pas être arbitraires ou présomptueux. Les femmes ne doivent pas être injustement exclues de la recherche uniquement en raison du genre ou du sexe (EPTC 2, 2022, Article 4.2).",
+            "Recommandation": "Les chercheurs doivent préciser les motifs de l'exclusion des femmes de la recherche et justifier que cette exclusion est nécessaire pour répondre à la question de recherche."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Cependant, selon l'article 9.1 de l'EPTC2 (2018), il est recommandé de considérer les populations vulnérables lors de la planification de la recherche. Il est également important de prendre en compte les changements dans la situation des participants qui pourraient entraîner, accroître ou atténuer leur vulnérabilité, comme mentionné dans l'article 4 de l'EPTC2 (2022).",
+            "Recommandation": "Le chercheur devrait prendre en compte les populations vulnérables et les mesures de protection spéciales nécessaires pour garantir leur sécurité et leur bien-être."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les méthodes utilisées pour informer les parents des modalités de la collecte de données ne sont pas appropriées, car il n'est pas clair si les parents seront informés du débriefing qui sera mené après la collecte des données. En effet, selon l'EPTC 2 (2022) 57, il est recommandé d'offrir le débriefing aux parents, aux tuteurs ou aux tiers autorisés, mais il n'est pas précisé comment les parents seront informés de ce débriefing. De plus, il n'est pas clair si les parents seront autorisés à donner leur consentement pour la collecte des données de leurs enfants.",
+            "Recommandation": "Il est recommandé de modifier les méthodes d'information des parents pour qu'ils soient clairement informés du débriefing qui sera mené après la collecte des données et qu'ils soient autorisés à donner leur consentement pour la collecte des données de leurs enfants."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis concernant les principes d’éthique de la recherche auprès des communautés autochtones.",
+            "Recommandation": "Le chercheur devrait consulter les lignes directrices du présent chapitre et les articles 9.8 et 9.9 pour s'assurer que le projet de recherche respecte les coutumes et les codes de pratique de la recherche des communautés autochtones."
+        }
+    }
+]

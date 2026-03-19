@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de l'objectif de l'étude n'est trouvée dans les documents fournis qui permettrait de confirmer qu'il respecte les trois principes directeurs de l'EPTC2 : le respect de la personne, le bien-être de la personne et la justice.",
+            "Recommandation": "Ajouter une section dédiée à l'objectif éthique de l'étude, en précisant comment les trois principes directeurs de l'EPTC2 seront respectés, notamment en expliquant comment le consentement libre, éclairé et continu des participants sera obtenu, comment la fatigue progressive sera prise en compte et comment la justice sera respectée dans le choix des participants."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de la méthodologie de recherche choisie n'est trouvée dans les documents fournis. Selon l'EPTC 2 (2022) 119, Chapitre 6 — Gouvernance de l'évaluation de l'éthique de la recherche, la recherche doit faire l'objet d'une évaluation de son acceptabilité éthique et être approuvée par le CER avant le recrutement des participants, la collecte officielle de données sur les participants, la consultation de données ou le prélèvement de matériel biologique humain.",
+            "Recommandation": "Préciser la méthodologie de recherche choisie et les protocoles utilisés pour répondre aux objectifs et/ou la/les questions de recherche présentés."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les critères d'inclusion et d'exclusion ne sont pas bien justifiés au niveau éthique en regard des objectifs de l'étude. Les critères d'exclusion ne sont pas une reformulation négative des critères d'inclusion. Par exemple, les personnes qui ont une condition musculosquelettique, neurologique ou douleur actuelle affectant au moins un membre supérieur sont exclus, mais il n'est pas clair si cela est justifié par les objectifs de l'étude. De plus, les critères d'inclusion ne mentionnent pas les personnes qui pourraient être vulnérables ou marginalisées dans le contexte de la recherche, comme les personnes âgées ou les personnes avec des handicaps.",
+            "Recommandation": "Ajouter des critères d'inclusion et d'exclusion plus précis et justifiés par les objectifs de l'étude, et préciser les mesures qui seront prises pour protéger les personnes vulnérables ou marginalisées."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis concernant des stratégies adéquates et suffisantes pour interagir avec des populations vulnérables.",
+            "Recommandation": "Ajouter des mesures spéciales pour garantir la sécurité des groupes ou des personnes que les circonstances peuvent rendre vulnérables dans le contexte du projet de recherche, telles que des considérations et des mesures de protection spéciales pour les participants."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis concernant les méthodes utilisées pour informer les parents des modalités de la collecte de données dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués.",
+            "Recommandation": "Ajouter des mesures de protection de la vie privée des enfants et des parents, telles que des méthodes d'information claires et transparentes, et des procédures de consentement appropriées, afin de garantir que les parents soient pleinement informés et consentent à la collecte de données concernant leurs enfants."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis concernant les principes d’éthique de la recherche auprès des communautés autochtones.",
+            "Recommandation": "Inclure une évaluation communautaire de l’éthique du projet de recherche et présenter le projet à une instance de la communauté autochtone pour éliminer les divergences entre la politique de l’établissement et les coutumes et les codes de pratique de la recherche communautaires."
+        }
+    }
+]

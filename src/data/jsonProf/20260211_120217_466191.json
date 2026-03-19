@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le respect des personnes s'exprime principalement par l'obtention du consentement libre, éclairé et continu des participants (EPTC 2, 2022, Chapitre 1, Article 1.1).",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La recherche doit faire l'objet d'une évaluation de son acceptabilité éthique et être approuvée par le CER avant le recrutement des participants, la collecte officielle de données sur les participants, la consultation de données ou le prélèvement de matériel biologique humain (EPTC 2, 2022, Chapitre 6).",
+            "Recommandation": "Le chercheur et le CER devraient tenir compte du contexte de la recherche et des caractéristiques des populations cibles lors de la sélection du modèle approprié d'évaluation de l'éthique de la recherche."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "L'établissement des critères d'inclusion et d'exclusion a une incidence sur la répartition juste et équitable des inconvénients et des avantages de la recherche. L'inclusion des jeunes et des personnes âgées, par exemple, permet de vérifier l'efficacité et l'innocuité de traitements qui leur sont souvent prescrits. (EPTC 2, 2022, Chapitre 4 — Justice et équité dans la participation à la recherche, 75)",
+            "Recommandation": "Réviser les critères d'inclusion et d'exclusion pour s'assurer qu'ils sont justifiés et ne privilégient pas certaines populations à l'exclusion d'autres."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les participants sont des adultes, mais il n'y a pas de mention de stratégies adéquates et suffisantes pour interagir avec des populations vulnérables, comme les personnes âgées ou les personnes handicapées, qui pourraient être affectées par la recherche. (Extrait 1)",
+            "Recommandation": "Le chercheur devrait fournir des preuves de stratégies pour interagir avec des populations vulnérables et garantir leur protection et leur bien-être."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les méthodes utilisées pour informer les parents des modalités de la collecte de données ne sont pas appropriées, car le formulaire d'information et de consentement ne mentionne pas explicitement les mesures de protection de la vie privée des enfants et des parents, ni les moyens offerts aux participants pour qu'ils permettent la divulgation de leur identité (EPTC 2, 2022, 57). De plus, le formulaire ne précise pas comment les participants pourront demander la destruction partielle des données qu'ils ont fournies ou le retrait complet de leur participation (EPTC 2, 2022, 57).",
+            "Recommandation": "Il est recommandé de modifier le formulaire d'information et de consentement pour inclure des mesures de protection de la vie privée des enfants et des parents, ainsi que des moyens offerts aux participants pour qu'ils permettent la divulgation de leur identité. Il est également recommandé de préciser comment les participants pourront demander la destruction partielle des données qu'ils ont fournies ou le retrait complet de leur participation."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Les principes d’éthique de la recherche auprès des communautés autochtones ne sont pas respectés car le projet ne prend pas en compte les coutumes et les codes de pratique de la recherche des communautés autochtones, ni la participation de la communauté dans la définition de la conduite de la recherche. (Extrait 3)",
+            "Recommandation": "Le chercheur doit présenter le projet à l'une des instances ou aux deux instances de la communauté pour éliminer les divergences entre la politique de l'établissement et les coutumes et les codes de pratique de la recherche communautaires."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le projet de recherche vise à étudier l'évolution de la fatigue physique au cours de tâches de pointage répétées en réalité virtuelle, et d'analyser son impact sur la performance motrice mesurée à l'aide de la loi de Fitts dans des environnements tridimensionnels. (Extrait 4 : EPTC 2 (2022) 9)",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La recherche implique des adultes et non des mineurs, comme indiqué dans les critères d'inclusion (Adulte (ou personne majeure ou avoir 18 ans et plus).",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les critères d'inclusion et d'exclusion sont bien justifiés, mais il est important de s'assurer que les critères d'exclusion ne sont pas simplement une reformulation négative des critères d'inclusion. De plus, il est essentiel de considérer les groupes vulnérables et de s'assurer qu'ils ne sont pas exclus de la recherche. Comme le mentionne l'EPTC 2 (2022) : \"Les chercheurs, les établissements et les CER ont tous un rôle important à jouer dans la promotion de cet engagement sociétal et pour assurer une juste répartition des avantages et des inconvénients de la recherche.\" (Article 4.1)",
+            "Recommandation": "Il est recommandé de réviser les critères d'inclusion et d'exclusion pour s'assurer qu'ils sont justifiés et ne privent pas de groupes vulnérables de la participation à la recherche."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": ""
+        }
+    }
+]

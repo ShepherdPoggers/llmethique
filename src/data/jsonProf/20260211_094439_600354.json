@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs du projet sont clairement énoncés (caractériser l'évolution de la fatigue, analyser son impact sur la performance, étudier la relation avec la difficulté de la tâche, modéliser la fatigue selon le type d'interaction, explorer son intégration dans les modèles de la loi de Fitts). Ils sont présentés de façon détaillée dans le formulaire F1 et le formulaire d'information et de consentement (FIC). Le respect du principe du respect des personnes est démontré par la procédure de consentement libre, éclairé et continu, l'absence de déception, le droit de retrait à tout moment et la protection de la confidentialité. Le bien‑être des participants est pris en compte par l’identification des risques (cybersick, fatigue musculaire) et les mesures d’atténuation (calibrage du casque, questionnaires de fatigue fréquents, arrêt possible de la session). Le principe de justice est respecté par des critères d’inclusion non discriminatoires, un recrutement ouvert à l’ensemble de la communauté universitaire via affiches et réseaux Discord, l’exclusion uniquement des personnes présentant des conditions musculosquelettiques susceptibles d’être aggravées, et l’absence de ciblage de groupes vulnérables.",
+            "Recommandation": "Bien que les principes éthiques soient globalement respectés, il serait judicieux d'ajouter une description explicite du processus de sélection afin d’assurer l’équité (par exemple, préciser que le tirage au sort ou un critère de randomisation sera utilisé si le nombre de volontaires dépasse le nombre requis). De plus, renforcer la confidentialité lors du recrutement (par exemple, en utilisant des adresses e‑mail anonymes ou un formulaire de pré‑inscription dépourvu d’identifiants) améliorerait davantage le respect du principe de respect des personnes."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie proposée (tâches de pointage en réalité virtuelle, mesures de performance basées sur la loi de Fitts, évaluations répétées de la fatigue via l'échelle Borg, enregistrement EMG et suivi cinématique) correspond étroitement aux objectifs du projet qui visent à caractériser l’évolution temporelle de la fatigue, son impact sur la performance et à comparer différents types d’interaction (main virtuelle vs raycasting). Les procédures décrites permettent de collecter les données nécessaires pour répondre aux cinq hypothèses de recherche tout en maintenant un niveau de risque minimal (effets de cybermalaises, fatigue musculaire) qui est correctement atténué par des mesures de sécurité (calibration du casque, questionnaires de suivi, présence d’un chercheur). Les exigences de consentement éclairé, de stockage sécurisé et d’anonymisation des données sont également respectées, même si la gestion de la confidentialité pendant le recrutement pourrait être renforcée.",
+            "Recommandation": "Consolider la protection de la confidentialité lors du recrutement en utilisant des alias ou une plateforme de prise de rendez‑vous anonymisée, et envisager d’attribuer un code anonyme lié à chaque participant afin de permettre un retrait de données si le participant le demande, même après l’anonymisation. Documenter clairement ces mesures dans le formulaire de consentement pour garantir le droit de retrait conformément à l’EPTC 2."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d’inclusion (âge adulte) et d’exclusion (conditions musculosquelettiques, neurologiques ou douleurs du membre supérieur susceptibles d’être aggravées par des mouvements répétitifs) sont directement liés aux objectifs de l’étude qui vise à mesurer la fatigue et la performance motrice lors de tâches de pointage en réalité virtuelle. L’exclusion de participants présentant des pathologies pouvant influencer la performance ou entraîner un risque de blessure est justifiée sur le plan éthique pour minimiser les risques physiques. Les critères d’exclusion ne se limitent pas à une reformulation négative du critère d’inclusion mais ajoutent des spécifications cliniques pertinentes. Aucun critère discriminatoire (genre, grossesse, etc.) n’est présent, ce qui respecte les principes d’équité et de justice.",
+            "Recommandation": "Inclure une brève justification explicite dans le protocole expliquant pourquoi seules les personnes majeures sont requises et pourquoi les conditions musculosquelettiques sont exclues, afin de renforcer la transparence. Veiller à ce que la procédure de sélection ne crée pas de biais inadvertants (par ex. ne pas exclure systématiquement les personnes âgées en bonne santé) et documenter que le choix des critères répond aux exigences de justice et d’équité énoncées dans l’EPTC 2."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le formulaire indique clairement que la population ciblée ne constitue pas une population vulnérable (participants majeurs sans conditions particulières, réponse négative à la question sur la vulnérabilité). Ainsi, la question d'évaluer des stratégies spécifiques pour des participants vulnérables ne s'applique pas à ce projet.",
+            "Recommandation": "Aucun ajustement n'est nécessaire concernant la protection de populations vulnérables tant que le recrutement reste limité aux adultes aptes décrits. Si le projet devait évoluer pour inclure des groupes vulnérables, il conviendra d'ajouter des mesures de protection conformes aux exigences de l'EPTC 2 (ex. consentement renforcé, soutien adapté, équité dans les bénéfices)."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet tel que décrit ne prévoit aucune participation de mineurs : les critères d’inclusion mentionnent uniquement des adultes majeurs, aucune mention d’enfants présents ou enregistrés, et le formulaire de consentement ne prévoit pas de consentement parental. En conséquence, la question de la pertinence des méthodes d’information aux parents ne s’applique pas à ce dossier.",
+            "Recommandation": "Si, à l’avenir, le protocole venait à inclure la présence ou l’enregistrement d’enfants, il faudra alors fournir aux parents ou tuteurs une description claire et détaillée des modalités de collecte (photos, vidéos, enregistrements audio), des mesures de confidentialité et du droit de retrait, conformément aux exigences de l’EPTC 2 (chapitre 3) et aux bonnes pratiques du CER‑UQAC."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet de recherche porte sur la modélisation de la fatigue dans des environnements virtuels et ne cible ni participants ni territoires appartenant aux Premières Nations, aux Inuits ou aux Métis. Le formulaire d'approbation indique explicitement que la recherche n'implique pas de communautés autochtones (EPTC2 Article 9.1, réponse \"Non\"). Par conséquent, les principes d'éthique spécifiquement relatifs à la recherche auprès des communautés autochtones ne sont pas applicables à ce projet.",
+            "Recommandation": "Aucun ajustement n'est requis concernant les exigences autochtones pour ce projet. Si de futurs projets impliquent des participants autochtones, des territoires autochtones ou des données issues de connaissances autochtones, il conviendra de consulter les autorités communautaires, de respecter les codes de pratique communautaires et d'obtenir l'approbation éthique tant du CER que de l'organisme autochtone compétent avant le recrutement."
+        }
+    }
+]

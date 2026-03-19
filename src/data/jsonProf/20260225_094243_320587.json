@@ -1,0 +1,56 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs de l'étude sont clairement énoncés dans le document F1 et comprennent : 1) Caractériser l’évolution temporelle de la fatigue lors de l’exécution prolongée de tâches de pointage en réalité virtuelle. 2) Analyser l’effet de la fatigue sur les indicateurs classiques de performance. 3) Étudier la relation entre la difficulté de la tâche et la fatigue. 4) Modéliser la fatigue selon le type d’interaction. 5) Explorer la possibilité d’intégrer la fatigue comme une variable dynamique dans les modèles inspirés de la loi de Fitts. Ces objectifs respectent les trois principes directeurs de l’EPTC2, notamment le respect de la personne, le bien-être de la personne et la justice.",
+            "Recommandation": "",
+            "Source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains"
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie de recherche choisie, basée sur la loi de Fitts et l'étude de la fatigue dans les environnements virtuels, est appropriée pour répondre aux objectifs de la recherche. Les méthodes de collecte de données, incluant l'utilisation d'un casque de réalité virtuelle, des manettes, et des évaluations subjectives de fatigue, sont adaptées pour mesurer l'évolution de la fatigue et son impact sur la performance motrice lors de tâches de pointage répétées en réalité virtuelle.",
+            "Recommandation": "",
+            "Source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains 2026-2447 - FittLawFatigue"
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d'inclusion et d'exclusion sont bien définis et justifiés dans les documents fournis. Les critères d'inclusion précisent que les participants doivent être des adultes (18 ans et plus) et ne pas présenter certaines conditions musculosquelettiques, neurologiques ou douleur actuelle affectant au moins un membre supérieur. Les critères d'exclusion ne sont pas simplement une reformulation négative des critères d'inclusion, mais bien des critères spécifiques et additionnels.",
+            "Recommandation": "",
+            "Source": "FICFittsLAw_pef_edits1.docx"
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Ne s'applique pas : Le projet de recherche n'a pas mentionné le recrutement de participants faisant partie de populations vulnérables.",
+            "Recommandation": "",
+            "Source": "F1"
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le projet mentionne que les participants seront des adultes (\"Adulte (ou personne majeure ou avoir 18 ans et plus)\"). De plus, les méthodes utilisées pour informer les parents des modalités de la collecte de données sont appropriées, car les participants sont des adultes et non des enfants.",
+            "Recommandation": "",
+            "Source": "FICFittsLAw_pef_edits1.docx"
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Préciser si les principes d'éthique de la recherche auprès des communautés autochtones seront respectés, notamment en incluant des mesures de protection et de respect de leurs droits et cultures.",
+            "Source": "F1-8348"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de la population cible dans les documents fournis. La population cible est mentionnée comme des adultes (18 ans et plus) dans le formulaire de recrutement, mais aucune mention n'est faite des trois principes directeurs de l'EPTC2 (respect des personnes, bien-être et justice) dans le contexte de la recherche.",
+            "Recommandation": "Inclure une section explicite dans le formulaire de recrutement et dans le protocole de recherche qui décrit comment les trois principes directeurs de l'EPTC2 seront respectés dans le projet, en particulier en ce qui concerne la population cible."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie choisie est appropriée pour répondre aux objectifs de la recherche, et les mesures mises en place pour minimiser les risques sont adéquates.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les critères d'inclusion et d'exclusion ne sont pas bien justifiés en regard des objectifs de l'étude. Les critères d'exclusion ne sont pas une reformulation négative des critères d'inclusion. En effet, les critères d'exclusion ne sont pas clairement liés aux objectifs de l'étude et ne sont pas justifiés par la question de recherche. Par exemple, la condition musculosquelettique, neurologique ou douleur actuelle affectant au moins un membre supérieur n'est pas clairement liée à l'objectif de l'étude qui est d'étudier l'évolution de la fatigue physique au cours de tâches de pointage répétées en réalité virtuelle.",
+            "Recommandation": "Préciser clairement les critères d'inclusion et d'exclusion en regard des objectifs de l'étude et justifier les critères d'exclusion par la question de recherche."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention n'est faite dans les documents fournis de la manière dont les parents des enfants présents dans les environnements virtuels ont été informés des modalités de la collecte de données.",
+            "Recommandation": "Préciser clairement dans le formulaire d'information et de consentement comment les parents des enfants présents dans les environnements virtuels seront informés des modalités de la collecte de données et comment ils pourront donner leur consentement."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de la participation de la communauté autochtone n'est trouvée dans les documents fournis. Le projet ne mentionne pas les coutumes et les codes de pratique de la recherche des communautés autochtones, ni la nécessité de présenter le projet à une instance de la communauté pour obtenir une évaluation éthique.",
+            "Recommandation": "Inclure une évaluation éthique par les instances de la communauté autochtone et présenter le projet à une instance de la communauté pour obtenir une évaluation éthique."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question.",
+            "Recommandation": "Veuillez vérifier manuellement cette question."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie de recherche choisie est appropriée pour répondre aux objectifs de la recherche, et les mesures mises en place pour minimiser les risques et garantir la confidentialité et la protection des données sont adéquates.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Inclure des critères d'inclusion et d'exclusion clairs et justifiés dans le formulaire de recrutement et le protocole de recherche, en tenant compte de la population cible et des objectifs de l'étude."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de populations vulnérables n'est trouvée dans les documents fournis. Selon l'EPTC2 (2022), les chercheurs doivent examiner soigneusement le lien entre la situation des personnes et des groupes qu'ils cherchent à recruter et la question de recherche en cause. Les documents fournis ne mentionnent pas de populations vulnérables comme participants potentiels.",
+            "Recommandation": "Inclure des mesures de protection spéciales pour les populations vulnérables dans le projet de recherche, telles que des stratégies d'inclusion et d'exclusion justifiées par la question de recherche."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Inclure des mesures de protection de la vie privée des enfants dans le projet, telles que des débriefings pour les parents, les tuteurs ou les tiers autorisés, et des mesures de sécurité appropriées pour le cycle de vie complet des renseignements."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de la participation de la communauté autochtone n'est trouvée dans les documents fournis. Le projet ne mentionne pas explicitement la communauté autochtone comme population cible, et les critères d'inclusion/exclusion ne font pas référence à une population spécifique.",
+            "Recommandation": "Inclure une description détaillée de la participation de la communauté autochtone dans le projet, y compris les mesures qui seront prises pour respecter les coutumes et les codes de pratique de la recherche communautaire."
+        }
+    }
+]

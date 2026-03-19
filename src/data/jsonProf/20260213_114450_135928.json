@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le projet de recherche 'Modélisation de la fatigue dans les environnements virtuels' (FICFittsLAw_pef_edits1.docx) indique explicitement que la population cible est 'une personne majeure et ne présenter aucune condition musculosquelettique, neurologique ou douleur actuelle affectant au moins un de vos membre supérieur (épaule/bras/coude/poignet/main) susceptible d'être exacerbée par des mouvements répétitifs, ou pouvant influencer la performance/le recrutement musculaire (p. ex. blessure récente, chirurgie récente, tendinopathie, instabilité, limitation d'amplitude, engourdissement)' (Extrait 1 du FIC). Cette mention exclut explicitement les mineurs/enfants. La citation directe prouvant le critère d'âge est : '18 ans et plus'.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Les documents indiquent explicitement que la recherche concerne des adultes (ex. \"18 ans et plus\", \"personnes majeures\", \"adultes\").",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Les critères d'inclusion sont : Adulte (ou personne majeure ou avoir 18 ans et plus) et les critères d'exclusion sont : Présenter une condition musculosquelettique, neurologique ou douleur actuelle affectant au moins un membre supérieur dominant (épaule/bras/coude/poignet/main) susceptible d'être exacerbée par des mouvements répétitifs, ou pouvant influencer la performance/le recrutement musculaire (p. ex. blessure récente, chirurgie récente, tendinopathie, instabilité, limitation d'amplitude, engourdissement).",
+            "Recommandation": "Revoir les critères d'inclusion et d'exclusion pour s'assurer qu'ils sont justifiés et ne constituent pas une reformulation négative des critères d'inclusion."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Les documents indiquent que la population cible est des adultes (18 ans et plus) et que les critères d'inclusion sont : Adulte (ou personne majeure ou avoir 18 ans et plus).",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Le document FIC (FICFittsLAw_pef_edits1.docx) commence ici et finit ici. Le document F1 (Formulaire2026-2447-18348.pdf) commence ici et finit ici. Les extraits pertinents (RAG) ne mentionnent pas explicitement que la recherche concerne des enfants ou des mineurs. En effet, l'Extrait 1 mentionne que le débriefing peut être offert aux parents, aux tuteurs ou aux tiers autorisés, mais cela ne signifie pas que la recherche implique des enfants. De plus, l'Extrait 2 mentionne que les CER doivent veiller à ce que le projet comprenne des mesures de protection de la vie privée des personnes, mais cela ne concerne pas spécifiquement les enfants. Enfin, l'Extrait 3 mentionne que les mesures de sécurité appropriées doivent être mises en place pour protéger la vie privée des participants, mais cela ne concerne pas spécifiquement les enfants. Aucune information pertinente n'est trouvée dans les documents du projet ET dans les extraits fournis.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Le document FIC (FICFittsLAw_pef_edits1.docx) ne mentionne pas explicitement que la recherche concerne les communautés autochtones. Le document F1 (Formulaire2026-2447-18348.pdf) ne mentionne pas non plus les communautés autochtones. Les extraits fournis (RAG) ne mentionnent pas non plus les communautés autochtones dans le contexte de la recherche. Par conséquent, il n'y a pas de preuve que les principes d'éthique de la recherche auprès des communautés autochtones sont respectés.",
+            "Recommandation": ""
+        }
+    }
+]

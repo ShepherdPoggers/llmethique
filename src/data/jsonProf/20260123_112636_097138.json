@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs du projet sont clairement décrits (conception d'un système d'IA pour prédire le cybermalaise, identification des indicateurs comportementaux, comparaison de modèles, évaluation de la précision). Le formulaire d'information et de consentement montre que le respect de la personne est assuré (consentement libre, éclairé et continu, droit de retrait, critères d'inclusion/exclusion, mesures de confidentialité). Le bien-être des participants est protégé (risques physiques limités, surveillance continue, pauses, compensation financière, mesures de prévention des nausées). La justice est respectée (recrutement ouvert, aucune population vulnérable ciblée, sélection « premier arrivé, premier retenu », compensation équitable, aucune discrimination). Ainsi, les objectifs permettent de confirmer le respect des trois principes directeurs de l'EPTC2.",
+            "Recommandation": "Aucun changement majeur n'est requis. Il serait toutefois judicieux de préciser davantage la procédure de suppression des adresses e‑mail de recrutement dès que la planification est terminée afin de renforcer la confidentialité des données personnelles."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie décrite (expérimentation en réalité virtuelle, collecte de données faciales, motrices et de questionnaires, analyse par apprentissage automatique) correspond directement aux objectifs de prédire le cybermalaise à partir de ces indicateurs comportementaux. Le protocole prévoit des critères d’inclusion/exclusion pertinents pour limiter les risques physiques, un suivi continu du bien‑être des participants, un consentement éclairé écrit, une compensation équitable, ainsi qu’un plan de gestion des données conforme aux exigences du CER (anonymisation, stockage sécurisé, durée de conservation de 7 ans, destruction sécurisée). Ces éléments démontrent que la méthode est proportionnée aux buts de recherche et respecte les principes de minimisation des risques, de respect de la dignité et de protection de la vie privée, comme requis par l’EPTC‑2.",
+            "Recommandation": "Renforcer la confidentialité lors du recrutement en évitant de conserver les adresses e‑mail après la confirmation d’éligibilité, et préciser dans le formulaire de consentement que les participants peuvent demander la suppression de leurs données même après la session, afin d’assurer le droit de retrait complet. En outre, documenter explicitement le processus de vérification de l’état de santé (ex. questionnaire MSSQ) avant chaque session pour garantir le respect continu des critères d’exclusion."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le dossier présente des critères d'inclusion très généraux (âge >18 ans et intérêt) sans justification explicite de leur pertinence pour les objectifs de prédiction du cybermalise. Les critères d'exclusion sont nombreux (conditions médicales, langue, grossesse, médicaments, etc.) mais le protocole ne fournit pas de justification détaillée montrant comment chaque critère protège les participants ou est nécessaire à la validité scientifique. Ainsi, bien que les exclusions semblent viser à réduire les risques physiques, l'absence d'explication claire empêche de conclure qu'ils sont proportionnés et justifiés éthiquement par rapport aux objectifs de l'étude.",
+            "Recommandation": "Fournir une justification explicite pour chaque critère d'inclusion et d'exclusion, en liant chaque exclusion aux risques spécifiques du cybermalise ou à la validité des mesures (ex. épilepsie, troubles vestibulaires, etc.). Rendre les critères d'inclusion plus précis (par ex. tranche d'âge pertinente, niveau de familiarité avec la VR) et expliquer pourquoi la langue se limite à l'anglais/français. Réévaluer la nécessité d'exclure des participants présentant une sensibilité modérée au mal des transports afin d'éviter un biais de sélection excessif. Documenter ces justifications dans le formulaire d'information et le protocole afin que le CER puisse vérifier la proportionnalité et l'équité des critères."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le formulaire indique explicitement que la recherche ne cible pas de population vulnérable (question 5 du volet Participants) et les critères d'inclusion/exclusion limitent la participation aux adultes majeurs en bonne santé, excluant les personnes présentant des conditions médicales, les femmes enceintes, les mineurs, les autochtones, etc. Aucun groupe identifié comme vulnérable n'est prévu dans le recrutement.",
+            "Recommandation": "Confirmer que l'absence de participants vulnérables est bien justifiée par les critères de recherche. Si, à tout moment, des participants présentant une vulnérabilité (ex. troubles neurologiques non déclarés, situation socio‑économique précaire) sont identifiés, le chercheur devra réévaluer les mesures de protection et soumettre les ajustements requis au CER."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le protocole indique explicitement que la recherche ne cible pas de participants mineurs (F1: \"Est-ce que la recherche s'effectue auprès de mineurs? Non\"). Aucun dispositif n'est prévu pour informer les parents ou tuteurs des éventuelles captures d'images ou de sons de enfants présents de façon fortuite pendant les séances de réalité virtuelle. Le formulaire d'information et de consentement (FIC) ne mentionne pas la présence possible d'enfants, ni les mesures de protection de leur vie privée, ce qui contrevient aux exigences du Chapitre 3 de l'EPTC2 (débriefing et information des parents/tuteurs) et aux recommandations relatives à la protection de la vie privée (chunks 2, 3, 5). Ainsi, les méthodes d'information des parents ne sont pas adéquates sur le plan éthique.",
+            "Recommandation": "Intégrer dans le formulaire d'information et de consentement une section décrivant clairement la possibilité d'enregistrement accidentel d'enfants, les mesures prises pour minimiser ce risque (ex. cadrage du casque, zones de travail réservées aux adultes) et les procédures de consentement parental (information préalable, consentement écrit ou verbal des parents/tuteurs). Prévoir un débriefing destiné aux parents et garantir la suppression ou l'anonymisation de toute donnée pouvant identifier un enfant. Si la présence d'enfants ne peut être exclue, envisager de restreindre l'accès au laboratoire aux seules personnes majeures ou d'obtenir un consentement parental explicite avant chaque session."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Le projet de recherche ne cible ni ne recrute de participants appartenant aux Premières Nations, aux Inuits ou aux Métis, comme indiqué explicitement dans le formulaire d'approbation (question sur l'implication des communautés autochtones répondue 'Non'). Par conséquent, les principes d'éthique spécifiques à la recherche auprès des communautés autochtones ne sont pas applicables à ce projet.",
+            "Recommandation": "Si à l'avenir le projet devait inclure des participants autochtones ou se dérouler sur des territoires autochtones, il conviendra de consulter les autorités communautaires, d'obtenir les autorisations requises et de suivre les lignes directrices du chapitre 9 de la politique d'éthique de l'UQAC."
+        }
+    }
+]

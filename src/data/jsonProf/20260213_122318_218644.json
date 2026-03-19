@@ -1,0 +1,49 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de la population cible n'est trouvée dans les documents fournis. Le projet vise à étudier l'évolution de la fatigue physique au cours de tâches de pointage répétées en réalité virtuelle, mais il n'y a aucune mention de la population cible, de l'âge, du lieu, du statut ou du type de participants.",
+            "Recommandation": "Inclure des critères d'inclusion et d'exclusion clairs dans le formulaire de recrutement et dans la description de la collecte de données pour définir la population cible et les critères d'éligibilité."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie de recherche choisie est appropriée au niveau éthique pour répondre aux objectifs ou à la question de la recherche. Les participants sont informés de la nature de la recherche et donnent leur consentement avant de participer. Les données collectées sont anonymisées et conservées de manière sécuritaire. Les risques potentiels pour les participants sont minimisés.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Inclure des critères d'inclusion et d'exclusion justifiés par la question de recherche, en tenant compte de la portée et des objectifs du projet, et en évitant les inconvénients inéquitables pour certains groupes."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Une erreur est survenu lors du traitement de cette question."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Le formulaire d'information et de consentement (FIC) ne mentionne pas les mesures pour informer les parents des modalités de la collecte de données si des enfants sont présents ou enregistrés.",
+            "Recommandation": "Préciser les mesures pour informer les parents des modalités de la collecte de données si des enfants sont présents ou enregistrés, et inclure ces mesures dans le formulaire d'information et de consentement (FIC)."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Inclure des lignes directrices pour la participation de la communauté autochtone dans le projet, telles que l'évaluation de l'éthique par les instances de la communauté, la sollicitation de la participation des dirigeants de la communauté et l'obtention de leur consentement."
+        }
+    }
+]

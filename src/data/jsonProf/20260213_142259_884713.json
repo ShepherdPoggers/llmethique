@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de la population cible dans les documents fournis. La population cible est mentionnée comme 'adultes' (18 ans et plus) dans le formulaire de recrutement, mais aucune mention n'est faite de la population cible dans le protocole ou le formulaire d'information et de consentement.",
+            "Recommandation": "Inclure une description détaillée de la population cible dans le protocole et le formulaire d'information et de consentement, et préciser les critères d'inclusion et d'exclusion."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie de recherche choisie est appropriée pour répondre aux objectifs de la recherche, mais il y a quelques préoccupations éthiques à considérer.",
+            "Recommandation": "Prendre des mesures supplémentaires pour protéger la confidentialité des participants et fournir des informations supplémentaires aux participants sur les risques et les bénéfices potentiels de la recherche."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les critères d'exclusion ne sont pas clairement justifiés en regard des objectifs de l'étude. Selon l'extrait 4 de l'EPTC2, les chercheurs qui envisagent d'exclure délibérément certains groupes de leur recherche devraient préciser à leur CER les motifs de cette exclusion. Dans ce cas, les critères d'exclusion ne sont pas clairement motivés et ne sont pas justifiés par la question de recherche.",
+            "Recommandation": "Préciser les motifs de l'exclusion des personnes présentant une condition musculosquelettique, neurologique ou douleur actuelle affectant au moins un membre supérieur dominant, et justifier ces critères en regard des objectifs de l'étude."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention de populations vulnérables n'est trouvée dans les documents fournis. Selon l'EPTC2, les chercheurs doivent examiner soigneusement le lien entre la situation des personnes et des groupes qu'ils cherchent à recruter et la question de recherche en cause. Les documents du projet ne mentionnent pas de populations vulnérables, ni de mesures spéciales pour assurer leur inclusion ou protection.",
+            "Recommandation": "Inclure des mesures spéciales pour assurer l'inclusion et la protection des populations vulnérables, si nécessaire, et justifier ces mesures dans le dossier."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Inclure des mesures de protection de la vie privée des enfants et des parents dans le projet, telles que des débriefings appropriés et des mesures de sécurité pour les renseignements personnels."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis.",
+            "Recommandation": "Inclure une évaluation communautaire de l'éthique du projet de recherche et présenter le projet à l'une des instances ou aux deux instances pour éliminer les divergences entre la politique de l'établissement et les coutumes et les codes de pratique de la recherche communautaires."
+        }
+    }
+]

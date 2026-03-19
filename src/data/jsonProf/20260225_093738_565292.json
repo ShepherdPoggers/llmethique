@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+            "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+            "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+            "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+            "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+            "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": null,
+            "Justification": "Erreur Groq : limite de tokens dépassée ou crédit insuffisant.",
+            "Recommandation": "Réduire la taille des extraits ou attendre le reset de l'API."
+        }
+    }
+]

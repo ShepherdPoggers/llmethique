@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont cohérents entre eux sur les éléments essentiels du projet? Vérifier explicitement les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait. Toute contradiction importante entre F1 et FIC doit être signalée comme une non-conformité.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le F1 et le FIC sont cohérents sur les éléments essentiels du projet. Les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait sont similaires ou identiques dans les deux documents.",
+            "Recommandation": "",
+            "Source": "F1-8348, FICFittsLAw_pef_edits.docx",
+            "Confiance": 90,
+            "QuestionValidation": "Les informations fournies dans le F1 et le FIC sont-elles cohérentes concernant les objectifs, la population visée, et les autres éléments clés du projet?"
+        }
+    },
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les objectifs de l'étude sont clairement énoncés dans le document F1 et le FIC. Ils permettent de confirmer que les trois principes directeurs de l'EPTC2, soit le respect de la personne, le bien-être de la personne et la justice, sont respectés. Les objectifs spécifiques de l'étude sont : 1) Caractériser l'évolution temporelle de la fatigue lors de l'exécution prolongée de tâches de pointage en réalité virtuelle, 2) Analyser l'effet de la fatigue sur les indicateurs classiques de performance, 3) Étudier la relation entre la difficulté de la tâche et la fatigue, 4) Modéliser la fatigue selon le type d'interaction, et 5) Explorer la possibilité d'intégrer la fatigue comme une variable dynamique dans les modèles inspirés de la loi de Fitts.",
+            "Recommandation": "",
+            "Source": "F1, FIC",
+            "Confiance": 95,
+            "QuestionValidation": "Quel passage des documents supporte l'interprétation des objectifs de recherche ?"
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La méthodologie proposée est appropriée pour répondre aux objectifs de la recherche. Les mesures de protection des participants sont en place pour minimiser les risques.",
+            "Recommandation": "",
+            "Source": "F1",
+            "Confiance": 85,
+            "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Les critères d'inclusion et d'exclusion sont clairement définis et justifiés en regard des objectifs de l'étude. Les critères d'exclusion ne sont pas simplement une reformulation négative des critères d'inclusion.",
+            "Recommandation": "",
+            "Source": "FICFittsLAw_pef_edits1.docx",
+            "Confiance": 90,
+            "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le projet de recherche n'indique pas explicitement que des populations vulnérables seront recrutées. De plus, les critères d'inclusion et d'exclusion ne mentionnent pas de conditions spécifiques liées à la vulnérabilité. Cependant, il est prévu de recruter 30 adultes sans mention de stratégies particulières pour interagir avec des populations vulnérables, car il n'y en a pas.",
+            "Recommandation": "Clarifier les mesures prises pour identifier et protéger les participants vulnérables, si présents, et détailler les stratégies adéquates pour interagir avec de telles populations si elles sont incluses.",
+            "Source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+            "Confiance": 80,
+            "QuestionValidation": "Selon quels critères EPTC2 avez-vous justifié cette réponse ?"
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le formulaire d'information et de consentement (FIC) mentionne que les participants seront informés des modalités de la collecte de données. Il est indiqué que 'Vous sélectionnerez des cibles jusqu’à ce qu’une des conditions suivantes soit atteinte : vous le faites depuis 60 minutes, votre dernière évaluation de la fatigue était supérieure à 7/10, vous n’êtes plus en mesure d’atteindre une cible en moins de 10 secondes.' De plus, il est précisé que 'L’expérience peut être interrompue à tout moment, sans justification, si vous ressentez un inconfort ou une fatigue excessive, ou si l’expérimentateur juge qu’il n’est pas approprié de poursuivre.'",
+            "Recommandation": "",
+            "Source": "FICFittsLAw_pef_edits1.docx",
+            "Confiance": 90,
+            "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Le projet de recherche ne mentionne pas explicitement l'implication de communautés autochtones. Le formulaire F1 et le FIC ne contiennent aucune mention spécifique aux Premières nations, aux Inuits ou aux Métis du Canada.",
+            "Recommandation": "Aucune",
+            "Source": "FICFittsLAw_pef_edits1.docx",
+            "Confiance": 100,
+            "QuestionValidation": "Quel passage des documents supporte cette interpretation ?"
+        }
+    }
+]

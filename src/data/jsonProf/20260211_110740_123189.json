@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "Le projet respecte les trois principes directeurs de l'EPTC2 : le respect de la personne, le bien-être de la personne et la justice. Le respect de la personne est évident dans la demande d'approbation éthique, où il est mentionné que le participant pourra se retirer à tout moment sans préjudice. Le bien-être de la personne est également pris en compte, car le projet vise à étudier l'évolution de la fatigue physique au cours de tâches de pointage répétées en réalité virtuelle, et à analyser son impact sur la performance motrice. La justice est également respectée, car le projet vise à contribuer à la conception d'interactions en réalité virtuelle plus robustes, ergonomiques et adaptées à des usages prolongés.",
+            "Recommandation": ""
+        }
+    },
+    {
+        "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+        "reponse": {
+            "Reponse": true,
+            "Justification": "La recherche doit faire l'objet d'une évaluation de son acceptabilité éthique et être approuvée par le CER avant le recrutement des participants, la collecte officielle de données sur les participants, la consultation de données ou le prélèvement de matériel biologique humain (EPTC 2, 2022, Chapitre 6).",
+            "Recommandation": "Le chercheur devrait consulter son CER pour faciliter le choix et la coordination du modèle d'évaluation approprié, et tenir compte du contexte de la recherche et des caractéristiques des populations cibles."
+        }
+    },
+    {
+        "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les critères d'inclusion et d'exclusion ne sont pas bien justifiés, car ils ne sont pas pertinents pour les objectifs de l'étude. En effet, les critères d'exclusion ne sont pas une reformulation négative des critères d'inclusion, mais plutôt une liste de conditions qui excluent les participants sans justification claire. De plus, les critères d'inclusion ne sont pas justifiés par la question de recherche, comme le souligne l'article 4.1 de l'EPTC 2 (2022) : 'Tout en tenant compte de la portée et des objectifs de leur recherche, les chercheurs doivent établir des critères d'inclusion et d'exclusion qui sont pertinents pour répondre à la question de recherche.'",
+            "Recommandation": "Réviser les critères d'inclusion et d'exclusion pour les rendre pertinents pour les objectifs de l'étude et justifier clairement les raisons de l'exclusion de certains groupes."
+        }
+    },
+    {
+        "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis. Cependant, selon l'extrait 1, il est recommandé de considérer la situation particulière des personnes et des groupes dans le contexte du projet de recherche proposé, et de ne pas présumer que leur situation entraînera automatiquement l'inclusion ou l'exclusion des personnes ou des groupes en tant que participants éventuels.",
+            "Recommandation": "Le chercheur devrait examiner soigneusement le lien entre la situation des personnes et des groupes qu'il cherche à recruter et la question de recherche en cause, et prendre des mesures de protection spéciales si nécessaire."
+        }
+    },
+    {
+        "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Les méthodes utilisées pour informer les parents des modalités de la collecte de données ne sont pas appropriées, car il n'y a pas de mention de débriefing ou de protection de la vie privée des participants dans le formulaire de consentement. (Extrait 1 : EPTC 2 (2022) 57)",
+            "Recommandation": "Inclure un débriefing pour les parents et les participants, et prendre des mesures pour protéger la vie privée des participants, comme indiqué dans l'Extrait 2 : les CER doivent veiller à ce que le projet comprenne des mesures de protection de la vie privée des personnes, conformément à la loi."
+        }
+    },
+    {
+        "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+        "reponse": {
+            "Reponse": false,
+            "Justification": "Aucune mention trouvée dans les documents fournis concernant les principes d’éthique de la recherche auprès des communautés autochtones, tels que la nécessité de solliciter la participation des dirigeants de la communauté, l'évaluation de l'éthique de la recherche par le CER de l'établissement et par tout organisme compétent de la communauté reconnu par les autorités des Premières Nations, des Inuits ou des Métis.",
+            "Recommandation": "Le chercheur doit solliciter la participation des dirigeants de la communauté et obtenir l'évaluation de l'éthique de la recherche par le CER de l'établissement et par tout organisme compétent de la communauté reconnu par les autorités des Premières Nations, des Inuits ou des Métis avant de commencer le recrutement des participants et la sollicitation et l'obtention de leur consentement."
+        }
+    }
+]
