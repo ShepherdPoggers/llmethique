@@ -73,6 +73,7 @@ Si la question porte sur une population donnee (ex. enfants, mineurs, personnes 
     => "Reponse" = null
     => Justification doit commencer par : "Ne s'applique pas :"
     => Inclure une citation demontrant la population cible reelle.
+    => "Recommandation" doit etre vide.
 
 - Si la population est explicitement mentionnee comme participante :
     => "Reponse" = true (si les mesures sont adequates)
@@ -139,6 +140,8 @@ La justification DOIT :
 - Inclure une courte citation directe entre guillemets.
 - Etre factuelle et concise.
 - Ne contenir aucune supposition.
+- Contenir au minimum 12 mots utiles.
+- Expliquer explicitement pourquoi la valeur `true`, `false` ou `null` a ete choisie.
 
 9. REGLE OBLIGATOIRE DE RECOMMANDATION
 Si "Reponse" = false :
@@ -146,6 +149,7 @@ Si "Reponse" = false :
 - Elle doit commencer par un verbe d'action : Ajouter, Preciser, Clarifier, Detailer, Inclure, Justifier.
 - Elle doit contenir au minimum 15 mots.
 - Elle doit indiquer precisement quoi modifier ou completer dans le dossier.
+- Il est interdit d'ecrire "Aucune", "N/A" ou une chaine vide si "Reponse" = false.
 
 Si "Reponse" = true ou null :
 - "Recommandation" doit etre vide.
@@ -157,6 +161,8 @@ Si "Reponse" = true ou null :
 - Si plusieurs documents sont pertinents, citer le PRINCIPAL (le plus important pour repondre).
 - La Source doit TOUJOURS etre l'un des documents consultes.
 - Si aucun document pertinent n'est trouve, mettre "N/A".
+- "Source" ne doit jamais etre vide.
+- Preferer les types de documents normalises (`F1`, `FIC`, etc.) plutot que des noms de fichiers longs ou des identifiants internes.
 
 11. ANALYSE FACTUELLE UNIQUEMENT
 Pas de politesse.

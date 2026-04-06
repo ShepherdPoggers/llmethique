@@ -108,6 +108,33 @@ def CheckQuestion(question):
     question.SetReponse(reponse)
 
 
+def normalize_llm_fields(data):
+    """Applique des garde-fous simples sur les champs de sortie du LLM."""
+    if not isinstance(data, dict):
+        return data
+
+    response_value = data.get("Reponse")
+    source = str(data.get("Source", "") or "").strip()
+    recommendation = str(data.get("Recommandation", "") or "").strip()
+    justification = str(data.get("Justification", "") or "").strip()
+
+    if not source:
+        data["Source"] = "N/A"
+
+    if response_value in (True, None):
+        data["Recommandation"] = ""
+    elif response_value is False and not recommendation:
+        data["Recommandation"] = (
+            "Clarifier les informations pertinentes dans les documents du projet et ajouter les precisions "
+            "necessaires pour justifier clairement la conformite ethique."
+        )
+
+    if not justification:
+        data["Justification"] = "Aucune justification exploitable n'a ete fournie par le modele."
+
+    return data
+
+
 def stringToJson(reponse):
     """
     Extraction robuste du JSON renvoyé par le LLM.
@@ -160,7 +187,7 @@ def stringToJson(reponse):
         data.setdefault("Recommandation", "")
         data.setdefault("Source", "")
 
-        return data
+        return normalize_llm_fields(data)
 
     except Exception as e:
         print("Erreur parsing JSON :", e)

@@ -1,0 +1,524 @@
+{
+  "generated_at": "2026-03-25T11:04:31.894119",
+  "audited_files": [
+    "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260319_053352_697971.json",
+    "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260318_182013_231731.json",
+    "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260311_111546_206864.json",
+    "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260311_110106_889954.json"
+  ],
+  "summary": {
+    "file_count": 4,
+    "total_entries": 28,
+    "fully_valid_entries": 24,
+    "entries_with_issues": 4,
+    "failed_check_counts": {
+      "recommendation_rule_ok": 2,
+      "source_present": 1,
+      "source_mentions_known_doc_type": 1,
+      "justification_min_words": 1
+    }
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260319_053352_697971.json",
+      "total_entries": 7,
+      "fully_valid_entries": 6,
+      "entries_with_issues": 1,
+      "failed_check_counts": {
+        "recommendation_rule_ok": 1
+      },
+      "entries": [
+        {
+          "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont cohérents entre eux sur les éléments essentiels du projet? Vérifier explicitement les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait. Toute contradiction importante entre F1 et FIC doit être signalée comme une non-conformité.",
+          "reponse": true,
+          "source": "F1-8348, FICFittsLAw_pef_edits.docx",
+          "justification_word_count": 56,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+          "reponse": true,
+          "source": "F1, FIC",
+          "justification_word_count": 120,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+          "reponse": true,
+          "source": "F1",
+          "justification_word_count": 14,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 30,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+          "reponse": false,
+          "source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+          "justification_word_count": 36,
+          "recommendation_word_count": 29,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 93,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+          "reponse": false,
+          "source": "F1",
+          "justification_word_count": 50,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": false
+          },
+          "failed_checks": [
+            "recommendation_rule_ok"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260318_182013_231731.json",
+      "total_entries": 7,
+      "fully_valid_entries": 6,
+      "entries_with_issues": 1,
+      "failed_check_counts": {
+        "recommendation_rule_ok": 1
+      },
+      "entries": [
+        {
+          "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont cohérents entre eux sur les éléments essentiels du projet? Vérifier explicitement les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait. Toute contradiction importante entre F1 et FIC doit être signalée comme une non-conformité.",
+          "reponse": true,
+          "source": "F1-8348, FICFittsLAw_pef_edits.docx",
+          "justification_word_count": 54,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+          "reponse": true,
+          "source": "F1, FIC",
+          "justification_word_count": 120,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+          "reponse": true,
+          "source": "F1",
+          "justification_word_count": 25,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 29,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+          "reponse": false,
+          "source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+          "justification_word_count": 55,
+          "recommendation_word_count": 28,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 100,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+          "reponse": false,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 33,
+          "recommendation_word_count": 1,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": false
+          },
+          "failed_checks": [
+            "recommendation_rule_ok"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260311_111546_206864.json",
+      "total_entries": 7,
+      "fully_valid_entries": 7,
+      "entries_with_issues": 0,
+      "failed_check_counts": {},
+      "entries": [
+        {
+          "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont cohérents entre eux sur les éléments essentiels du projet? Vérifier explicitement les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait. Toute contradiction importante entre F1 et FIC doit être signalée comme une non-conformité.",
+          "reponse": true,
+          "source": "F1-8348, FICFittsLAw_pef_edits.docx",
+          "justification_word_count": 64,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+          "reponse": true,
+          "source": "F1, FIC",
+          "justification_word_count": 124,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+          "reponse": true,
+          "source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+          "justification_word_count": 40,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 30,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+          "reponse": null,
+          "source": "F1-8348",
+          "justification_word_count": 18,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 56,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+          "reponse": false,
+          "source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+          "justification_word_count": 23,
+          "recommendation_word_count": 20,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\ithie\\Downloads\\llmethique\\src\\data\\jsonProf\\20260311_110106_889954.json",
+      "total_entries": 7,
+      "fully_valid_entries": 5,
+      "entries_with_issues": 2,
+      "failed_check_counts": {
+        "source_present": 1,
+        "source_mentions_known_doc_type": 1,
+        "justification_min_words": 1
+      },
+      "entries": [
+        {
+          "question": "Est-ce que le formulaire F1 et le formulaire d'information et de consentement (FIC) sont cohérents entre eux sur les éléments essentiels du projet? Vérifier explicitement les objectifs, la population visée, la nature de la participation, les risques, la durée, la confidentialité, la conservation ou destruction des données, le partage des données, la compensation et le droit de retrait. Toute contradiction importante entre F1 et FIC doit être signalée comme une non-conformité.",
+          "reponse": true,
+          "source": "F1-8348, FICFittsLAw_pef_edits.docx",
+          "justification_word_count": 45,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que les objectifs de l’étude sont énoncés clairement et permettent de confirmer qu’ils respectent, au niveau éthique, les trois principes directeurs de l’EPTC2, lesquels sont : 1) le respect de la personne, 2) le bien-être de la personne et 3) de la justice? Un projet peut respecter les trois principes directeurs sans y faire directement référence dans sa présentation.",
+          "reponse": true,
+          "source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+          "justification_word_count": 117,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que la méthodologie de recherche choisie est appropriée, au niveau éthique, pour répondre aux objectifs ou à la question de la recherche? Fais d'abord un résumé des méthodologies et protocoles utilisés, puis évalue si ils sont en adéquation avec les objectifs et/ou la/les questions de recherche présentés.",
+          "reponse": true,
+          "source": "F1-8348: Demande d'approbation éthique pour un projet de recherche impliquant des êtres humains",
+          "justification_word_count": 93,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Est-ce que tous les critères d’inclusion et d’exclusion sont bien justifiés, au niveau éthique, en regard des objectifs de l’étude ? Les critères d'exclusion ne doivent pas être simplement une reformulation négative des critères d'inclusion.",
+          "reponse": true,
+          "source": "FICFittsLAw_pef_edits1.docx",
+          "justification_word_count": 30,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet mentionne le recrutement de participants faisant partie de populations vulnérables, est-ce que des stratégies adéquates et suffisantes sont mises en place pour interagir avec ces populations vulnérables?",
+          "reponse": null,
+          "source": "F1-8348",
+          "justification_word_count": 18,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": []
+        },
+        {
+          "question": "Si le projet se déroule dans un contexte où des enfants pourraient être enregistrés, filmés ou être présents pendant la collecte et spécifiquement dans le cas où les enfants ne sont pas directement impliqués, est-ce que les méthodes utilisées pour informer les parents des modalités de la collecte de donnée sont appropriées, au niveau éthique?",
+          "reponse": null,
+          "source": "",
+          "justification_word_count": 8,
+          "recommendation_word_count": 0,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": false,
+            "source_mentions_known_doc_type": false,
+            "justification_present": true,
+            "justification_min_words": true,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": [
+            "source_present",
+            "source_mentions_known_doc_type"
+          ]
+        },
+        {
+          "question": "Est-ce que les principes d’éthique de la recherche auprès des communautés autochtones sont respectés?",
+          "reponse": false,
+          "source": "F1-8348",
+          "justification_word_count": 7,
+          "recommendation_word_count": 26,
+          "checks": {
+            "reponse_valid": true,
+            "source_present": true,
+            "source_mentions_known_doc_type": true,
+            "justification_present": true,
+            "justification_min_words": false,
+            "recommendation_rule_ok": true
+          },
+          "failed_checks": [
+            "justification_min_words"
+          ]
+        }
+      ]
+    }
+  ]
+}
