@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="fr">
 
 <head>
-
-    <script src="{{ url_for('static', filename='script/script.js') }}" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resultats de l'analyse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/resultat.css') }}">
+    <script src="{{ url_for('static', filename='script/script.js') }}" defer></script>
 </head>
-<body>
-    <h1>Résultat</h1>
-    <section id="questionContainer"></section>
-</body>
 
+<body>
+    <main class="results-shell">
+        <section class="results-hero">
+            <div class="results-hero-copy">
+                <p class="results-kicker">LLMETHIQUE</p>
+                <h1>Resultats de l'analyse</h1>
+                <p class="results-subtitle">
+                    Consultez les conclusions generees pour chaque question, puis ouvrez une carte
+                    pour voir la justification, la source et la recommandation associees.
+                </p>
+            </div>
+
+            <div class="results-summary" id="resultsSummary">
+                <div class="summary-card">
+                    <span class="summary-label">Questions analysees</span>
+                    <strong id="summary-total">0</strong>
+                </div>
+                <div class="summary-card summary-card-valid">
+                    <span class="summary-label">Conformes</span>
+                    <strong id="summary-valid">0</strong>
+                </div>
+                <div class="summary-card summary-card-invalid">
+                    <span class="summary-label">A corriger</span>
+                    <strong id="summary-invalid">0</strong>
+                </div>
+                <div class="summary-card summary-card-na">
+                    <span class="summary-label">Non applicables</span>
+                    <strong id="summary-na">0</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-toolbar">
+            <p class="results-hint">
+                Cliquez sur une carte pour afficher la justification detaillee, la source retenue et la recommandation.
+            </p>
+            <a href="/admin/thumbs-votes" class="results-admin-link">Consulter les votes utilisateur</a>
+        </section>
+
+        <section id="questionContainer"></section>
+
+        <div class="results-actions">
+            <a href="/" class="results-exit-button results-exit-button-secondary">Retour a l'accueil</a>
+            <a href="/" class="results-exit-button">Nouvelle analyse</a>
+        </div>
+    </main>
+</body>
 
 </html>

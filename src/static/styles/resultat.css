@@ -1,67 +1,56 @@
-/* ==========================================================================
-   Thème UQAC – Page Résultat
-   Auteur : toi :)
-   Description : styles organisés + accessibles, avec modale
-   ========================================================================== */
-
-/* === Import police === */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-/* === Variables === */
 :root {
   --uqac-vert: #5a7411;
   --uqac-vert-dark: #475a0e;
+  --uqac-sand: #eef2e2;
   --uqac-beige: #f5f3ec;
-  --uqac-brun: #7a6a4f;
-
-  --fond: #f9f9f9;
+  --fond: #f7f8f4;
   --txt: #1a1a1a;
   --gris-600: #5a5a5a;
+  --gris-500: #7a7a7a;
   --bordure: #e6e6e6;
   --rouge: #b00020;
-
-  --rayon: 14px;
-  --ombre: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --rayon: 16px;
+  --ombre: 0 14px 30px rgba(0, 0, 0, 0.08);
   --ombre-focus: 0 0 0 3px rgba(90,116,17,0.28);
-
   --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
-/* === Base / Reset léger === */
-html,
-body {
-  background: linear-gradient(180deg, var(--fond) 0%, #fff 100%);
-  color: var(--txt);
-  font-family: var(--font);
-  margin: 0;
-  min-height: 100vh;
-  padding: 0;
-}
-
-/* Meilleure gestion du box-model */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Liens (au cas où) */
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(90,116,17,.10), transparent 25%),
+    linear-gradient(180deg, var(--fond) 0%, #fff 100%);
+  color: var(--txt);
+  font-family: var(--font);
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
 a {
   color: var(--uqac-vert);
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
-/* Focus accessible global (clavier) */
 :where(a, button, input, select, textarea, [tabindex]):focus-visible {
   outline: none;
   box-shadow: var(--ombre-focus);
   border-color: var(--uqac-vert);
 }
 
-/* Réduction de mouvement (accessibilité) */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
@@ -70,667 +59,509 @@ a:hover {
   }
 }
 
-/* ==========================================================================
-   Titre principal
-   ========================================================================== */
+.results-shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 2rem auto 3rem;
+}
 
-h1 {
-  color: var(--uqac-vert-dark);
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  margin: 2.5rem auto 2rem;
-  position: relative;
-  text-align: center;
+.results-hero {
+  background: linear-gradient(140deg, #ffffff 0%, #f4f7eb 70%, var(--uqac-sand) 100%);
+  border: 1px solid var(--bordure);
+  border-radius: 24px;
+  box-shadow: var(--ombre);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.results-kicker {
+  margin: 0 0 .5rem;
+  color: var(--uqac-vert);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .14em;
   text-transform: uppercase;
 }
 
-h1::after {
-  background: var(--uqac-vert);
-  border-radius: 2px;
-  content: "";
-  display: block;
-  height: 4px;
-  margin: 0.8rem auto 0;
-  width: 60px;
+.results-hero h1 {
+  margin: 0 0 .85rem;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.03;
+  color: var(--uqac-vert-dark);
 }
 
-/* ==========================================================================
-   Conteneur des résultats
-   ========================================================================== */
+.results-subtitle {
+  margin: 0;
+  max-width: 70ch;
+  color: var(--gris-600);
+  font-size: 1.02rem;
+}
+
+.results-summary {
+  margin-top: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.summary-card {
+  background: rgba(255,255,255,.88);
+  border: 1px solid rgba(17,17,17,.06);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  display: grid;
+  gap: .35rem;
+}
+
+.summary-label {
+  color: var(--gris-500);
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.summary-card strong {
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.summary-card-valid strong {
+  color: var(--uqac-vert);
+}
+
+.summary-card-invalid strong {
+  color: var(--rouge);
+}
+
+.summary-card-na strong {
+  color: var(--gris-600);
+}
+
+.results-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.results-hint {
+  margin: 0;
+  color: var(--gris-600);
+  font-size: .98rem;
+}
+
+.results-admin-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 .95rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #27434e;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(39, 67, 78, 0.12);
+  box-shadow: 0 12px 24px rgba(39, 67, 78, 0.08);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.results-admin-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 28px rgba(39, 67, 78, 0.12);
+}
+
+.results-admin-link:focus-visible {
+  outline: 3px solid rgba(195, 95, 66, 0.24);
+  outline-offset: 3px;
+}
 
 #questionContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  margin: 0 auto;
-  max-width: 880px;
-  padding: 0 1.5rem 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.2rem;
 }
 
-/* ==========================================================================
-   Carte (article) – question + réponse
-   ========================================================================== */
+.results-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: .85rem;
+  margin-top: 1.5rem;
+}
+
+.results-exit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .9rem 1.2rem;
+  border-radius: 12px;
+  border: 2px solid var(--uqac-vert);
+  background: var(--uqac-vert);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: var(--ombre);
+  transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+}
+
+.results-exit-button:hover {
+  background: var(--uqac-vert-dark);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.results-exit-button-secondary {
+  background: #fff;
+  color: var(--uqac-vert-dark);
+}
+
+.results-exit-button-secondary:hover {
+  background: rgba(90,116,17,.08);
+}
 
 #questionContainer article {
   background: #fff;
   border: 1px solid var(--bordure);
-  border-radius: var(--rayon);
+  border-radius: 18px;
   box-shadow: var(--ombre);
-  line-height: 1.65;
-  padding: 1.6rem 1.8rem;
+  padding: 1.35rem;
+  display: grid;
+  gap: .95rem;
+  cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
   position: relative;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
 }
 
 #questionContainer article:hover {
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  box-shadow: 0 18px 38px rgba(0,0,0,.12);
 }
 
-/* Titre de la question */
-#questionContainer article h2 {
-  color: var(--uqac-vert);
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.35;
-  margin: 0 0 0.8rem 0;
-}
-
-/* Zone de réponse (le <div> interne) */
-#questionContainer article > div {
-  background: var(--uqac-beige);
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  color: var(--gris-600);
-  font-size: 1.05rem;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  line-height: 1.7;
-  max-height: 150px;      /* limite visuelle */
-  overflow-y: auto;       /* scroll si long */
-  padding: 1rem 1.2rem;
-  text-align: justify;
-}
-
-/* Scrollbar raffinée (WebKit) */
-#questionContainer article > div::-webkit-scrollbar {
+#questionContainer article::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
   width: 8px;
-}
-#questionContainer article > div::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-#questionContainer article > div::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 10px;
-}
-#questionContainer article > div::-webkit-scrollbar-thumb:hover {
-  background: #999;
+  background: transparent;
 }
 
-/* États : valide / non valide (bordure latérale) */
-article.valide {
-  animation: fadeValide 0.8s ease;
-  border-left: 8px solid var(--uqac-vert) !important;
-  ;
-}
-article.nonValide {
-  animation: fadeNonValide 0.8s ease;
-  border-left: 8px solid var(--rouge) !important;
+article.valide::before {
+  background: var(--uqac-vert);
 }
 
-article.NA {
-  animation: fadeNonValide 0.8s ease;
-  border-left: 8px solid var(--gris-600) !important;
+article.nonValide::before {
+  background: var(--rouge);
 }
 
-
-
-
-/* Animations d’apparition légère */
-@keyframes fadeValide {
-  from { background-color: rgba(90,116,17,0.08); }
-  to   { background-color: #fff; }
-}
-@keyframes fadeNonValide {
-  from { background-color: rgba(176,0,32,0.08); }
-  to   { background-color: #fff; }
+article.NA::before {
+  background: var(--gris-600);
 }
 
-/* ==========================================================================
-   Modale / Overlay
-   ========================================================================== */
-
-/* Overlay plein écran */
-.overlay {
-  align-items: center;
-  animation: fadeIn 0.2s ease;
-  backdrop-filter: blur(4px);
-  background: rgba(26, 26, 26, 0.55);
+.result-topline {
   display: flex;
-  inset: 0;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: .8rem;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: .35rem .75rem;
+  border-radius: 999px;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+}
+
+.status-pill.valide {
+  background: rgba(90,116,17,.12);
+  color: var(--uqac-vert-dark);
+}
+
+.status-pill.nonValide {
+  background: rgba(176,0,32,.10);
+  color: var(--rouge);
+}
+
+.status-pill.NA {
+  background: rgba(90,90,90,.12);
+  color: var(--gris-600);
+}
+
+#questionContainer article h2 {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.45;
+  color: var(--txt);
+}
+
+.article-preview {
+  color: var(--gris-600);
+  background: #faf9f5;
+  border: 1px solid #ece9e0;
+  border-radius: 14px;
+  padding: .95rem 1rem;
+  line-height: 1.65;
+  min-height: 120px;
+}
+
+.article-preview p {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.article-preview.is-system-message {
+  background: rgba(176,0,32,.06);
+  border-color: rgba(176,0,32,.14);
+  color: #7b1a2a;
+}
+
+.system-note {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: .55rem;
+  padding: .28rem .6rem;
+  border-radius: 999px;
+  background: rgba(176,0,32,.12);
+  color: var(--rouge);
+  font-size: .74rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .8rem;
+}
+
+.source-badge {
+  display: inline-flex;
+  width: fit-content;
+  padding: .42rem .8rem;
+  border-radius: 999px;
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.article-link {
+  color: var(--uqac-vert-dark);
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.overlay {
   position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(20, 20, 20, .58);
+  backdrop-filter: blur(4px);
   z-index: 1000;
 }
 
-/* Carte modale - scrollable */
 .modal-card {
-  animation: popIn 0.18s ease;
-  background: #fff;
-  border-radius: var(--rayon);
-  border-top: 8px solid var(--uqac-vert);
-  box-shadow: var(--ombre);
-  max-width: 760px;
+  width: min(92vw, 860px);
   max-height: 90vh;
   overflow-y: auto;
-  position: relative;
-  width: min(92vw, 760px);
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Contenu interne de la modal */
-.modal-card > * {
-  padding: 0 1.8rem;
-}
-
-.modal-card > *:first-child {
-  padding-top: 1.6rem;
-}
-
-.modal-card > *:last-child {
-  padding-bottom: 1.6rem;
-}
-
-/* Bandeau selon statut */
-.modal-card.valide { border-top-color: var(--uqac-vert); }
-.modal-card.nonValide { border-top-color: var(--rouge); }
-.modal-card.NA { border-top-color: var(--gris-600); }
-
-
-/* Bouton de fermeture */
-.modal-close {
-  background: transparent;
-  border: 0;
-  color: var(--gris-600);
-  cursor: pointer;
-  font-size: 1.8rem;
-  line-height: 1;
-  position: fixed;
-  right: calc((100vw - min(92vw, 760px)) / 2 + 20px);
-  top: calc(5vh + 10px);
-  z-index: 1001;
-}
-.modal-close:hover { color: var(--rouge); }
-
-/* Contenu de la modale (hérite des styles) */
-.modal-card h2 {
-  color: var(--uqac-vert-dark);
-  margin: 0 0 0.8rem 0;
-}
-
-.modal-card > div {
-  background: var(--uqac-beige);
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  padding: 1rem 1.2rem;
-  margin: 0.5rem 0;
-}
-
-/* Animations modale */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@keyframes popIn {
-  from { transform: scale(0.96); opacity: 0; }
-  to   { transform: scale(1);    opacity: 1; }
-}
-
-/* ==========================================================================
-   Responsive
-   ========================================================================== */
-
-@media (max-width: 700px) {
-  #questionContainer article {
-    padding: 1.2rem 1.3rem;
-  }
-  #questionContainer article h2 {
-    font-size: 1.1rem;
-  }
-  #questionContainer article > div {
-    font-size: 0.98rem;
-  }
-}
-
-/* ==========================================================================
-   (Optionnel) Impression simple
-   ========================================================================== */
-
-@media print {
-  .overlay { display: none !important; }
-  #questionContainer article {
-    box-shadow: none;
-    border-left-width: 4px;
-    page-break-inside: avoid;
-  }
-}
-/* ==========================================================================
-   Thème UQAC – Page Résultat
-   Auteur : toi :)
-   Description : styles organisés + accessibles, avec modale
-   ========================================================================== */
-
-/* === Import police === */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-/* === Variables === */
-:root {
-  --uqac-vert: #5a7411;
-  --uqac-vert-dark: #475a0e;
-  --uqac-beige: #f5f3ec;
-  --uqac-brun: #7a6a4f;
-
-  --fond: #f9f9f9;
-  --txt: #1a1a1a;
-  --gris-600: #5a5a5a;
-  --bordure: #e6e6e6;
-  --rouge: #b00020;
-
-  --rayon: 14px;
-  --ombre: 0 8px 20px rgba(0, 0, 0, 0.08);
-  --ombre-focus: 0 0 0 3px rgba(90,116,17,0.28);
-
-  --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-}
-
-/* === Base / Reset léger === */
-html,
-body {
-  background: linear-gradient(180deg, var(--fond) 0%, #fff 100%);
-  color: var(--txt);
-  font-family: var(--font);
-  margin: 0;
-  min-height: 100vh;
-  padding: 0;
-}
-
-/* Meilleure gestion du box-model */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Liens (au cas où) */
-a {
-  color: var(--uqac-vert);
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-/* Focus accessible global (clavier) */
-:where(a, button, input, select, textarea, [tabindex]):focus-visible {
-  outline: none;
-  box-shadow: var(--ombre-focus);
-  border-color: var(--uqac-vert);
-}
-
-/* Réduction de mouvement (accessibilité) */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* ==========================================================================
-   Titre principal
-   ========================================================================== */
-
-h1 {
-  color: var(--uqac-vert-dark);
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  margin: 2.5rem auto 2rem;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-h1::after {
-  background: var(--uqac-vert);
-  border-radius: 2px;
-  content: "";
-  display: block;
-  height: 4px;
-  margin: 0.8rem auto 0;
-  width: 60px;
-}
-
-/* ==========================================================================
-   Conteneur des résultats
-   ========================================================================== */
-
-#questionContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  margin: 0 auto;
-  max-width: 880px;
-  padding: 0 1.5rem 3rem;
-}
-
-/* ==========================================================================
-   Carte (article) – question + réponse
-   ========================================================================== */
-
-#questionContainer article {
   background: #fff;
-  border: 1px solid var(--bordure);
-  border-radius: var(--rayon);
-  box-shadow: var(--ombre);
-  line-height: 1.65;
-  padding: 1.6rem 1.8rem;
+  border-radius: 22px;
+  box-shadow: 0 24px 46px rgba(0,0,0,.22);
   position: relative;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-#questionContainer article:hover {
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  transform: translateY(-3px);
-}
-
-/* Titre de la question */
-#questionContainer article h2 {
-  color: var(--uqac-vert);
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.35;
-  margin: 0 0 0.8rem 0;
-}
-
-
-
-
-/* Pour redresser le "!" dans le losange */
-
-/* Zone de réponse (le <div> interne) */
-#questionContainer article > div {
-  background: var(--uqac-beige);
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  color: var(--gris-600);
-  font-size: 1.05rem;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  line-height: 1.7;
-  max-height: 150px;      /* limite visuelle */
-  overflow-y: auto;       /* scroll si long */
-  padding: 1rem 1.2rem;
-  text-align: justify;
-}
-
-/* Scrollbar raffinée (WebKit) */
-#questionContainer article > div::-webkit-scrollbar {
-  width: 8px;
-}
-#questionContainer article > div::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-#questionContainer article > div::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 10px;
-}
-#questionContainer article > div::-webkit-scrollbar-thumb:hover {
-  background: #999;
-}
-
-/* États : valide / non valide (bordure latérale) */
-article.valide {
-  animation: fadeValide 0.8s ease;
-  border-left: 8px solid var(--uqac-vert);
-  border-top-color: var(--uqac-vert);
-}
-article.nonValide {
-  border-top-color: var(--rouge);
-  animation: fadeNonValide 0.8s ease;
-  border-left: 8px solid var(--rouge);
-
-}
-
-/* Animations d’apparition légère */
-@keyframes fadeValide {
-  from { background-color: rgba(90,116,17,0.08); }
-  to   { background-color: #fff; }
-}
-@keyframes fadeNonValide {
-  from { background-color: rgba(176,0,32,0.08); }
-  to   { background-color: #fff; }
-}
-
-/* ==========================================================================
-   Modale / Overlay
-   ========================================================================== */
-
-/* Overlay plein écran */
-.overlay {
-  align-items: center;
-  animation: fadeIn 0.2s ease;
-  backdrop-filter: blur(4px);
-  background: rgba(26, 26, 26, 0.55);
-  display: flex;
-  inset: 0;
-  justify-content: center;
-  position: fixed;
-  z-index: 1000;
-}
-
-/* Carte modale */
-.modal-card {
-  animation: popIn 0.18s ease;
-  background: #fff;
-  border-radius: var(--rayon);
+  padding: 1.5rem;
   border-top: 8px solid var(--uqac-vert);
-  box-shadow: var(--ombre);
-  max-width: 760px;
-  padding: 1.6rem 1.8rem;
-  position: relative;
-  width: min(92vw, 760px);
 }
 
-/* Bandeau selon statut */
-.modal-card.valide { border-top-color: var(--uqac-vert); }
-.modal-card.nonValide { border-top-color: var(--rouge); }
+.modal-card.nonValide {
+  border-top-color: var(--rouge);
+}
 
-/* Bouton de fermeture */
+.modal-card.NA {
+  border-top-color: var(--gris-600);
+}
+
 .modal-close {
-  background: transparent;
-  border: 0;
-  color: var(--gris-600);
-  cursor: pointer;
-  font-size: 1.8rem;
-  line-height: 1;
   position: absolute;
-  right: 12px;
-  top: 10px;
+  top: 14px;
+  right: 14px;
+  border: none;
+  background: transparent;
+  color: var(--gris-600);
+  font-size: 1.7rem;
+  cursor: pointer;
 }
-.modal-close:hover { color: var(--rouge); }
 
-/* Contenu de la modale (hérite des styles) */
-.modal-card h2 {
+.modal-close:hover {
+  color: var(--rouge);
+}
+
+.modal-header {
+  display: grid;
+  gap: .85rem;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.4;
   color: var(--uqac-vert-dark);
-  margin: 0 0 0.8rem 0;
-}
-/* Badge de validation dans la modale */
-#validation {
-  display: inline-block;
-  padding: 0.25rem 0.7rem;
-  border-radius: 999px; /* forme "pilule" */
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin-bottom: 0.9rem;
-}
-/* Couleurs selon l'état de la modal-card */
-.modal-card.valide #validation {
-  background: var(--uqac-vert);
-  color: #fff;
 }
 
-.modal-card.nonValide #validation {
-  background: var(--rouge);
-  color: #fff;
+.modal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
 }
 
-.modal-card.NA #validation {
-  background: var(--gris-600);
-  color: #fff;
+.modal-section {
+  margin-top: 1rem;
 }
 
+.modal-section h3 {
+  margin: 0 0 .5rem;
+  font-size: 1rem;
+  color: var(--txt);
+}
 
-.modal-card > div {
+.content-box {
   background: var(--uqac-beige);
   border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  max-height: 55vh;
-  overflow: auto;
-  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  line-height: 1.7;
+  color: var(--txt);
 }
 
-
-
-/* Animations modale */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@keyframes popIn {
-  from { transform: scale(0.96); opacity: 0; }
-  to   { transform: scale(1);    opacity: 1; }
+.content-box p {
+  margin: 0;
 }
 
-/* ==========================================================================
-   Responsive
-   ========================================================================== */
-
-@media (max-width: 700px) {
-  #questionContainer article {
-    padding: 1.2rem 1.3rem;
-  }
-  #questionContainer article h2 {
-    font-size: 1.1rem;
-  }
-  #questionContainer article > div {
-    font-size: 0.98rem;
-  }
-}
-
-/* ==========================================================================
-   (Optionnel) Impression simple
-   ========================================================================== */
-
-@media print {
-  .overlay { display: none !important; }
-  #questionContainer article {
-    box-shadow: none;
-    border-left-width: 4px;
-    page-break-inside: avoid;
-  }
-}
-/* === Styles Source Badge === */
-.source-badge {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 20px;
-  color: white;
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin-top: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.source-info {
-  margin: 12px 0;
-  padding: 8px 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-.justification-box {
-  background: #f9f9f9;
-  padding: 12px;
-  border-left: 4px solid var(--uqac-vert);
-  border-radius: 4px;
-  margin: 10px 0;
-  font-style: italic;
-  line-height: 1.6;
+.content-box.is-system-message {
+  background: rgba(176,0,32,.06);
+  border-color: rgba(176,0,32,.14);
+  color: #7b1a2a;
 }
 
 .thumbs-section {
-  margin: 20px 0;
-  padding: 15px;
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
   background: #f9f9f9;
-  border-radius: var(--rayon);
+  border-radius: 16px;
   border: 1px solid var(--bordure);
 }
 
 .thumbs-section h3 {
-  margin: 0 0 12px 0;
+  margin: 0 0 .8rem;
   color: var(--txt);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .thumbs-buttons {
   display: flex;
-  gap: 12px;
-  justify-content: center;
+  gap: .75rem;
+  flex-wrap: wrap;
 }
 
 .btn-thumb {
-  padding: 12px 24px;
+  padding: .82rem 1rem;
   border: 2px solid var(--bordure);
-  border-radius: 8px;
+  border-radius: 12px;
   background: white;
-  font-size: 16px;
+  font-size: .96rem;
   cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 600;
+  transition: all 0.2s ease;
+  font-weight: 700;
 }
 
 .btn-thumb:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .btn-thumb-up {
-  color: #51cf66;
+  color: #2f9e44;
 }
 
 .btn-thumb-up:hover {
-  border-color: #51cf66;
-  background: rgba(81, 207, 102, 0.1);
+  border-color: #2f9e44;
+  background: rgba(47, 158, 68, 0.08);
 }
 
 .btn-thumb-down {
-  color: #ff6b6b;
+  color: #e03131;
 }
 
 .btn-thumb-down:hover {
-  border-color: #ff6b6b;
-  background: rgba(255, 107, 107, 0.1);
+  border-color: #e03131;
+  background: rgba(224, 49, 49, 0.08);
 }
 
 .btn-thumb:disabled {
-  opacity: 0.5;
+  opacity: 0.55;
   cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 720px) {
+  .results-shell {
+    width: min(100% - 1rem, 100%);
+    margin-top: 1rem;
+  }
+
+  .results-hero {
+    padding: 1.25rem;
+  }
+
+  .results-hero h1 {
+    font-size: 2rem;
+  }
+
+  #questionContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .results-actions {
+    justify-content: stretch;
+    flex-direction: column;
+  }
+
+  .results-exit-button {
+    width: 100%;
+  }
+
+  .modal-card {
+    width: calc(100vw - 1rem);
+    padding: 1rem;
+  }
+
+  .thumbs-buttons {
+    flex-direction: column;
+  }
+}
+
+@media print {
+  .overlay {
+    display: none !important;
+  }
+
+  #questionContainer article {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
 }

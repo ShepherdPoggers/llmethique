@@ -1,8 +1,53 @@
-console.log("indexscript.js chargé ✅");
+console.log("indexscript.js charge");
 
 const form = document.querySelector('form');
+const choicePanel = document.getElementById('analysis-choice-panel');
+const workspace = document.getElementById('analysis-workspace');
+const modeLabel = document.getElementById('analysis-mode-label');
+const modeTitle = document.getElementById('analysis-mode-title');
+const modeDescription = document.getElementById('analysis-mode-description');
+const backToChoiceButton = document.getElementById('back-to-choice');
+const choiceButtons = document.querySelectorAll('[data-analysis-mode]');
+
+function openWorkspace(button) {
+    if (!workspace || !choicePanel || !button) return;
+
+    const title = button.dataset.analysisTitle || 'Deposez vos documents';
+    const description = button.dataset.analysisDescription || "Ajoutez les pieces de votre projet, puis lancez l'analyse.";
+    const mode = button.dataset.analysisMode || 'analyse';
+
+    if (modeLabel) {
+        modeLabel.textContent = mode === 'module' ? "Creation d'un module" : 'Nouvelle analyse';
+    }
+    if (modeTitle) {
+        modeTitle.textContent = title;
+    }
+    if (modeDescription) {
+        modeDescription.textContent = description;
+    }
+
+    choicePanel.classList.add('hidden');
+    workspace.classList.remove('hidden');
+    workspace.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function closeWorkspace() {
+    if (!workspace || !choicePanel) return;
+    workspace.classList.add('hidden');
+    choicePanel.classList.remove('hidden');
+    choicePanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+choiceButtons.forEach((button) => {
+    button.addEventListener('click', () => openWorkspace(button));
+});
+
+if (backToChoiceButton) {
+    backToChoiceButton.addEventListener('click', closeWorkspace);
+}
+
 if (!form) {
-    console.error("Formulaire introuvable !");
+    console.error("Formulaire introuvable");
 } else {
     const loadingContainer = document.getElementById('loading-container');
     const progressBar = document.getElementById('progress-bar');
@@ -12,12 +57,10 @@ if (!form) {
     let isSubmitting = false;
     let keepPolling = false;
 
-    // Petite fonction utilitaire pour le délai
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    // Fonction de polling avec délai entre chaque requête
     async function pollProgress(delayMs = 500) {
         keepPolling = true;
 
@@ -39,7 +82,6 @@ if (!form) {
                 console.error("Erreur polling /progress :", err);
             }
 
-            // 👉 délai entre chaque requête
             await sleep(delayMs);
         }
     }
@@ -52,7 +94,6 @@ if (!form) {
 
         const formData = new FormData(form);
 
-        // ➜ afficher la barre seulement quand on clique sur "Analyser"
         if (loadingContainer) {
             loadingContainer.style.display = 'block';
         }
@@ -66,22 +107,19 @@ if (!form) {
             submitButton.disabled = true;
         }
 
-        // ➜ lancement du polling avec délai entre chaque requête
-        pollProgress(10000); // <-- ajuste ici (en ms) la pause entre les requêtes
+        pollProgress(10000);
 
-        // ➜ envoi réel du formulaire
         fetch('/', {
             method: 'POST',
             body: formData
         })
         .then(r => r.text())
         .then(html => {
-            keepPolling = false;         // on arrête le polling
+            keepPolling = false;
             if (progressBar) {
                 progressBar.style.width = '100%';
             }
 
-            // on affiche resultat.html renvoyé par Flask
             document.open();
             document.write(html);
             document.close();

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Journal des votes utilisateur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/admin_votes.css') }}">
+</head>
+
+<body>
+    <main class="admin-shell">
+        <section class="admin-hero">
+            <div>
+                <p class="admin-kicker">LLMETHIQUE</p>
+                <h1>Journal des votes utilisateur</h1>
+                <p class="admin-subtitle">
+                    Cette page permet de suivre les evaluations manuelles des utilisateurs
+                    sur les reponses du modele, question par question.
+                </p>
+            </div>
+            <div class="admin-actions">
+                <a href="{{ url_for('export_thumbs_votes') }}" class="admin-button">Exporter en CSV</a>
+                <a href="/" class="admin-button admin-button-secondary">Retour a l'accueil</a>
+            </div>
+        </section>
+
+        <section class="stats-grid">
+            <article class="stat-card">
+                <span class="stat-label">Votes enregistres</span>
+                <strong>{{ total_votes }}</strong>
+            </article>
+            <article class="stat-card stat-card-up">
+                <span class="stat-label">Votes Correcte</span>
+                <strong>{{ positive_votes }}</strong>
+            </article>
+            <article class="stat-card stat-card-down">
+                <span class="stat-label">Votes Incorrecte</span>
+                <strong>{{ negative_votes }}</strong>
+            </article>
+        </section>
+
+        <section class="table-section">
+            {% if votes %}
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Question</th>
+                            <th>Vote</th>
+                            <th>Validation</th>
+                            <th>Source</th>
+                            <th>Session</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for vote in votes %}
+                        <tr>
+                            <td>{{ vote.created_at }}</td>
+                            <td class="question-cell">{{ vote.question }}</td>
+                            <td>
+                                <span class="vote-pill {{ 'vote-up' if vote.vote == 'up' else 'vote-down' }}">
+                                    {{ 'Correcte' if vote.vote == 'up' else 'Incorrecte' }}
+                                </span>
+                            </td>
+                            <td>{{ vote.validation or 'N/A' }}</td>
+                            <td>{{ vote.source or 'N/A' }}</td>
+                            <td class="session-cell">{{ vote.session_uuid or 'N/A' }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <h2>Aucun vote enregistre pour le moment</h2>
+                <p>
+                    Les choix utilisateur apparaitront ici des qu'une reponse sera evaluee depuis la page de resultats.
+                </p>
+            </div>
+            {% endif %}
+        </section>
+    </main>
+</body>
+
+</html>

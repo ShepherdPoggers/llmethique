@@ -1,7 +1,9 @@
+import csv
 import os
+from io import StringIO
 from dotenv import load_dotenv
 from includes.objets.DocumentClasse import Document
-from flask import Flask, request, session, render_template, jsonify
+from flask import Flask, request, session, render_template, jsonify, Response
 from flask_session import Session
 from werkzeug.utils import secure_filename
 from includes.fonctions.divers import CreerObjetQuestion, UpdateObjetQuestion, PdfOrDocx
@@ -9,6 +11,7 @@ from includes.fonctions.requetellm import requete, requetGrok, requetGrok405B
 import json
 from datetime import datetime
 import re
+import sqlite3
 import time
 from uuid import uuid4
 
@@ -19,6 +22,75 @@ load_dotenv()
 EXTENSIONS = ['.pdf', '.docx']
 
 progress_store = {}  
+DB_PATH = "src/data/llmethique.db"
+
+
+def init_db():
+    """Initialise la base SQLite locale pour les votes utilisateur."""
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS thumbs_votes (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                created_at TEXT NOT NULL,
+                session_uuid TEXT,
+                question TEXT NOT NULL,
+                vote TEXT NOT NULL,
+                validation TEXT,
+                source TEXT,
+                user_agent TEXT
+            )
+            """
+        )
+        conn.commit()
+
+
+def save_thumbs_vote_db(vote_data, session_uuid, user_agent):
+    """Enregistre un vote utilisateur dans SQLite."""
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute(
+            """
+            INSERT INTO thumbs_votes (
+                created_at,
+                session_uuid,
+                question,
+                vote,
+                validation,
+                source,
+                user_agent
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                session_uuid,
+                vote_data.get('question'),
+                vote_data.get('vote'),
+                vote_data.get('validation'),
+                vote_data.get('source'),
+                user_agent,
+            ),
+        )
+        conn.commit()
+
+
+def get_thumbs_votes(limit=None):
+    """Retourne les votes utilisateur les plus recents."""
+    query = """
+        SELECT id, created_at, session_uuid, question, vote, validation, source, user_agent
+        FROM thumbs_votes
+        ORDER BY id DESC
+    """
+    params = ()
+
+    if limit is not None:
+        query += " LIMIT ?"
+        params = (limit,)
+
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        rows = conn.execute(query, params).fetchall()
+
+    return [dict(row) for row in rows]
 
 
 def WriteTxt(prompt, name):
@@ -203,6 +275,7 @@ app.config['UPLOAD_FOLDER'] = 'src/uploads'
 Session(app) 
 
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+init_db()
 
 
 
@@ -301,6 +374,24 @@ def get_progress():
     return jsonify(data)
 
 
+@app.route('/save_thumbs_vote_db', methods=['POST'])
+def save_thumbs_vote_db_route():
+    """Sauvegarde un vote pouce haut/bas dans SQLite."""
+    try:
+        vote_data = request.get_json()
+
+        save_thumbs_vote_db(
+            vote_data=vote_data,
+            session_uuid=session.get("UUID"),
+            user_agent=request.headers.get('User-Agent', 'unknown')
+        )
+
+        return jsonify({"success": True, "message": "Vote enregistre"}), 200
+    except Exception as e:
+        print(f"Erreur vote DB: {e}")
+        return jsonify({"success": False, "message": str(e)}), 500
+
+
 @app.route('/save_thumbs_vote', methods=['POST'])
 def save_thumbs_vote():
     """Sauvegarde un vote pouce haut/bas sur une réponse"""
@@ -331,6 +422,64 @@ def save_thumbs_vote():
     except Exception as e:
         print(f"Erreur vote: {e}")
         return jsonify({"success": False, "message": str(e)}), 500
+
+
+@app.route('/admin/thumbs-votes')
+def thumbs_votes_admin():
+    """Affiche les votes utilisateur enregistrés."""
+    votes = get_thumbs_votes()
+    total_votes = len(votes)
+    positive_votes = sum(1 for vote in votes if vote.get("vote") == "up")
+    negative_votes = sum(1 for vote in votes if vote.get("vote") == "down")
+
+    return render_template(
+        'admin_votes.html',
+        votes=votes,
+        total_votes=total_votes,
+        positive_votes=positive_votes,
+        negative_votes=negative_votes,
+    )
+
+
+@app.route('/admin/thumbs-votes/export')
+def export_thumbs_votes():
+    """Exporte les votes utilisateur en CSV."""
+    votes = get_thumbs_votes()
+    output = StringIO()
+    writer = csv.writer(output)
+    writer.writerow([
+        'id',
+        'created_at',
+        'session_uuid',
+        'question',
+        'vote',
+        'validation',
+        'source',
+        'user_agent',
+    ])
+
+    for vote in votes:
+        writer.writerow([
+            vote.get('id'),
+            vote.get('created_at'),
+            vote.get('session_uuid'),
+            vote.get('question'),
+            vote.get('vote'),
+            vote.get('validation'),
+            vote.get('source'),
+            vote.get('user_agent'),
+        ])
+
+    csv_content = output.getvalue()
+    output.close()
+
+    return Response(
+        csv_content,
+        mimetype='text/csv; charset=utf-8',
+        headers={
+            'Content-Disposition': f'attachment; filename=thumbs_votes_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
+        },
+    )
 
 
 

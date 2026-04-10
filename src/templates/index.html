@@ -1,98 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="{{ url_for('static', filename='script/indexscript.js') }}" defer></script>
+  <title>LLMEthique</title>
 </head>
 
 <body>
-  <form action="/" method="POST" enctype="multipart/form-data" class="card">
-    <div class="card-header">
-      Dépôt des documents
-    </div>
-
-    <!-- Zone scrollable -->
-    <div class="fields">
-
-      <div class="field required">
-        <label for="F1">Formulaire F1</label>
-        <input type="file" id="F1" name="F1" accept=".pdf,.docx" multiple required />
+  <main class="page-shell page-shell-home">
+    <section class="hero-panel" id="analysis-choice-panel">
+      <div class="hero-copy">
+        <p class="eyebrow">LLMETHIQUE</p>
+        <h1>Creer une nouvelle analyse</h1>
+        <p class="hero-text">
+          Commencez une nouvelle analyse en deposant les documents de votre projet.
+          Le formulaire complet s'ouvrira juste apres.
+        </p>
       </div>
 
-      <div class="field required">
-        <label for="FIC">Formulaire d'information et de consentement (FIC)</label>
-        <input type="file" id="FIC" name="FIC" accept=".pdf,.docx" multiple required />
+      <div class="choice-grid">
+        <button
+          type="button"
+          class="choice-card choice-card-primary"
+          data-analysis-mode="new"
+          data-analysis-title="Creer une nouvelle analyse"
+          data-analysis-description="Deposez les documents necessaires puis lancez directement une nouvelle analyse."
+        >
+          <span class="choice-badge">Demarrer</span>
+          <strong>Creer une nouvelle analyse</strong>
+          <span>Accedez au formulaire de depot pour analyser un nouveau dossier de recherche.</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="analysis-workspace hidden" id="analysis-workspace">
+      <div class="workspace-intro">
+        <button type="button" class="back-link" id="back-to-choice">&larr; Retour au choix initial</button>
+        <p class="workspace-kicker" id="analysis-mode-label">Mode selectionne</p>
+        <h2 id="analysis-mode-title">Deposez vos documents</h2>
+        <p id="analysis-mode-description">Ajoutez les pieces de votre projet, puis cliquez sur le bouton d'analyse.</p>
+        <div class="helper-note">
+          <strong>Documents obligatoires :</strong> pour lancer l'analyse, veuillez d'abord deposer les trois documents essentiels : le formulaire F1, le FIC et les outils de recrutement. Ajoutez ensuite les autres documents disponibles pour enrichir l'evaluation.
+        </div>
       </div>
 
-      <div class="field required">
-        <label for="outilsRecrutement">Outils de recrutement</label>
-        <input type="file" id="outilsRecrutement" name="outilsRecrutement" accept=".pdf,.docx" multiple required />
-      </div>
+      <form action="/" method="POST" enctype="multipart/form-data" class="card">
+        <div class="card-header">
+          Depot des documents
+        </div>
 
-      <div class="field">
-        <label for="financement">Preuve d'octroi du financement</label>
-        <input type="file" id="financement" name="financement" accept=".pdf,.docx" multiple />
-      </div>
+        <div class="fields">
+          <div class="section-intro section-intro-required">
+            <span class="section-chip">Etape 1</span>
+            <div>
+              <h3>Documents essentiels</h3>
+              <p>Ces trois documents sont requis pour lancer l'analyse.</p>
+            </div>
+          </div>
 
-      <div class="field">
-        <label for="rechercheMilieu">Autorisation du milieu (recherche dans un milieu)</label>
-        <input type="file" id="rechercheMilieu" name="rechercheMilieu" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field required">
+            <label for="F1">Formulaire F1</label>
+            <input type="file" id="F1" name="F1" accept=".pdf,.docx" multiple required>
+          </div>
 
-      <div class="field">
-        <label for="questionnaires">Questionnaires</label>
-        <input type="file" id="questionnaires" name="questionnaires" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field required">
+            <label for="FIC">Formulaire d'information et de consentement (FIC)</label>
+            <input type="file" id="FIC" name="FIC" accept=".pdf,.docx" multiple required>
+          </div>
 
-      <div class="field">
-        <label for="guideEntrevue">Guide d'entrevue</label>
-        <input type="file" id="guideEntrevue" name="guideEntrevue" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field required">
+            <label for="outilsRecrutement">Outils de recrutement</label>
+            <input type="file" id="outilsRecrutement" name="outilsRecrutement" accept=".pdf,.docx" multiple required>
+          </div>
 
-      <div class="field">
-        <label for="guideDiscussions">Guide de discussions</label>
-        <input type="file" id="guideDiscussions" name="guideDiscussions" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="section-intro section-intro-optional">
+            <span class="section-chip">Etape 2</span>
+            <div>
+              <h3>Documents complementaires</h3>
+              <p>Ajoutez les pieces disponibles pour enrichir l'analyse et donner plus de contexte au modele.</p>
+            </div>
+          </div>
 
-      <div class="field">
-        <label for="guideObservation">Guide d'observation</label>
-        <input type="file" id="guideObservation" name="guideObservation" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field">
+            <label for="financement">Preuve d'octroi du financement</label>
+            <input type="file" id="financement" name="financement" accept=".pdf,.docx" multiple>
+          </div>
 
-      <div class="field">
-        <label for="instrumentsMesure">Instruments de mesure (Expérimentations, tests et mesures)</label>
-        <input type="file" id="instrumentsMesure" name="instrumentsMesure" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field">
+            <label for="rechercheMilieu">Autorisation du milieu (recherche dans un milieu)</label>
+            <input type="file" id="rechercheMilieu" name="rechercheMilieu" accept=".pdf,.docx" multiple>
+          </div>
 
-      <div class="field">
-        <label for="autorisationDonneesSecondaires">Obtention de l'autorisation (données secondaires)</label>
-        <input type="file" id="autorisationDonneesSecondaires" name="autorisationDonneesSecondaires" accept=".pdf,.docx"
-          multiple />
-      </div>
+          <div class="field">
+            <label for="questionnaires">Questionnaires</label>
+            <input type="file" id="questionnaires" name="questionnaires" accept=".pdf,.docx" multiple>
+          </div>
 
-      <div class="field">
-        <label for="descriptionCollecte">Description de la collecte de données (Autre type de collecte de
-          données)</label>
-        <input type="file" id="descriptionCollecte" name="descriptionCollecte" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field">
+            <label for="guideEntrevue">Guide d'entrevue</label>
+            <input type="file" id="guideEntrevue" name="guideEntrevue" accept=".pdf,.docx" multiple>
+          </div>
 
-      <div class="field">
-        <label for="preuveCGRB">Preuve de démarche auprès du Comité de gestion des risques biologiques (CGRB)</label>
-        <input type="file" id="preuveCGRB" name="preuveCGRB" accept=".pdf,.docx" multiple />
-      </div>
+          <div class="field">
+            <label for="guideDiscussions">Guide de discussions</label>
+            <input type="file" id="guideDiscussions" name="guideDiscussions" accept=".pdf,.docx" multiple>
+          </div>
 
-    </div>
+          <div class="field">
+            <label for="guideObservation">Guide d'observation</label>
+            <input type="file" id="guideObservation" name="guideObservation" accept=".pdf,.docx" multiple>
+          </div>
 
-    <div class="actions">
-      <input type="submit" value="Analyser">
-    </div>
-  </form>
+          <div class="field">
+            <label for="instrumentsMesure">Instruments de mesure (Experimentations, tests et mesures)</label>
+            <input type="file" id="instrumentsMesure" name="instrumentsMesure" accept=".pdf,.docx" multiple>
+          </div>
+
+          <div class="field">
+            <label for="autorisationDonneesSecondaires">Obtention de l'autorisation (donnees secondaires)</label>
+            <input type="file" id="autorisationDonneesSecondaires" name="autorisationDonneesSecondaires" accept=".pdf,.docx" multiple>
+          </div>
+
+          <div class="field">
+            <label for="descriptionCollecte">Description de la collecte de donnees (autre type de collecte)</label>
+            <input type="file" id="descriptionCollecte" name="descriptionCollecte" accept=".pdf,.docx" multiple>
+          </div>
+
+          <div class="field">
+            <label for="preuveCGRB">Preuve de demarche aupres du comite de gestion des risques biologiques (CGRB)</label>
+            <input type="file" id="preuveCGRB" name="preuveCGRB" accept=".pdf,.docx" multiple>
+          </div>
+        </div>
+
+        <div class="actions">
+          <p class="action-caption">Une fois les documents ajoutes, lancez l'analyse pour generer l'evaluation de votre dossier.</p>
+          <input type="submit" value="Analyser mes documents">
+        </div>
+      </form>
+
+      <p class="note-projet">Veuillez deposer seulement les documents en lien avec votre projet.</p>
+    </section>
+  </main>
 
   <div id="loading-container" style="display:none;">
     <div class="loading-header">
@@ -103,12 +157,6 @@
       <div class="loading-bar-fill" id="progress-bar"></div>
     </div>
   </div>
-  <p class="note-projet">Veuillez déposer seulement les documents en lien avec votre projet.</p>
-
-
-
-
-
 </body>
 
 </html>

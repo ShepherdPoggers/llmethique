@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background:
+        radial-gradient(circle at top left, rgba(233, 92, 74, 0.12), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(31, 140, 124, 0.12), transparent 28%),
+        #f6f2ea;
+    color: #243038;
+}
+
+.admin-shell {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 24px 48px;
+}
+
+.admin-hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: flex-start;
+    margin-bottom: 28px;
+}
+
+.admin-kicker {
+    margin: 0 0 10px;
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #c35f42;
+    font-weight: 800;
+}
+
+.admin-hero h1 {
+    margin: 0 0 12px;
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.05;
+}
+
+.admin-subtitle {
+    max-width: 720px;
+    margin: 0;
+    color: #55636d;
+    line-height: 1.7;
+}
+
+.admin-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.admin-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #c35f42, #9f3c2e);
+    box-shadow: 0 16px 32px rgba(159, 60, 46, 0.18);
+}
+
+.admin-button-secondary {
+    color: #25333b;
+    background: #fff;
+    border: 1px solid rgba(36, 48, 56, 0.12);
+    box-shadow: none;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 24px;
+}
+
+.stat-card {
+    padding: 20px 22px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(36, 48, 56, 0.08);
+    box-shadow: 0 14px 36px rgba(36, 48, 56, 0.08);
+}
+
+.stat-card strong {
+    display: block;
+    margin-top: 12px;
+    font-size: 2rem;
+}
+
+.stat-label {
+    color: #66747e;
+    font-size: 0.95rem;
+}
+
+.stat-card-up strong {
+    color: #1f8c7c;
+}
+
+.stat-card-down strong {
+    color: #c2484e;
+}
+
+.table-section {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 24px;
+    border: 1px solid rgba(36, 48, 56, 0.08);
+    box-shadow: 0 18px 44px rgba(36, 48, 56, 0.09);
+    overflow: hidden;
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #eef2f1;
+}
+
+th,
+td {
+    padding: 16px 18px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid rgba(36, 48, 56, 0.08);
+    font-size: 0.95rem;
+}
+
+th {
+    font-size: 0.84rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #60707a;
+}
+
+tbody tr:hover {
+    background: rgba(195, 95, 66, 0.04);
+}
+
+.question-cell {
+    min-width: 420px;
+    line-height: 1.6;
+}
+
+.session-cell {
+    font-family: Consolas, monospace;
+    color: #6a747c;
+    font-size: 0.84rem;
+}
+
+.vote-pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 0 12px;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+.vote-up {
+    color: #156c5f;
+    background: rgba(31, 140, 124, 0.14);
+}
+
+.vote-down {
+    color: #9e3038;
+    background: rgba(194, 72, 78, 0.14);
+}
+
+.empty-state {
+    padding: 56px 28px;
+    text-align: center;
+}
+
+.empty-state h2 {
+    margin: 0 0 12px;
+}
+
+.empty-state p {
+    margin: 0;
+    color: #60707a;
+}
+
+@media (max-width: 900px) {
+    .admin-hero {
+        flex-direction: column;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-actions {
+        width: 100%;
+    }
+
+    .admin-button {
+        width: 100%;
+    }
+}
