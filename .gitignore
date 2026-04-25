@@ -15,4 +15,12 @@ projetDeRechercheExclure/
 
 # (Optionnel) fichiers d’environnement
 .env
+# Base de données SQLite locale
+*.db
 
+# Sessions Flask
+src/data/session/
+
+# Sorties JSON et logs (données utilisateurs)
+src/data/jsonProf/
+src/data/evaluation/

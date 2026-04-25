@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connexion admin - LLMéthique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/admin_votes.css') }}">
+    <style>
+        .login-shell {
+            max-width: 480px;
+            margin: 80px auto;
+            padding: 40px 24px;
+        }
+
+        .login-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 36px 32px;
+            box-shadow: 0 8px 32px rgba(36, 48, 56, 0.08);
+            border: 1px solid rgba(36, 48, 56, 0.06);
+        }
+
+        .login-card h1 {
+            margin: 0 0 8px;
+            font-size: 1.7rem;
+            color: #243038;
+        }
+
+        .login-card p.lead {
+            margin: 0 0 24px;
+            color: #55636d;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .login-field {
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        .login-field label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #243038;
+            margin-bottom: 6px;
+        }
+
+        .login-field input {
+            width: 100%;
+            padding: 12px 14px;
+            font-size: 1rem;
+            font-family: 'Inter', sans-serif;
+            border: 1px solid #d4dae0;
+            border-radius: 10px;
+            background: #fafbfc;
+            color: #243038;
+            transition: border-color 0.15s, background 0.15s;
+        }
+
+        .login-field input:focus {
+            outline: none;
+            border-color: #c35f42;
+            background: #ffffff;
+        }
+
+        .login-button {
+            display: inline-block;
+            width: 100%;
+            padding: 13px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            color: #ffffff;
+            background: #c35f42;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.15s, transform 0.05s;
+        }
+
+        .login-button:hover {
+            background: #a84a30;
+        }
+
+        .login-button:active {
+            transform: translateY(1px);
+        }
+
+        .login-error {
+            margin: 0 0 18px;
+            padding: 12px 14px;
+            background: #fdecea;
+            border: 1px solid #f5b7b1;
+            color: #922b21;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+
+        .login-back {
+            display: inline-block;
+            margin-top: 18px;
+            color: #55636d;
+            font-size: 0.88rem;
+            text-decoration: none;
+        }
+
+        .login-back:hover {
+            color: #243038;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="login-shell">
+        <div class="login-card">
+            <p class="admin-kicker">LLMETHIQUE</p>
+            <h1>Connexion administrateur</h1>
+            <p class="lead">
+                Entrez le mot de passe administrateur pour consulter les votes
+                utilisateur et exporter les données.
+            </p>
+
+            {% if error %}
+            <div class="login-error">{{ error }}</div>
+            {% endif %}
+
+            <form method="POST" action="{{ url_for('admin_login') }}">
+                <input type="hidden" name="next" value="{{ next }}">
+                <div class="login-field">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required autofocus
+                        autocomplete="current-password">
+                </div>
+                <button type="submit" class="login-button">Se connecter</button>
+            </form>
+
+            <a href="{{ url_for('UploadFile') }}" class="login-back">&larr; Retour à l'accueil</a>
+        </div>
+    </main>
+</body>
+
+</html>
